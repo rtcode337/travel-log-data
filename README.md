@@ -5,7 +5,7 @@
 
 ## フォルダ構成
 
-`<スポットキー>/`(`spot_types.key`、例: `post_office`)フォルダの下に、そのスポットの種類の
+`<スポットキー>/`(`spot_types.key`、例: `post_office`)フォルダの下に、そのスポット種別の
 データを置く。
 
 ```
@@ -24,7 +24,7 @@ name,name_kana,prefecture,municipality,lat,lng,rank,category,description,officia
 ```
 
 - 必須列: `name`, `prefecture`, `lat`, `lng`
-- `rank`/`category`はスポットの種類ごとに意味が異なってよい自由入力(空でも可)
+- `rank`/`category`はスポット種別ごとに意味が異なってよい自由入力(空でも可)
 - 取り込みはtravel-log側の管理画面(`/[type]/admin`)からこのCSVファイルを
   手動アップロードして行う(自動取り込みの仕組みは今のところ無い)
 
@@ -44,7 +44,7 @@ name,name_kana,prefecture,municipality,lat,lng,rank,category,description,officia
 
 ## 将来構想(未実装)
 
-スポットデータ本体だけでなく、スポットの種類そのものの初期設定(`spot_types`テーブル相当の
+スポットデータ本体だけでなく、スポット種別そのものの初期設定(`spot_types`テーブル相当の
 公開範囲・表示名・スポットキー・ランクの種類とスタイル)も、将来的には
 `<スポットキー>/settings.json`のような設定ファイルとしてこのリポジトリ側に持たせ、
 travel-log側の`db/init/01_schema.sql`にハードコードされている`spot_types`の初期INSERTを
