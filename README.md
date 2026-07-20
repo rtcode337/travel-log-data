@@ -11,12 +11,18 @@
 ```
 post_office/
   post_offices.csv
+  settings.json
 goshuin/
   goshuin_ranked.csv
   goshuin_unranked_z.csv
+  settings.json
 ```
 
-現状はCSVのみ。CSV形式はtravel-log本体の`/[type]/admin`のCSVインポート機能
+スポットデータはCSV、スポット種別そのものの初期設定は`settings.json`で持つ。
+
+### スポットデータ(CSV)
+
+CSV形式はtravel-log本体の`/[type]/admin`のCSVインポート機能
 (`components/AdminView.tsx`の`CSV_COLUMNS`)に合わせること。
 
 ```csv
@@ -27,6 +33,59 @@ name,name_kana,prefecture,municipality,lat,lng,rank,category,description,officia
 - `rank`/`category`はスポット種別ごとに意味が異なってよい自由入力(空でも可)
 - 取り込みはtravel-log側の管理画面(`/[type]/admin`)からこのCSVファイルを
   手動アップロードして行う(自動取り込みの仕組みは今のところ無い)
+
+### スポット種別の設定(settings.json)
+
+`spot_types`(key・表示名)と`spot_type_settings`(公開範囲・口コミ・Wikipediaリンクなどの
+ON/OFF設定)をまとめて1つのスポット種別として作成するための定義ファイル。
+
+```json
+{
+  "key": "post_office",
+  "label": "郵便局",
+  "settings": {
+    "reviews_enabled": false,
+    "wikipedia_enabled": false
+  },
+  "ranks": [
+    {
+      "rank": "郵便局",
+      "color": "#dc2626",
+      "borderColor": "#b91c1c",
+      "size": 22,
+      "label": "〒",
+      "textColor": "#ffffff"
+    }
+  ]
+}
+```
+
+- `key`/`label`は必須。`settings`は省略可(省略したキーは既定値のまま — 既定値は
+  travel-log側の`lib/types.ts`の`SPOT_TYPE_SETTING_DEFAULTS`参照。現時点では
+  `public_visible`が既定`false`、`reviews_enabled`/`wikipedia_enabled`が既定`true`)。
+  種別追加時は基本的に非公開(`public_visible`既定false)で始める運用のため、
+  `public_visible`は明示せず省略するのが基本(明示するのは既定と異なる値にしたい
+  設定のみでよい。上の例も既定と同じ`public_visible`は書いていない)
+- `ranks`も省略可。このスポット種別で使えるランクの一覧と、それぞれの表示スタイル
+  (バッジ・地図ピン共通)を配列で指定する。配列の順序がそのままランクの並び順
+  (絞り込みチップ・一覧のソート順)になる
+  - `rank`: ランク値そのもの(`spots.rank`に入る自由入力の文字列)
+  - `color`: 背景色(`#rrggbb`)
+  - `borderColor`: 縁取り線の色。非公開スポットはこの色のまま破線になる(それ以外は
+    公開スポットと同じ実線)
+  - `size`: 地図ピンの大きさ(px)。バッジの大小はこれと無関係(表示側の`size`propで別管理)
+  - `label`: バッジ・ピンに表示するラベル。文字列、または`{ "image": "data:image/png;base64,..." }`
+    形式の画像(base64)のどちらか
+  - `textColor`: 省略可。ラベルが文字列の場合の文字色。省略時は`color`の明度から
+    自動で白/濃色を選ぶ(画像ラベルの場合は無視される)
+  - `ranks`自体を省略した場合(または管理画面の手入力フォームで種別を追加した場合)は、
+    観光地の現行A〜E配色がそのまま既定のランク設定になる
+    (travel-log側`lib/rankStyle.ts`の`DEFAULT_RANK_STYLES`参照)
+- 取り込みはtravel-log側の管理画面(`/[type]/admin`の「別のスポット種別の管理」)から
+  このJSONファイルを手動アップロードして行う。スポットデータ(CSV)とは別工程で、
+  先にこのJSONで種別を作成してから、CSVをその種別のページでインポートする想定
+- `public_visible`が`false`(既定)で作成された種別は、CSVインポート・内容確認が終わってから
+  管理画面の「スポット種別の設定」で`true`に切り替えて一般公開する
 
 ## 各データの出典
 
@@ -44,8 +103,6 @@ name,name_kana,prefecture,municipality,lat,lng,rank,category,description,officia
 
 ## 将来構想(未実装)
 
-スポットデータ本体だけでなく、スポット種別そのものの初期設定(`spot_types`テーブル相当の
-公開範囲・表示名・スポットキー・ランクの種類とスタイル)も、将来的には
-`<スポットキー>/settings.json`のような設定ファイルとしてこのリポジトリ側に持たせ、
-travel-log側の`db/init/01_schema.sql`にハードコードされている`spot_types`の初期INSERTを
-置き換えられるようにしたい。現時点では未設計・未実装。
+`settings.json`の`ranks`は色・縁取り線の色・地図ピンの大きさ・ラベル(文字列/画像)のみに
+対応している。ランクの並び順以外のさらに複雑な表示条件(ズームレベルに応じた見た目の変化など)
+が必要になった場合の形式は、現時点では未設計・未実装。

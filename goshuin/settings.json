@@ -1,0 +1,12 @@
+{
+  "key": "goshuin",
+  "label": "御朱印",
+  "ranks": [
+    { "rank": "A", "color": "#f59e0b", "borderColor": "#b45309", "size": 26, "label": "A", "textColor": "#451a03" },
+    { "rank": "B", "color": "#a7f3d0", "borderColor": "#34d399", "size": 22, "label": "B", "textColor": "#065f46" },
+    { "rank": "C", "color": "#93c5fd", "borderColor": "#60a5fa", "size": 18, "label": "C", "textColor": "#1e3a8a" },
+    { "rank": "D", "color": "#fef3c7", "borderColor": "#fbbf24", "size": 15, "label": "D", "textColor": "#78350f" },
+    { "rank": "E", "color": "#e5e7eb", "borderColor": "#9ca3af", "size": 12, "label": "E", "textColor": "#374151" },
+    { "rank": "Z", "color": "#6b7280", "borderColor": "#374151", "size": 10, "label": "Z", "textColor": "#ffffff" }
+  ]
+}

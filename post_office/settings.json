@@ -1,0 +1,18 @@
+{
+  "key": "post_office",
+  "label": "郵便局",
+  "settings": {
+    "reviews_enabled": false,
+    "wikipedia_enabled": false
+  },
+  "ranks": [
+    {
+      "rank": "郵便局",
+      "color": "#dc2626",
+      "borderColor": "#b91c1c",
+      "size": 22,
+      "label": "〒",
+      "textColor": "#ffffff"
+    }
+  ]
+}
