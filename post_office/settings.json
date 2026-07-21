@@ -14,5 +14,6 @@
       "label": "〒",
       "textColor": "#ffffff"
     }
-  ]
+  ],
+  "categories": ["郵便局", "簡易郵便局"]
 }

@@ -10,5 +10,6 @@
     { "rank": "第3シリーズ", "color": "#6ee7b7", "borderColor": "#059669", "size": 18, "label": "3", "textColor": "#064e3b" },
     { "rank": "第4シリーズ", "color": "#fde68a", "borderColor": "#d97706", "size": 18, "label": "4", "textColor": "#78350f" },
     { "rank": "第5シリーズ", "color": "#f9a8d4", "borderColor": "#db2777", "size": 18, "label": "5", "textColor": "#831843" }
-  ]
+  ],
+  "categories": []
 }
