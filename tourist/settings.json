@@ -1,0 +1,52 @@
+{
+  "key": "tourist",
+  "label": "観光地",
+  "settings": {
+    "public_visible": true,
+    "reviews_enabled": true,
+    "wikipedia_enabled": true
+  },
+  "ranks": [
+    {
+      "rank": "A",
+      "color": "#f59e0b",
+      "borderColor": "#b45309",
+      "size": 26,
+      "label": "A",
+      "textColor": "#451a03"
+    },
+    {
+      "rank": "B",
+      "color": "#a7f3d0",
+      "borderColor": "#34d399",
+      "size": 22,
+      "label": "B",
+      "textColor": "#065f46"
+    },
+    {
+      "rank": "C",
+      "color": "#93c5fd",
+      "borderColor": "#60a5fa",
+      "size": 18,
+      "label": "C",
+      "textColor": "#1e3a8a"
+    },
+    {
+      "rank": "D",
+      "color": "#fef3c7",
+      "borderColor": "#fbbf24",
+      "size": 15,
+      "label": "D",
+      "textColor": "#78350f"
+    },
+    {
+      "rank": "E",
+      "color": "#e5e7eb",
+      "borderColor": "#9ca3af",
+      "size": 12,
+      "label": "E",
+      "textColor": "#374151"
+    }
+  ],
+  "categories": ["神社仏閣", "自然", "城", "温泉", "街並み", "美術館博物館", "その他"]
+}

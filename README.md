@@ -9,6 +9,9 @@
 データを置く。
 
 ```
+tourist/
+  spots.csv
+  settings.json
 post_office/
   post_offices.csv
   settings.json
@@ -23,6 +26,14 @@ suiyou_dodesho_domestic/
   spots.csv
   settings.json
 ```
+
+`tourist/`(観光地)だけは例外で、travel-log側の唯一の既定スポット種別としてアプリ初期化時に
+自動で入っている必要があるため、ここに置くCSV・settings.jsonは「取り込み用の参照データ」
+ではなく「travel-log本体の`db/init/tourist_spots.csv`と同内容を保持するための複製」という
+位置づけになる(`settings.json`もtravel-log側では`db/init/01_schema.sql`が直接種別を
+作成するため実際には使われず、現状の設定を文書化するためだけに置いてある)。編集する際は
+travel-log本体の`db/init/tourist_spots.csv`にも同じ内容を反映すること。それ以外のスポット
+キーは、このリポジトリのCSVがそのまま(=travel-log側に複製を持たない)取り込み対象になる。
 
 スポットデータはCSV、スポット種別そのものの初期設定は`settings.json`で持つ。
 
@@ -113,6 +124,10 @@ ON/OFF設定、ランク・カテゴリの一覧)をまとめて1つのスポッ
 
 ## 各データの出典
 
+- `tourist/spots.csv`: travel-log本体の`db/init/`に元々SQLの形(都道府県別ファイル、
+  7,039件)で同梱されていた観光地データを、CSVとしてtravel-log本体から複製したもの。
+  Wikipedia(ja)月次ページビュー数に基づく相対順位(パーセンタイル)の機械分類で
+  ランク(A〜E)を付与している(詳細はtravel-log側のREADME.md「ランクの決め方」参照)。
 - `post_office/post_offices.csv`: 国土交通省 国土数値情報(郵便局データ P30、平成25年度版)。
   行政区域コードを都道府県名・市区町村名に変換、郵便局分類コードを`category`列に変換した加工版。
   非商用利用限定のデータセットである点に注意(travel-log側のCLAUDE.md「外部データソースを
