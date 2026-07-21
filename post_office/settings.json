@@ -10,10 +10,13 @@
       "rank": "郵便局",
       "color": "#dc2626",
       "borderColor": "#b91c1c",
-      "size": 22,
+      "size": 26,
       "label": "〒",
       "textColor": "#ffffff"
     }
   ],
-  "categories": ["郵便局", "簡易郵便局"]
+  "categories": [
+    "郵便局",
+    "簡易郵便局"
+  ]
 }
