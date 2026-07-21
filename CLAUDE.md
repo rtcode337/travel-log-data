@@ -65,7 +65,7 @@ name,name_kana,region,lat,lng,rank,category,description
       "rank": "郵便局",
       "color": "#dc2626",
       "borderColor": "#b91c1c",
-      "size": 22,
+      "size": 26,
       "label": "〒",
       "textColor": "#ffffff"
     }
@@ -141,6 +141,12 @@ name,name_kana,region,lat,lng,rank,category,description
 | `textColor` | string(`#rrggbb`) | 省略可 | ラベルが文字列の場合の文字色。省略時は`color`の明度から自動選択(明るい背景→濃色、暗い背景→白。画像ラベルの場合はそもそも使われない) |
 
 配列の順序がそのままランクの並び順(絞り込みチップの並び・一覧のソート順)になる。
+
+`rank`が重要度・段階を表さない種別(放送回・企画名・カテゴリ名など、ランクごとに
+優劣が無いもの)では、`size`を全ランクとも26(観光地=touristのAランクと同じ、
+既定のA〜Eの中で最大)に統一する。ランクが重要度・段階を表す種別(観光地のA〜Eのように
+上位ほど目立たせたいもの)だけ、上位ランクほど大きく・下位ほど小さくする段階的な
+`size`を付ける(既定のA〜E: 26/22/18/15/12がその例)。
 
 ### ranksを省略した場合の既定値(観光地=touristの現行配色。手入力で種別を追加した場合も同じ)
 
