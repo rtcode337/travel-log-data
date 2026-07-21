@@ -30,13 +30,13 @@ suiyou_dodesho_overseas/
   settings.json
 ```
 
-`tourist/`(観光地)だけは例外で、travel-log側の唯一の既定スポット種別としてアプリ初期化時に
-自動で入っている必要があるため、ここに置くCSV・settings.jsonは「取り込み用の参照データ」
-ではなく「travel-log本体の`db/init/tourist_spots.csv`と同内容を保持するための複製」という
-位置づけになる(`settings.json`もtravel-log側では`db/init/01_schema.sql`が直接種別を
-作成するため実際には使われず、現状の設定を文書化するためだけに置いてある)。編集する際は
-travel-log本体の`db/init/tourist_spots.csv`にも同じ内容を反映すること。それ以外のスポット
-キーは、このリポジトリのCSVがそのまま(=travel-log側に複製を持たない)取り込み対象になる。
+`tourist/`(観光地)はtravel-log側の唯一の既定スポット種別(`spot_types`の行はアプリ初期化時に
+自動で作られる)だが、スポットデータ自体は他のスポットキーと同様、ここに置くCSVがそのまま
+取り込み用の参照データであり、travel-log本体側に複製は持たない。`settings.json`も
+travel-log側では`db/init/01_schema.sql`が直接種別を作成するため実際には使われず、
+現状の設定を文書化するためだけに置いてある(かつては`db/init/tourist_spots.csv`として
+travel-log本体にも複製し自動投入していたが、下記「データの出典・ライセンス」の理由により
+廃止した)。
 
 スポットデータはCSV、スポット種別そのものの初期設定は`settings.json`で持つ。
 
@@ -203,6 +203,30 @@ ON/OFF設定、ランク・カテゴリの一覧)をまとめて1つのスポッ
   **具体的な立ち寄り順・説明文は一般知識による推定を含み未検証(要確認)。** レギュラー放送
   終了後の不定期企画(「ヨーロッパ20ヵ国完全制覇〜完結編〜」「21年目のヨーロッパ21ヵ国
   完全制覇」等)は上記jawiki記事の対象範囲外のため未収録。
+
+## データの出典・ライセンス表示
+
+このリポジトリのCSVはtravel-log本体(MITライセンス)とは別物で、由来元の利用許諾条件が
+そのまま適用される。特に次の2つは実データ(名称・座標・説明文)そのものが外部ソース由来のため、
+再配布・二次利用時は出典表示が必要:
+
+- **Wikipedia(ja)由来の説明文**: `tourist/spots.csv`・`goshuin/goshuin_ranked.csv`の
+  `description`列は、記事冒頭文を引用または要約したもの。[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.ja)
+  (一部旧記事はGFDLとのデュアルライセンス)に基づき、利用時は出典(「出典: フリー百科事典
+  『ウィキペディア(Wikipedia)』」+該当記事名・URL)の表示と、改変物を同一(または互換)
+  ライセンスで提供することが求められる
+- **OpenStreetMapのタグ・座標由来のデータ**: `tourist/spots.csv`の一部(2,585件、Overpass API取得分)・
+  `goshuin/*.csv`の座標・名称・`suiyou_dodesho_overseas/spots.csv`の座標(Nominatim取得)は
+  [ODbL](https://opendatacommons.org/licenses/odbl/) (Open Database License)。まとまった量を
+  再配布する場合は「© OpenStreetMap contributors」の表示と、データベース自体をODbL
+  (または互換ライセンス)で提供することが求められる
+- `post_office/post_offices.csv`(国土数値情報)は非商用利用限定のデータセットである点に
+  引き続き注意(上記「各データの出典」参照。CC BY-SA/ODbLとは別の制限)
+
+`buratamori/spots.csv`の座標のみosm_japan(OSMミラー)で裏取りしているが、説明文・立ち寄り順は
+一般知識からの作成のため上記の出典表示義務の対象外。かつて`tourist/spots.csv`と同内容を
+travel-log本体の`db/init/tourist_spots.csv`に複製し出典表示なくコミットしていたが、
+このリポジトリでの管理に一本化した。
 
 ## 将来構想(未実装)
 
