@@ -1,0 +1,10 @@
+{
+  "key": "suiyou_dodesho",
+  "label": "水曜どうでしょう",
+  "settings": {
+    "public_visible": false
+  },
+  "ranks": [
+    { "rank": "水曜どうでしょう", "color": "#fdba74", "borderColor": "#c2410c", "size": 18, "label": "ど", "textColor": "#7c2d12" }
+  ]
+}
