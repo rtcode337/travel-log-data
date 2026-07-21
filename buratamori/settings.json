@@ -1,0 +1,14 @@
+{
+  "key": "buratamori",
+  "label": "ブラタモリ",
+  "settings": {
+    "public_visible": false
+  },
+  "ranks": [
+    { "rank": "第1シリーズ", "color": "#d1d5db", "borderColor": "#6b7280", "size": 18, "label": "1", "textColor": "#1f2937" },
+    { "rank": "第2シリーズ", "color": "#93c5fd", "borderColor": "#2563eb", "size": 18, "label": "2", "textColor": "#1e3a8a" },
+    { "rank": "第3シリーズ", "color": "#6ee7b7", "borderColor": "#059669", "size": 18, "label": "3", "textColor": "#064e3b" },
+    { "rank": "第4シリーズ", "color": "#fde68a", "borderColor": "#d97706", "size": 18, "label": "4", "textColor": "#78350f" },
+    { "rank": "第5シリーズ", "color": "#f9a8d4", "borderColor": "#db2777", "size": 18, "label": "5", "textColor": "#831843" }
+  ]
+}
