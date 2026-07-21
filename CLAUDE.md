@@ -42,7 +42,7 @@ name,name_kana,region,lat,lng,rank,category,description
 | `region` | ○ | 地域。スポット種別の`region_scope`設定により意味が変わる(既定`'jp'`=都道府県、国コード指定=州・県、`'world'`=国名) |
 | `lat` / `lng` | ○ | 緯度・経度(数値) |
 | `rank` | | 自由入力のランク文字列。`settings.json`の`ranks`で定義した`rank`値と一致させる(未定義の値でも動くが見た目は簡易フォールバックになる) |
-| `category` | | 自由入力カテゴリ(空でも可) |
+| `category` | | 自由入力カテゴリ(空でも可)。`settings.json`の`categories`で定義した値と一致させる(未定義の値でも動くが、絞り込みチップ等の並びは一覧の後ろになる) |
 | `description` | | 説明文 |
 
 取り込みはtravel-log側の管理画面(`/[type]/admin`)からの手動アップロード(自動取り込みの
@@ -78,6 +78,8 @@ name,name_kana,region,lat,lng,rank,category,description
 - `settings`: 省略可。省略したキー・オブジェクト自体の省略は下表の既定値になる
   (既定値と同じ値をわざわざ書く必要はない — 差分だけ書けばよい)
 - `ranks`: 省略可。省略時は後述の既定ランク(A〜E)になる
+- `categories`: 省略可。この種別で使うカテゴリの一覧(文字列配列)。省略時は既定
+  (観光地の現行カテゴリ)になる。次項参照
 
 ### settingsの既定値(キーごとに省略可)
 
@@ -90,8 +92,9 @@ name,name_kana,region,lat,lng,rank,category,description
 | `wikipedia_lang` | string | `"ja"` | スポット詳細のWikipedia検索が参照する言語版サブドメイン(`"en"`なら`en.wikipedia.org`)。`wikipedia_enabled`が`true`のときだけ意味を持つ |
 
 値にはbooleanと文字列の両方がある(上表の型欄を参照)。上記以外の設定キーが将来travel-log側に
-追加される可能性がある。`rank_styles`という文字列キーも内部的には同じ設定テーブルに同居するが、
-これは`ranks`フィールド経由で扱うため`settings`に直接書く必要はない。
+追加される可能性がある。`rank_styles`・`categories`という文字列キーも内部的には同じ設定
+テーブルに同居するが、これらはトップレベルの`ranks`/`categories`フィールド経由で扱うため
+`settings`に直接書く必要はない。
 
 ### region_scope(対象地域)と海外データ
 
@@ -154,6 +157,22 @@ name,name_kana,region,lat,lng,rank,category,description
 必要なランクがこれと異なる(独自のランク基準・段階数を使う)種別では、`ranks`に
 配列をまるごと指定して上書きする(既定の一部だけを引き継ぐことはできない — `ranks`を
 書く場合はそのスポット種別で使う全ランクを列挙すること)。
+
+### categories(カテゴリの一覧。省略時は既定=観光地の現行カテゴリ)
+
+CSVの`category`列に入れる値の一覧を文字列配列で指定する(ランクと違い色・大きさ等の
+見た目は持たない)。配列の順序がそのままカテゴリの並び順(travel-log側の地図・
+スポット一覧のカテゴリ絞り込みチップと、スポット追加・編集フォームのサジェストの並び)
+になる。
+
+```json
+{ "categories": ["神社仏閣", "自然", "城", "温泉", "街並み", "美術館博物館", "その他"] }
+```
+
+省略時の既定は上記の観光地の現行カテゴリそのもの(travel-log側`lib/category.ts`の
+`DEFAULT_CATEGORIES`)。空配列`[]`を明示すると「定義済みカテゴリなし」になり、
+既存スポットの`category`値だけが絞り込み・サジェストに出る。`category`列自体は
+自由入力のため一覧に無い値でも動くが、並びは一覧の後ろになる。
 
 ### 取り込み方法
 
