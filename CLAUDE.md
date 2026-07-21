@@ -31,26 +31,23 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 1行目はヘッダー行必須。列順は自由。
 
 ```csv
-name,name_kana,prefecture,municipality,lat,lng,rank,category,description,official_url
-厳島神社,いつくしまじんじゃ,広島県,廿日市市,34.2959,132.3197,A,神社仏閣,海に浮かぶ大鳥居,https://example.com
+name,name_kana,region,lat,lng,rank,category,description
+厳島神社,いつくしまじんじゃ,広島県,34.2959,132.3197,A,神社仏閣,海に浮かぶ大鳥居
 ```
 
 | 列 | 必須 | 説明 |
 |---|---|---|
 | `name` | ○ | スポット名 |
 | `name_kana` | | ふりがな(五十音ソート用) |
-| `prefecture` | ○ | 都道府県 |
-| `municipality` | | 市区町村(空でも可) |
+| `region` | ○ | 地域。スポット種別の`region_scope`設定により意味が変わる(既定`'jp'`=都道府県、国コード指定=州・県、`'world'`=国名) |
 | `lat` / `lng` | ○ | 緯度・経度(数値) |
 | `rank` | | 自由入力のランク文字列。`settings.json`の`ranks`で定義した`rank`値と一致させる(未定義の値でも動くが見た目は簡易フォールバックになる) |
 | `category` | | 自由入力カテゴリ(空でも可) |
 | `description` | | 説明文 |
-| `official_url` | | 公式サイトURL |
 
 取り込みはtravel-log側の管理画面(`/[type]/admin`)からの手動アップロード(自動取り込みの
-仕組みは無い)。差分更新のため、既存行との重複判定は`name`+`prefecture`+`lat`+`lng`の
-完全一致で行われる(`municipality`は使わない)。同じCSVを何度アップロードしても
-重複登録されない。
+仕組みは無い)。差分更新のため、既存行との重複判定は`name`+`region`+`lat`+`lng`の
+完全一致で行われる。同じCSVを何度アップロードしても重複登録されない。
 
 ## settings.json形式(スポット種別の設定)
 
@@ -84,15 +81,48 @@ name,name_kana,prefecture,municipality,lat,lng,rank,category,description,officia
 
 ### settingsの既定値(キーごとに省略可)
 
-| キー | 既定値 | 意味 |
-|---|---|---|
-| `public_visible` | `false` | `true`で一般公開(全ユーザーに`/[key]/map`等を表示)。`false`はadmin/spot_admin限定(準備中の種別向け) |
-| `reviews_enabled` | `true` | `false`でこの種別の口コミ機能(表示・投稿)を無効化 |
-| `wikipedia_enabled` | `true` | `false`でスポット詳細のWikipediaリンクを非表示にする(大半のスポットにWikipedia記事が存在しない種別向け) |
+| キー | 型 | 既定値 | 意味 |
+|---|---|---|---|
+| `public_visible` | boolean | `false` | `true`で一般公開(全ユーザーに`/[key]/map`等を表示)。`false`はadmin/spot_admin限定(準備中の種別向け) |
+| `reviews_enabled` | boolean | `true` | `false`でこの種別の口コミ機能(表示・投稿)を無効化 |
+| `wikipedia_enabled` | boolean | `true` | `false`でスポット詳細のWikipediaリンクを非表示にする(大半のスポットにWikipedia記事が存在しない種別向け) |
+| `region_scope` | string | `"jp"` | この種別の対象地域(日本/特定の国/世界全体)。次項参照 |
+| `wikipedia_lang` | string | `"ja"` | スポット詳細のWikipedia検索が参照する言語版サブドメイン(`"en"`なら`en.wikipedia.org`)。`wikipedia_enabled`が`true`のときだけ意味を持つ |
 
-上記3キー以外の設定が将来travel-log側に追加される可能性がある。値はすべて`true`/`false`の
-booleanのみ(現時点で文字列や数値の設定キーは無い。例外は次項の`rank_styles`だが、これは
-`ranks`フィールド経由で扱うため直接書く必要はない)。
+値にはbooleanと文字列の両方がある(上表の型欄を参照)。上記以外の設定キーが将来travel-log側に
+追加される可能性がある。`rank_styles`という文字列キーも内部的には同じ設定テーブルに同居するが、
+これは`ranks`フィールド経由で扱うため`settings`に直接書く必要はない。
+
+### region_scope(対象地域)と海外データ
+
+日本以外を対象にしたスポット種別も作れる。`region_scope`に指定できるのは次の3種類:
+
+| 値 | 対象 | CSVの`region`列に入れるもの |
+|---|---|---|
+| `"jp"`(既定) | 日本 | 都道府県名(`東京都`・`北海道`のような正式表記) |
+| ISO 3166-1 alpha-2の**国コード小文字**(`"us"`・`"fr"`など) | その国 | その国の州・県・省などの一次行政区分名 |
+| `"world"` | 世界全体 | 国名 |
+
+この設定に連動してtravel-log側の挙動が変わる:
+
+- スポット追加・編集フォームの地域欄が、`"jp"`ではセレクトボックス(47都道府県)、
+  それ以外では自由入力(既存値のサジェスト付き)になる
+- `/[key]/spots`の地域タブの名称が「都道府県」/「州・県」/「国」に変わり、並び順も
+  `"jp"`はJIS順(北海道→沖縄県)、それ以外は日本語ロケールでの文字列順(ラテン文字なら
+  アルファベット順)になる
+- スポット追加時の地名検索(Nominatim)が対象国に絞り込まれる(`"world"`は絞り込みなし)。
+  座標からの地域の自動補完も、`"jp"`=都道府県 / 国指定=州・県 / `"world"`=国名 と解決先が変わる
+- 地図の初回表示が、`"jp"`は現在地取得、それ以外は登録スポット全体が入る位置になる
+
+海外データを作る際の注意:
+
+- `region`列の表記はCSV内で揺らさないこと(`カリフォルニア州`と`California`が混在すると
+  地域タブが別項目に割れる)。日本語表記か現地語表記かはCSV単位でどちらかに統一する
+- 国コード指定(`"us"`等)のとき、`region`には国名ではなく州・県名を入れる。国名を入れると
+  全スポットが1つの地域にまとまってしまい地域タブが機能しない
+- 対象が1か国に収まるなら`"world"`ではなく国コードを指定したほうがよい。地名検索が
+  その国に絞り込まれ、同名地名の取り違えが減る
+- 日本語以外の記事を引きたい種別では`wikipedia_lang`も併せて指定する(既定は`"ja"`のまま)
 
 ### ranksの形式(配列。省略時は既定のA〜E)
 
@@ -146,6 +176,11 @@ travel-log側の管理画面の「別のスポット種別の管理」からこ�
   (座標・説明文)はライセンス面で問題のない別ソースから取り直すこと
 - 一括でスポットを追加した後は、コミット前に既存行との重複(名前一致・近接座標)がないか
   確認すること
+- 日本国外を対象にする場合(`region_scope`が`"jp"`以外)、日本向けの前提を持つデータソースを
+  そのまま流用しないこと。国土数値情報のような日本の政府オープンデータは当然使えないほか、
+  OSMのタグの付き方・住所階層の深さも国によって差がある。`region`に入れる一次行政区分が
+  Nominatimのどのフィールド(`state`/`province`/`county`)で返るかも国ごとに違うため、
+  対象国で実際に何件か引いて確かめてから一括取得すること
 
 ## コミット前に
 

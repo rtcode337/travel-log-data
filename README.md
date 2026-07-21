@@ -32,10 +32,12 @@ CSV形式はtravel-log本体の`/[type]/admin`のCSVインポート機能
 (`components/AdminView.tsx`の`CSV_COLUMNS`)に合わせること。
 
 ```csv
-name,name_kana,prefecture,municipality,lat,lng,rank,category,description,official_url
+name,name_kana,region,lat,lng,rank,category,description
 ```
 
-- 必須列: `name`, `prefecture`, `lat`, `lng`
+- 必須列: `name`, `region`, `lat`, `lng`
+- `region`はスポット種別の`region_scope`設定に応じた地域(既定`'jp'`=都道府県、
+  国コード指定=州・県、`'world'`=国名)
 - `rank`/`category`はスポット種別ごとに意味が異なってよい自由入力(空でも可)
 - 取り込みはtravel-log側の管理画面(`/[type]/admin`)からこのCSVファイルを
   手動アップロードして行う(自動取り込みの仕組みは今のところ無い)
@@ -68,10 +70,17 @@ ON/OFF設定)をまとめて1つのスポット種別として作成するため
 
 - `key`/`label`は必須。`settings`は省略可(省略したキーは既定値のまま — 既定値は
   travel-log側の`lib/types.ts`の`SPOT_TYPE_SETTING_DEFAULTS`参照。現時点では
-  `public_visible`が既定`false`、`reviews_enabled`/`wikipedia_enabled`が既定`true`)。
+  `public_visible`が既定`false`、`reviews_enabled`/`wikipedia_enabled`が既定`true`、
+  `region_scope`が既定`"jp"`、`wikipedia_lang`が既定`"ja"`)。
   種別追加時は基本的に非公開(`public_visible`既定false)で始める運用のため、
   `public_visible`は明示せず省略するのが基本(明示するのは既定と異なる値にしたい
   設定のみでよい。上の例も既定と同じ`public_visible`は書いていない)
+- 日本以外を対象にした種別は`settings`に`region_scope`を指定する(`"jp"`=日本/
+  ISO 3166-1 alpha-2の国コード小文字=その国/`"world"`=世界全体)。CSVの`region`列に
+  入れる値がこれに連動する(日本=都道府県、国指定=州・県、世界=国名)ほか、
+  地域タブの名称と並び順・地名検索の対象国・地図の初回表示も変わる。日本語以外の
+  Wikipedia記事を引きたい場合は`wikipedia_lang`(例: `"en"`)も併せて指定する。
+  詳細と海外データ作成時の注意はCLAUDE.mdの「region_scope(対象地域)と海外データ」節を参照
 - `ranks`も省略可。このスポット種別で使えるランクの一覧と、それぞれの表示スタイル
   (バッジ・地図ピン共通)を配列で指定する。配列の順序がそのままランクの並び順
   (絞り込みチップ・一覧のソート順)になる
@@ -116,12 +125,14 @@ ON/OFF設定)をまとめて1つのスポット種別として作成するため
   調査(別セッション)で作成したものを1ファイルに統合したため、同じスポットが複数シリーズ・
   複数放送回にまたがって重複登録されている場合がある(番組が同じ場所を再訪した回も含むため。
   例: 東京大学赤門は第1・第2・第5シリーズで計3回登場)。travel-log側の取り込みは
-  `name`+`prefecture`+`lat`+`lng`の完全一致で重複除外されるため実害は無いが、
+  `name`+`region`+`lat`+`lng`の完全一致で重複除外されるため実害は無いが、
   2回目以降の登場回の`category`(放送回情報)は取り込まれない点に留意
 - `suiyou_dodesho_domestic/spots.csv`: HTB(北海道テレビ)「水曜どうでしょう」のレギュラー放送時
-  (1996年〜2002年)の**国内企画のみ**を対象にした試験データ(海外企画は対象外。travel-log側の
-  海外対応が進み次第、別キーで海外編を追加する想定のため、意図的に`suiyou_dodesho_domestic`
-  という国内限定であることが分かるキー名にしている)。jawiki記事「水曜どうでしょうの企画 (日本国内)」の
+  (1996年〜2002年)の**国内企画のみ**を対象にした試験データ(海外企画は対象外。別キーで海外編を
+  追加する想定のため、意図的に`suiyou_dodesho_domestic`という国内限定であることが分かる
+  キー名にしている。travel-log側の海外対応は実装済みなので、海外編を追加する場合は
+  `settings.json`の`region_scope`を`"world"`にした別フォルダを作り、`region`列に国名を入れる)。
+  jawiki記事「水曜どうでしょうの企画 (日本国内)」の
   本文から、企画中に立ち寄った・通過した地点を一般知識で抽出した試験データ。観光名所に
   限らず、サイコロの目で決まっただけの経由地・宿泊地・道の駅・サービスエリア・フェリー
   乗り場なども対象に含む(HTB社屋・スタジオ収録場所、地名が特定できない曖昧な記述、
