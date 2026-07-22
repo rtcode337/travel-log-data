@@ -5,79 +5,79 @@
     "public_visible": false,
     "region_scope": "world"
   },
-  "ranks": [
+  "series": [
     {
-      "rank": "オーストラリア大陸縦断3,700キロ",
+      "series": "オーストラリア大陸縦断3,700キロ",
       "color": "#fdba74",
       "borderColor": "#ea580c",
       "size": 26,
       "label": "豪"
     },
     {
-      "rank": "韓国食い道楽サイコロの旅",
+      "series": "韓国食い道楽サイコロの旅",
       "color": "#fca5a5",
       "borderColor": "#dc2626",
       "size": 26,
       "label": "韓"
     },
     {
-      "rank": "ヨーロッパ21ヵ国完全制覇",
+      "series": "ヨーロッパ21ヵ国完全制覇",
       "color": "#93c5fd",
       "borderColor": "#3b82f6",
       "size": 26,
       "label": "欧1"
     },
     {
-      "rank": "マレーシアジャングル探検",
+      "series": "マレーシアジャングル探検",
       "color": "#86efac",
       "borderColor": "#16a34a",
       "size": 26,
       "label": "マ"
     },
     {
-      "rank": "香港大観光旅行",
+      "series": "香港大観光旅行",
       "color": "#fde68a",
       "borderColor": "#d97706",
       "size": 26,
       "label": "港"
     },
     {
-      "rank": "北極圏突入 〜アラスカ半島620マイル〜",
+      "series": "北極圏突入 〜アラスカ半島620マイル〜",
       "color": "#a5f3fc",
       "borderColor": "#0891b2",
       "size": 26,
       "label": "極"
     },
     {
-      "rank": "アメリカ合衆国横断",
+      "series": "アメリカ合衆国横断",
       "color": "#ddd6fe",
       "borderColor": "#7c3aed",
       "size": 26,
       "label": "米"
     },
     {
-      "rank": "ヨーロッパ・リベンジ",
+      "series": "ヨーロッパ・リベンジ",
       "color": "#a5b4fc",
       "borderColor": "#4f46e5",
       "size": 26,
       "label": "欧2"
     },
     {
-      "rank": "中米・コスタリカで幻の鳥を激写する!",
+      "series": "中米・コスタリカで幻の鳥を激写する!",
       "color": "#6ee7b7",
       "borderColor": "#059669",
       "size": 26,
       "label": "コ"
     },
     {
-      "rank": "ユーコン川160キロ 〜地獄の6日間〜",
+      "series": "ユーコン川160キロ 〜地獄の6日間〜",
       "color": "#99f6e4",
       "borderColor": "#0d9488",
       "size": 26,
       "label": "加"
     },
     {
-      "rank": "原付ベトナム縦断1800キロ",
+      "series": "原付ベトナム縦断1800キロ",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,

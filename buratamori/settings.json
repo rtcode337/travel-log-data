@@ -4,2361 +4,2361 @@
   "settings": {
     "public_visible": false
   },
-  "ranks": [
+  "series": [
     {
-      "rank": "【#1 早稲田】",
+      "series": "【#1 早稲田】",
       "color": "#93c5fd",
       "borderColor": "#3b82f6",
       "size": 26,
       "label": "1"
     },
     {
-      "rank": "【#2 上野】",
+      "series": "【#2 上野】",
       "color": "#93c5fd",
       "borderColor": "#3b82f6",
       "size": 26,
       "label": "2"
     },
     {
-      "rank": "【#3 二子玉川】",
+      "series": "【#3 二子玉川】",
       "color": "#93c5fd",
       "borderColor": "#3b82f6",
       "size": 26,
       "label": "3"
     },
     {
-      "rank": "【#4 銀座】",
+      "series": "【#4 銀座】",
       "color": "#93c5fd",
       "borderColor": "#3b82f6",
       "size": 26,
       "label": "4"
     },
     {
-      "rank": "【#5 三田・麻布】",
+      "series": "【#5 三田・麻布】",
       "color": "#93c5fd",
       "borderColor": "#3b82f6",
       "size": 26,
       "label": "5"
     },
     {
-      "rank": "【#6 秋葉原】",
+      "series": "【#6 秋葉原】",
       "color": "#93c5fd",
       "borderColor": "#3b82f6",
       "size": 26,
       "label": "6"
     },
     {
-      "rank": "【#7 日本橋】",
+      "series": "【#7 日本橋】",
       "color": "#93c5fd",
       "borderColor": "#3b82f6",
       "size": 26,
       "label": "7"
     },
     {
-      "rank": "【#8 本郷台地】",
+      "series": "【#8 本郷台地】",
       "color": "#93c5fd",
       "borderColor": "#3b82f6",
       "size": 26,
       "label": "8"
     },
     {
-      "rank": "【#9 品川】",
+      "series": "【#9 品川】",
       "color": "#93c5fd",
       "borderColor": "#3b82f6",
       "size": 26,
       "label": "9"
     },
     {
-      "rank": "【#10 横浜】",
+      "series": "【#10 横浜】",
       "color": "#93c5fd",
       "borderColor": "#3b82f6",
       "size": 26,
       "label": "10"
     },
     {
-      "rank": "【#11 浅草】",
+      "series": "【#11 浅草】",
       "color": "#93c5fd",
       "borderColor": "#3b82f6",
       "size": 26,
       "label": "11"
     },
     {
-      "rank": "【#12 神田】",
+      "series": "【#12 神田】",
       "color": "#93c5fd",
       "borderColor": "#3b82f6",
       "size": 26,
       "label": "12"
     },
     {
-      "rank": "【#13 新宿・大久保】",
+      "series": "【#13 新宿・大久保】",
       "color": "#93c5fd",
       "borderColor": "#3b82f6",
       "size": 26,
       "label": "13"
     },
     {
-      "rank": "【#14 赤坂】",
+      "series": "【#14 赤坂】",
       "color": "#93c5fd",
       "borderColor": "#3b82f6",
       "size": 26,
       "label": "14"
     },
     {
-      "rank": "【#15 六本木】",
+      "series": "【#15 六本木】",
       "color": "#93c5fd",
       "borderColor": "#3b82f6",
       "size": 26,
       "label": "15"
     },
     {
-      "rank": "【#1 築地】",
+      "series": "【#1 築地】",
       "color": "#86efac",
       "borderColor": "#16a34a",
       "size": 26,
       "label": "1"
     },
     {
-      "rank": "【#2 丸の内】",
+      "series": "【#2 丸の内】",
       "color": "#86efac",
       "borderColor": "#16a34a",
       "size": 26,
       "label": "2"
     },
     {
-      "rank": "【#3 新宿 水道編】",
+      "series": "【#3 新宿 水道編】",
       "color": "#86efac",
       "borderColor": "#16a34a",
       "size": 26,
       "label": "3"
     },
     {
-      "rank": "【#4 住宅の変遷史 本郷湯島】",
+      "series": "【#4 住宅の変遷史 本郷湯島】",
       "color": "#86efac",
       "borderColor": "#16a34a",
       "size": 26,
       "label": "4"
     },
     {
-      "rank": "【#5 鷹狩り】",
+      "series": "【#5 鷹狩り】",
       "color": "#86efac",
       "borderColor": "#16a34a",
       "size": 26,
       "label": "5"
     },
     {
-      "rank": "【#6 横浜 港湾編】",
+      "series": "【#6 横浜 港湾編】",
       "color": "#86efac",
       "borderColor": "#16a34a",
       "size": 26,
       "label": "6"
     },
     {
-      "rank": "【#11 羽田】",
+      "series": "【#11 羽田】",
       "color": "#86efac",
       "borderColor": "#16a34a",
       "size": 26,
       "label": "11"
     },
     {
-      "rank": "【#12 池袋・巣鴨】",
+      "series": "【#12 池袋・巣鴨】",
       "color": "#86efac",
       "borderColor": "#16a34a",
       "size": 26,
       "label": "12"
     },
     {
-      "rank": "【#13 江戸城外堀】",
+      "series": "【#13 江戸城外堀】",
       "color": "#86efac",
       "borderColor": "#16a34a",
       "size": 26,
       "label": "13"
     },
     {
-      "rank": "【#17 江戸のゴミ】",
+      "series": "【#17 江戸のゴミ】",
       "color": "#86efac",
       "borderColor": "#16a34a",
       "size": 26,
       "label": "17"
     },
     {
-      "rank": "【#18 東京タワー・芝】",
+      "series": "【#18 東京タワー・芝】",
       "color": "#86efac",
       "borderColor": "#16a34a",
       "size": 26,
       "label": "18"
     },
     {
-      "rank": "【#19 渋谷】",
+      "series": "【#19 渋谷】",
       "color": "#86efac",
       "borderColor": "#16a34a",
       "size": 26,
       "label": "19"
     },
     {
-      "rank": "【#1 江戸の動物〜中野〜（前編）】",
+      "series": "【#1 江戸の動物〜中野〜（前編）】",
       "color": "#fde68a",
       "borderColor": "#d97706",
       "size": 26,
       "label": "1"
     },
     {
-      "rank": "【#2 上野動物園（後編）】",
+      "series": "【#2 上野動物園（後編）】",
       "color": "#fde68a",
       "borderColor": "#d97706",
       "size": 26,
       "label": "2"
     },
     {
-      "rank": "【#3 荒川（前編）】",
+      "series": "【#3 荒川（前編）】",
       "color": "#fde68a",
       "borderColor": "#d97706",
       "size": 26,
       "label": "3"
     },
     {
-      "rank": "【#4 荒川・柴又（後編）】",
+      "series": "【#4 荒川・柴又（後編）】",
       "color": "#fde68a",
       "borderColor": "#d97706",
       "size": 26,
       "label": "4"
     },
     {
-      "rank": "【#5 地下鉄「銀座線」（前編）】",
+      "series": "【#5 地下鉄「銀座線」（前編）】",
       "color": "#fde68a",
       "borderColor": "#d97706",
       "size": 26,
       "label": "5"
     },
     {
-      "rank": "【#6 地下鉄「銀座線」（後編）】",
+      "series": "【#6 地下鉄「銀座線」（後編）】",
       "color": "#fde68a",
       "borderColor": "#d97706",
       "size": 26,
       "label": "6"
     },
     {
-      "rank": "【#8 江戸の盛り場〜両国・両国国技館〜】",
+      "series": "【#8 江戸の盛り場〜両国・両国国技館〜】",
       "color": "#fde68a",
       "borderColor": "#d97706",
       "size": 26,
       "label": "8"
     },
     {
-      "rank": "【#9 江戸の盛り場〜吉原〜】",
+      "series": "【#9 江戸の盛り場〜吉原〜】",
       "color": "#fde68a",
       "borderColor": "#d97706",
       "size": 26,
       "label": "9"
     },
     {
-      "rank": "【#10 国分寺〜遺跡〜（前編）】",
+      "series": "【#10 国分寺〜遺跡〜（前編）】",
       "color": "#fde68a",
       "borderColor": "#d97706",
       "size": 26,
       "label": "10"
     },
     {
-      "rank": "【#11 国分寺〜鉄道総研〜（後編）】",
+      "series": "【#11 国分寺〜鉄道総研〜（後編）】",
       "color": "#fde68a",
       "borderColor": "#d97706",
       "size": 26,
       "label": "11"
     },
     {
-      "rank": "【#13 街の樹木・植物（墨田区）】",
+      "series": "【#13 街の樹木・植物（墨田区）】",
       "color": "#fde68a",
       "borderColor": "#d97706",
       "size": 26,
       "label": "13"
     },
     {
-      "rank": "【#14 江戸の運河（江東区前編）】",
+      "series": "【#14 江戸の運河（江東区前編）】",
       "color": "#fde68a",
       "borderColor": "#d97706",
       "size": 26,
       "label": "14"
     },
     {
-      "rank": "【#15 江戸の運河（江東区後編）】",
+      "series": "【#15 江戸の運河（江東区後編）】",
       "color": "#fde68a",
       "borderColor": "#d97706",
       "size": 26,
       "label": "15"
     },
     {
-      "rank": "【#17 新宿〜新都心編〜（後編）】",
+      "series": "【#17 新宿〜新都心編〜（後編）】",
       "color": "#fde68a",
       "borderColor": "#d97706",
       "size": 26,
       "label": "17"
     },
     {
-      "rank": "【#18 ブラタモリスペシャル 神宮外苑】",
+      "series": "【#18 ブラタモリスペシャル 神宮外苑】",
       "color": "#fde68a",
       "borderColor": "#d97706",
       "size": 26,
       "label": "18"
     },
     {
-      "rank": "【#19 ブラタモリスペシャル 江戸の食】",
+      "series": "【#19 ブラタモリスペシャル 江戸の食】",
       "color": "#fde68a",
       "borderColor": "#d97706",
       "size": 26,
       "label": "19"
     },
     {
-      "rank": "【#1 長崎「\"坂の町・長崎\"の始まりとは?」】",
+      "series": "【#1 長崎「\"坂の町・長崎\"の始まりとは?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "1"
     },
     {
-      "rank": "【#2 長崎「長崎の近代化は海から?」】",
+      "series": "【#2 長崎「長崎の近代化は海から?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "2"
     },
     {
-      "rank": "【#3 金沢「加賀百万石はどう守られた!?」】",
+      "series": "【#3 金沢「加賀百万石はどう守られた!?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "3"
     },
     {
-      "rank": "【#4 金沢の「美」「金沢は美のまち!?」】",
+      "series": "【#4 金沢の「美」「金沢は美のまち!?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "4"
     },
     {
-      "rank": "【#5 鎌倉「800年前の『まちづくり』とは?」】",
+      "series": "【#5 鎌倉「800年前の『まちづくり』とは?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "5"
     },
     {
-      "rank": "【#6 鎌倉の観光「鎌倉が観光で発展し続ける理由は?」】",
+      "series": "【#6 鎌倉の観光「鎌倉が観光で発展し続ける理由は?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "6"
     },
     {
-      "rank": "【#7 はるばる函館へ「レールはどう函館を目指す?」】",
+      "series": "【#7 はるばる函館へ「レールはどう函館を目指す?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "7"
     },
     {
-      "rank": "【#8 函館の夜景「函館の夜景はなぜ美しい?」】",
+      "series": "【#8 函館の夜景「函館の夜景はなぜ美しい?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "8"
     },
     {
-      "rank": "【#9 小江戸・川越「なぜ川越は小江戸と呼ばれる?」】",
+      "series": "【#9 小江戸・川越「なぜ川越は小江戸と呼ばれる?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "9"
     },
     {
-      "rank": "【#10 奈良「奈良発展の秘密は段差にあり?」】",
+      "series": "【#10 奈良「奈良発展の秘密は段差にあり?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "10"
     },
     {
-      "rank": "【#11 奈良の宝「観光地・奈良はどう守られた?」】",
+      "series": "【#11 奈良の宝「観光地・奈良はどう守られた?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "11"
     },
     {
-      "rank": "【#12 仙台「伊達政宗は地形マニア!?」】",
+      "series": "【#12 仙台「伊達政宗は地形マニア!?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "12"
     },
     {
-      "rank": "【#13 仙台「杜」と「都」「杜の都の秘密とは?」】",
+      "series": "【#13 仙台「杜」と「都」「杜の都の秘密とは?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "13"
     },
     {
-      "rank": "【#SP1 ブラタモリスペシャル 東京駅「巨大地下空間は歴史の生き証人!?」】",
+      "series": "【#SP1 ブラタモリスペシャル 東京駅「巨大地下空間は歴史の生き証人!?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "SP1"
     },
     {
-      "rank": "【#14 松江「国宝 松江城の城下町はどうつくられた?」】",
+      "series": "【#14 松江「国宝 松江城の城下町はどうつくられた?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "14"
     },
     {
-      "rank": "【#15 出雲「出雲はなぜ日本有数の観光地となった?」】",
+      "series": "【#15 出雲「出雲はなぜ日本有数の観光地となった?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "15"
     },
     {
-      "rank": "【#16 軽井沢「軽井沢はなぜ日本一の避暑地になった!?」】",
+      "series": "【#16 軽井沢「軽井沢はなぜ日本一の避暑地になった!?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "16"
     },
     {
-      "rank": "【#17 博多「博多誕生のカギは高低差にあり!?」】",
+      "series": "【#17 博多「博多誕生のカギは高低差にあり!?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "17"
     },
     {
-      "rank": "【#18 福岡と鉄道「福岡発展のカギは鉄道にあり!?」】",
+      "series": "【#18 福岡と鉄道「福岡発展のカギは鉄道にあり!?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "18"
     },
     {
-      "rank": "【#19 富士山「富士山はなぜ美しい?」】",
+      "series": "【#19 富士山「富士山はなぜ美しい?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "19"
     },
     {
-      "rank": "【#20 富士山の美「富士山はなぜ美しい?」】",
+      "series": "【#20 富士山の美「富士山はなぜ美しい?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "20"
     },
     {
-      "rank": "【#21 富士山頂「人はなぜ富士山頂を目指す?」】",
+      "series": "【#21 富士山頂「人はなぜ富士山頂を目指す?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "21"
     },
     {
-      "rank": "【#22 札幌「なぜ札幌は200万都市になった?」】",
+      "series": "【#22 札幌「なぜ札幌は200万都市になった?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "22"
     },
     {
-      "rank": "【#23 小樽「観光地・小樽発展の秘密は衰退にあり?」】",
+      "series": "【#23 小樽「観光地・小樽発展の秘密は衰退にあり?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "23"
     },
     {
-      "rank": "【#24 軽井沢への道「人はどう峠を越えてきた?」】",
+      "series": "【#24 軽井沢への道「人はどう峠を越えてきた?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "24"
     },
     {
-      "rank": "【#25 日光東照宮「日光東照宮は江戸のテーマパーク?」】",
+      "series": "【#25 日光東照宮「日光東照宮は江戸のテーマパーク?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "25"
     },
     {
-      "rank": "【#26 日光の絶景「日光はなぜNIKKOになった?」】",
+      "series": "【#26 日光の絶景「日光はなぜNIKKOになった?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "26"
     },
     {
-      "rank": "【#27 熱海「人気温泉地・熱海を支えたものは?」】",
+      "series": "【#27 熱海「人気温泉地・熱海を支えたものは?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "27"
     },
     {
-      "rank": "【#28 小田原「江戸の原点は小田原にあり」】",
+      "series": "【#28 小田原「江戸の原点は小田原にあり」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "28"
     },
     {
-      "rank": "【#29 松山「四国一の街・松山はどうできた?」】",
+      "series": "【#29 松山「四国一の街・松山はどうできた?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "29"
     },
     {
-      "rank": "【#30 道後温泉「道後100万人の湯はどうできた?」】",
+      "series": "【#30 道後温泉「道後100万人の湯はどうできた?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "30"
     },
     {
-      "rank": "【#31 真田丸スペシャル・沼田「真田は沼田でどんな城下町をつくった?」】",
+      "series": "【#31 真田丸スペシャル・沼田「真田は沼田でどんな城下町をつくった?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "31"
     },
     {
-      "rank": "【#32 沖縄・首里「王都・首里はサンゴでできている?」】",
+      "series": "【#32 沖縄・首里「王都・首里はサンゴでできている?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "32"
     },
     {
-      "rank": "【#33 那覇「那覇は2つある!?」】",
+      "series": "【#33 那覇「那覇は2つある!?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "33"
     },
     {
-      "rank": "【#34 熊本城「熊本城はやりすぎ城?」】",
+      "series": "【#34 熊本城「熊本城はやりすぎ城?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "34"
     },
     {
-      "rank": "【#35 水の国・熊本「火の国熊本は水の国?」】",
+      "series": "【#35 水の国・熊本「火の国熊本は水の国?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "35"
     },
     {
-      "rank": "【#36 京都・嵐山「嵐山はナゼ美しい!?」】",
+      "series": "【#36 京都・嵐山「嵐山はナゼ美しい!?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "36"
     },
     {
-      "rank": "【#37 京都・伏見「伏見は日本の首都だった!?」】",
+      "series": "【#37 京都・伏見「伏見は日本の首都だった!?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "37"
     },
     {
-      "rank": "【#38 横浜「横浜の秘密はハマにあり!?」】",
+      "series": "【#38 横浜「横浜の秘密はハマにあり!?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "38"
     },
     {
-      "rank": "【#39 志摩「志摩の宝は絶景が生んだ!?」】",
+      "series": "【#39 志摩「志摩の宝は絶景が生んだ!?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "39"
     },
     {
-      "rank": "【#40 伊勢神宮「人はなぜ伊勢を目指す?」】",
+      "series": "【#40 伊勢神宮「人はなぜ伊勢を目指す?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "40"
     },
     {
-      "rank": "【#41 お伊勢参り「人はなぜ伊勢を目指す?」】",
+      "series": "【#41 お伊勢参り「人はなぜ伊勢を目指す?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "41"
     },
     {
-      "rank": "【#42 横須賀「なぜ横須賀は要港っスカ?」】",
+      "series": "【#42 横須賀「なぜ横須賀は要港っスカ?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "42"
     },
     {
-      "rank": "【#43 会津「会津人はアイデアマン!?」】",
+      "series": "【#43 会津「会津人はアイデアマン!?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "43"
     },
     {
-      "rank": "【#44 会津磐梯山「会津磐梯山は宝の山?」】",
+      "series": "【#44 会津磐梯山「会津磐梯山は宝の山?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "44"
     },
     {
-      "rank": "【#45 新潟「新潟は砂の町!?」】",
+      "series": "【#45 新潟「新潟は砂の町!?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "45"
     },
     {
-      "rank": "【#46 佐渡「黄金の島・佐渡はキセキの島!?」】",
+      "series": "【#46 佐渡「黄金の島・佐渡はキセキの島!?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "46"
     },
     {
-      "rank": "【#47 高尾山「高尾山はナンバーワンの山!?」】",
+      "series": "【#47 高尾山「高尾山はナンバーワンの山!?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "47"
     },
     {
-      "rank": "【#48 広島「広島はステキなシティ!?」】",
+      "series": "【#48 広島「広島はステキなシティ!?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "48"
     },
     {
-      "rank": "【#49 宮島「宮島は神の島!?」】",
+      "series": "【#49 宮島「宮島は神の島!?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "49"
     },
     {
-      "rank": "【#50 富士の樹海「日本を支えた?樹海の正体とは!?」】",
+      "series": "【#50 富士の樹海「日本を支えた?樹海の正体とは!?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "50"
     },
     {
-      "rank": "【#51 樹海の神秘「日本を支えた?樹海の正体とは!?」】",
+      "series": "【#51 樹海の神秘「日本を支えた?樹海の正体とは!?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "51"
     },
     {
-      "rank": "【#52 富士山麓「富士山最大の玄関口はどうできた?」】",
+      "series": "【#52 富士山麓「富士山最大の玄関口はどうできた?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "52"
     },
     {
-      "rank": "【#53 大阪「大阪はなぜ日本一の商都に?」】",
+      "series": "【#53 大阪「大阪はなぜ日本一の商都に?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "53"
     },
     {
-      "rank": "【#54 大坂城・真田丸スペシャル「大坂城はなぜ難攻不落?」】",
+      "series": "【#54 大坂城・真田丸スペシャル「大坂城はなぜ難攻不落?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "54"
     },
     {
-      "rank": "【#55 知床「世界遺産・知床は火山のおかげ!?」】",
+      "series": "【#55 知床「世界遺産・知床は火山のおかげ!?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "55"
     },
     {
-      "rank": "【#56 平泉「黄金の都・平泉はなぜ栄えた?」】",
+      "series": "【#56 平泉「黄金の都・平泉はなぜ栄えた?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "56"
     },
     {
-      "rank": "【#57 東京・目黒「目黒は江戸のリゾート!?」】",
+      "series": "【#57 東京・目黒「目黒は江戸のリゾート!?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "57"
     },
     {
-      "rank": "【#58 浦安「なぜ浦安は夢と魔法の町になった?」】",
+      "series": "【#58 浦安「なぜ浦安は夢と魔法の町になった?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "58"
     },
     {
-      "rank": "【#59 さぬきうどん「なぜさぬきうどんは名物になった?」】",
+      "series": "【#59 さぬきうどん「なぜさぬきうどんは名物になった?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "59"
     },
     {
-      "rank": "【#60 こんぴらさん「人はなぜこんぴらさんを目指す?」】",
+      "series": "【#60 こんぴらさん「人はなぜこんぴらさんを目指す?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "60"
     },
     {
-      "rank": "【#61 水戸「水戸黄門はなぜ人気があるのか?」】",
+      "series": "【#61 水戸「水戸黄門はなぜ人気があるのか?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "61"
     },
     {
-      "rank": "【#62 別府温泉「別府はなぜ日本一の温泉に?」】",
+      "series": "【#62 別府温泉「別府はなぜ日本一の温泉に?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "62"
     },
     {
-      "rank": "【#63 別府「巨大温泉都市・別府はどうできた?」】",
+      "series": "【#63 別府「巨大温泉都市・別府はどうできた?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "63"
     },
     {
-      "rank": "【#64 神戸の港「神戸はなぜ1300年も良港なのか?」】",
+      "series": "【#64 神戸の港「神戸はなぜ1300年も良港なのか?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "64"
     },
     {
-      "rank": "【#65 神戸の街「神戸はなぜハイカラなのか?」】",
+      "series": "【#65 神戸の街「神戸はなぜハイカラなのか?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "65"
     },
     {
-      "rank": "【#66 奄美大島「自然をいかした奄美の宝とは?」】",
+      "series": "【#66 奄美大島「自然をいかした奄美の宝とは?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "66"
     },
     {
-      "rank": "【#67 奄美の森「なぜ奄美は生き物の楽園!?」】",
+      "series": "【#67 奄美の森「なぜ奄美は生き物の楽園!?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "67"
     },
     {
-      "rank": "【#68 奄美の海「なぜ奄美は生き物の楽園!?」】",
+      "series": "【#68 奄美の海「なぜ奄美は生き物の楽園!?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "68"
     },
     {
-      "rank": "【#69 京都・清水寺「人はなぜ清水を目指す?」】",
+      "series": "【#69 京都・清水寺「人はなぜ清水を目指す?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "69"
     },
     {
-      "rank": "【#70 京都・祇園「日本一の花街・祇園はどうできた?」】",
+      "series": "【#70 京都・祇園「日本一の花街・祇園はどうできた?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "70"
     },
     {
-      "rank": "【#71 箱根「箱根の地獄が極楽を生んだ!?」】",
+      "series": "【#71 箱根「箱根の地獄が極楽を生んだ!?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "71"
     },
     {
-      "rank": "【#72 箱根関所「鉄壁!箱根の関所はなぜ破れない!?」】",
+      "series": "【#72 箱根関所「鉄壁!箱根の関所はなぜ破れない!?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "72"
     },
     {
-      "rank": "【#73 尾道「なぜ人は尾道に魅せられるのか?」】",
+      "series": "【#73 尾道「なぜ人は尾道に魅せられるのか?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "73"
     },
     {
-      "rank": "【#74 倉敷「なぜ美しい町並みが倉敷に?」】",
+      "series": "【#74 倉敷「なぜ美しい町並みが倉敷に?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "74"
     },
     {
-      "rank": "【#75 名古屋「尾張名古屋は家康でもつ?」】",
+      "series": "【#75 名古屋「尾張名古屋は家康でもつ?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "75"
     },
     {
-      "rank": "【#76 名古屋・熱田「尾張名古屋は家康でもつ?」】",
+      "series": "【#76 名古屋・熱田「尾張名古屋は家康でもつ?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "76"
     },
     {
-      "rank": "【#77 大宮「なぜ大宮は鉄道の町になったのか?」】",
+      "series": "【#77 大宮「なぜ大宮は鉄道の町になったのか?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "77"
     },
     {
-      "rank": "【#78 弘前「サムライがつくった弘前の宝とは!?」】",
+      "series": "【#78 弘前「サムライがつくった弘前の宝とは!?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "78"
     },
     {
-      "rank": "【#79 秩父「秩父はず〜っと日本を盛り上げた!?」】",
+      "series": "【#79 秩父「秩父はず〜っと日本を盛り上げた!?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "79"
     },
     {
-      "rank": "【#80 夏休みSP 長瀞「なぜ長瀞は人々をひきつけるのか?」】",
+      "series": "【#80 夏休みSP 長瀞「なぜ長瀞は人々をひきつけるのか?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "80"
     },
     {
-      "rank": "【#81 十和田湖・奥入瀬「十和田湖はなぜ神秘の湖に?」】",
+      "series": "【#81 十和田湖・奥入瀬「十和田湖はなぜ神秘の湖に?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "81"
     },
     {
-      "rank": "【#82 高野山「高野山は空海テーマパーク!?」】",
+      "series": "【#82 高野山「高野山は空海テーマパーク!?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "82"
     },
     {
-      "rank": "【#83 高野山と空海「高野山は空海テーマパーク!?」】",
+      "series": "【#83 高野山と空海「高野山は空海テーマパーク!?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "83"
     },
     {
-      "rank": "【#84 高野山の町「高野山はなぜ山上の仏教都市に?」】",
+      "series": "【#84 高野山の町「高野山はなぜ山上の仏教都市に?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "84"
     },
     {
-      "rank": "【#85 高知「高知の町はなぜ龍馬を生んだ?」】",
+      "series": "【#85 高知「高知の町はなぜ龍馬を生んだ?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "85"
     },
     {
-      "rank": "【#86 黒部ダム「黒部ダムはなぜ秘境につくられた?」】",
+      "series": "【#86 黒部ダム「黒部ダムはなぜ秘境につくられた?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "86"
     },
     {
-      "rank": "【#87 黒部の奇跡「黒部ダムはなぜ秘境につくられた?」】",
+      "series": "【#87 黒部の奇跡「黒部ダムはなぜ秘境につくられた?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "87"
     },
     {
-      "rank": "【#88 立山「北アルプス・立山はなぜ神秘的?」】",
+      "series": "【#88 立山「北アルプス・立山はなぜ神秘的?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "88"
     },
     {
-      "rank": "【#89 洞爺湖「なぜ世界の洞爺湖になった?」】",
+      "series": "【#89 洞爺湖「なぜ世界の洞爺湖になった?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "89"
     },
     {
-      "rank": "【#90 ものづくり名古屋「名古屋が生んだものづくり日本とは?」】",
+      "series": "【#90 ものづくり名古屋「名古屋が生んだものづくり日本とは?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "90"
     },
     {
-      "rank": "【#91 室蘭「工業都市・室蘭を生んだ奇跡とは!?」】",
+      "series": "【#91 室蘭「工業都市・室蘭を生んだ奇跡とは!?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "91"
     },
     {
-      "rank": "【#92 岐阜「岐阜は信長が夢見た平和の都!?」】",
+      "series": "【#92 岐阜「岐阜は信長が夢見た平和の都!?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "92"
     },
     {
-      "rank": "【#93 彦根「なぜ家康は彦根がイイと思った?」】",
+      "series": "【#93 彦根「なぜ家康は彦根がイイと思った?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "93"
     },
     {
-      "rank": "【#94 東京・吉祥寺「なぜ人は吉祥寺に住みたがるのか?」】",
+      "series": "【#94 東京・吉祥寺「なぜ人は吉祥寺に住みたがるのか?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "94"
     },
     {
-      "rank": "【#95 宝塚「なぜ宝塚は娯楽の殿堂になった?」】",
+      "series": "【#95 宝塚「なぜ宝塚は娯楽の殿堂になった?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "95"
     },
     {
-      "rank": "【#96 田園調布「田園調布はどう超高級住宅街になった?」】",
+      "series": "【#96 田園調布「田園調布はどう超高級住宅街になった?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "96"
     },
     {
-      "rank": "【#97 有馬温泉「有馬温泉♨人気はなぜ冷めない?」】",
+      "series": "【#97 有馬温泉「有馬温泉♨人気はなぜ冷めない?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "97"
     },
     {
-      "rank": "【#98 鹿児島「なぜ鹿児島は明治維新の主役となれた?」】",
+      "series": "【#98 鹿児島「なぜ鹿児島は明治維新の主役となれた?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "98"
     },
     {
-      "rank": "【#99 薩摩の奇跡「なぜ鹿児島は明治維新の主役となれた?」】",
+      "series": "【#99 薩摩の奇跡「なぜ鹿児島は明治維新の主役となれた?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "99"
     },
     {
-      "rank": "【#100 宮崎「なぜ宮崎は南国リゾートになった?」】",
+      "series": "【#100 宮崎「なぜ宮崎は南国リゾートになった?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "100"
     },
     {
-      "rank": "【#101 京都・銀閣寺「美しきニッポンの始まりは東山の奥にあり!?」】",
+      "series": "【#101 京都・銀閣寺「美しきニッポンの始まりは東山の奥にあり!?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "101"
     },
     {
-      "rank": "【#102 京都・東山「美しきニッポンの始まりは東山の奥にあり!?」】",
+      "series": "【#102 京都・東山「美しきニッポンの始まりは東山の奥にあり!?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "102"
     },
     {
-      "rank": "【#103 京都・宇治「なぜ宇治は天下一の茶どころになった?」】",
+      "series": "【#103 京都・宇治「なぜ宇治は天下一の茶どころになった?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "103"
     },
     {
-      "rank": "【#104 伊豆「どうして越えたい天城越え?」】",
+      "series": "【#104 伊豆「どうして越えたい天城越え?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "104"
     },
     {
-      "rank": "【#105 天城越え「どうして越えたい天城越え?」】",
+      "series": "【#105 天城越え「どうして越えたい天城越え?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "105"
     },
     {
-      "rank": "【#106 萩「萩はなぜ世界遺産になった?」】",
+      "series": "【#106 萩「萩はなぜ世界遺産になった?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "106"
     },
     {
-      "rank": "【#107 伊豆・下田「なぜ下田は開国の地になった!?」】",
+      "series": "【#107 伊豆・下田「なぜ下田は開国の地になった!?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "107"
     },
     {
-      "rank": "【#108 関門海峡・下関「関門海峡はなぜ関門?」】",
+      "series": "【#108 関門海峡・下関「関門海峡はなぜ関門?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "108"
     },
     {
-      "rank": "【#109 関門海峡・門司「関門海峡はなぜ関門?」】",
+      "series": "【#109 関門海峡・門司「関門海峡はなぜ関門?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "109"
     },
     {
-      "rank": "【#110 那須「なぜ那須は一大リゾートになった?」】",
+      "series": "【#110 那須「なぜ那須は一大リゾートになった?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "110"
     },
     {
-      "rank": "【#111 鳥取砂丘「なぜ鳥取砂丘は人をひきつける?」】",
+      "series": "【#111 鳥取砂丘「なぜ鳥取砂丘は人をひきつける?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "111"
     },
     {
-      "rank": "【#112 宇都宮「宇都宮は江戸に欠かせない町?」】",
+      "series": "【#112 宇都宮「宇都宮は江戸に欠かせない町?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "112"
     },
     {
-      "rank": "【#113 山形・酒田「山形・酒田はなぜ日本の中心!?」】",
+      "series": "【#113 山形・酒田「山形・酒田はなぜ日本の中心!?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "113"
     },
     {
-      "rank": "【#114 箱根の温泉「箱根はなぜNO.1の温泉に登りつめた?」】",
+      "series": "【#114 箱根の温泉「箱根はなぜNO.1の温泉に登りつめた?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "114"
     },
     {
-      "rank": "【#115 湘南「湘南人気のヒミツはいとしのヘリにあり♪」】",
+      "series": "【#115 湘南「湘南人気のヒミツはいとしのヘリにあり♪」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "115"
     },
     {
-      "rank": "【#116 有田焼「なぜ世界の有田焼になった?」】",
+      "series": "【#116 有田焼「なぜ世界の有田焼になった?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "116"
     },
     {
-      "rank": "【#117 有田焼、世界へ「なぜ世界の有田焼になった?」】",
+      "series": "【#117 有田焼、世界へ「なぜ世界の有田焼になった?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "117"
     },
     {
-      "rank": "【#118 富良野・美瑛「残りモノには福がある」】",
+      "series": "【#118 富良野・美瑛「残りモノには福がある」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "118"
     },
     {
-      "rank": "【#119 旭川「旭川は北のトップランナー!?」】",
+      "series": "【#119 旭川「旭川は北のトップランナー!?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "119"
     },
     {
-      "rank": "【#120 東尋坊・恐竜「東尋坊 恐竜 福井名物はなぜ生まれた?」】",
+      "series": "【#120 東尋坊・恐竜「東尋坊 恐竜 福井名物はなぜ生まれた?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "120"
     },
     {
-      "rank": "【#121 東京・豊洲「TOKYOサポーターは豊洲にやってくる!?」】",
+      "series": "【#121 東京・豊洲「TOKYOサポーターは豊洲にやってくる!?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "121"
     },
     {
-      "rank": "【#124 福井「福井のルーツは消えた都市にあり!?」】",
+      "series": "【#124 福井「福井のルーツは消えた都市にあり!?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "124"
     },
     {
-      "rank": "【#125 武蔵小杉「人気急上昇!武蔵小杉発展の秘密とは!?」】",
+      "series": "【#125 武蔵小杉「人気急上昇!武蔵小杉発展の秘密とは!?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "125"
     },
     {
-      "rank": "【#128 阿波踊り「阿波踊りはなぜ生まれた?」】",
+      "series": "【#128 阿波踊り「阿波踊りはなぜ生まれた?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "128"
     },
     {
-      "rank": "【#129 鳴門「鳴門が四国の玄関口になるとは?」】",
+      "series": "【#129 鳴門「鳴門が四国の玄関口になるとは?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "129"
     },
     {
-      "rank": "【#130 甲府盆地「ミラクル盆地は試練がいっぱい」】",
+      "series": "【#130 甲府盆地「ミラクル盆地は試練がいっぱい」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "130"
     },
     {
-      "rank": "【#131 熊野「なぜ熊野は日本の聖地になった?」】",
+      "series": "【#131 熊野「なぜ熊野は日本の聖地になった?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "131"
     },
     {
-      "rank": "【#132 熊野の観光「熊野観光の深〜い魅力とは?」】",
+      "series": "【#132 熊野の観光「熊野観光の深〜い魅力とは?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "132"
     },
     {
-      "rank": "【#133 大阪ミナミ「なぜミナミは日本一のお笑いの街になった?」】",
+      "series": "【#133 大阪ミナミ「なぜミナミは日本一のお笑いの街になった?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "133"
     },
     {
-      "rank": "【#134 古墳の町・堺「巨大古墳は日本の歴史を動かした」】",
+      "series": "【#134 古墳の町・堺「巨大古墳は日本の歴史を動かした」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "134"
     },
     {
-      "rank": "【#135 ちばらき「ちばらきはニッポンの要」】",
+      "series": "【#135 ちばらき「ちばらきはニッポンの要」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "135"
     },
     {
-      "rank": "【#136 銚子「銚子はなぜ日本一の漁港になった?」】",
+      "series": "【#136 銚子「銚子はなぜ日本一の漁港になった?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "136"
     },
     {
-      "rank": "【#137 東京・白金「白金はなぜシロガネーゼの街になった?」】",
+      "series": "【#137 東京・白金「白金はなぜシロガネーゼの街になった?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "137"
     },
     {
-      "rank": "【#138 阿蘇「阿蘇は世界一のお役立ち火山」】",
+      "series": "【#138 阿蘇「阿蘇は世界一のお役立ち火山」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "138"
     },
     {
-      "rank": "【#139 京都・西陣「織物の町・西陣はどうできた?」】",
+      "series": "【#139 京都・西陣「織物の町・西陣はどうできた?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "139"
     },
     {
-      "rank": "【#140 釧路湿原「世界に誇る釧路湿原のスゴさとは?」】",
+      "series": "【#140 釧路湿原「世界に誇る釧路湿原のスゴさとは?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "140"
     },
     {
-      "rank": "【#141 阿寒・摩周「色とりどりな宝の秘密とは」】",
+      "series": "【#141 阿寒・摩周「色とりどりな宝の秘密とは」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "141"
     },
     {
-      "rank": "【#142 京都御所「天皇の住まいはなぜこの場所だった?」】",
+      "series": "【#142 京都御所「天皇の住まいはなぜこの場所だった?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "142"
     },
     {
-      "rank": "【#143 比叡山「比叡山はなぜ母なる山になった?」】",
+      "series": "【#143 比叡山「比叡山はなぜ母なる山になった?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "143"
     },
     {
-      "rank": "【#144 比叡山の修行「比叡山はなぜ母なる山になった?」】",
+      "series": "【#144 比叡山の修行「比叡山はなぜ母なる山になった?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "144"
     },
     {
-      "rank": "【#145 浅間山「江戸時代の大噴火!衝撃の1日に何があった?」】",
+      "series": "【#145 浅間山「江戸時代の大噴火!衝撃の1日に何があった?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "145"
     },
     {
-      "rank": "【#146 草津温泉「最強の湯力とは?」】",
+      "series": "【#146 草津温泉「最強の湯力とは?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "146"
     },
     {
-      "rank": "【#147 秋田「掘れば出てくる秋田の魅力とは」】",
+      "series": "【#147 秋田「掘れば出てくる秋田の魅力とは」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "147"
     },
     {
-      "rank": "【#148 秋田・男鹿「海を渡った秋田の魅力とは」】",
+      "series": "【#148 秋田・男鹿「海を渡った秋田の魅力とは」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "148"
     },
     {
-      "rank": "【#149 岡山「岡山といえば桃太郎なのはナゼ?」】",
+      "series": "【#149 岡山「岡山といえば桃太郎なのはナゼ?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "149"
     },
     {
-      "rank": "【#150 花巻「花巻はなぜ宮沢賢治を生んだ?」】",
+      "series": "【#150 花巻「花巻はなぜ宮沢賢治を生んだ?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "150"
     },
     {
-      "rank": "【#151 姫路城「姫路城で江戸城のロケをするのはあり?」】",
+      "series": "【#151 姫路城「姫路城で江戸城のロケをするのはあり?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "151"
     },
     {
-      "rank": "【#152 浜名湖「ウナギといえば浜名湖なのはなぜ?」】",
+      "series": "【#152 浜名湖「ウナギといえば浜名湖なのはなぜ?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "152"
     },
     {
-      "rank": "【#153 浜松「なぜ浜松が楽器の町になった♪」】",
+      "series": "【#153 浜松「なぜ浜松が楽器の町になった♪」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "153"
     },
     {
-      "rank": "【#154 四万十川「最後の清流に隠された秘密とは」】",
+      "series": "【#154 四万十川「最後の清流に隠された秘密とは」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "154"
     },
     {
-      "rank": "【#155 四万十川・源流へ「最後の清流に隠された秘密とは」】",
+      "series": "【#155 四万十川・源流へ「最後の清流に隠された秘密とは」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "155"
     },
     {
-      "rank": "【#156 三陸リアス「鉄道がつないだ三陸の夢とは?」】",
+      "series": "【#156 三陸リアス「鉄道がつないだ三陸の夢とは?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "156"
     },
     {
-      "rank": "【#157 三陸の鉄道「鉄道がつないだ三陸の夢とは?」】",
+      "series": "【#157 三陸の鉄道「鉄道がつないだ三陸の夢とは?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "157"
     },
     {
-      "rank": "【#158 伊賀忍者「なぜ伊賀はNINJAの里になったのか?」】",
+      "series": "【#158 伊賀忍者「なぜ伊賀はNINJAの里になったのか?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "158"
     },
     {
-      "rank": "【#159 甲賀・信楽「歴史は甲賀で動いた」】",
+      "series": "【#159 甲賀・信楽「歴史は甲賀で動いた」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "159"
     },
     {
-      "rank": "【#160 島原・天草「なぜキリシタンは250年も潜伏できた?」】",
+      "series": "【#160 島原・天草「なぜキリシタンは250年も潜伏できた?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "160"
     },
     {
-      "rank": "【#161 法隆寺「なぜ法隆寺は1400年愛され続けるのか?」】",
+      "series": "【#161 法隆寺「なぜ法隆寺は1400年愛され続けるのか?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "161"
     },
     {
-      "rank": "【#162 奈良・飛鳥「なぜ飛鳥は日本の国の礎となったのか?」】",
+      "series": "【#162 奈良・飛鳥「なぜ飛鳥は日本の国の礎となったのか?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "162"
     },
     {
-      "rank": "【#163 葉山「憧れの葉山はどうできた?」】",
+      "series": "【#163 葉山「憧れの葉山はどうできた?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "163"
     },
     {
-      "rank": "【#164 伊豆大島「なぜ伊豆大島といえばアンコ椿!?」】",
+      "series": "【#164 伊豆大島「なぜ伊豆大島といえばアンコ椿!?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "164"
     },
     {
-      "rank": "【#165 伊豆大島の火山「伊豆大島は世界に誇る火山愛ランド!?」】",
+      "series": "【#165 伊豆大島の火山「伊豆大島は世界に誇る火山愛ランド!?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "165"
     },
     {
-      "rank": "【#167 網走「最果ての地 網走は理想の地!?」】",
+      "series": "【#167 網走「最果ての地 網走は理想の地!?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "167"
     },
     {
-      "rank": "【#168 サロマ湖「サロマ湖といえばホタテなのはなぜ?」】",
+      "series": "【#168 サロマ湖「サロマ湖といえばホタテなのはなぜ?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "168"
     },
     {
-      "rank": "【#169 飛騨「アゲアゲの飛騨!そのヒミツは?」】",
+      "series": "【#169 飛騨「アゲアゲの飛騨!そのヒミツは?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "169"
     },
     {
-      "rank": "【#170 白川郷「白川郷はなぜ美しい?」】",
+      "series": "【#170 白川郷「白川郷はなぜ美しい?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "170"
     },
     {
-      "rank": "【#171 城崎・豊岡「影の主役は玄武岩?」】",
+      "series": "【#171 城崎・豊岡「影の主役は玄武岩?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "171"
     },
     {
-      "rank": "【#172 天橋立「なぜ人々は天橋立を目指す?」】",
+      "series": "【#172 天橋立「なぜ人々は天橋立を目指す?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "172"
     },
     {
-      "rank": "【#173 しまなみ海道「瀬戸内の覇者・村上海賊はなぜ生まれた?」】",
+      "series": "【#173 しまなみ海道「瀬戸内の覇者・村上海賊はなぜ生まれた?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "173"
     },
     {
-      "rank": "【#174 呉「戦艦大和のふるさと・呉はどうできた?」】",
+      "series": "【#174 呉「戦艦大和のふるさと・呉はどうできた?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "174"
     },
     {
-      "rank": "【#175 ゆふいん「遅咲きの由布院 人気温泉地への道のりとは!?」】",
+      "series": "【#175 ゆふいん「遅咲きの由布院 人気温泉地への道のりとは!?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "175"
     },
     {
-      "rank": "【#176 進撃の日田「囲まれた世界の宝とは?」】",
+      "series": "【#176 進撃の日田「囲まれた世界の宝とは?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "176"
     },
     {
-      "rank": "【#177 埼玉・深谷「近代日本経済の父はなぜ深谷で生まれた?」】",
+      "series": "【#177 埼玉・深谷「近代日本経済の父はなぜ深谷で生まれた?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "177"
     },
     {
-      "rank": "【#178 館山「房総リゾート・館山はどうできた?」】",
+      "series": "【#178 館山「房総リゾート・館山はどうできた?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "178"
     },
     {
-      "rank": "【#179 木更津「木更津は東京のマブダチ!?」】",
+      "series": "【#179 木更津「木更津は東京のマブダチ!?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "179"
     },
     {
-      "rank": "【#180 江戸城「江戸城は日本の城の集大成!そして...」】",
+      "series": "【#180 江戸城「江戸城は日本の城の集大成!そして...」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "180"
     },
     {
-      "rank": "【#181 江戸城と東京「江戸城は日本の城の集大成!そして...」】",
+      "series": "【#181 江戸城と東京「江戸城は日本の城の集大成!そして...」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "181"
     },
     {
-      "rank": "【#182 諏訪「なぜ人々は諏訪を目指すのか?」】",
+      "series": "【#182 諏訪「なぜ人々は諏訪を目指すのか?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "182"
     },
     {
-      "rank": "【#183 松本「国宝・松本城はなぜ愛された?」】",
+      "series": "【#183 松本「国宝・松本城はなぜ愛された?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "183"
     },
     {
-      "rank": "【#184 淡路島「神はナゼ淡路島をはじまりの島にした!?」】",
+      "series": "【#184 淡路島「神はナゼ淡路島をはじまりの島にした!?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "184"
     },
     {
-      "rank": "【#185 淡路島の宝「神はナゼ淡路島をはじまりの島にした!?」】",
+      "series": "【#185 淡路島の宝「神はナゼ淡路島をはじまりの島にした!?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "185"
     },
     {
-      "rank": "【#186 渋谷「なぜ渋谷に人が集まるのか?」】",
+      "series": "【#186 渋谷「なぜ渋谷に人が集まるのか?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "186"
     },
     {
-      "rank": "【#187 NHK「放送のお宝から見えてくる歴史と未来とは?」】",
+      "series": "【#187 NHK「放送のお宝から見えてくる歴史と未来とは?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "187"
     },
     {
-      "rank": "【#188 つくば「つくばは日本の姿をどう解き明かす?」】",
+      "series": "【#188 つくば「つくばは日本の姿をどう解き明かす?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "188"
     },
     {
-      "rank": "【#189 江戸の水「江戸の水が東京を潤す?」】",
+      "series": "【#189 江戸の水「江戸の水が東京を潤す?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "189"
     },
     {
-      "rank": "【#190 フォッサマグナ「日本はどうできた?」】",
+      "series": "【#190 フォッサマグナ「日本はどうできた?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "190"
     },
     {
-      "rank": "【#191 糸魚川「君は糸魚川の本当のすごさを知っているか?」】",
+      "series": "【#191 糸魚川「君は糸魚川の本当のすごさを知っているか?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "191"
     },
     {
-      "rank": "【#192 富山「富山の富はどう生まれた?」】",
+      "series": "【#192 富山「富山の富はどう生まれた?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "192"
     },
     {
-      "rank": "【#193 南紀白浜「一大リゾートへの道のりとは!?」】",
+      "series": "【#193 南紀白浜「一大リゾートへの道のりとは!?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "193"
     },
     {
-      "rank": "【#195 和歌山「和歌山に御三家が置かれた鍵は?」】",
+      "series": "【#195 和歌山「和歌山に御三家が置かれた鍵は?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "195"
     },
     {
-      "rank": "【#196 石垣島「サンゴ礁は石垣島をどう育てた?」】",
+      "series": "【#196 石垣島「サンゴ礁は石垣島をどう育てた?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "196"
     },
     {
-      "rank": "【#197 竹富島「竹富島に生きるとは?」】",
+      "series": "【#197 竹富島「竹富島に生きるとは?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "197"
     },
     {
-      "rank": "【#198 高松「巨大な海城は町をどう発展させた?」】",
+      "series": "【#198 高松「巨大な海城は町をどう発展させた?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "198"
     },
     {
-      "rank": "【#199 小豆島「食の宝島!小豆島を生んだアツ〜イ理由とは?」】",
+      "series": "【#199 小豆島「食の宝島!小豆島を生んだアツ〜イ理由とは?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "199"
     },
     {
-      "rank": "【#200 大名屋敷「大名屋敷は東京に何を残したか」】",
+      "series": "【#200 大名屋敷「大名屋敷は東京に何を残したか」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "200"
     },
     {
-      "rank": "【#201 大名屋敷と東京「大名屋敷は東京に何を残したか」】",
+      "series": "【#201 大名屋敷と東京「大名屋敷は東京に何を残したか」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "201"
     },
     {
-      "rank": "【#202 東京湾「海の玄関口・東京湾 原点は川にあり?」】",
+      "series": "【#202 東京湾「海の玄関口・東京湾 原点は川にあり?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "202"
     },
     {
-      "rank": "【#203 横浜・川崎「横浜・川崎は東京湾をどう進化させた?」】",
+      "series": "【#203 横浜・川崎「横浜・川崎は東京湾をどう進化させた?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "203"
     },
     {
-      "rank": "【#204 八王子「八王子はなぜデカい?」】",
+      "series": "【#204 八王子「八王子はなぜデカい?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "204"
     },
     {
-      "rank": "【#205 町田「なぜ東京・町田は神奈川県町田市と間違えられるのか?」】",
+      "series": "【#205 町田「なぜ東京・町田は神奈川県町田市と間違えられるのか?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "205"
     },
     {
-      "rank": "【#206 京都・鴨川「川をたどれば京都がわかる!?」】",
+      "series": "【#206 京都・鴨川「川をたどれば京都がわかる!?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "206"
     },
     {
-      "rank": "【#207 京都・大原「なぜ大原は癒やしの里になった?」】",
+      "series": "【#207 京都・大原「なぜ大原は癒やしの里になった?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "207"
     },
     {
-      "rank": "【#208 伊東「伊東を人気温泉地にした海と山の幸とは?」】",
+      "series": "【#208 伊東「伊東を人気温泉地にした海と山の幸とは?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "208"
     },
     {
-      "rank": "【#209 能登半島「なぜ能登の風景は人の心を打つのか?」】",
+      "series": "【#209 能登半島「なぜ能登の風景は人の心を打つのか?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "209"
     },
     {
-      "rank": "【#210 輪島「輪島塗はなぜ日本を代表する伝統工芸になった?」】",
+      "series": "【#210 輪島「輪島塗はなぜ日本を代表する伝統工芸になった?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "210"
     },
     {
-      "rank": "【#211 桜島「世界有数の活火山になぜ暮らす?」】",
+      "series": "【#211 桜島「世界有数の活火山になぜ暮らす?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "211"
     },
     {
-      "rank": "【#212 境港・米子「思わずゲゲゲ!鳥取のしっぽは不思議だらけ!?」】",
+      "series": "【#212 境港・米子「思わずゲゲゲ!鳥取のしっぽは不思議だらけ!?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "212"
     },
     {
-      "rank": "【#213 石見銀山「世界の石見銀山 そのスゴさとは?」】",
+      "series": "【#213 石見銀山「世界の石見銀山 そのスゴさとは?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "213"
     },
     {
-      "rank": "【#214 恐山「なぜ恐山で死者に会えると思うのか?」】",
+      "series": "【#214 恐山「なぜ恐山で死者に会えると思うのか?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "214"
     },
     {
-      "rank": "【#215 下北半島「まさかりがもたらした恵みとは?」】",
+      "series": "【#215 下北半島「まさかりがもたらした恵みとは?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "215"
     },
     {
-      "rank": "【#216 深海「なぜ深海に潜るのか?」】",
+      "series": "【#216 深海「なぜ深海に潜るのか?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "216"
     },
     {
-      "rank": "【#217 東京スカイツリー「なぜここにスカイツリーは立っている?」】",
+      "series": "【#217 東京スカイツリー「なぜここにスカイツリーは立っている?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "217"
     },
     {
-      "rank": "【#218 対馬「日本史最前線!国境の島が果たした役割とは?」】",
+      "series": "【#218 対馬「日本史最前線!国境の島が果たした役割とは?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "218"
     },
     {
-      "rank": "【#220 登別温泉「なぜ登別温泉はいい湯だな?」】",
+      "series": "【#220 登別温泉「なぜ登別温泉はいい湯だな?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "220"
     },
     {
-      "rank": "【#221 苫小牧「苫小牧はなぜ日本有数の工業都市になった?」】",
+      "series": "【#221 苫小牧「苫小牧はなぜ日本有数の工業都市になった?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "221"
     },
     {
-      "rank": "【#222 善光寺「善光寺はなぜ多くの人を引きつける?」】",
+      "series": "【#222 善光寺「善光寺はなぜ多くの人を引きつける?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "222"
     },
     {
-      "rank": "【#223 安曇野「安曇野は、ファン多し!」】",
+      "series": "【#223 安曇野「安曇野は、ファン多し!」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "223"
     },
     {
-      "rank": "【#224 静岡「家康が愛した駿府ってどんな所?」】",
+      "series": "【#224 静岡「家康が愛した駿府ってどんな所?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "224"
     },
     {
-      "rank": "【#225 大井川「越すに越されぬ大井川は何を生んだ?」】",
+      "series": "【#225 大井川「越すに越されぬ大井川は何を生んだ?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "225"
     },
     {
-      "rank": "【#226 高千穂「神話の里・高千穂はどうできた?」】",
+      "series": "【#226 高千穂「神話の里・高千穂はどうできた?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "226"
     },
     {
-      "rank": "【#227 足利「足利はときどき天下をとる!?」】",
+      "series": "【#227 足利「足利はときどき天下をとる!?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "227"
     },
     {
-      "rank": "【#228 前橋「なぜ前橋は関東の華?」】",
+      "series": "【#228 前橋「なぜ前橋は関東の華?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "228"
     },
     {
-      "rank": "【#230 佐賀「佐賀の発展は水にあり?」】",
+      "series": "【#230 佐賀「佐賀の発展は水にあり?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "230"
     },
     {
-      "rank": "【#231 汐留「汐留は江戸東京のフロンティア?」】",
+      "series": "【#231 汐留「汐留は江戸東京のフロンティア?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "231"
     },
     {
-      "rank": "【#232 下北沢「なぜ若者はシモキタで夢を見る?」】",
+      "series": "【#232 下北沢「なぜ若者はシモキタで夢を見る?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "232"
     },
     {
-      "rank": "【#233 京都・東寺「東寺は京都のシンボル!?」】",
+      "series": "【#233 京都・東寺「東寺は京都のシンボル!?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "233"
     },
     {
-      "rank": "【#234 京都・山科「要衝・山科は何を生んだ?」】",
+      "series": "【#234 京都・山科「要衝・山科は何を生んだ?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "234"
     },
     {
-      "rank": "【#235 屋久島「屋久杉を知れば屋久島が分かる!?」】",
+      "series": "【#235 屋久島「屋久杉を知れば屋久島が分かる!?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "235"
     },
     {
-      "rank": "【#236 種子島「種子島は地球のチカラを感じる島!?」】",
+      "series": "【#236 種子島「種子島は地球のチカラを感じる島!?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "236"
     },
     {
-      "rank": "【#237 大阪・梅田「カオスな梅田はどう生まれた?」】",
+      "series": "【#237 大阪・梅田「カオスな梅田はどう生まれた?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "237"
     },
     {
-      "rank": "【#238 奈良・吉野「なぜ桜といえば吉野なのか?」】",
+      "series": "【#238 奈良・吉野「なぜ桜といえば吉野なのか?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "238"
     },
     {
-      "rank": "【#239 関ケ原の戦い「天下の分け目は地形にあり!?」】",
+      "series": "【#239 関ケ原の戦い「天下の分け目は地形にあり!?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "239"
     },
     {
-      "rank": "【#240 木曽三川「暴れ川vs人間 激闘の歴史とは?」】",
+      "series": "【#240 木曽三川「暴れ川vs人間 激闘の歴史とは?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "240"
     },
     {
-      "rank": "【#241 佐野「佐野はほしいモノにあふれてる!?」】",
+      "series": "【#241 佐野「佐野はほしいモノにあふれてる!?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "241"
     },
     {
-      "rank": "【#242 埼玉・行田「埼玉はじまりの地 行田ってどんな所?」】",
+      "series": "【#242 埼玉・行田「埼玉はじまりの地 行田ってどんな所?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "242"
     },
     {
-      "rank": "【#243 山形「山形は何度も生まれ変わる?」】",
+      "series": "【#243 山形「山形は何度も生まれ変わる?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "243"
     },
     {
-      "rank": "【#244 松島「なぜ人は松島に心ひかれる?」】",
+      "series": "【#244 松島「なぜ人は松島に心ひかれる?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "244"
     },
     {
-      "rank": "【#245 長岡「花火の町は不死鳥の町!?」】",
+      "series": "【#245 長岡「花火の町は不死鳥の町!?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "245"
     },
     {
-      "rank": "【#246 燕三条「燕vs三条 モノづくりの町 発展のカギとは?」】",
+      "series": "【#246 燕三条「燕vs三条 モノづくりの町 発展のカギとは?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "246"
     },
     {
-      "rank": "【#247 北海道・稚内「最北の町で暮らすとは?」】",
+      "series": "【#247 北海道・稚内「最北の町で暮らすとは?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "247"
     },
     {
-      "rank": "【#248 絶景!絶品!利尻島「絶景!絶品!利尻島はどうできた?」】",
+      "series": "【#248 絶景!絶品!利尻島「絶景!絶品!利尻島はどうできた?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "248"
     },
     {
-      "rank": "【#249 北九州「合体メガタウン!北九州市誕生の秘密とは?」】",
+      "series": "【#249 北九州「合体メガタウン!北九州市誕生の秘密とは?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "249"
     },
     {
-      "rank": "【#250 合体都市・北九州「合体メガタウン!北九州市誕生の秘密とは?」】",
+      "series": "【#250 合体都市・北九州「合体メガタウン!北九州市誕生の秘密とは?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "250"
     },
     {
-      "rank": "【#251 白の奇跡 秋吉台「秋吉台のヒミツは穴にあり?」】",
+      "series": "【#251 白の奇跡 秋吉台「秋吉台のヒミツは穴にあり?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "251"
     },
     {
-      "rank": "【#252 美の極み 錦帯橋「錦帯橋にはなぜ世界唯一の美しさがある?」】",
+      "series": "【#252 美の極み 錦帯橋「錦帯橋にはなぜ世界唯一の美しさがある?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "252"
     },
     {
-      "rank": "【#253 敦賀「すべての道は敦賀に通ず?」】",
+      "series": "【#253 敦賀「すべての道は敦賀に通ず?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "253"
     },
     {
-      "rank": "【#254 鯖街道・京都へ「鯖街道は何を運んだ?」】",
+      "series": "【#254 鯖街道・京都へ「鯖街道は何を運んだ?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "254"
     },
     {
-      "rank": "【#255 東京・目白「目白ブランドの正体とは?」】",
+      "series": "【#255 東京・目白「目白ブランドの正体とは?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "255"
     },
     {
-      "rank": "【#256 東京・世田谷「なぜ人は世田谷に住みたくなる?」】",
+      "series": "【#256 東京・世田谷「なぜ人は世田谷に住みたくなる?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "256"
     },
     {
-      "rank": "【#257 四国・宇和島「ギザギザは宇和島に何をもたらした?」】",
+      "series": "【#257 四国・宇和島「ギザギザは宇和島に何をもたらした?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "257"
     },
     {
-      "rank": "【#258 絶景!黒部峡谷「黒部の絶景は電源開発の軌跡にあり?」】",
+      "series": "【#258 絶景!黒部峡谷「黒部の絶景は電源開発の軌跡にあり?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "258"
     },
     {
-      "rank": "【#259 秘境!黒部峡谷「黒部の絶景は電源開発の軌跡にあり?」】",
+      "series": "【#259 秘境!黒部峡谷「黒部の絶景は電源開発の軌跡にあり?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "259"
     },
     {
-      "rank": "【#260 鎌倉「頼朝は武士の都・鎌倉をどうつくった?」】",
+      "series": "【#260 鎌倉「頼朝は武士の都・鎌倉をどうつくった?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "260"
     },
     {
-      "rank": "【#261 鎌倉の寺「北条氏の寺でわかる!鎌倉幕府の偉業とは」】",
+      "series": "【#261 鎌倉の寺「北条氏の寺でわかる!鎌倉幕府の偉業とは」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "261"
     },
     {
-      "rank": "【#262 奈良・正倉院「なぜ1,300年もお宝を守れた?」】",
+      "series": "【#262 奈良・正倉院「なぜ1,300年もお宝を守れた?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "262"
     },
     {
-      "rank": "【#263 鹿児島・指宿「指宿のわっぜぇ火山は歴史を動かす!?」】",
+      "series": "【#263 鹿児島・指宿「指宿のわっぜぇ火山は歴史を動かす!?」】",
       "color": "#fbcfe8",
       "borderColor": "#db2777",
       "size": 26,
       "label": "263"
     },
     {
-      "rank": "【#1 伊勢神宮への旅・第一夜「巨大鳥居の謎!名物グルメ!三差路!」】",
+      "series": "【#1 伊勢神宮への旅・第一夜「巨大鳥居の謎!名物グルメ!三差路!」】",
       "color": "#ddd6fe",
       "borderColor": "#7c3aed",
       "size": 26,
       "label": "1"
     },
     {
-      "rank": "【#2 伊勢神宮への旅・第二夜「鈴鹿名物グルメ!タモリ大興奮の三差路」】",
+      "series": "【#2 伊勢神宮への旅・第二夜「鈴鹿名物グルメ!タモリ大興奮の三差路」】",
       "color": "#ddd6fe",
       "borderColor": "#7c3aed",
       "size": 26,
       "label": "2"
     },
     {
-      "rank": "【#3 伊勢神宮への旅・第三夜「徳川御三家の巨大港!超絶技巧の土産!」】",
+      "series": "【#3 伊勢神宮への旅・第三夜「徳川御三家の巨大港!超絶技巧の土産!」】",
       "color": "#ddd6fe",
       "borderColor": "#7c3aed",
       "size": 26,
       "label": "3"
     },
     {
-      "rank": "【#4 伊勢神宮への旅・第四夜「江戸を席巻した松阪商人!松阪牛に舌鼓」】",
+      "series": "【#4 伊勢神宮への旅・第四夜「江戸を席巻した松阪商人!松阪牛に舌鼓」】",
       "color": "#ddd6fe",
       "borderColor": "#7c3aed",
       "size": 26,
       "label": "4"
     },
     {
-      "rank": "【#5 伊勢神宮への旅・第五夜「ついにゴールの神宮へ!斎宮・二見浦」】",
+      "series": "【#5 伊勢神宮への旅・第五夜「ついにゴールの神宮へ!斎宮・二見浦」】",
       "color": "#ddd6fe",
       "borderColor": "#7c3aed",
       "size": 26,
       "label": "5"
     },
     {
-      "rank": "【#6 宮古島・絶景バスツアー「サンゴと断層の謎!奇跡の岬!宮古馬!」】",
+      "series": "【#6 宮古島・絶景バスツアー「サンゴと断層の謎!奇跡の岬!宮古馬!」】",
       "color": "#ddd6fe",
       "borderColor": "#7c3aed",
       "size": 26,
       "label": "6"
     },
     {
-      "rank": "【#7 宮古島・暮らしの秘密「サンゴの島ならではの洞窟&地下ダムへ!」】",
+      "series": "【#7 宮古島・暮らしの秘密「サンゴの島ならではの洞窟&地下ダムへ!」】",
       "color": "#ddd6fe",
       "borderColor": "#7c3aed",
       "size": 26,
       "label": "7"
     },
     {
-      "rank": "【#8 宮古島・悠久の楽園「青く美しい海でウミガメ遭遇!泥の奇祭の謎」】",
+      "series": "【#8 宮古島・悠久の楽園「青く美しい海でウミガメ遭遇!泥の奇祭の謎」】",
       "color": "#ddd6fe",
       "borderColor": "#7c3aed",
       "size": 26,
       "label": "8"
     },
     {
-      "rank": "【#9 東京・三軒茶屋「秘密のカギは\"3\"にあり」】",
+      "series": "【#9 東京・三軒茶屋「秘密のカギは\"3\"にあり」】",
       "color": "#ddd6fe",
       "borderColor": "#7c3aed",
       "size": 26,
       "label": "9"
     },
     {
-      "rank": "【#11 青山通りバスツアー「渋谷発!東京の一等地・赤坂〜表参道を行く」】",
+      "series": "【#11 青山通りバスツアー「渋谷発!東京の一等地・赤坂〜表参道を行く」】",
       "color": "#ddd6fe",
       "borderColor": "#7c3aed",
       "size": 26,
       "label": "11"
     },
     {
-      "rank": "【#12 粋でいなせな大山詣り「江戸っ子の大山詣り」】",
+      "series": "【#12 粋でいなせな大山詣り「江戸っ子の大山詣り」】",
       "color": "#ddd6fe",
       "borderColor": "#7c3aed",
       "size": 26,
       "label": "12"
     },
     {
-      "rank": "【#13 大山詣り山頂へ「絶景・天空の神社へ!江戸のヒーローなぜ参拝?」】",
+      "series": "【#13 大山詣り山頂へ「絶景・天空の神社へ!江戸のヒーローなぜ参拝?」】",
       "color": "#ddd6fe",
       "borderColor": "#7c3aed",
       "size": 26,
       "label": "13"
     },
     {
-      "rank": "【#14 幕末の要塞五稜郭の秘密とは?「函館・五稜郭」】",
+      "series": "【#14 幕末の要塞五稜郭の秘密とは?「函館・五稜郭」】",
       "color": "#ddd6fe",
       "borderColor": "#7c3aed",
       "size": 26,
       "label": "14"
     },
     {
-      "rank": "【#15 魅力度ナンバーワン!ハイカラな町・函館はどうできた?】",
+      "series": "【#15 魅力度ナンバーワン!ハイカラな町・函館はどうできた?】",
       "color": "#ddd6fe",
       "borderColor": "#7c3aed",
       "size": 26,
       "label": "15"
     },
     {
-      "rank": "【#16 富士山はなぜ誕生したのか?「富士山SP」】",
+      "series": "【#16 富士山はなぜ誕生したのか?「富士山SP」】",
       "color": "#ddd6fe",
       "borderColor": "#7c3aed",
       "size": 26,
       "label": "16"
     },
     {
-      "rank": "【#17-18 加賀百万石と東大「東大にしかない\"宝\"とは?」】",
+      "series": "【#17-18 加賀百万石と東大「東大にしかない\"宝\"とは?」】",
       "color": "#ddd6fe",
       "borderColor": "#7c3aed",
       "size": 26,
       "label": "17"
     },
     {
-      "rank": "【#18 東京大学の宝「安田講堂&国宝!東大にしかない\"宝\"とは?」】",
+      "series": "【#18 東京大学の宝「安田講堂&国宝!東大にしかない\"宝\"とは?」】",
       "color": "#ddd6fe",
       "borderColor": "#7c3aed",
       "size": 26,
       "label": "18"
     },
     {
-      "rank": "【#19 国宝・三十三間堂はなぜ守られた?「京都 国宝・三十三間堂SP」】",
+      "series": "【#19 国宝・三十三間堂はなぜ守られた?「京都 国宝・三十三間堂SP」】",
       "color": "#ddd6fe",
       "borderColor": "#7c3aed",
       "size": 26,
       "label": "19"
     },
     {
-      "rank": "【#20 なぜ神楽坂は大人の隠れ家になったのか?「東京・神楽坂」】",
+      "series": "【#20 なぜ神楽坂は大人の隠れ家になったのか?「東京・神楽坂」】",
       "color": "#ddd6fe",
       "borderColor": "#7c3aed",
       "size": 26,
       "label": "20"
     },
     {
-      "rank": "【#21-22 山岳リゾート・上高地はどう生まれた?】",
+      "series": "【#21-22 山岳リゾート・上高地はどう生まれた?】",
       "color": "#ddd6fe",
       "borderColor": "#7c3aed",
       "size": 26,
       "label": "21"
     },
     {
-      "rank": "【#22 山岳リゾート上高地なぜ人気観光地に?「神秘の池&謎の風穴」】",
+      "series": "【#22 山岳リゾート上高地なぜ人気観光地に?「神秘の池&謎の風穴」】",
       "color": "#ddd6fe",
       "borderColor": "#7c3aed",
       "size": 26,
       "label": "22"
     },
     {
-      "rank": "【#23 火山が生んだ大ブーム 人はなぜ蔵王を目指す?「蔵王山頂へ」】",
+      "series": "【#23 火山が生んだ大ブーム 人はなぜ蔵王を目指す?「蔵王山頂へ」】",
       "color": "#ddd6fe",
       "borderColor": "#7c3aed",
       "size": 26,
       "label": "23"
     },
     {
-      "rank": "【#24 雪国リゾート蔵王温泉はどうできた?】",
+      "series": "【#24 雪国リゾート蔵王温泉はどうできた?】",
       "color": "#ddd6fe",
       "borderColor": "#7c3aed",
       "size": 26,
       "label": "24"
     },
     {
-      "rank": "【#25 二条城に隠された徳川三代の思惑とは?「京都・二条城」】",
+      "series": "【#25 二条城に隠された徳川三代の思惑とは?「京都・二条城」】",
       "color": "#ddd6fe",
       "borderColor": "#7c3aed",
       "size": 26,
       "label": "25"
     },
     {
-      "rank": "【#26 幻の城・安土城「信長が描いた\"つかの間の夢\"とは?」】",
+      "series": "【#26 幻の城・安土城「信長が描いた\"つかの間の夢\"とは?」】",
       "color": "#ddd6fe",
       "borderColor": "#7c3aed",
       "size": 26,
       "label": "26"
     },
     {
-      "rank": "【#27 近江商人を生んだ豊臣の町づくりとは?「豊臣と近江八幡」】",
+      "series": "【#27 近江商人を生んだ豊臣の町づくりとは?「豊臣と近江八幡」】",
       "color": "#ddd6fe",
       "borderColor": "#7c3aed",
       "size": 26,
       "label": "27"
     },
     {
-      "rank": "【#29 川崎大師と鉄道「川崎大師の人気と鉄道の意外な関係 初詣の謎も」】",
+      "series": "【#29 川崎大師と鉄道「川崎大師の人気と鉄道の意外な関係 初詣の謎も」】",
       "color": "#ddd6fe",
       "borderColor": "#7c3aed",
       "size": 26,
       "label": "29"
     },
     {
-      "rank": "【#30 琵琶湖はなぜ日本一の湖であり続けられるのか?「琵琶湖クルーズ」】",
+      "series": "【#30 琵琶湖はなぜ日本一の湖であり続けられるのか?「琵琶湖クルーズ」】",
       "color": "#ddd6fe",
       "borderColor": "#7c3aed",
       "size": 26,
       "label": "30"
     },
     {
-      "rank": "【#31 せんべろの町・赤羽はどうできた?「東京・赤羽」】",
+      "series": "【#31 せんべろの町・赤羽はどうできた?「東京・赤羽」】",
       "color": "#ddd6fe",
       "borderColor": "#7c3aed",
       "size": 26,
       "label": "31"
     },
     {
-      "rank": "【#32-33 桶狭間の戦い・信長の危機と逆襲「なぜ織田信長は\"桶狭間の戦い\"に勝てたのか?」】",
+      "series": "【#32-33 桶狭間の戦い・信長の危機と逆襲「なぜ織田信長は\"桶狭間の戦い\"に勝てたのか?」】",
       "color": "#ddd6fe",
       "borderColor": "#7c3aed",
       "size": 26,
       "label": "32"
     },
     {
-      "rank": "【#35 江戸城本丸でわかる天下泰平の秘密とは?「皇居・江戸城本丸跡」】",
+      "series": "【#35 江戸城本丸でわかる天下泰平の秘密とは?「皇居・江戸城本丸跡」】",
       "color": "#ddd6fe",
       "borderColor": "#7c3aed",
       "size": 26,
       "label": "35"
     },
     {
-      "rank": "【#36 皇居のおかげで江戸城は守られた!?「皇居東御苑」】",
+      "series": "【#36 皇居のおかげで江戸城は守られた!?「皇居東御苑」】",
       "color": "#ddd6fe",
       "borderColor": "#7c3aed",
       "size": 26,
       "label": "36"
     },
     {
-      "rank": "【#37 天下人が愛した国宝 犬山城その秘密とは?「国宝犬山城」】",
+      "series": "【#37 天下人が愛した国宝 犬山城その秘密とは?「国宝犬山城」】",
       "color": "#ddd6fe",
       "borderColor": "#7c3aed",
       "size": 26,
       "label": "37"
     },
     {
-      "rank": "【#38-39 東京・成城「憧れの住宅街・成城はどうできた?」「映画の街・成城」】",
+      "series": "【#38-39 東京・成城「憧れの住宅街・成城はどうできた?」「映画の街・成城」】",
       "color": "#ddd6fe",
       "borderColor": "#7c3aed",
       "size": 26,
       "label": "38"
     },
     {
-      "rank": "【#40 熊本城 復興10年見えてきた真の姿とは?「熊本城復興SP」】",
+      "series": "【#40 熊本城 復興10年見えてきた真の姿とは?「熊本城復興SP」】",
       "color": "#ddd6fe",
       "borderColor": "#7c3aed",
       "size": 26,
       "label": "40"
     },
     {
-      "rank": "【#41 10円玉に刻まれた平等院鳳凰堂美しさの秘密とは?「京都・平等院鳳凰堂」】",
+      "series": "【#41 10円玉に刻まれた平等院鳳凰堂美しさの秘密とは?「京都・平等院鳳凰堂」】",
       "color": "#ddd6fe",
       "borderColor": "#7c3aed",
       "size": 26,
       "label": "41"
     },
     {
-      "rank": "【#42 明治時代に誕生!平安神宮は京都に何をもたらした?「京都・平安神宮」】",
+      "series": "【#42 明治時代に誕生!平安神宮は京都に何をもたらした?「京都・平安神宮」】",
       "color": "#ddd6fe",
       "borderColor": "#7c3aed",
       "size": 26,
       "label": "42"
     },
     {
-      "rank": "【#43 福岡・柳川は、なぜ\"水郷の町\"になった?「福岡・柳川」】",
+      "series": "【#43 福岡・柳川は、なぜ\"水郷の町\"になった?「福岡・柳川」】",
       "color": "#ddd6fe",
       "borderColor": "#7c3aed",
       "size": 26,
