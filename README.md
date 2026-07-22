@@ -21,8 +21,7 @@ post_office/
   spots.csv
   settings.json
 goshuin/
-  goshuin_ranked.csv
-  goshuin_unranked_z.csv
+  spots.csv
   settings.json
 buratamori/
   spots.csv
@@ -192,13 +191,45 @@ ON/OFF設定、シリーズ・カテゴリの一覧)をまとめて1つのスポ
   行政区域コードを都道府県名・市区町村名に変換、郵便局分類コードを`categories`列に変換した加工版。
   非商用利用限定のデータセットである点に注意(travel-log側のCLAUDE.md「外部データソースを
   扱う際の注意」も参照)。
-- `goshuin/goshuin_ranked.csv`: OSM Overpass(`amenity=place_of_worship`、`religion=shinto`/`buddhist`)で
-  wikipedia/wikidataタグ付きの寺社を全国一括取得し、Wikipedia記事が存在するものに絞り込んだ上で、
-  直近60日ページビュー数の相対順位でシリーズ(A〜E)を機械区分したもの。座標・名称・説明文はOSM/
-  Wikipedia由来。都道府県は座標と国土数値情報の都道府県境ポリゴンとの空間検索による機械判定の近似値
-- `goshuin/goshuin_unranked_z.csv`: 上記で対象にしたWikipedia記事付きタグ以外の、名前ありでOSMに
-  採録されている寺社をそのまま採録し、機械的に全件シリーズ`Z`(未整理)としたもの。名前が無い/座標が
-  取れない要素、`goshuin_ranked.csv`と100m以内で近接するものは除外済み
+- `goshuin/spots.csv`(51,950件): OpenStreetMap(Overpass API)の寺社仏閣
+  (`amenity=place_of_worship`かつ`religion=shinto`/`buddhist`)を唯一のスポット候補ソースとして
+  機械生成したもの。かつてランク付き(`goshuin_ranked.csv`)と未整理(`goshuin_unranked_z.csv`)の
+  2ファイルに分かれていたものを、1ファイルに統合して全件を作り直した(Wikipedia記事との
+  突き合わせが甘く、人物記事や宗教団体の記事にぶら下がった誤ランクが混ざっていたため)。
+
+  シリーズ(A〜E)はtouristと同じく**Wikipedia(ja)の月次ページビュー数**(bot除外)の
+  パーセンタイル区分で、Wikipedia記事に紐付かない寺社は`Z`(未整理)。御朱印は無名の寺社でも
+  受けられるため、`Z`も落とさず同じファイルに収録している。
+
+  | シリーズ | 件数 | 内容 |
+  |---|---|---|
+  | A〜E | 6,995件 | Wikipedia記事と紐付き、ページビューでランク付けできたもの |
+  | Z | 44,955件 | Wikipedia記事が無く、OSMに名前付きで採録されているだけのもの |
+
+  生成手順(スクリプトはリポジトリに含めていない一時作業):
+
+  1. Overpassで47都道府県の`admin_level=4`エリアごとにnode/way/relationを取得(境内が面で
+     描かれている寺社を取りこぼさないため。way/relationは重心座標を採用)。`region`列は
+     この絞り込みで確定するので、座標からの空間検索による近似判定は不要になった
+  2. 同名かつ200m以内の要素(建物way+POI nodeなど)を1件に統合
+  3. OSMの`wikipedia`タグ、無ければ`wikidata`タグ経由でja記事名を解決
+  4. その記事が**本当にその寺社の記事か**をchiezo(jawikiのローカルミラー)で検証し、
+     外れたものはランク付けせず`Z`に落とす:
+     - 記事が実在する(リダイレクトは解決する)
+     - 冒頭文が寺社の記事である(人物・宗教団体・自治体・駅などを除外。例:
+       「崇徳天皇御廟」→崇徳天皇本人の記事、「立正佼成会」→宗教団体の記事)
+     - 冒頭文に都道府県名が出る場合、OSM上の所在県と一致する(分社が総本社の記事を
+       指しているケースを除外)
+     - 「稲荷神社」のような社名全体を説明する総称記事にぶら下がっていない
+     - 同じ記事を複数のスポットが指す場合、記事名と一致する1件だけを採用(曖昧なら全て`Z`)
+  5. ページビューはchiezoがWikimediaの月次ダンプ(`pageview_complete`、bot除外)から
+     取り込んだ値を使い、A=上位5%/B=次15%/C=次30%/D=次30%/E=残り20%で区分。
+     世界遺産の構成資産などページビューが伸びにくい寺社は目視で格上げする例外を許容する
+     (touristと同じハイブリッド方式)
+  6. `description`はWikipedia記事の冒頭文(200字を目安に文単位で切り出し)、`name_kana`は
+     冒頭文の読み仮名から機械抽出(記事名と名称が一致する場合のみ)。名称のうち英語併記
+     (`猿田彦神社 (Sarutahiko Shrine)`など)は日本語表記だけに整形
+  7. ランク付きスポットと100m以内で近接する`Z`(同一寺社の別名タグ等、2,520件)は除外
 - `buratamori/spots.csv`: NHK「ブラタモリ」レギュラー版全5シリーズ(第1シリーズ2009年〜
   第5シリーズ放送中)について、放送回ごとの訪問地(都道府県・市区町村)はjawikiの番組公式記事
   「放送日程」節を参照した上で、具体的な立ち寄りスポット名・そのスポットの回内での役割の
@@ -287,14 +318,15 @@ ON/OFF設定、シリーズ・カテゴリの一覧)をまとめて1つのスポ
 そのまま適用される。特に次の2つは実データ(名称・座標・説明文)そのものが外部ソース由来のため、
 再配布・二次利用時は出典表示が必要:
 
-- **Wikipedia(ja)由来の説明文**: `tourist/spots.csv`・`goshuin/goshuin_ranked.csv`の
+- **Wikipedia(ja)由来の説明文**: `tourist/spots.csv`・`goshuin/spots.csv`の
   `description`列は、記事冒頭文を引用または要約したもの。[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.ja)
   (一部旧記事はGFDLとのデュアルライセンス)に基づき、利用時は出典(「出典: フリー百科事典
   『ウィキペディア(Wikipedia)』」+該当記事名・URL)の表示と、改変物を同一(または互換)
   ライセンスで提供することが求められる
 - **OpenStreetMapのタグ・座標由来のデータ**: `tourist/spots.csv`の一部(323件、Wikipedia・Wikidataに
   座標が無くosm_japanで補完した分)・
-  `goshuin/*.csv`の座標・名称・`suiyou_dodesho_overseas/spots.csv`の座標(Nominatim取得)は
+  `goshuin/spots.csv`の座標・名称(Overpass API取得)・
+  `suiyou_dodesho_overseas/spots.csv`の座標(Nominatim取得)は
   [ODbL](https://opendatacommons.org/licenses/odbl/) (Open Database License)。まとまった量を
   再配布する場合は「© OpenStreetMap contributors」の表示と、データベース自体をODbL
   (または互換ライセンス)で提供することが求められる
