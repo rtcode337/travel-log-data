@@ -28,9 +28,11 @@ buratamori/
   settings.json
 suiyou_dodesho_domestic/
   spots.csv
+  routes.csv
   settings.json
 suiyou_dodesho_overseas/
   spots.csv
+  routes.csv
   settings.json
 ```
 
@@ -42,7 +44,8 @@ travel-log側では`db/init/01_schema.sql`が直接種別を作成するため�
 travel-log本体にも複製し自動投入していたが、下記「データの出典・ライセンス」の理由により
 廃止した)。
 
-スポットデータはCSV、スポット種別そのものの初期設定は`settings.json`で持つ。
+スポットデータはCSV、スポットを巡った順に矢印で繋ぐルートは`routes.csv`、
+スポット種別そのものの初期設定は`settings.json`で持つ。
 
 ### スポットデータ(CSV)
 
@@ -50,15 +53,26 @@ CSV形式はtravel-log本体の`/[type]/admin`のCSVインポート機能
 (`components/AdminView.tsx`の`CSV_COLUMNS`)に合わせること。
 
 ```csv
-name,name_kana,region,lat,lng,rank,category,description
+name,name_kana,region,lat,lng,rank,category,description,key
 ```
 
 - 必須列: `name`, `region`, `lat`, `lng`
 - `region`はスポット種別の`region_scope`設定に応じた地域(既定`'jp'`=都道府県、
   国コード指定=州・県、`'world'`=国名)
 - `rank`/`category`はスポット種別ごとに意味が異なってよい自由入力(空でも可)
+- `key`は省略可の種別内一意な参照キーで、`routes.csv`がスポットを指すのに使う
+  (ルートを持たない種別では列ごと省略してよい)。一度割り当てたら変更しない
 - 取り込みはtravel-log側の管理画面(`/[type]/admin`)からこのCSVファイルを
   手動アップロードして行う(自動取り込みの仕組みは今のところ無い)
+
+### ルートデータ(routes.csv)
+
+スポットを巡った順に矢印で繋ぐルートの定義(列: `route,seq,spot_key`)。取り込むと
+travel-log側の地図に、経由地を`seq`昇順に繋いだラインと進行方向の矢印が描かれる。
+`route`(ルート名)を`settings.json`の`ranks`のランク値(=企画名など)と一致させると
+矢印がそのランクの縁取り色で描かれ、地図のランク絞り込みにも連動する。`spot_key`は
+スポットCSVの`key`列を指すため、**スポットCSV→routes.csvの順で**同じ管理画面から
+取り込む。スキーマの詳細はCLAUDE.mdの「routes.csv形式」節を参照
 
 ### スポット種別の設定(settings.json)
 
@@ -184,7 +198,7 @@ ON/OFF設定、ランク・カテゴリの一覧)をまとめて1つのスポッ
   **具体的なスポット名・説明文・各回との対応関係は未検証(要確認)。** シリーズごとに別々の
   調査(別セッション)で作成したものを1ファイルに統合したため、同じ場所を複数シリーズ・
   複数放送回にわたって再訪しているケースがある(例: 東京大学赤門は第1・第2・第5シリーズで
-  計3回登場)。travel-log側の取り込みが`name`+`region`+`lat`+`lng`の完全一致で重複除外する
+  計3回登場)。travel-log側の取り込みが`name`+`lat`+`lng`の完全一致で重複除外する
   ため、CSV側でも先に訪れた回の行だけを残し、あとの回に訪れたことは残した行の
   `description`末尾に追記する形で統合済み(重複行として残してはいない)
 - `suiyou_dodesho_domestic/spots.csv`: HTB(北海道テレビ)「水曜どうでしょう」のレギュラー放送時
@@ -208,7 +222,13 @@ ON/OFF設定、ランク・カテゴリの一覧)をまとめて1つのスポッ
   分けた別々の調査を1ファイルに統合したため、同一スポットが複数企画に登場するケースが
   稀にある(例: 厳美渓は「桜前線捕獲大作戦」「東北2泊3日生き地獄ツアー」の両方に登場)。
   buratamoriと同様、先に登場した企画の行だけを残し、あとの企画に登場したことは
-  `description`末尾に追記して統合済み
+  `description`末尾に追記して統合済み。`key`列はスポット名(名前重複時のみ`名前_2`の
+  連番サフィックス)で全232件に付与
+- `suiyou_dodesho_domestic/routes.csv`(27ルート): 上記spots.csvの企画(`rank`)ごとの
+  行順(=jawiki記事の記載順で、概ね移動順に並んでいる)をそのまま`seq`にした機械生成。
+  **実際の移動順とは異なる可能性があり未検証(要確認)。** 経由地が1件しかない企画
+  (門別沖釣りバカ対決・氷上わかさぎ釣り対決・シェフ大泉 夏野菜スペシャル・
+  30時間テレビの裏側全部見せます!)は矢印が引けないため対象外
 - `suiyou_dodesho_overseas/spots.csv`: 上記`suiyou_dodesho_domestic`の海外編。jawiki記事
   「水曜どうでしょうの企画 (海外)」に載っているレギュラー放送時(1996年〜2002年)の海外企画
   全11本(オーストラリア大陸縦断3,700キロ・韓国食い道楽サイコロの旅・ヨーロッパ21ヵ国完全制覇・
@@ -226,7 +246,11 @@ ON/OFF設定、ランク・カテゴリの一覧)をまとめて1つのスポッ
   リベンジ」で共に凱旋門がスタート地点)は先に登場した企画の行だけを残し統合済み。
   **具体的な立ち寄り順・説明文は一般知識による推定を含み未検証(要確認)。** レギュラー放送
   終了後の不定期企画(「ヨーロッパ20ヵ国完全制覇〜完結編〜」「21年目のヨーロッパ21ヵ国
-  完全制覇」等)は上記jawiki記事の対象範囲外のため未収録。
+  完全制覇」等)は上記jawiki記事の対象範囲外のため未収録。`key`列はスポット名
+  (全79件で重複なし)で付与
+- `suiyou_dodesho_overseas/routes.csv`(11ルート): suiyou_dodesho_domestic/routes.csvと
+  同じ方式の機械生成(spots.csvの企画ごとの行順=`seq`。実際の移動順とは異なる可能性が
+  あり未検証・要確認)。全11企画とも経由地2件以上のため全企画を収録
 
 ## データの出典・ライセンス表示
 
