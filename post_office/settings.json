@@ -5,9 +5,9 @@
     "reviews_enabled": false,
     "wikipedia_enabled": false
   },
-  "ranks": [
+  "series": [
     {
-      "rank": "郵便局",
+      "series": "郵便局",
       "color": "#dc2626",
       "borderColor": "#b91c1c",
       "size": 26,

@@ -12,7 +12,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 初期データ(CSV)とスポット種別の設定(settings.json)を置くリポジトリ。travel-log側のソース
 コードを一切参照しなくても、このファイルだけを見て新しいスポット種別のCSV・settings.jsonを
 生成できるよう、必要なスキーマ・既定値をすべてここに書き出してある(travel-log側の実装は
-`lib/types.ts`・`lib/rankStyle.ts`・`components/AdminView.tsx`だが、参照必須ではない)。
+`lib/types.ts`・`lib/seriesStyle.ts`・`components/AdminView.tsx`だが、参照必須ではない)。
 
 ## フォルダ構成
 
@@ -32,7 +32,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 1行目はヘッダー行必須。列順は自由。
 
 ```csv
-name,name_kana,region,lat,lng,rank,category,description,key
+name,name_kana,lat,lng,region,series,categories,description,key
 厳島神社,いつくしまじんじゃ,広島県,34.2959,132.3197,A,神社仏閣,海に浮かぶ大鳥居,厳島神社
 ```
 
@@ -40,10 +40,10 @@ name,name_kana,region,lat,lng,rank,category,description,key
 |---|---|---|
 | `name` | ○ | スポット名 |
 | `name_kana` | | ふりがな(五十音ソート用) |
-| `region` | ○ | 地域。スポット種別の`region_scope`設定により意味が変わる(既定`'jp'`=都道府県、国コード指定=州・県、`'world'`=国名) |
 | `lat` / `lng` | ○ | 緯度・経度(数値) |
-| `rank` | | 自由入力のランク文字列。`settings.json`の`ranks`で定義した`rank`値と一致させる(未定義の値でも動くが見た目は簡易フォールバックになる) |
-| `category` | | 自由入力カテゴリ(空でも可)。`settings.json`の`categories`で定義した値と一致させる(未定義の値でも動くが、絞り込みチップ等の並びは一覧の後ろになる) |
+| `region` | ○ | 地域。スポット種別の`region_scope`設定により意味が変わる(既定`'jp'`=都道府県、国コード指定=州・県、`'world'`=国名)。座標から決まる従属値のため`lat`/`lng`の後ろに置く |
+| `series` | | 自由入力のシリーズ文字列。`settings.json`の`series`で定義した`series`値と一致させる(未定義の値でも動くが見た目は簡易フォールバックになる) |
+| `categories` | | 自由入力カテゴリ(空でも可)。`settings.json`の`categories`で定義した値と一致させる(未定義の値でも動くが、絞り込みチップ等の並びは一覧の後ろになる) |
 | `description` | | 説明文 |
 | `key` | | 種別内で一意な参照キー(自由な文字列)。`routes.csv`の`spot_key`列がスポットを指すのに使うため、ルートを持つ種別では経由地になるスポットに必ず付ける(ルートを使わない種別では省略してよい)。このリポジトリでは「スポット名、名前が重複するときだけ`名前_2`のような連番サフィックス」の規則で付けている。一度割り当てたkeyは改名・座標修正があっても変更しない(変更するとルート等の参照が切れる) |
 
@@ -59,18 +59,18 @@ CSVと異なればCSVの内容で上書きされ、同一ならスキップさ�
 
 スポットを巡った順に矢印で繋ぐ「ルート」の定義。取り込むとtravel-log側の地図
 (`/[type]/map`)に、経由地を順に繋いだラインと進行方向の矢印が描かれる。
-水曜どうでしょうの企画のように「巡った順番」を持つ種別で使う(不要な種別では
-ファイルごと省略してよい)。
+「巡った順番」に意味がある種別で使う(不要な種別ではファイルごと省略してよい)。
 
 ```csv
-route,seq,spot_key
-サイコロ1,1,道後温泉
-サイコロ1,2,松山駅
+route,series,seq,spot_key
+サイコロ1,サイコロ1,1,道後温泉
+サイコロ1,サイコロ1,2,松山駅
 ```
 
 | 列 | 必須 | 説明 |
 |---|---|---|
-| `route` | ○ | ルート名。種別の`ranks`で定義したランク値(=企画名など)と一致させると、矢印がそのランクの`borderColor`で描かれ、地図のランク絞り込みにも連動する(一致しない名前のルートは既定色で常に表示) |
+| `route` | ○ | ルートの表示名(種別内で一意)。シリーズとは独立なので、同じシリーズに複数のルートを持たせてよい |
+| `series` | | このルートが属するシリーズ。種別の`series`で定義した値と一致させると、矢印がそのシリーズの`borderColor`で描かれ、地図のシリーズ絞り込みにも連動する(空欄・未定義の値なら既定色)。ルート単位の値なので、同じ`route`の行にはすべて同じ値を書く |
 | `seq` | ○ | 巡った順の番号(数値)。ルート内で一意なら飛び番でもよい(昇順に繋がれる) |
 | `spot_key` | ○ | 経由地のスポットの`key`(スポットCSVの`key`列の値) |
 
@@ -80,9 +80,9 @@ route,seq,spot_key
 - 取り込みはスポットCSVと同じ管理画面(`/[type]/admin`の「ルート(巡った順の矢印)の
   インポート」)からの手動アップロード。`spot_key`が指すスポットが先に存在している
   必要があるため、**スポットCSV→routes.csvの順で取り込む**
-- 差分更新: 既存と同名のルートは経由地を丸ごと置き換え、CSVに無いルートには触らない。
-  名前・経由地の並びが既存と完全一致するルートはスキップされるため、同じCSVを
-  何度アップロードしてもよい
+- 差分更新: 既存と同名のルートはシリーズと経由地を丸ごと置き換え、CSVに無いルートには
+  触らない。シリーズ・経由地の並びが既存と完全一致するルートはスキップされるため、
+  同じCSVを何度アップロードしてもよい
 
 ## settings.json形式(スポット種別の設定)
 
@@ -95,9 +95,9 @@ route,seq,spot_key
     "reviews_enabled": false,
     "wikipedia_enabled": false
   },
-  "ranks": [
+  "series": [
     {
-      "rank": "郵便局",
+      "series": "郵便局",
       "color": "#dc2626",
       "borderColor": "#b91c1c",
       "size": 26,
@@ -112,7 +112,7 @@ route,seq,spot_key
 - `label`: 必須。表示名(自由な文字列)
 - `settings`: 省略可。省略したキー・オブジェクト自体の省略は下表の既定値になる
   (既定値と同じ値をわざわざ書く必要はない — 差分だけ書けばよい)
-- `ranks`: 省略可。省略時は後述の既定ランク(A〜E)になる
+- `series`: 省略可。省略時は後述の既定シリーズ(A〜E)になる
 - `categories`: 省略可。この種別で使うカテゴリの一覧(文字列配列)。省略時は既定
   (観光地の現行カテゴリ)になる。次項参照
 
@@ -127,8 +127,8 @@ route,seq,spot_key
 | `wikipedia_lang` | string | `"ja"` | スポット詳細のWikipedia検索が参照する言語版サブドメイン(`"en"`なら`en.wikipedia.org`)。`wikipedia_enabled`が`true`のときだけ意味を持つ |
 
 値にはbooleanと文字列の両方がある(上表の型欄を参照)。上記以外の設定キーが将来travel-log側に
-追加される可能性がある。`rank_styles`・`categories`という文字列キーも内部的には同じ設定
-テーブルに同居するが、これらはトップレベルの`ranks`/`categories`フィールド経由で扱うため
+追加される可能性がある。`series_styles`・`categories`という文字列キーも内部的には同じ設定
+テーブルに同居するが、これらはトップレベルの`series`/`categories`フィールド経由で扱うため
 `settings`に直接書く必要はない。
 
 ### region_scope(対象地域)と海外データ
@@ -162,46 +162,46 @@ route,seq,spot_key
   その国に絞り込まれ、同名地名の取り違えが減る
 - 日本語以外の記事を引きたい種別では`wikipedia_lang`も併せて指定する(既定は`"ja"`のまま)
 
-### ranksの形式(配列。省略時は既定のA〜E)
+### seriesの形式(配列。省略時は既定のA〜E)
 
 各要素:
 
 | フィールド | 型 | 必須 | 説明 |
 |---|---|---|---|
-| `rank` | string | ○ | ランク値そのもの(CSVの`rank`列と一致させる) |
+| `series` | string | ○ | シリーズ値そのもの(CSVの`series`列と一致させる) |
 | `color` | string(`#rrggbb`) | ○ | 背景色(バッジ・地図ピン共通) |
 | `borderColor` | string(`#rrggbb`) | ○ | 縁取り線の色。非公開スポット(status=`private`)はこの色のまま破線になるだけで、それ以外(色・大きさ・ラベル)は公開スポットと同じ見た目になる |
 | `size` | number | ○ | 地図ピンの直径(px)。バッジ自体の大小には影響しない(表示側が別途管理) |
 | `label` | string または `{ "image": "data:image/png;base64,..." }` | ○ | バッジ・ピンに表示するラベル。文字列、またはbase64画像のどちらか |
 | `textColor` | string(`#rrggbb`) | 省略可 | ラベルが文字列の場合の文字色。省略時は`color`の明度から自動選択(明るい背景→濃色、暗い背景→白。画像ラベルの場合はそもそも使われない) |
 
-配列の順序がそのままランクの並び順(絞り込みチップの並び・一覧のソート順)になる。
+配列の順序がそのままシリーズの並び順(絞り込みチップの並び・一覧のソート順)になる。
 
-`rank`が重要度・段階を表さない種別(放送回・企画名・カテゴリ名など、ランクごとに
-優劣が無いもの)では、`size`を全ランクとも26(観光地=touristのAランクと同じ、
-既定のA〜Eの中で最大)に統一する。ランクが重要度・段階を表す種別(観光地のA〜Eのように
-上位ほど目立たせたいもの)だけ、上位ランクほど大きく・下位ほど小さくする段階的な
+`series`が重要度・段階を表さない種別(放送回・企画名・カテゴリ名など、シリーズごとに
+優劣が無いもの)では、`size`を全シリーズとも26(観光地=touristのAシリーズと同じ、
+既定のA〜Eの中で最大)に統一する。シリーズが重要度・段階を表す種別(観光地のA〜Eのように
+上位ほど目立たせたいもの)だけ、上位シリーズほど大きく・下位ほど小さくする段階的な
 `size`を付ける(既定のA〜E: 26/22/18/15/12がその例)。
 
-### ranksを省略した場合の既定値(観光地=touristの現行配色。手入力で種別を追加した場合も同じ)
+### seriesを省略した場合の既定値(観光地=touristの現行配色。手入力で種別を追加した場合も同じ)
 
 ```json
 [
-  { "rank": "A", "color": "#f59e0b", "borderColor": "#b45309", "size": 26, "label": "A", "textColor": "#451a03" },
-  { "rank": "B", "color": "#a7f3d0", "borderColor": "#34d399", "size": 22, "label": "B", "textColor": "#065f46" },
-  { "rank": "C", "color": "#93c5fd", "borderColor": "#60a5fa", "size": 18, "label": "C", "textColor": "#1e3a8a" },
-  { "rank": "D", "color": "#fef3c7", "borderColor": "#fbbf24", "size": 15, "label": "D", "textColor": "#78350f" },
-  { "rank": "E", "color": "#e5e7eb", "borderColor": "#9ca3af", "size": 12, "label": "E", "textColor": "#374151" }
+  { "series": "A", "color": "#f59e0b", "borderColor": "#b45309", "size": 26, "label": "A", "textColor": "#451a03" },
+  { "series": "B", "color": "#a7f3d0", "borderColor": "#34d399", "size": 22, "label": "B", "textColor": "#065f46" },
+  { "series": "C", "color": "#93c5fd", "borderColor": "#60a5fa", "size": 18, "label": "C", "textColor": "#1e3a8a" },
+  { "series": "D", "color": "#fef3c7", "borderColor": "#fbbf24", "size": 15, "label": "D", "textColor": "#78350f" },
+  { "series": "E", "color": "#e5e7eb", "borderColor": "#9ca3af", "size": 12, "label": "E", "textColor": "#374151" }
 ]
 ```
 
-必要なランクがこれと異なる(独自のランク基準・段階数を使う)種別では、`ranks`に
-配列をまるごと指定して上書きする(既定の一部だけを引き継ぐことはできない — `ranks`を
-書く場合はそのスポット種別で使う全ランクを列挙すること)。
+必要なシリーズがこれと異なる(独自のシリーズ基準・段階数を使う)種別では、`series`に
+配列をまるごと指定して上書きする(既定の一部だけを引き継ぐことはできない — `series`を
+書く場合はそのスポット種別で使う全シリーズを列挙すること)。
 
 ### categories(カテゴリの一覧。省略時は既定=観光地の現行カテゴリ)
 
-CSVの`category`列に入れる値の一覧を文字列配列で指定する(ランクと違い色・大きさ等の
+CSVの`categories`列に入れる値の一覧を文字列配列で指定する(シリーズと違い色・大きさ等の
 見た目は持たない)。配列の順序がそのままカテゴリの並び順(travel-log側の地図・
 スポット一覧のカテゴリ絞り込みチップと、スポット追加・編集フォームのサジェストの並び)
 になる。
@@ -210,15 +210,15 @@ CSVの`category`列に入れる値の一覧を文字列配列で指定する(ラ
 { "categories": ["神社仏閣", "自然", "城", "温泉", "街並み", "美術館博物館", "その他"] }
 ```
 
-省略時の既定は上記の観光地の現行カテゴリそのもの(travel-log側`lib/category.ts`の
+省略時の既定は上記の観光地の現行カテゴリそのもの(travel-log側`lib/categories.ts`の
 `DEFAULT_CATEGORIES`)。空配列`[]`を明示すると「定義済みカテゴリなし」になり、
-既存スポットの`category`値だけが絞り込み・サジェストに出る。`category`列自体は
+既存スポットの`categories`値だけが絞り込み・サジェストに出る。`categories`列自体は
 自由入力のため一覧に無い値でも動くが、並びは一覧の後ろになる。
 
 ### 取り込み方法
 
 travel-log側の管理画面の「別のスポット種別の管理」からこのJSONファイルを手動アップロードして
-種別を作成する。スポットデータ(CSV)とは別工程で、先にこのJSONで種別(と設定・ランク)を
+種別を作成する。スポットデータ(CSV)とは別工程で、先にこのJSONで種別(と設定・シリーズ)を
 作成してから、CSVをその種別のページでインポートする。`public_visible`が`false`(既定)で
 作成した種別は、CSVインポート・内容確認が終わってから管理画面の「スポット種別の設定」で
 `true`に切り替えて一般公開する。
