@@ -157,7 +157,7 @@ ON/OFF設定、シリーズ・カテゴリの一覧)をまとめて1つのスポ
 
 ## 各データの出典
 
-- `tourist/spots.csv`(11,089件): Wikipedia(ja)の**「○○の観光地」47都道府県ページ**を唯一の
+- `tourist/spots.csv`(10,783件): Wikipedia(ja)の**「○○の観光地」47都道府県ページ**を唯一の
   スポット候補ソースとして機械生成したもの(travel-log本体には同梱せず、このリポジトリでのみ
   管理する。経緯は上記「データの出典・ライセンス表示」参照)。かつてOverpass API(OSM)から
   一括取得していた版は、観光地ページに載っていないスポットを大量に含む一方で重要スポットの
@@ -182,8 +182,13 @@ ON/OFF設定、シリーズ・カテゴリの一覧)をまとめて1つのスポ
   2. リダイレクトを解決して同一記事を1件に統合し、赤リンク・曖昧さ回避・一覧ページ・
      祭事/イベント・作品(ドラマ等)・市区町村そのものの記事・都道府県そのものの記事、
      および**代表点1つでは表現できない広域地物**の記事を除外(次項「収録する場所の単位」)
-  3. 座標はWikipedia記事の位置情報(9,672件)→Wikidata `P625`(1,633件)→
-     OSM(osm_japan、同名地物の完全一致のみ)(323件)の順に採用。いずれにも無いものは除外
+  3. 座標はWikipedia記事の位置情報→Wikidata `P625`の順に採用し、どちらにも無いものは除外。
+     当初はさらにOSM(osm_japan、同名地物の完全一致のみ)で座標を補完していたが、touristから
+     ODbL(OpenStreetMap)の表示義務を外すため、2026-07-23に全件をMediaWiki Action API・
+     Wikidata APIと突き合わせ直し、座標がWikipedia記事座標・Wikidata `P625`のいずれとも
+     一致しない行(OSM由来の補完分など)を除外した。現在の座標の内訳は**Wikipedia記事座標
+     9,282件・Wikidata `P625` 1,501件(計10,783件)**で、全件がWikipedia記事座標または
+     Wikidata `P625`(±0.001度以内)と一致する
   4. `description`はWikipedia記事の冒頭1文、`name_kana`は冒頭文の読み仮名から機械抽出。
      さらに`description`の末尾に、その場所の**肩書き(国の指定・登録・選定)**を
      `世界遺産・国宝・特別史跡・日本100名城・日本さくら名所100選。`のように追記している
@@ -443,8 +448,12 @@ ON/OFF設定、シリーズ・カテゴリの一覧)をまとめて1つのスポ
   (一部旧記事はGFDLとのデュアルライセンス)に基づき、利用時は出典(「出典: フリー百科事典
   『ウィキペディア(Wikipedia)』」+該当記事名・URL)の表示と、改変物を同一(または互換)
   ライセンスで提供することが求められる
-- **OpenStreetMapのタグ・座標由来のデータ**: `tourist/spots.csv`の一部(323件、Wikipedia・Wikidataに
-  座標が無くosm_japanで補完した分)・
+- **Wikipedia/Wikidata由来の座標**: `tourist/spots.csv`の`lat`/`lng`は、Wikipedia記事の
+  位置情報(9,282件、CC BY-SA 4.0)またはWikidata `P625`(1,501件、Wikidataのデータは
+  [CC0](https://creativecommons.org/publicdomain/zero/1.0/))由来。以前はこのうち一部を
+  OSM(osm_japan)で補完していたが、2026-07-23の見直しでその分は除外し、touristは
+  Wikipedia(CC BY-SA 4.0)+Wikidata(CC0)由来のみになった(上記「各データの出典」参照)
+- **OpenStreetMapのタグ・座標由来のデータ**:
   `goshuin/spots.csv`の座標・名称(Overpass API取得)・
   `suiyou_dodesho_overseas/spots.csv`の座標(Nominatim取得)は
   [ODbL](https://opendatacommons.org/licenses/odbl/) (Open Database License)。まとまった量を
