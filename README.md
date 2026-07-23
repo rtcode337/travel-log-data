@@ -75,12 +75,15 @@ name,name_kana,lat,lng,region,series,categories,description,key
 
 ### ルートデータ(routes.csv)
 
-スポットを巡った順に矢印で繋ぐルートの定義(列: `route,series,seq,spot_key,description`)。
+スポットを巡った順に矢印で繋ぐルートの定義(列:
+`route,series,seq,spot_key,description,leg_description`)。
 取り込むとtravel-log側の地図に、経由地を`seq`昇順に繋いだラインと進行方向の矢印が描かれる。
 `series`列に`settings.json`の`series`のシリーズ値を入れると
 矢印がそのシリーズの縁取り色で描かれ、地図のシリーズ絞り込みにも連動する
-(`route`はルートの表示名で、シリーズとは独立)。`description`列はルートの説明文で、
-地図でルートの線をタップすると出るルート詳細に表示される。`spot_key`は
+(`route`はルートの表示名で、シリーズとは独立)。`description`列はルート全体の説明文で、
+地図でルートの線をタップすると出るルート詳細の先頭に表示される。`leg_description`列は
+その行のスポットから次のスポットへの区間の説明(移動手段など。行単位で、最終地点の行は
+空欄にする)で、ルート詳細の経由地一覧で2点の間に表示される。`spot_key`は
 スポットCSVの`key`列を指すため、**スポットCSV→routes.csvの順で**同じ管理画面から
 取り込む。スキーマの詳細はCLAUDE.mdの「routes.csv形式」節を参照
 
