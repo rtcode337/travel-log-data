@@ -29,7 +29,9 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## CSV形式(スポットデータ)
 
-1行目はヘッダー行必須。列順は自由。
+1行目はヘッダー行必須。列順は自由。改行コードは**CRLF**で統一する(travel-log側の
+CSVエクスポート`lib/csv.ts`の`buildCsv`がCRLFを出力するため、それに合わせている。
+`.gitattributes`の`*.csv -text`で改行変換を無効化してあるので、新規CSVもCRLFで作ること)。
 
 ```csv
 name,name_kana,lat,lng,region,series,categories,description,key
