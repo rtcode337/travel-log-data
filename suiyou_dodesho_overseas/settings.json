@@ -82,6 +82,34 @@
       "borderColor": "#db2777",
       "size": 26,
       "label": "越"
+    },
+    {
+      "series": "ジャングル・リベンジ",
+      "color": "#86efac",
+      "borderColor": "#16a34a",
+      "size": 26,
+      "label": "マ2"
+    },
+    {
+      "series": "ヨーロッパ20ヵ国完全制覇 完結編",
+      "color": "#93c5fd",
+      "borderColor": "#3b82f6",
+      "size": 26,
+      "label": "欧3"
+    },
+    {
+      "series": "初めてのアフリカ",
+      "color": "#fcd34d",
+      "borderColor": "#b45309",
+      "size": 26,
+      "label": "アフ"
+    },
+    {
+      "series": "21年目のヨーロッパ21ヵ国完全制覇",
+      "color": "#a5b4fc",
+      "borderColor": "#4f46e5",
+      "size": 26,
+      "label": "欧4"
     }
   ],
   "categories": [
