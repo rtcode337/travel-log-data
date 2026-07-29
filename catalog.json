@@ -1,0 +1,10 @@
+{
+  "spot_types": [
+    { "key": "tourist", "label": "観光地" },
+    { "key": "goshuin", "label": "御朱印" },
+    { "key": "post_office", "label": "郵便局" },
+    { "key": "buratamori", "label": "ブラタモリ" },
+    { "key": "suiyou_dodesho_domestic", "label": "水曜どうでしょう(国内編)" },
+    { "key": "suiyou_dodesho_overseas", "label": "水曜どうでしょう(海外編)" }
+  ]
+}

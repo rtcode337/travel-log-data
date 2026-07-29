@@ -21,11 +21,20 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 (スポット種別そのものの設定、省略可)を置く。
 
 ```
+catalog.json               # スポット種別の一覧(リポジトリ直下)
 <スポットキー>/
   <任意のファイル名>.csv   # 1つでも複数に分けてもよい
   routes.csv               # 省略可(スポットを巡った順に矢印で繋ぐルート。後述)
   settings.json            # 省略可(省略時は全項目が既定値の種別になる)
+  excluded_candidates/     # 省略可(除外した候補の記録とexclude.txt。フォルダ名は全種別共通でこの名前)
+    exclude.txt            # travel-log側から削除するスポットのkey一覧(追記式)
 ```
+
+リポジトリ直下の`catalog.json`は`{ "spot_types": [ { "key": "...", "label": "..." }, ... ] }`形式の
+スポット種別カタログ。travel-log側の管理画面「GitHubリポジトリから取り込み」がこの一覧を表示し、
+選んだ種別の`settings.json`・`spots.csv`(`spots.csv`という名前のもののみ)・
+`excluded_candidates/exclude.txt`・`routes.csv`を一括適用する。
+**スポットキーのフォルダを追加したら`catalog.json`にも1行追加すること**。
 
 ## CSV形式(スポットデータ)
 
@@ -84,8 +93,8 @@ CSVと異なればCSVの内容で上書きされ、同一ならスキップさ�
 
 **CSVから行を消してもtravel-log側のDBからは消えない**(取り込みは差分更新で、CSVに無い行には
 触らないため)。そのため、スポットをCSVから外したら**同じコミットで、そのスポットの`key`を
-`<スポットキー>/<スポットキー>_excluded_candidates/exclude.txt`(観光地なら
-`tourist/tourist_excluded_candidates/exclude.txt`)に追記する**。
+`<スポットキー>/excluded_candidates/exclude.txt`(観光地なら
+`tourist/excluded_candidates/exclude.txt`)に追記する**。
 
 ```
 # 先頭の # から始まる行はコメント(日付と除外理由を書いておく)

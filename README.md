@@ -13,10 +13,11 @@
 データを置く。
 
 ```
+catalog.json                         # スポット種別の一覧(key・label)。travel-log側の「GitHubリポジトリから取り込み」が参照
 tourist/
   spots.csv
   settings.json
-  tourist_excluded_candidates/
+  excluded_candidates/
     01_hokkaido.md 〜 47_okinawa.md  # 除外した候補と理由(都道府県別、参考資料)
     series_demotions.md              # シリーズを目視で格下げしたスポットの記録
     exclude.txt                      # travel-log側から削除するスポットのkey一覧(追記式)
@@ -30,19 +31,24 @@ buratamori/
   spots.csv
   routes.csv
   settings.json
-  buratamori_excluded_candidates/
+  excluded_candidates/
     exclude.txt                      # travel-log側から削除するスポットのkey一覧(追記式)
 suiyou_dodesho_domestic/
   spots.csv
   routes.csv
   settings.json
-  suiyou_dodesho_domestic_excluded_candidates/
+  excluded_candidates/
     exclude.txt
 suiyou_dodesho_overseas/
   spots.csv
   routes.csv
   settings.json
 ```
+
+リポジトリ直下の`catalog.json`は`{ "spot_types": [ { "key": "...", "label": "..." }, ... ] }`形式の
+スポット種別カタログで、travel-log側の管理画面「GitHubリポジトリから取り込み」が種別の一覧表示に
+使う(選んだ種別の`settings.json`・`spots.csv`・`excluded_candidates/exclude.txt`・`routes.csv`が
+一括適用される)。**スポットキーのフォルダを追加・改名したら`catalog.json`にも反映すること**。
 
 `tourist/`(観光地)はtravel-log側の唯一の既定スポット種別(`spot_types`の行はアプリ初期化時に
 自動で作られる)だが、スポットデータ自体は他のスポットキーと同様、ここに置くCSVがそのまま
@@ -236,16 +242,16 @@ ON/OFF設定、シリーズ・カテゴリの一覧)をまとめて1つのスポ
   広域地物にはそもそも基準が無かったため、後から上表の基準で538件を除外した
   (11,628→11,090件)。**大学・ゴルフ場は「訪問先か」の判断がスポットごとに割れるため、
   今回は一律に残してある**(北海道大学のように観光地として定着している例があるため)。
-  CSVから外したスポットの`key`は`tourist/tourist_excluded_candidates/exclude.txt`に
+  CSVから外したスポットの`key`は`tourist/excluded_candidates/exclude.txt`に
   追記してあり、travel-log側の`/[type]/admin`「キー一覧を指定して削除」に貼り付けると
   DBからも消せる(CSVの再取り込みは差分更新のため、行を消しただけではDBには反映されない)。
-  除外した候補とその理由は`tourist/tourist_excluded_candidates/`に都道府県別に残してある
+  除外した候補とその理由は`tourist/excluded_candidates/`に都道府県別に残してある
   (取りこぼしを後から検証・救済できるようにするため)。世界遺産・国宝等の指定があるが
   ページビューが伸びにくい場所は、目視で格上げする例外を許容するハイブリッド方式
   (完全自動ではない)。逆に、**受験・就活・企業情報・日常の買い物など、ページビューの
   由来が観光でないスポット(大学・企業・商業施設)は目視で格下げする**(2026-07-26に
   A・Bの該当133件を全件点検し64件を格下げした。個々の変更と理由・据え置きの一覧は
-  `tourist/tourist_excluded_candidates/series_demotions.md`参照)。travel-log側で
+  `tourist/excluded_candidates/series_demotions.md`参照)。travel-log側で
   手動でスポットを追加する場合も、この基準を参考にシリーズを付けるとブレにくい。
 
   肩書きの付け方(`description`末尾の「なぜ観光地なのか」):
@@ -396,7 +402,7 @@ ON/OFF設定、シリーズ・カテゴリの一覧)をまとめて1つのスポ
     onちゃんカレンダー=HTB第1スタジオ+ハワイ・ラスベガス、釣りバカ対決!わかさぎ釣り2=新篠津村。
     いずれも会場が他企画のスポットと同じ地点のため、そちらの`description`末尾に追記する形にした)
   - 削除・付け替えたもの(いずれも旧keyは
-    `suiyou_dodesho_domestic_excluded_candidates/exclude.txt`に理由付きで記載):
+    `excluded_candidates/exclude.txt`に理由付きで記載):
     `利島`は「ゴールデンスペシャル サイコロ6」で**サイコロの選択肢に挙がっただけで実際には
     訪れていない**ため削除、`バスタ新宿`は企画当時(1997年)に存在しない施設名だったため当時の
     `新宿高速バスターミナル`として付け直し、`苫小牧港_2`は`苫小牧港`と同じ地点のため統合
