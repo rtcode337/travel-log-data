@@ -13,7 +13,7 @@
 データを置く。
 
 ```
-catalog.json                         # スポット種別の一覧(key・label)。travel-log側の「GitHubリポジトリから取り込み」が参照
+catalog.json                         # スポット種別の一覧(key・label)。travel-log側の「GitHubリポジトリからスポット種別取り込み」が参照
 tourist/
   spots.csv
   settings.json
@@ -46,7 +46,7 @@ suiyou_dodesho_overseas/
 ```
 
 リポジトリ直下の`catalog.json`は`{ "spot_types": [ { "key": "...", "label": "..." }, ... ] }`形式の
-スポット種別カタログで、travel-log側の管理画面「GitHubリポジトリから取り込み」が種別の一覧表示に
+スポット種別カタログで、travel-log側の管理画面「GitHubリポジトリからスポット種別取り込み」が種別の一覧表示に
 使う(選んだ種別の`settings.json`・`spots.csv`・`excluded_candidates/exclude.txt`・`routes.csv`が
 一括適用される)。**スポットキーのフォルダを追加・改名したら`catalog.json`にも反映すること**。
 

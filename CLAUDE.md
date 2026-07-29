@@ -31,7 +31,7 @@ catalog.json               # スポット種別の一覧(リポジトリ直下)
 ```
 
 リポジトリ直下の`catalog.json`は`{ "spot_types": [ { "key": "...", "label": "..." }, ... ] }`形式の
-スポット種別カタログ。travel-log側の管理画面「GitHubリポジトリから取り込み」がこの一覧を表示し、
+スポット種別カタログ。travel-log側の管理画面「GitHubリポジトリからスポット種別取り込み」がこの一覧を表示し、
 選んだ種別の`settings.json`・`spots.csv`(`spots.csv`という名前のもののみ)・
 `excluded_candidates/exclude.txt`・`routes.csv`を一括適用する。
 **スポットキーのフォルダを追加したら`catalog.json`にも1行追加すること**。
