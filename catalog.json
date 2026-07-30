@@ -5,6 +5,7 @@
     { "key": "post_office", "label": "郵便局" },
     { "key": "buratamori", "label": "ブラタモリ" },
     { "key": "suiyou_dodesho_domestic", "label": "水曜どうでしょう(国内編)" },
-    { "key": "suiyou_dodesho_overseas", "label": "水曜どうでしょう(海外編)" }
+    { "key": "suiyou_dodesho_overseas", "label": "水曜どうでしょう(海外編)" },
+    { "key": "restaurant", "label": "飲食店" }
   ]
 }
