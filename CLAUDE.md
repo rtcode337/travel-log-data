@@ -22,6 +22,10 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ```
 catalog.json               # スポット種別の一覧(リポジトリ直下)
+.github/
+  workflows/validate.yml   # push / PR でデータ検証を回す
+  scripts/validate_data.py # 検証の実体(後述。手元でも同じものを実行できる)
+  dependabot.yml           # アクションの更新PR(週1)
 <スポットキー>/
   <任意のファイル名>.csv   # 1つでも複数に分けてもよい
   routes.csv               # 省略可(スポットを巡った順に矢印で繋ぐルート。後述)
@@ -210,9 +214,12 @@ route,series,seq,spot_key,description,leg_description
 判定の基準は**「入場して中を見る場所」= じっくり / 「外から見る・通りかかる場所」= サッと**。
 お金と時間はだいたい連動する(入場するなら料金がかかり30分以上要る)ので1軸に畳んでいる。
 
-生成は`tourist/build_effort.py`(chiezoをローカルで引くだけ。外部APIは叩かない)。
-根拠は`tourist/effort_basis.csv`(`key,effort,rule,evidence`)に別ファイルで残す —
-CSV本体に根拠の列を足せないため。ルールを直して再実行すれば冪等に付け直せる。
+判定は機械的な付与で、根拠は`tourist/effort_basis.csv`(`key,effort,rule,evidence`)に
+別ファイルで残す — CSV本体に根拠の列を足せないため(`CSV_COLUMNS`)。付け直すときは
+下記のルールで全件を評価し直す(`categories`から`じっくり`を一度落としてから付け直せば
+冪等になる)。**生成スクリプトはリポジトリに含めていない**(他ソースの生成手順と同じ扱い。
+chiezoのURLのような手元の環境固有の事情がデータリポジトリに残るため)。参照するのは
+ローカルのchiezo(jawiki / osm_japan)だけで、外部APIは叩かない。
 
 **なぜ実データではなく推定なのか**: 200件のサンプル調査で、費用の手がかりが読めるのは
 21.5%、所要時間に至っては2.5%しかなかった。特に温泉は0%で「有料なのが自明すぎて
@@ -235,6 +242,19 @@ CSV本体に根拠の列を足せないため。ルールを直して再実行�
 
 料金の語は**「無料」が続く場合は数えない** — 「入館料は無料である」(奥多摩湖のダム
 資料館)を有料と読んでしまうため。語の有無だけを見ると必ずこれを踏む。
+
+判定に使った手がかりは次のとおり(付け直すときはここが基準):
+
+| 段 | じっくり側 | サッと側 |
+|---|---|---|
+| 名前(最も強い。**サッと側を先に見る**) | 美術館・博物館・資料館・記念館・水族館・動物園・植物園/遊園地・テーマパーク・◯◯ランド/牧場・農園・ワイナリー・酒蔵/温泉・◯◯湯・スパ/スキー場・ゴルフ・キャンプ場/鍾乳洞・洞窟/天守・◯◯城・御殿・屋敷・旧宅・生家・古民家/劇場・ホール・プラネタリウム・工房・窯/タワー・スカイツリー・展望塔/山・岳・峰・高原・渓谷・峡・湿原・樹海・カルデラ | 展望台・展望所・灯台/大橋・橋/道の駅・◯◯駅/岬・崎・鼻・滝/並木・通り・商店街/石碑・記念碑・像・鳥居・門・跡・址・古墳・貝塚/ダム・堰・水門・港・漁港・埠頭・桟橋/広場・噴水・時計台・公園・緑地 |
+| カテゴリ | 美術館博物館・温泉・城 | (無し。神社仏閣・街並み・自然・その他は決めずに次の段へ) |
+| OSM(座標の約400m四方から同名の地物を探す) | `tourism=museum`・`gallery`・`zoo`・`aquarium`・`theme_park`、`leisure=water_park`・`golf_course`、`amenity=public_bath`、`tourism=hotel`・`camp_site` | `tourism=viewpoint`・`artwork`、`historic=memorial`・`monument`、`man_made=lighthouse`・`bridge`、`amenity=parking`、`leisure=park`、`natural=peak`・`water` |
+| Wikipedia本文(引き上げのみ) | 入館料・入園料・拝観料・入場料・観覧料の記述(直後が「無料」「不要」「かからない」のものを除く) | — |
+
+**名前はサッと側を先に見る**(「〇〇山公園」は公園として サッと に落とす)。有料の展望施設は
+記事に料金が書かれないことが多いのでタワー類は名前で拾い、山・渓谷・湿原は歩く・登る対象で
+旅程上いちばん時間がかかる部類なので じっくり に入れている。
 
 ### settingsの既定値(キーごとに省略可)
 
@@ -368,6 +388,37 @@ travel-log側の管理画面の「別のスポット種別の管理」からこ�
   OSMのタグの付き方・住所階層の深さも国によって差がある。`region`に入れる一次行政区分が
   Nominatimのどのフィールド(`state`/`province`/`county`)で返るかも国ごとに違うため、
   対象国で実際に何件か引いて確かめてから一括取得すること
+
+## データの検証(CI)
+
+```bash
+python3 .github/scripts/validate_data.py    # 標準ライブラリのみ。手元でもCIでも同じもの
+```
+
+travel-log本体はこのリポジトリの**mainを`raw.githubusercontent.com`から直接読む**ため、
+壊れたCSVがmainに入った時点で取り込みが壊れる。ブランチ保護は掛けていないので、
+事故を止めるのはこの検証だけ。**CSVを触ったらコミット前に実行すること**(push / PRでも
+`.github/workflows/validate.yml`が同じものを回す)。
+
+見ているのは「目視では気づけず、取り込みで初めて壊れる」種類の誤りに絞ってある:
+
+- `catalog.json`とフォルダの対応(片方にしか無いスポット種別)
+- CSVのヘッダ(travel-log側の`CSV_COLUMNS` / `ROUTE_CSV_COLUMNS`に無い列・必須列の欠落)。
+  **未対応の列は本体が例外で弾く**ので、綴り違いは取り込み全体の失敗になる
+- 改行コード(CRLF固定。`*.csv -text`にしてあるのでgitは直してくれない。
+  過去に`\r\r\n`になっていた事故がある)
+- 必須項目の空欄、`lat`/`lng`が数値・範囲内か(`region_scope`が`jp`なら日本の範囲内か、
+  `region`が47都道府県のいずれかか)
+- `key`の種別内一意、`routes.csv`の`spot_key`が`spots.csv`に存在するか、
+  ルート内の`seq`の重複
+- `settings.json`のJSONとしての妥当性、`key`とフォルダ名の一致、`label`と`catalog.json`の一致、
+  色の`#rrggbb`形式、`category_styles`の`shape`
+- `exclude.txt`に書いたキーが`spots.csv`に残っていないか(削除したはずのスポットの取り違え)
+- 補助CSV(`tourist/effort_basis.csv`など)の`key`が`spots.csv`に存在するか
+
+検査の基準はtravel-log側の`components/AdminView.tsx`(列定義・必須列)と`lib/types.ts`
+(`PREFECTURES`)に合わせてある。**本体側でこれらを変えたらこのスクリプトも直すこと**
+(ここがずれると、通るのに取り込めないCSVを通してしまう)。
 
 ## コミット前に
 

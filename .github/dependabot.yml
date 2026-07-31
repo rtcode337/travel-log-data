@@ -1,0 +1,10 @@
+# Dependabot のバージョン更新設定。このリポジトリはデータだけで言語の依存を持たないため、
+# 対象は .github/workflows/ のアクションのみ(travel-log 本体と同じく週1回・月曜 JST)
+version: 2
+updates:
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      timezone: "Asia/Tokyo"

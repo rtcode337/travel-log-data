@@ -1,0 +1,26 @@
+# データの検証。travel-log 本体はこのリポジトリの main を raw で直接読むため、
+# 壊れた CSV が main に入った時点で取り込みが壊れる(ブランチ保護は掛けていないので、
+# 事故を止めるのはここだけ)。検査の中身は .github/scripts/validate_data.py が正
+name: validate
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+
+      # 依存は無し(標準ライブラリのみ)。データリポジトリに requirements を持ち込まない
+      - run: python3 .github/scripts/validate_data.py

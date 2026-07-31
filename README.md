@@ -14,9 +14,13 @@
 
 ```
 catalog.json                         # スポット種別の一覧(key・label)。travel-log側の「GitHubリポジトリからスポット種別取り込み」が参照
+.github/
+  workflows/validate.yml             # push・PRでデータを検証する(下記「データの検証」)
+  scripts/validate_data.py           # 検証の実体。手元でも同じものを実行できる
 tourist/
   spots.csv
   settings.json
+  effort_basis.csv                   # spots.csvの「じっくり」をどう判定したかの根拠(key・rule・evidence)
   excluded_candidates/
     01_hokkaido.md 〜 47_okinawa.md  # 除外した候補と理由(都道府県別、参考資料)
     series_demotions.md              # シリーズを目視で格下げしたスポットの記録
@@ -176,6 +180,18 @@ ON/OFF設定、シリーズ・カテゴリの一覧)をまとめて1つのスポ
   先にこのJSONで種別を作成してから、CSVをその種別のページでインポートする想定
 - `public_visible`が`false`(既定)で作成された種別は、CSVインポート・内容確認が終わってから
   管理画面の「スポット種別の設定」で`true`に切り替えて一般公開する
+
+## データの検証
+
+```bash
+python3 .github/scripts/validate_data.py
+```
+
+CSVを編集したらコミット前に実行する(標準ライブラリのみ・依存なし。push・PRでも
+GitHub Actionsが同じものを回す)。travel-log側はこのリポジトリのmainを直接読むため、
+壊れたCSVはそのまま取り込みの失敗になる。見ているのは列名・改行コード(CRLF)・
+必須項目・座標の範囲・`key`の一意性・`routes.csv`の参照先・`settings.json`の妥当性など、
+目視では気づけない種類の誤り(詳細はCLAUDE.mdの「データの検証(CI)」節)。
 
 ## 各データの出典
 
@@ -404,7 +420,7 @@ ON/OFF設定、シリーズ・カテゴリの一覧)をまとめて1つのスポ
   稀にある(例: 厳美渓は「桜前線捕獲大作戦」「東北2泊3日生き地獄ツアー」の両方に登場)。
   buratamoriと同様、先に登場した企画の行だけを残し、あとの企画に登場したことは
   `description`末尾に追記して統合済み。`key`列はスポット名(名前重複時のみ`名前_2`の
-  連番サフィックス)で全269件に付与。内訳の経緯:
+  連番サフィックス)で全279件に付与。内訳の経緯:
 
   - 37件は後から追加したもの。うち22件はルート作り直し(後述)の際に、jawikiの行程節に
     地名があるのに未収録だったスポット(サイコロ1・2の出発地の六本木プリンスホテル、

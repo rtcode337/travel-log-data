@@ -1,3 +1,7 @@
 # CSVはCRLF改行で統一(travel-log側のCSVエクスポート lib/csv.ts の出力に合わせる)。
 # ファイルの実バイトをCRLFのまま保ち、gitのautocrlf等による改行変換を受けないようにする
 *.csv -text
+
+# 検証スクリプトはデータではなく運用ツールなので、GitHubの言語統計から外す
+# (これを入れないとデータ配布リポジトリが「Python」として表示される)
+.github/** linguist-vendored
