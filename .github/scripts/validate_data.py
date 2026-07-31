@@ -273,6 +273,10 @@ def main() -> int:
         else:
             error(folder, "settings.json が無い")
 
+        # 種別ごとの出典・生成手順・ライセンスはこのREADMEが正(ルートREADMEは汎用のみ)
+        if not (folder / "README.md").exists():
+            error(folder, "README.md が無い(出典・生成手順・ライセンスを書く)")
+
         spot_keys = check_spots(folder / "spots.csv", scope)
 
         routes_path = folder / "routes.csv"
