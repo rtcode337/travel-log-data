@@ -17,9 +17,9 @@
 | [goshuin](goshuin/README.md)(御朱印) | 51,950 | OpenStreetMap・Wikipedia(ja) | ODbL / CC BY-SA 4.0 |
 | [post_office](post_office/README.md)(郵便局) | 24,526 | 国土数値情報(郵便局データ P30) | **非商用利用限定** |
 | [restaurant](restaurant/README.md)(飲食店) | 171 | Wikipedia(ja)・OpenStreetMap | ODbL / CC BY-SA 4.0 |
-| [buratamori](buratamori/README.md)(ブラタモリ) | 406 | jawiki記事 + 一般知識(**未検証**) | — |
-| [suiyou_dodesho_domestic](suiyou_dodesho_domestic/README.md)(水曜どうでしょう・国内編) | 279 | jawiki記事 + 一般知識(**未検証**) | — |
-| [suiyou_dodesho_overseas](suiyou_dodesho_overseas/README.md)(水曜どうでしょう・海外編) | 136 | jawiki記事 + 一般知識(**未検証**) | ODbL(座標) |
+| [buratamori](buratamori/README.md)(ブラタモリ) | 406 | jawiki記事 + LLMの記憶(**未検証**) | — |
+| [suiyou_dodesho_domestic](suiyou_dodesho_domestic/README.md)(水曜どうでしょう・国内編) | 279 | jawiki記事 + LLMの記憶(**未検証**) | — |
+| [suiyou_dodesho_overseas](suiyou_dodesho_overseas/README.md)(水曜どうでしょう・海外編) | 136 | jawiki記事 + LLMの記憶(**未検証**) | ODbL(座標) |
 
 ## フォルダ構成
 
