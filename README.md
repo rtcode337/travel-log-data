@@ -44,113 +44,20 @@ catalog.json                 # スポット種別の一覧(key・label)
 使う(選んだ種別の`settings.json`・`spots.csv`・`excluded_candidates/exclude.txt`・`routes.csv`が
 一括適用される)。**スポットキーのフォルダを追加・改名したら`catalog.json`にも反映すること**。
 
-### スポットデータ(CSV)
+### データの形式
 
-CSV形式はtravel-log本体の`/[type]/admin`のCSVインポート機能
-(`components/AdminView.tsx`の`CSV_COLUMNS`)に合わせること。
+各ファイルの形式は**travel-log本体の取り込み機能の仕様**で、このリポジトリはそれに合わせる
+だけ。列定義の正はtravel-log側の`components/AdminView.tsx`(`CSV_COLUMNS` /
+`ROUTE_CSV_COLUMNS`)で、取り込みは管理画面(`/[type]/admin`)からの手動アップロード。
 
 ```csv
 name,name_kana,lat,lng,region,series,categories,description,key
 ```
 
-- 必須列: `name`, `lat`, `lng`, `region`, `key`(`key`はこのリポジトリの運用上の必須。
-  travel-log側のCSV取り込みでは省略可)
-- `region`はスポット種別の`region_scope`設定に応じた地域(既定`'jp'`=都道府県、
-  国コード指定=州・県、`'world'`=国名)
-- `series`/`categories`はスポット種別ごとに意味が異なってよい自由入力(空でも可)
-- `key`は省略可の種別内一意な参照キーで、`routes.csv`がスポットを指すのに使う
-  (ルートを持たない種別では列ごと省略してよい)。一度割り当てたら変更しない
-- 取り込みはtravel-log側の管理画面(`/[type]/admin`)からこのCSVファイルを
-  手動アップロードして行う(自動取り込みの仕組みは今のところ無い)
-
-### ルートデータ(routes.csv)
-
-スポットを巡った順に矢印で繋ぐルートの定義(列:
-`route,series,seq,spot_key,description,leg_description`)。
-取り込むとtravel-log側の地図に、経由地を`seq`昇順に繋いだラインと進行方向の矢印が描かれる。
-`series`列に`settings.json`の`series`のシリーズ値を入れると
-矢印がそのシリーズの縁取り色で描かれ、地図のシリーズ絞り込みにも連動する
-(`route`はルートの表示名で、シリーズとは独立)。`description`列はルート全体の説明文で、
-地図でルートの線をタップすると出るルート詳細の先頭に表示される。`leg_description`列は
-その行のスポットから次のスポットへの区間の説明(移動手段など。行単位で、最終地点の行は
-空欄にする)で、ルート詳細の経由地一覧で2点の間に表示される。`spot_key`は
-スポットCSVの`key`列を指すため、**スポットCSV→routes.csvの順で**同じ管理画面から
-取り込む。スキーマの詳細はCLAUDE.mdの「routes.csv形式」節を参照
-
-### スポット種別の設定(settings.json)
-
-`spot_types`(key・表示名)と`spot_type_settings`(公開範囲・口コミ・Wikipediaリンクなどの
-ON/OFF設定、シリーズ・カテゴリの一覧)をまとめて1つのスポット種別として作成するための定義ファイル。
-
-```json
-{
-  "key": "post_office",
-  "label": "郵便局",
-  "settings": {
-    "reviews_enabled": false,
-    "wikipedia_enabled": false
-  },
-  "series": [
-    {
-      "series": "郵便局",
-      "color": "#dc2626",
-      "borderColor": "#b91c1c",
-      "size": 26,
-      "label": "〒",
-      "textColor": "#ffffff"
-    }
-  ]
-}
-```
-
-- `key`/`label`は必須。`settings`は省略可(省略したキーは既定値のまま — 既定値は
-  travel-log側の`lib/types.ts`の`SPOT_TYPE_SETTING_DEFAULTS`参照。現時点では
-  `public_visible`が既定`false`、`reviews_enabled`/`wikipedia_enabled`が既定`true`、
-  `region_scope`が既定`"jp"`、`wikipedia_lang`が既定`"ja"`)。
-  種別追加時は基本的に非公開(`public_visible`既定false)で始める運用のため、
-  `public_visible`は明示せず省略するのが基本(明示するのは既定と異なる値にしたい
-  設定のみでよい。上の例も既定と同じ`public_visible`は書いていない)
-- 日本以外を対象にした種別は`settings`に`region_scope`を指定する(`"jp"`=日本/
-  ISO 3166-1 alpha-2の国コード小文字=その国/`"world"`=世界全体)。CSVの`region`列に
-  入れる値がこれに連動する(日本=都道府県、国指定=州・県、世界=国名)ほか、
-  地域タブの名称と並び順・地名検索の対象国・地図の初回表示も変わる。日本語以外の
-  Wikipedia記事を引きたい場合は`wikipedia_lang`(例: `"en"`)も併せて指定する。
-  詳細と海外データ作成時の注意はCLAUDE.mdの「region_scope(対象地域)と海外データ」節を参照
-- `series`も省略可。このスポット種別で使えるシリーズの一覧と、それぞれの表示スタイル
-  (バッジ・地図ピン共通)を配列で指定する。配列の順序がそのままシリーズの並び順
-  (絞り込みチップ・一覧のソート順)になる
-  - `series`: シリーズ値そのもの(`spots.series`に入る自由入力の文字列)
-  - `color`: 背景色(`#rrggbb`)
-  - `borderColor`: 縁取り線の色。非公開スポットはこの色のまま破線になる(それ以外は
-    公開スポットと同じ実線)
-  - `size`: 地図ピンの大きさ(px)。バッジの大小はこれと無関係(表示側の`size`propで別管理)。
-    `series`が重要度・段階を表さない種別(放送回・企画名など)は全シリーズ26(観光地Aシリーズと同じ)に
-    統一し、`series`が重要度・段階を表す種別(観光地のA〜Eなど)だけ上位ほど大きくする
-  - `label`: バッジ・ピンに表示するラベル。文字列、または`{ "image": "data:image/png;base64,..." }`
-    形式の画像(base64)のどちらか
-  - `textColor`: 省略可。ラベルが文字列の場合の文字色。省略時は`color`の明度から
-    自動で白/濃色を選ぶ(画像ラベルの場合は無視される)
-  - `series`自体を省略した場合(または管理画面の手入力フォームで種別を追加した場合)は、
-    観光地の現行A〜E配色がそのまま既定のシリーズ設定になる
-    (travel-log側`lib/seriesStyle.ts`の`DEFAULT_SERIES_STYLES`参照)
-- `categories`も省略可。このスポット種別で使うカテゴリの一覧(文字列配列。シリーズと違い
-  見た目の指定は無い)。配列の順序がそのままカテゴリの並び順(地図・スポット一覧の
-  カテゴリ絞り込みチップと、スポット追加・編集フォームのサジェストの並び)になる。
-  CSVの`categories`列の値と一致させる(未定義の値でも動くが、並びは一覧の後ろになる)
-  - `categories`自体を省略した場合(または手入力フォームで種別を追加した場合)は、
-    観光地の現行カテゴリがそのまま既定になる
-    (travel-log側`lib/categories.ts`の`DEFAULT_CATEGORIES`参照)。
-- `category_styles`も省略可。カテゴリごとの**地図ピンの形**(`{ category, shape }`の配列。
-  `shape`は`circle`(既定)か`rounded-square`)。シリーズが色・大きさ・ラベルを使っている
-  ため、カテゴリに割り当てられるのは形だけ。1スポットが複数カテゴリを持つ場合は、
-  この配列の順で最初に一致したものが使われる
-    空配列`[]`を明示すると「定義済みカテゴリなし」(既存スポットの値だけが
-    絞り込み・サジェストに出る)になる
-- 取り込みはtravel-log側の管理画面(`/[type]/admin`の「別のスポット種別の管理」)から
-  このJSONファイルを手動アップロードして行う。スポットデータ(CSV)とは別工程で、
-  先にこのJSONで種別を作成してから、CSVをその種別のページでインポートする想定
-- `public_visible`が`false`(既定)で作成された種別は、CSVインポート・内容確認が終わってから
-  管理画面の「スポット種別の設定」で`true`に切り替えて一般公開する
+このリポジトリ側の運用ルールは2つだけ: **改行コードはCRLF**(`.gitattributes`で変換を
+無効にしてある)と、**全スポットに`key`を付ける**(travel-log側では省略可だが、`routes.csv`の
+参照と再取り込み時の同一判定に使う)。どちらも`python3 .github/scripts/validate_data.py`が
+検査する。
 
 ## データの検証
 
@@ -162,7 +69,7 @@ CSVを編集したらコミット前に実行する(標準ライブラリのみ�
 GitHub Actionsが同じものを回す)。travel-log側はこのリポジトリのmainを直接読むため、
 壊れたCSVはそのまま取り込みの失敗になる。見ているのは列名・改行コード(CRLF)・
 必須項目・座標の範囲・`key`の一意性・`routes.csv`の参照先・`settings.json`の妥当性など、
-目視では気づけない種類の誤り(詳細はCLAUDE.mdの「データの検証(CI)」節)。
+目視では気づけない種類の誤り(検査項目の詳細はスクリプト冒頭のコメントを参照)。
 
 ## ライセンスと出典表示
 
@@ -187,9 +94,3 @@ GitHub Actionsが同じものを回す)。travel-log側はこのリポジトリ�
 
 かつて`tourist/spots.csv`と同内容をtravel-log本体の`db/init/tourist_spots.csv`に複製し
 出典表示なくコミットしていたが、このリポジトリでの管理に一本化した。
-
-## 将来構想(未実装)
-
-`settings.json`の`series`は色・縁取り線の色・地図ピンの大きさ・ラベル(文字列/画像)のみに
-対応している。シリーズの並び順以外のさらに複雑な表示条件(ズームレベルに応じた見た目の変化など)
-が必要になった場合の形式は、現時点では未設計・未実装。
