@@ -1,7 +1,6 @@
 # travel-log-data
 
-[travel-log](https://github.com/rtcode337/travel-log)本体には同梱しない、容量の大きいスポットの
-初期データ(シード用CSV)を置くリポジトリ。travel-log本体とは独立して更新・管理する。
+[travel-log](https://github.com/rtcode337/travel-log)用の初期データを置くリポジトリ。travel-log本体とは独立して更新・管理する。
 
 > **このリポジトリ全体に適用される単一のライセンスはありません。** フォルダ(スポットキー)
 > ごとに由来元のライセンス・利用制限が異なるため、リポジトリ直下に`LICENSE`は置いていません。
@@ -16,14 +15,14 @@
 | [tourist](tourist/README.md)(観光地) | 10,708 | Wikipedia(ja)・Wikidata | CC BY-SA 4.0 / CC0 |
 | [goshuin](goshuin/README.md)(御朱印) | 51,950 | OpenStreetMap・Wikipedia(ja) | ODbL / CC BY-SA 4.0 |
 | [post_office](post_office/README.md)(郵便局) | 24,526 | 国土数値情報(郵便局データ P30) | **非商用利用限定** |
-| [restaurant](restaurant/README.md)(飲食店) | 171 | Wikipedia(ja)・OpenStreetMap | ODbL / CC BY-SA 4.0 |
+| [restaurant](restaurant/README.md)(有名飲食店) | 171 | Wikipedia(ja)・OpenStreetMap | ODbL / CC BY-SA 4.0 |
 | [buratamori](buratamori/README.md)(ブラタモリ) | 406 | jawiki記事 + LLMの記憶(**未検証**) | — |
 | [suiyou_dodesho_domestic](suiyou_dodesho_domestic/README.md)(水曜どうでしょう・国内編) | 279 | jawiki記事 + LLMの記憶(**未検証**) | — |
 | [suiyou_dodesho_overseas](suiyou_dodesho_overseas/README.md)(水曜どうでしょう・海外編) | 136 | jawiki記事 + LLMの記憶(**未検証**) | ODbL(座標) |
 
 ## フォルダ構成
 
-`<スポットキー>/`(`spot_types.key`、例: `post_office`)フォルダの下に、そのスポット種別の
+`<スポットキー>/`(`spot_types.key`、例: `tourist`)フォルダの下に、そのスポット種別の
 データを置く。
 
 ```

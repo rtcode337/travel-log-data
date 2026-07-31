@@ -1,6 +1,7 @@
-# restaurant(飲食店)
+# restaurant(有名飲食店)
 
-- 有名飲食店 **171件**
+- 有名飲食店 **171件**(飲食店の網羅ではない。**jawikiに記事があること自体を「有名店」の
+  フィルタに使っている**)
 - 出典: jawiki(ja Wikipedia)の飲食店系タグの記事 + OSM側の`wikipedia`/`wikidata`タグ。座標は全件OSM
 - ライセンス: **ODbL**(座標)+ **CC BY-SA 4.0**(説明文)。再配布時は出典表示が必要(→[ライセンス](#ライセンス))
 
@@ -12,6 +13,11 @@
 | `excluded_candidates/other_genres.md` | 収録しなかった候補と理由(ラーメン以外637件) |
 | `excluded_candidates/osm_wikipedia_sweep.md` | OSM側の`wikipedia`タグ起点で洗い直した記録(116件) |
 | `excluded_candidates/exclude.txt` | travel-log側から削除するスポットの`key`一覧(追記式) |
+
+表示名を「飲食店」ではなく**「有名飲食店」**にしているのは、収録範囲を名前で正しく伝えるため。
+[goshuin](../goshuin/README.md)がOSMに名前付きで載っている寺社を無名のものまで全件
+(51,950件)収録しているのに対し、こちらは記事のある店だけの171件で、網羅を狙っていない
+(飲食系POIはOSMだけで20万件以上ある)。
 
 ## 出典と生成
 
