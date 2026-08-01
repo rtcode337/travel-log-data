@@ -3,44 +3,540 @@
   "label": "アニメ聖地",
   "series": [
     {
-      "series": "A",
-      "color": "#f59e0b",
-      "borderColor": "#b45309",
+      "series": "櫻子さんの足下には死体が埋まっている",
+      "color": "#e38b8b",
+      "borderColor": "#ad2828",
       "size": 26,
-      "label": "A",
-      "textColor": "#451a03"
+      "label": "櫻子",
+      "textColor": "#1f2937"
     },
     {
-      "series": "B",
-      "color": "#a7f3d0",
-      "borderColor": "#34d399",
-      "size": 22,
-      "label": "B",
-      "textColor": "#065f46"
+      "series": "僕だけがいない街",
+      "color": "#8be3a5",
+      "borderColor": "#28ad4f",
+      "size": 26,
+      "label": "僕だ",
+      "textColor": "#1f2937"
     },
     {
-      "series": "C",
-      "color": "#93c5fd",
-      "borderColor": "#60a5fa",
-      "size": 18,
-      "label": "C",
-      "textColor": "#1e3a8a"
+      "series": "天体のメソッド",
+      "color": "#bf8be3",
+      "borderColor": "#7628ad",
+      "size": 26,
+      "label": "天体",
+      "textColor": "#1f2937"
     },
     {
-      "series": "D",
-      "color": "#fef3c7",
-      "borderColor": "#fbbf24",
-      "size": 15,
-      "label": "D",
-      "textColor": "#78350f"
+      "series": "薄桜鬼",
+      "color": "#e3d88b",
+      "borderColor": "#ad9c28",
+      "size": 26,
+      "label": "薄桜",
+      "textColor": "#1f2937"
     },
     {
-      "series": "E",
-      "color": "#e5e7eb",
-      "borderColor": "#9ca3af",
-      "size": 12,
-      "label": "E",
-      "textColor": "#374151"
+      "series": "Wake Up, Girls!",
+      "color": "#8bd5e3",
+      "borderColor": "#2897ad",
+      "size": 26,
+      "label": "Wa",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "釣りキチ三平",
+      "color": "#e38bbb",
+      "borderColor": "#ad2870",
+      "size": 26,
+      "label": "釣り",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "ガーリッシュナンバー",
+      "color": "#a1e38b",
+      "borderColor": "#49ad28",
+      "size": 26,
+      "label": "ガリ",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "ウルトラマン",
+      "color": "#e3a88b",
+      "borderColor": "#ad5528",
+      "size": 26,
+      "label": "ウル",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "ガールズ&パンツァー",
+      "color": "#8be3c2",
+      "borderColor": "#28ad7b",
+      "size": 26,
+      "label": "ガル",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "秒速5センチメートル",
+      "color": "#dc8be3",
+      "borderColor": "#a228ad",
+      "size": 26,
+      "label": "秒速",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "らき☆すた",
+      "color": "#d1e38b",
+      "borderColor": "#91ad28",
+      "size": 26,
+      "label": "らき",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "神様はじめました",
+      "color": "#8bb7e3",
+      "borderColor": "#286aad",
+      "size": 26,
+      "label": "神様",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "あの日見た花の名前を僕達はまだ知らない。",
+      "color": "#e38b9d",
+      "borderColor": "#ad2844",
+      "size": 26,
+      "label": "あの",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "心が叫びたがってるんだ。",
+      "color": "#8be392",
+      "borderColor": "#28ad34",
+      "size": 26,
+      "label": "心が",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "ヤマノススメ",
+      "color": "#ac8be3",
+      "borderColor": "#5a28ad",
+      "size": 26,
+      "label": "ヤマ",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "俺の妹がこんなに可愛いわけがない",
+      "color": "#e3c68b",
+      "borderColor": "#ad8128",
+      "size": 26,
+      "label": "俺の",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "輪廻のラグランジェ",
+      "color": "#8be3e0",
+      "borderColor": "#28ada8",
+      "size": 26,
+      "label": "輪廻",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "ルドルフとイッパイアッテナ",
+      "color": "#e38bcd",
+      "borderColor": "#ad288b",
+      "size": 26,
+      "label": "ルド",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "時をかける少女",
+      "color": "#b3e38b",
+      "borderColor": "#65ad28",
+      "size": 26,
+      "label": "時を",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "純情ロマンチカ",
+      "color": "#e3968b",
+      "borderColor": "#ad3928",
+      "size": 26,
+      "label": "純情",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "ラブライブ!",
+      "color": "#8be3b0",
+      "borderColor": "#28ad60",
+      "size": 26,
+      "label": "ラブ",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "デュラララ!!",
+      "color": "#8bc9e3",
+      "borderColor": "#2886ad",
+      "size": 26,
+      "label": "デュ",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "君の名は。",
+      "color": "#e38baf",
+      "borderColor": "#ad285f",
+      "size": 26,
+      "label": "君の",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "バケモノの子",
+      "color": "#96e38b",
+      "borderColor": "#38ad28",
+      "size": 26,
+      "label": "バケ",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "アクセル・ワールド",
+      "color": "#9a8be3",
+      "borderColor": "#3f28ad",
+      "size": 26,
+      "label": "アク",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "ケロロ軍曹",
+      "color": "#8be3ce",
+      "borderColor": "#28ad8c",
+      "size": 26,
+      "label": "ケロ",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "SHIROBAKO",
+      "color": "#e38bdf",
+      "borderColor": "#ad28a7",
+      "size": 26,
+      "label": "SH",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "ゲゲゲの鬼太郎",
+      "color": "#8bace3",
+      "borderColor": "#2859ad",
+      "size": 26,
+      "label": "ゲゲ",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "とある科学の超電磁砲",
+      "color": "#e38b92",
+      "borderColor": "#ad2833",
+      "size": 26,
+      "label": "とあ",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "デート・ア・ライブ",
+      "color": "#8be39e",
+      "borderColor": "#28ad44",
+      "size": 26,
+      "label": "デー",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "文豪ストレイドッグス",
+      "color": "#b88be3",
+      "borderColor": "#6b28ad",
+      "size": 26,
+      "label": "文豪",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "ハイスクール・フリート",
+      "color": "#e3d18b",
+      "borderColor": "#ad9228",
+      "size": 26,
+      "label": "ハイ",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "新世紀エヴァンゲリオン",
+      "color": "#8bdce3",
+      "borderColor": "#28a1ad",
+      "size": 26,
+      "label": "新世",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "おおかみこどもの雨と雪",
+      "color": "#a8e38b",
+      "borderColor": "#54ad28",
+      "size": 26,
+      "label": "おお",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "おねがい☆ティーチャー",
+      "color": "#8b8ee3",
+      "borderColor": "#282dad",
+      "size": 26,
+      "label": "おね",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "サマーウォーズ",
+      "color": "#e3a18b",
+      "borderColor": "#ad4a28",
+      "size": 26,
+      "label": "サマ",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "氷菓",
+      "color": "#8be3bb",
+      "borderColor": "#28ad71",
+      "size": 26,
+      "label": "氷菓",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "信長の忍び",
+      "color": "#d58be3",
+      "borderColor": "#9828ad",
+      "size": 26,
+      "label": "信長",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "あまんちゅ!",
+      "color": "#d8e38b",
+      "borderColor": "#9cad28",
+      "size": 26,
+      "label": "あま",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "ラブライブ!サンシャイン!!",
+      "color": "#8bbee3",
+      "borderColor": "#2875ad",
+      "size": 26,
+      "label": "サシ",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "ハルチカ 〜ハルタとチカは青春する〜",
+      "color": "#e38ba4",
+      "borderColor": "#ad284e",
+      "size": 26,
+      "label": "ハル",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "ガヴリールドロップアウト",
+      "color": "#8be38b",
+      "borderColor": "#28ad29",
+      "size": 26,
+      "label": "ガヴ",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "凪のあすから",
+      "color": "#a58be3",
+      "borderColor": "#5028ad",
+      "size": 26,
+      "label": "凪の",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "いなり、こんこん、恋いろは。",
+      "color": "#bae38b",
+      "borderColor": "#6fad28",
+      "size": 26,
+      "label": "いな",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "一休さん",
+      "color": "#8ba0e3",
+      "borderColor": "#2848ad",
+      "size": 26,
+      "label": "一休",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "ハンドシェイカー",
+      "color": "#e38f8b",
+      "borderColor": "#ad2f28",
+      "size": 26,
+      "label": "ハン",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "長門有希ちゃんの消失",
+      "color": "#8be3a9",
+      "borderColor": "#28ad55",
+      "size": 26,
+      "label": "長門",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "RDG レッドデータガール",
+      "color": "#c38be3",
+      "borderColor": "#7c28ad",
+      "size": 26,
+      "label": "RD",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "ひなビタ♪",
+      "color": "#e3dd8b",
+      "borderColor": "#ada328",
+      "size": 26,
+      "label": "ひな",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "朝霧の巫女",
+      "color": "#8bd0e3",
+      "borderColor": "#2890ad",
+      "size": 26,
+      "label": "朝霧",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "蒼穹のファフナー",
+      "color": "#e38bb6",
+      "borderColor": "#ad286a",
+      "size": 26,
+      "label": "蒼穹",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "かみちゅ!",
+      "color": "#9de38b",
+      "borderColor": "#43ad28",
+      "size": 26,
+      "label": "かみ",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "たまゆら",
+      "color": "#938be3",
+      "borderColor": "#3428ad",
+      "size": 26,
+      "label": "たま",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "おへんろ。",
+      "color": "#e3ad8b",
+      "borderColor": "#ad5b28",
+      "size": 26,
+      "label": "おへ",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "結城友奈は勇者である",
+      "color": "#8be3c7",
+      "borderColor": "#28ad82",
+      "size": 26,
+      "label": "結城",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "ユーリ!!! on ICE",
+      "color": "#e08be3",
+      "borderColor": "#a928ad",
+      "size": 26,
+      "label": "ユー",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "ROBOTICS;NOTES",
+      "color": "#cce38b",
+      "borderColor": "#8bad28",
+      "size": 26,
+      "label": "RO",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "花咲くいろは",
+      "color": "#8bb3e3",
+      "borderColor": "#2864ad",
+      "size": 26,
+      "label": "花咲",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "涼宮ハルヒシリーズ",
+      "color": "#e38b99",
+      "borderColor": "#ad283d",
+      "size": 26,
+      "label": "涼宮",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "けいおん!",
+      "color": "#8be397",
+      "borderColor": "#28ad3a",
+      "size": 26,
+      "label": "けい",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "SLAM DUNK",
+      "color": "#b18be3",
+      "borderColor": "#6128ad",
+      "size": 26,
+      "label": "SL",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "Free!",
+      "color": "#e3ca8b",
+      "borderColor": "#ad8728",
+      "size": 26,
+      "label": "Fr",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "ゆるキャン△",
+      "color": "#8be3e3",
+      "borderColor": "#28acad",
+      "size": 26,
+      "label": "ゆる",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "艦隊これくしょん -艦これ-",
+      "color": "#e38bc9",
+      "borderColor": "#ad2885",
+      "size": 26,
+      "label": "艦隊",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "true tears",
+      "color": "#afe38b",
+      "borderColor": "#5ead28",
+      "size": 26,
+      "label": "tr",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "ひるね姫 〜知らないワタシの物語〜",
+      "color": "#8b95e3",
+      "borderColor": "#2838ad",
+      "size": 26,
+      "label": "ひる",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "マンガ・アニメ施設",
+      "color": "#e39a8b",
+      "borderColor": "#ad4028",
+      "size": 26,
+      "label": "マン",
+      "textColor": "#1f2937"
     }
   ],
   "categories": [
