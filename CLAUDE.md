@@ -8,11 +8,24 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## このリポジトリの役割
 
-[travel-log](https://github.com/rtcode337/travel-log)本体には同梱しない、容量の大きいスポットの
-初期データ(CSV)とスポット種別の設定(settings.json)を置くリポジトリ。travel-log側のソース
-コードを一切参照しなくても、このファイルだけを見て新しいスポット種別のCSV・settings.jsonを
-生成できるよう、必要なスキーマ・既定値をすべてここに書き出してある(travel-log側の実装は
-`lib/types.ts`・`lib/seriesStyle.ts`・`components/AdminView.tsx`だが、参照必須ではない)。
+[travel-log](https://github.com/rtcode337/travel-log)本体には同梱しない、スポットの初期データ(CSV)と
+スポット種別の設定(settings.json)を置くリポジトリ。
+
+**本体と分けているのは容量のためではなく、次の2つを本体の開発から切り離すため。**
+
+- **ライセンス** — スポットデータは由来元ごとにライセンス・利用制限が異なる(CC BY-SA 4.0・
+  ODbL・非商用限定など)。本体に混ぜると、本体の配布ライセンスと条件が合わなくなったときに
+  切り離すのにコミット履歴の書き換えが要る。実際に`tourist/spots.csv`を本体の`db/init/`へ
+  複製していた際に出典表示漏れがあり、後から履歴ごと削除する対応が必要になった
+  (→「外部データソース…を扱う際の注意」)。データを別リポジトリに置けば、直下に単一の
+  `LICENSE`を置かず**フォルダ(スポットキー)ごとにライセンスを宣言する**運用にできる
+- **作業の分離** — スポット種別の精査(収録の基準を決める・候補を洗う・件数を数え直す)と、
+  本体の改修は別の作業。混ぜると本体の変更履歴がデータの出し入れで埋まり、どちらもレビューしにくくなる
+
+travel-log側のソースコードを一切参照しなくても、このファイルだけを見て新しいスポット種別の
+CSV・settings.jsonを生成できるよう、必要なスキーマ・既定値をすべてここに書き出してある
+(travel-log側の実装は`lib/types.ts`・`lib/seriesStyle.ts`・`components/AdminView.tsx`だが、
+参照必須ではない)。
 
 ## フォルダ構成
 
