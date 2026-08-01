@@ -1020,6 +1020,310 @@
       "size": 26,
       "label": "日々",
       "textColor": "#1f2937"
+    },
+    {
+      "series": "ど根性ガエル",
+      "color": "#8bdfe3",
+      "borderColor": "#28a7ad",
+      "size": 26,
+      "label": "ど根",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "はたらく魔王さま!",
+      "color": "#e38bc6",
+      "borderColor": "#ad2881",
+      "size": 26,
+      "label": "はた",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "ダイヤモンドは砕けない",
+      "color": "#ace38b",
+      "borderColor": "#5aad28",
+      "size": 26,
+      "label": "ダイ",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "坂本ですが?",
+      "color": "#8b92e3",
+      "borderColor": "#2833ad",
+      "size": 26,
+      "label": "坂本",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "曇天に笑う",
+      "color": "#e39d8b",
+      "borderColor": "#ad4428",
+      "size": 26,
+      "label": "曇天",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "炎の闘球児 ドッジ弾平",
+      "color": "#8be3b7",
+      "borderColor": "#28ad6a",
+      "size": 26,
+      "label": "炎の",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "難波金融伝・ミナミの帝王",
+      "color": "#d18be3",
+      "borderColor": "#9128ad",
+      "size": 26,
+      "label": "難波",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "邪神ちゃんドロップキック",
+      "color": "#dce38b",
+      "borderColor": "#a2ad28",
+      "size": 26,
+      "label": "邪神",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "うさぎドロップ",
+      "color": "#8bc2e3",
+      "borderColor": "#287bad",
+      "size": 26,
+      "label": "うさ",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "すべてがFになる",
+      "color": "#e38ba8",
+      "borderColor": "#ad2854",
+      "size": 26,
+      "label": "すべ",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "デジモンセイバーズ",
+      "color": "#8fe38b",
+      "borderColor": "#2ead28",
+      "size": 26,
+      "label": "デジ2",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "デジモンフロンティア",
+      "color": "#a18be3",
+      "borderColor": "#4928ad",
+      "size": 26,
+      "label": "デジ22",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "Cosmic Baton Girl コメットさん☆",
+      "color": "#e3bb8b",
+      "borderColor": "#ad7028",
+      "size": 26,
+      "label": "Co",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "NEW GAME!",
+      "color": "#8be3d4",
+      "borderColor": "#28ad97",
+      "size": 26,
+      "label": "NE",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "One Room",
+      "color": "#e38bd8",
+      "borderColor": "#ad289c",
+      "size": 26,
+      "label": "On",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "あっちこっち",
+      "color": "#bee38b",
+      "borderColor": "#76ad28",
+      "size": 26,
+      "label": "あっ",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "いなり、こんこん、恋いろは。",
+      "color": "#8ba5e3",
+      "borderColor": "#284fad",
+      "size": 26,
+      "label": "いな",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "かみちゅ!",
+      "color": "#e38b8b",
+      "borderColor": "#ad2828",
+      "size": 26,
+      "label": "かみ",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "きみの声をとどけたい",
+      "color": "#8be3a5",
+      "borderColor": "#28ad4f",
+      "size": 26,
+      "label": "きみ2",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "たまこまーけっと",
+      "color": "#be8be3",
+      "borderColor": "#7628ad",
+      "size": 26,
+      "label": "たま",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "だんちがい",
+      "color": "#e3d88b",
+      "borderColor": "#ad9c28",
+      "size": 26,
+      "label": "だん",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "ふれる。",
+      "color": "#8bd4e3",
+      "borderColor": "#2897ad",
+      "size": 26,
+      "label": "ふれ",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "エルフェンリート",
+      "color": "#e38bbb",
+      "borderColor": "#ad2870",
+      "size": 26,
+      "label": "エル",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "カイチュー!",
+      "color": "#a1e38b",
+      "borderColor": "#49ad28",
+      "size": 26,
+      "label": "カイ",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "サザエさん",
+      "color": "#8f8be3",
+      "borderColor": "#2e28ad",
+      "size": 26,
+      "label": "サザ",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "シグルイ",
+      "color": "#e3a88b",
+      "borderColor": "#ad5428",
+      "size": 26,
+      "label": "シグ",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "ジョゼと虎と魚たち",
+      "color": "#8be3c2",
+      "borderColor": "#28ad7b",
+      "size": 26,
+      "label": "ジョ",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "スカイガールズ",
+      "color": "#dc8be3",
+      "borderColor": "#a228ad",
+      "size": 26,
+      "label": "スカ",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "ハナヤマタ",
+      "color": "#d1e38b",
+      "borderColor": "#91ad28",
+      "size": 26,
+      "label": "ハナ",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "侵略!イカ娘",
+      "color": "#8bb7e3",
+      "borderColor": "#286aad",
+      "size": 26,
+      "label": "侵略",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "南鎌倉高校女子自転車部",
+      "color": "#e38b9d",
+      "borderColor": "#ad2844",
+      "size": 26,
+      "label": "南鎌",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "名探偵コナン 世紀末の魔術師",
+      "color": "#8be392",
+      "borderColor": "#28ad33",
+      "size": 26,
+      "label": "名探2",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "名探偵コナン 紅の修学旅行",
+      "color": "#ac8be3",
+      "borderColor": "#5a28ad",
+      "size": 26,
+      "label": "名探22",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "名探偵コナン 迷宮の十字路",
+      "color": "#e3c68b",
+      "borderColor": "#ad8128",
+      "size": 26,
+      "label": "名探222",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "天体戦士サンレッド",
+      "color": "#8be3df",
+      "borderColor": "#28ada7",
+      "size": 26,
+      "label": "天体",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "宙のまにまに",
+      "color": "#e38bcd",
+      "borderColor": "#ad288c",
+      "size": 26,
+      "label": "宙の",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "東京マグニチュード8.0",
+      "color": "#b3e38b",
+      "borderColor": "#65ad28",
+      "size": 26,
+      "label": "東京",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "鬼神伝",
+      "color": "#8b9ae3",
+      "borderColor": "#283ead",
+      "size": 26,
+      "label": "鬼神",
+      "textColor": "#1f2937"
     }
   ],
   "categories": [
