@@ -1,8 +1,8 @@
 # restaurant(有名飲食店)
 
-- 有名飲食店 **171件**(飲食店の網羅ではない。**jawikiに記事があること自体を「有名店」の
+- 有名飲食店 **171件**(飲食店の網羅ではない。**Wikipedia(ja)に記事があること自体を「有名店」の
   フィルタに使っている**)
-- 出典: jawiki(ja Wikipedia)の飲食店系タグの記事 + OSM側の`wikipedia`/`wikidata`タグ。座標は全件OSM
+- 出典: Wikipedia(ja)の飲食店系タグの記事 + OSM側の`wikipedia`/`wikidata`タグ。座標は全件OSM
 - ライセンス: **ODbL**(座標)+ **CC BY-SA 4.0**(説明文)。再配布時は出典表示が必要(→[ライセンス](#ライセンス))
 
 | ファイル | 内容 |
@@ -21,8 +21,8 @@
 
 ## 出典と生成
 
-**候補ソースは2系統**あり、jawikiの**飲食店系のタグ(カテゴリ)**に属する記事(113件)と、
-osm_japan(OSM)側の**`wikipedia`/`wikidata`タグが指すjawiki記事**(58件)からなる。
+**候補ソースは2系統**あり、Wikipedia(ja)の**飲食店系のタグ(カテゴリ)**に属する記事(113件)と、
+osm_japan(OSM)側の**`wikipedia`/`wikidata`タグが指すWikipedia(ja)の記事**(58件)からなる。
 ジャンル別の内訳はラーメン48、日本料理・料亭30、喫茶・カフェ25、洋食16、そば・うどん14、
 その他13、菓子・パン12、丼もの・定食5、寿司3、中華3、カレー1、焼肉1。
 
@@ -35,7 +35,7 @@ osm_japan(OSM)側の**`wikipedia`/`wikidata`タグが指すjawiki記事**(58件)
 
 生成手順(スクリプトはリポジトリに含めていない一時作業。すべてchiezoへの問い合わせで完結):
 
-1. **jawikiに記事があること自体を「有名店」のフィルタに使う**(チェーンの一般店舗には記事が無い)。
+1. **Wikipedia(ja)に記事があること自体を「有名店」のフィルタに使う**(チェーンの一般店舗には記事が無い)。
    列挙は`filter?tag=<タグ名>`。`total`と`offset`でページングする。
    **本文の全文検索(`search?q=Category:ラーメン店`)で列挙してはいけない** — カテゴリに
    ソートキーが付いた記事(wikitextで`[[Category:ラーメン店|らあめんしろう]]`と書かれたもの)は
@@ -44,7 +44,7 @@ osm_japan(OSM)側の**`wikipedia`/`wikidata`タグが指すjawiki記事**(58件)
    (2026-07-27にchiezo側の`filter?tag=`対応を受けて列挙し直し済み)
 2. **逆方向にOSM側からも引く**(2026-07-30に追加)。`filter?feature=amenity=restaurant`などで
    飲食系のPOIを全件ページングし、`wikipedia`/`wikidata`タグを持つ613件を抜き出して
-   jawikiの記事210件に解決した。**タグ列挙だけでは飲食店を網羅できない** —
+   Wikipedia(ja)の記事210件に解決した。**タグ列挙だけでは飲食店を網羅できない** —
    名曲喫茶らんぶる・ジャズ喫茶ちぐさのように飲食店系タグに属していない記事や、
    OSMの店名が記事名と違う店(中清→`天麩羅中清`、上野精養軒→`精養軒`、
    並木藪蕎麦→`並木數喬麥`)は1系統では拾えない。詳細と除外理由は
@@ -53,12 +53,12 @@ osm_japan(OSM)側の**`wikipedia`/`wikidata`タグが指すjawiki記事**(58件)
 4. `series`(A〜E)は[tourist](../tourist/README.md)・[goshuin](../goshuin/README.md)と同じく
    **月次ページビュー数**(bot除外、2026-06)だが、母集団が小さくパーセンタイルが安定しないため、
    下表の**絶対値のしきい値**で区切っている
-5. 座標はosm_japan(OSM)の店舗POI。jawikiの飲食店記事は座標を持たないことがほとんどで、
+5. 座標はosm_japan(OSM)の店舗POI。Wikipedia(ja)の飲食店記事は座標を持たないことがほとんどで、
    Wikipedia/Wikidata由来の座標ではほぼ収録できないため(ライセンス上の帰結は下記参照)。
    突き合わせは店名+所在地(`area`)での検索と、OSM側の`wikipedia`タグの2通りで、
    **後者は「どのPOIがその記事の店か」をOSMが自己申告している**ぶん確実。本店の判定は
    `branch`タグ(`branch=本店`・`branch=道頓堀本店`)が決め手で、`branch=◯◯店`は支店なので弾く
-6. 座標の点検として、jawiki記事が座標を持つ55件と突き合わせた結果**53件が200m以内で一致**。
+6. 座標の点検として、Wikipedia(ja)の記事が座標を持つ55件と突き合わせた結果**53件が200m以内で一致**。
    不一致の2件(茶房長谷路・味仙 今池本店)はいずれもWikipedia記事側の座標が誤っており、
    CSV(OSM由来)が正しい
 
@@ -104,7 +104,7 @@ OSM側から引く経路では、飲食系POI 205,685件のうち`wikipedia`/`wi
 
 - **座標**(`lat`/`lng`列): **全件がOSM由来**で[ODbL](https://opendatacommons.org/licenses/odbl/)。
   まとまった量を再配布する場合は「© OpenStreetMap contributors」の表示と、データベース自体を
-  ODbL(または互換ライセンス)で提供することが求められる。一部(55件)はjawiki記事側にも座標が
+  ODbL(または互換ライセンス)で提供することが求められる。一部(55件)はWikipedia(ja)の記事側にも座標が
   あり点検には使ったが、**値はOSMのものに統一している**(Wikipedia側の座標に誤りが2件あったため)
 - **説明文**(`description`列): Wikipedia記事の冒頭文由来で
   [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.ja)

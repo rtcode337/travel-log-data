@@ -2,7 +2,6 @@
   "key": "suiyou_dodesho_overseas",
   "label": "水曜どうでしょう(海外編)",
   "settings": {
-    "public_visible": false,
     "region_scope": "world"
   },
   "series": [

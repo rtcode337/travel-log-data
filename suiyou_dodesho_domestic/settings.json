@@ -1,9 +1,7 @@
 {
   "key": "suiyou_dodesho_domestic",
   "label": "水曜どうでしょう(国内編)",
-  "settings": {
-    "public_visible": false
-  },
+  "settings": {},
   "series": [
     {
       "series": "サイコロ1",

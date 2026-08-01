@@ -1,9 +1,7 @@
 {
   "key": "restaurant",
   "label": "有名飲食店",
-  "settings": {
-    "public_visible": false
-  },
+  "settings": {},
   "series": [
     { "series": "A", "color": "#f59e0b", "borderColor": "#b45309", "size": 26, "label": "A", "textColor": "#451a03" },
     { "series": "B", "color": "#a7f3d0", "borderColor": "#34d399", "size": 22, "label": "B", "textColor": "#065f46" },

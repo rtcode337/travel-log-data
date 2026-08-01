@@ -10,15 +10,16 @@
 
 スポット種別ごとの詳細(出典・生成手順・収録の基準・ライセンス)は各フォルダのREADMEが正。
 
-| スポット種別 | 件数 | 主な出典 | ライセンス・制限 |
-|---|---|---|---|
-| [tourist](tourist/README.md)(観光地) | 10,708 | Wikipedia(ja)・Wikidata | CC BY-SA 4.0 / CC0 |
-| [goshuin](goshuin/README.md)(御朱印) | 51,950 | OpenStreetMap・Wikipedia(ja) | ODbL / CC BY-SA 4.0 |
-| [post_office](post_office/README.md)(郵便局) | 24,526 | 国土数値情報(郵便局データ P30) | **非商用利用限定** |
-| [restaurant](restaurant/README.md)(有名飲食店) | 171 | Wikipedia(ja)・OpenStreetMap | ODbL / CC BY-SA 4.0 |
-| [buratamori](buratamori/README.md)(ブラタモリ) | 406 | jawiki記事 + LLMの記憶(**未検証**) | — |
-| [suiyou_dodesho_domestic](suiyou_dodesho_domestic/README.md)(水曜どうでしょう・国内編) | 279 | jawiki記事 + LLMの記憶(**未検証**) | — |
-| [suiyou_dodesho_overseas](suiyou_dodesho_overseas/README.md)(水曜どうでしょう・海外編) | 136 | jawiki記事 + LLMの記憶(**未検証**) | ODbL(座標) |
+| スポット種別 | 内容 | 件数 | 主な出典 | ライセンス・制限 |
+|---|---|---|---|---|
+| [tourist](tourist/README.md)<br>(観光地) | 日本全国の観光地。travel-log側の唯一の既定種別 | 10,708 | 説明文: Wikipedia(ja)の記事<br>座標: Wikipedia(ja)の記事・Wikidata | 説明文: CC BY-SA 4.0<br>座標: CC BY-SA 4.0・CC0 |
+| [goshuin](goshuin/README.md)<br>(御朱印) | 御朱印を受けに行く先としての全国の寺社仏閣 | 51,950 | 説明文: Wikipedia(ja)の記事<br>座標・名称: OpenStreetMap | 説明文: CC BY-SA 4.0<br>座標・名称: ODbL |
+| [post_office](post_office/README.md)<br>(郵便局) | 全国の郵便局 | 24,526 | 名称・座標: 国土数値情報(郵便局データ P30) | **非商用利用限定** |
+| [restaurant](restaurant/README.md)<br>(有名飲食店) | Wikipedia(ja)に記事がある店に絞った飲食店(網羅ではない) | 171 | 説明文: Wikipedia(ja)の記事<br>座標: OpenStreetMap | 説明文: CC BY-SA 4.0<br>座標: ODbL |
+| [buratamori](buratamori/README.md)<br>(ブラタモリ) | NHK「ブラタモリ」の訪問地(ルート3本) | 406 | 説明文: LLMの記憶(**未検証**。訪問地の一覧のみWikipedia(ja))<br>座標: OpenStreetMap | 説明文: 出典なし<br>座標: ODbL |
+| [suiyou_dodesho_domestic](suiyou_dodesho_domestic/README.md)<br>(水曜どうでしょう・国内編) | HTB「水曜どうでしょう」国内39企画の立ち寄り地(ルート34本) | 279 | 説明文: LLMの記憶(**未検証**。企画・行程のみWikipedia(ja))<br>座標: OpenStreetMap | 説明文: 出典なし<br>座標: ODbL |
+| [suiyou_dodesho_overseas](suiyou_dodesho_overseas/README.md)<br>(水曜どうでしょう・海外編) | 同・海外15企画の立ち寄り地(29ヵ国・ルート15本) | 136 | 説明文: LLMの記憶(**未検証**。企画・旅程のみWikipedia(ja))<br>座標: OpenStreetMap | 説明文: 出典なし<br>座標: ODbL |
+| [anime_seichi](anime_seichi/README.md)<br>(アニメ聖地) | アニメ・漫画の聖地。「訪れてみたい日本のアニメ聖地88」(2018年度版)が骨格 | 121 | 説明文: Wikipedia(ja)の記事(全行の根拠を`evidence.csv`に保持)<br>座標: OpenStreetMap | 説明文: CC BY-SA 4.0<br>座標: ODbL |
 
 ## フォルダ構成
 
@@ -47,12 +48,13 @@ catalog.json                 # スポット種別の一覧(key・label)
 ### データの形式
 
 各ファイルの形式は**travel-log本体の取り込み機能の仕様**で、このリポジトリはそれに合わせる
-だけ。列定義の正はtravel-log側の`components/AdminView.tsx`(`CSV_COLUMNS` /
-`ROUTE_CSV_COLUMNS`)で、取り込みは管理画面(`/[type]/admin`)からの手動アップロード。
+だけ。列の定義と取り込みの挙動(差分更新の同一判定など)は
+[travel-log/README.mdの「外部データ(travel-log-data)」](https://github.com/rtcode337/travel-log#外部データtravel-log-data)を参照
+(実装上の正はtravel-log側の`components/AdminView.tsx`の`CSV_COLUMNS` / `ROUTE_CSV_COLUMNS`)。
 
-```csv
-name,name_kana,lat,lng,region,series,categories,description,key
-```
+取り込みはtravel-log側の管理画面(`/[type]/admin`)の「GitHubリポジトリからスポット種別取り込み」から、
+このリポジトリのmainを直接読んで種別ごとに一括適用する(ファイルを手元にダウンロードして
+アップロードする経路も残っている)。
 
 このリポジトリ側の運用ルールは2つだけ: **改行コードはCRLF**(`.gitattributes`で変換を
 無効にしてある)と、**全スポットに`key`を付ける**(travel-log側では省略可だが、`routes.csv`の
@@ -86,11 +88,6 @@ GitHub Actionsが同じものを回す)。travel-log側はこのリポジトリ�
 - **非商用利用限定**(国土数値情報): CC BY-SA・ODbLとは別種の制限で、商用利用そのものが
   許諾されていない
 
-座標をosm_japan(OSMのローカルミラー)やNominatimで1件ずつ裏取りしただけの種別
-(buratamori・suiyou_dodesho_domestic)は、Overpass APIでの一括抽出(データベースからの
-実質的な取り出し)ではなく既知の地点を個別に参照した程度のため、ODbLの表示義務は
-適用されないと考えている(まとまった量の再配布にあたるかどうかの境界事例ではあるので、
-大量に追加抽出する場合は改めて要検討)。
-
-かつて`tourist/spots.csv`と同内容をtravel-log本体の`db/init/tourist_spots.csv`に複製し
-出典表示なくコミットしていたが、このリポジトリでの管理に一本化した。
+番組ロケ地の3種別(buratamori・水曜どうでしょう)は説明文がLLMの記憶で出典を持たないが、
+**座標はOSM由来のためODbLが適用される**。1件ずつ座標を裏取りした場合も、Overpass APIでの
+一括抽出と区別せず表示義務が付くものとして扱う。
