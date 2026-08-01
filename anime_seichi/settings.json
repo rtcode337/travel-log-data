@@ -1,0 +1,57 @@
+{
+  "key": "anime_seichi",
+  "label": "アニメ聖地",
+  "series": [
+    {
+      "series": "A",
+      "color": "#f59e0b",
+      "borderColor": "#b45309",
+      "size": 26,
+      "label": "A",
+      "textColor": "#451a03"
+    },
+    {
+      "series": "B",
+      "color": "#a7f3d0",
+      "borderColor": "#34d399",
+      "size": 22,
+      "label": "B",
+      "textColor": "#065f46"
+    },
+    {
+      "series": "C",
+      "color": "#93c5fd",
+      "borderColor": "#60a5fa",
+      "size": 18,
+      "label": "C",
+      "textColor": "#1e3a8a"
+    },
+    {
+      "series": "D",
+      "color": "#fef3c7",
+      "borderColor": "#fbbf24",
+      "size": 15,
+      "label": "D",
+      "textColor": "#78350f"
+    },
+    {
+      "series": "E",
+      "color": "#e5e7eb",
+      "borderColor": "#9ca3af",
+      "size": 12,
+      "label": "E",
+      "textColor": "#374151"
+    }
+  ],
+  "categories": [
+    "公式選定88",
+    "選外補完",
+    "エリア"
+  ],
+  "category_styles": [
+    {
+      "category": "エリア",
+      "shape": "rounded-square"
+    }
+  ]
+}
