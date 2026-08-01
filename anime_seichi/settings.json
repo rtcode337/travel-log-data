@@ -6,5483 +6,1019 @@
   },
   "series": [
     {
-      "series": "+チック姉さん",
+      "series": "3月のライオン",
       "color": "#e38b8b",
       "borderColor": "#ad2828",
-      "size": 26,
-      "label": "+チ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": ".hack//Liminality",
-      "color": "#8be3a5",
-      "borderColor": "#28ad4f",
-      "size": 26,
-      "label": ".h",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "200m先の熱",
-      "color": "#bf8be3",
-      "borderColor": "#7628ad",
-      "size": 26,
-      "label": "20",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "3月のライオン",
-      "color": "#e3d88b",
-      "borderColor": "#ad9c28",
       "size": 26,
       "label": "3月",
       "textColor": "#1f2937"
     },
     {
-      "series": "4TEEN",
-      "color": "#8bd5e3",
-      "borderColor": "#2897ad",
-      "size": 26,
-      "label": "4T",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "750ライダー",
-      "color": "#e38bbb",
-      "borderColor": "#ad2870",
-      "size": 26,
-      "label": "75",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "AKB49〜恋愛禁止条例〜",
-      "color": "#a1e38b",
-      "borderColor": "#49ad28",
-      "size": 26,
-      "label": "AK",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "BLUE GIANT",
-      "color": "#8f8be3",
-      "borderColor": "#2e28ad",
-      "size": 26,
-      "label": "BL",
-      "textColor": "#1f2937"
-    },
-    {
       "series": "BanG Dream!",
-      "color": "#e3a88b",
-      "borderColor": "#ad5528",
+      "color": "#8be3a5",
+      "borderColor": "#28ad4f",
       "size": 26,
       "label": "Ba",
       "textColor": "#1f2937"
     },
     {
-      "series": "Buddy Daddies",
-      "color": "#8be3c2",
-      "borderColor": "#28ad7b",
-      "size": 26,
-      "label": "Bu",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "B・B",
-      "color": "#dc8be3",
-      "borderColor": "#a228ad",
-      "size": 26,
-      "label": "BB",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "Cosmic Baton Girl コメットさん☆",
-      "color": "#d1e38b",
-      "borderColor": "#91ad28",
-      "size": 26,
-      "label": "Co",
-      "textColor": "#1f2937"
-    },
-    {
       "series": "DAN DOH!!",
-      "color": "#8bb7e3",
-      "borderColor": "#286aad",
+      "color": "#bf8be3",
+      "borderColor": "#7628ad",
       "size": 26,
       "label": "DA",
       "textColor": "#1f2937"
     },
     {
-      "series": "DRAGON JAM",
-      "color": "#e38b9d",
-      "borderColor": "#ad2844",
-      "size": 26,
-      "label": "DR",
-      "textColor": "#1f2937"
-    },
-    {
       "series": "Do It Yourself!! -どぅー・いっと・ゆあせるふ-",
-      "color": "#8be392",
-      "borderColor": "#28ad34",
+      "color": "#e3d88b",
+      "borderColor": "#ad9c28",
       "size": 26,
       "label": "Do",
       "textColor": "#1f2937"
     },
     {
-      "series": "F.COMPO",
-      "color": "#ac8be3",
-      "borderColor": "#5a28ad",
-      "size": 26,
-      "label": "F.",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "G Blood",
-      "color": "#e3c68b",
-      "borderColor": "#ad8128",
-      "size": 26,
-      "label": "GB",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "GATE 7",
-      "color": "#8be3e0",
-      "borderColor": "#28ada8",
-      "size": 26,
-      "label": "GA",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "GHOST GIRL ゴーストガール",
-      "color": "#e38bcd",
-      "borderColor": "#ad288b",
-      "size": 26,
-      "label": "GH",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "Good Morning ティーチャー",
-      "color": "#b3e38b",
-      "borderColor": "#65ad28",
-      "size": 26,
-      "label": "Go",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "H2",
-      "color": "#8b99e3",
-      "borderColor": "#283ead",
-      "size": 26,
-      "label": "H2",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "HELLO WORLD",
-      "color": "#e3968b",
-      "borderColor": "#ad3928",
-      "size": 26,
-      "label": "HE",
-      "textColor": "#1f2937"
-    },
-    {
       "series": "I'll",
-      "color": "#8be3b0",
-      "borderColor": "#28ad60",
+      "color": "#8bd5e3",
+      "borderColor": "#2897ad",
       "size": 26,
       "label": "I'",
       "textColor": "#1f2937"
     },
     {
-      "series": "Inote! -アイノテ!-",
-      "color": "#ca8be3",
-      "borderColor": "#8728ad",
-      "size": 26,
-      "label": "In",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "Just Because!",
-      "color": "#e3e38b",
-      "borderColor": "#adad28",
-      "size": 26,
-      "label": "Ju",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "Jドリーム",
-      "color": "#8bc9e3",
-      "borderColor": "#2886ad",
-      "size": 26,
-      "label": "Jド",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "KING OF PRISM-Your Endless Call-み〜んなきらめけ!プリズム☆ツアーズ",
-      "color": "#e38baf",
-      "borderColor": "#ad285f",
-      "size": 26,
-      "label": "KI",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "KIPPO",
-      "color": "#96e38b",
-      "borderColor": "#38ad28",
-      "size": 26,
-      "label": "KJ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "LOSERS",
-      "color": "#9a8be3",
-      "borderColor": "#3f28ad",
-      "size": 26,
-      "label": "LO",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "Let's豪徳寺!",
-      "color": "#e3b48b",
-      "borderColor": "#ad6628",
-      "size": 26,
-      "label": "Le",
-      "textColor": "#1f2937"
-    },
-    {
       "series": "MFゴースト",
-      "color": "#8be3ce",
-      "borderColor": "#28ad8c",
+      "color": "#e38bbb",
+      "borderColor": "#ad2870",
       "size": 26,
       "label": "MF",
       "textColor": "#1f2937"
     },
     {
-      "series": "MOUSE",
-      "color": "#e38bdf",
-      "borderColor": "#ad28a7",
-      "size": 26,
-      "label": "MO",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "NEW GAME!",
-      "color": "#c5e38b",
-      "borderColor": "#80ad28",
-      "size": 26,
-      "label": "NE",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "NHKにようこそ!",
-      "color": "#8bace3",
-      "borderColor": "#2859ad",
-      "size": 26,
-      "label": "NH",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "ONE OUTS",
-      "color": "#e38b92",
-      "borderColor": "#ad2833",
-      "size": 26,
-      "label": "ON",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "One Room",
-      "color": "#8be39e",
-      "borderColor": "#28ad44",
-      "size": 26,
-      "label": "On",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "PLAY!",
-      "color": "#b88be3",
-      "borderColor": "#6b28ad",
-      "size": 26,
-      "label": "PL",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "R-16",
-      "color": "#e3d18b",
-      "borderColor": "#ad9228",
-      "size": 26,
-      "label": "R1",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "RELEASE THE SPYCE",
-      "color": "#8bdce3",
-      "borderColor": "#28a1ad",
-      "size": 26,
-      "label": "RE",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "REVENGER",
-      "color": "#e38bc2",
-      "borderColor": "#ad287b",
-      "size": 26,
-      "label": "RF",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "ROOKIES",
-      "color": "#a8e38b",
-      "borderColor": "#54ad28",
-      "size": 26,
-      "label": "RO",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "SEX",
-      "color": "#8b8ee3",
-      "borderColor": "#282dad",
-      "size": 26,
-      "label": "SE",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "SHI-NO -シノ-",
-      "color": "#e3a18b",
-      "borderColor": "#ad4a28",
+      "series": "SHIROBAKO",
+      "color": "#a1e38b",
+      "borderColor": "#49ad28",
       "size": 26,
       "label": "SH",
       "textColor": "#1f2937"
     },
     {
-      "series": "SHIROBAKO",
-      "color": "#8be3bb",
-      "borderColor": "#28ad71",
-      "size": 26,
-      "label": "SI",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "SIDOOH/士道",
-      "color": "#d58be3",
-      "borderColor": "#9828ad",
-      "size": 26,
-      "label": "SJ",
-      "textColor": "#1f2937"
-    },
-    {
       "series": "SLAM DUNK",
-      "color": "#d8e38b",
-      "borderColor": "#9cad28",
+      "color": "#8f8be3",
+      "borderColor": "#2e28ad",
       "size": 26,
       "label": "SL",
       "textColor": "#1f2937"
     },
     {
-      "series": "SSSS.GRIDMAN",
-      "color": "#8bbee3",
-      "borderColor": "#2875ad",
-      "size": 26,
-      "label": "SS",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "THE BAND (漫画)",
-      "color": "#e38ba4",
-      "borderColor": "#ad284e",
-      "size": 26,
-      "label": "TH",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "Thirty Minutes Over Tokyo",
-      "color": "#8be38b",
-      "borderColor": "#28ad29",
-      "size": 26,
-      "label": "Th",
-      "textColor": "#1f2937"
-    },
-    {
       "series": "Turkey!",
-      "color": "#a58be3",
-      "borderColor": "#5028ad",
+      "color": "#e3a88b",
+      "borderColor": "#ad5528",
       "size": 26,
       "label": "Tu",
       "textColor": "#1f2937"
     },
     {
-      "series": "UMA大戦 ククルとナギ",
-      "color": "#e3bf8b",
-      "borderColor": "#ad7728",
-      "size": 26,
-      "label": "UM",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "W'z《ウィズ》",
-      "color": "#8be3d9",
-      "borderColor": "#28ad9d",
-      "size": 26,
-      "label": "W'",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "WHO!?",
-      "color": "#e38bd4",
-      "borderColor": "#ad2896",
-      "size": 26,
-      "label": "WH",
-      "textColor": "#1f2937"
-    },
-    {
       "series": "〈小市民〉シリーズ",
-      "color": "#bae38b",
-      "borderColor": "#6fad28",
+      "color": "#8be3c2",
+      "borderColor": "#28ad7b",
       "size": 26,
       "label": "〈小",
       "textColor": "#1f2937"
     },
     {
-      "series": "あいつとララバイ",
-      "color": "#8ba0e3",
-      "borderColor": "#2848ad",
-      "size": 26,
-      "label": "あい",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "あおざくら 防衛大学校物語",
-      "color": "#e38f8b",
-      "borderColor": "#ad2f28",
-      "size": 26,
-      "label": "あお",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "あさきゆめみし",
-      "color": "#8be3a9",
-      "borderColor": "#28ad55",
-      "size": 26,
-      "label": "あさ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "あさドラ!",
-      "color": "#c38be3",
-      "borderColor": "#7c28ad",
-      "size": 26,
-      "label": "あざ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "あした、裸足でこい。",
-      "color": "#e3dd8b",
-      "borderColor": "#ada328",
-      "size": 26,
-      "label": "あし",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "あすなろ白書",
-      "color": "#8bd0e3",
-      "borderColor": "#2890ad",
-      "size": 26,
-      "label": "あす",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "あだち勉物語 〜あだち充を漫画家にした男〜",
-      "color": "#e38bb6",
-      "borderColor": "#ad286a",
-      "size": 26,
-      "label": "あだ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "あっちこっち",
-      "color": "#9de38b",
-      "borderColor": "#43ad28",
-      "size": 26,
-      "label": "あっ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "あのコと一緒",
-      "color": "#938be3",
-      "borderColor": "#3428ad",
+      "series": "あの日見た花の名前を僕達はまだ知らない。",
+      "color": "#dc8be3",
+      "borderColor": "#a228ad",
       "size": 26,
       "label": "あの",
       "textColor": "#1f2937"
     },
     {
-      "series": "あの夜行バスに乗って",
-      "color": "#e3ad8b",
-      "borderColor": "#ad5b28",
-      "size": 26,
-      "label": "あは",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "あの日見た花の名前を僕達はまだ知らない。",
-      "color": "#8be3c7",
-      "borderColor": "#28ad82",
-      "size": 26,
-      "label": "あば",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "あの頃。男子かしまし物語",
-      "color": "#e08be3",
-      "borderColor": "#a928ad",
-      "size": 26,
-      "label": "あぱ",
-      "textColor": "#1f2937"
-    },
-    {
       "series": "あひるの空",
-      "color": "#cce38b",
-      "borderColor": "#8bad28",
+      "color": "#d1e38b",
+      "borderColor": "#91ad28",
       "size": 26,
       "label": "あひ",
       "textColor": "#1f2937"
     },
     {
-      "series": "あぶさん",
-      "color": "#8bb3e3",
-      "borderColor": "#2864ad",
-      "size": 26,
-      "label": "あぶ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "あるいとう",
-      "color": "#e38b99",
-      "borderColor": "#ad283d",
-      "size": 26,
-      "label": "ある",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "あるまいとせんめんき",
-      "color": "#8be397",
-      "borderColor": "#28ad3a",
-      "size": 26,
-      "label": "あれ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "いいひと。",
-      "color": "#b18be3",
-      "borderColor": "#6128ad",
-      "size": 26,
-      "label": "いい",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "いいゆだね!",
-      "color": "#e3ca8b",
-      "borderColor": "#ad8728",
-      "size": 26,
-      "label": "いぅ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "いとしいキミ",
-      "color": "#8be3e3",
-      "borderColor": "#28acad",
-      "size": 26,
-      "label": "いと",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "いなり、こんこん、恋いろは。",
-      "color": "#e38bc9",
-      "borderColor": "#ad2885",
-      "size": 26,
-      "label": "いな",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "うさぎドロップ",
-      "color": "#afe38b",
-      "borderColor": "#5ead28",
-      "size": 26,
-      "label": "うさ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "うた∽かた",
-      "color": "#8b95e3",
-      "borderColor": "#2838ad",
-      "size": 26,
-      "label": "うた",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "うちの大家族",
-      "color": "#e39a8b",
-      "borderColor": "#ad4028",
-      "size": 26,
-      "label": "うち",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "お〜い!竜馬",
-      "color": "#8be3b4",
-      "borderColor": "#28ad66",
-      "size": 26,
-      "label": "お〜",
-      "textColor": "#1f2937"
-    },
-    {
       "series": "おおかみこどもの雨と雪",
-      "color": "#ce8be3",
-      "borderColor": "#8d28ad",
+      "color": "#8bb7e3",
+      "borderColor": "#286aad",
       "size": 26,
       "label": "おお",
       "textColor": "#1f2937"
     },
     {
-      "series": "おおきく振りかぶって",
-      "color": "#dfe38b",
-      "borderColor": "#a6ad28",
-      "size": 26,
-      "label": "おか",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "おこしやす",
-      "color": "#8bc5e3",
-      "borderColor": "#287fad",
-      "size": 26,
-      "label": "おこ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "おこしやす、ちとせちゃん",
-      "color": "#e38bab",
-      "borderColor": "#ad2859",
-      "size": 26,
-      "label": "おご",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "おしりかじり虫",
-      "color": "#91e38b",
-      "borderColor": "#32ad28",
-      "size": 26,
-      "label": "おし",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "おすもじっ!◆司の一貫◆",
-      "color": "#9e8be3",
-      "borderColor": "#4528ad",
-      "size": 26,
-      "label": "おす",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "おはようおかえり",
-      "color": "#e3b88b",
-      "borderColor": "#ad6c28",
-      "size": 26,
-      "label": "おは",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "おばけ煙突",
-      "color": "#8be3d2",
-      "borderColor": "#28ad93",
-      "size": 26,
-      "label": "おば",
-      "textColor": "#1f2937"
-    },
-    {
       "series": "おぼっちゃまくん",
-      "color": "#e38bdb",
-      "borderColor": "#ad28a0",
+      "color": "#e38b9d",
+      "borderColor": "#ad2844",
       "size": 26,
       "label": "おぼ",
       "textColor": "#1f2937"
     },
     {
-      "series": "おまかせ! ピース電器店",
-      "color": "#c1e38b",
-      "borderColor": "#7aad28",
-      "size": 26,
-      "label": "おま",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "お礼は見てのお帰り",
-      "color": "#8ba7e3",
-      "borderColor": "#2853ad",
-      "size": 26,
-      "label": "お礼",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "かくかくしかじか",
-      "color": "#e38b8e",
-      "borderColor": "#ad282c",
-      "size": 26,
-      "label": "かく",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "かくしごと",
-      "color": "#8be3a2",
-      "borderColor": "#28ad4b",
-      "size": 26,
-      "label": "かぐ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "かぐや様は告らせたい〜天才たちの恋愛頭脳戦〜",
-      "color": "#bc8be3",
-      "borderColor": "#7228ad",
-      "size": 26,
-      "label": "かけ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "かげきしょうじょ!!",
-      "color": "#e3d68b",
-      "borderColor": "#ad9828",
-      "size": 26,
-      "label": "かげ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "かってに改蔵",
-      "color": "#8bd7e3",
-      "borderColor": "#289bad",
-      "size": 26,
-      "label": "かっ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "かみちゅ!",
-      "color": "#e38bbd",
-      "borderColor": "#ad2874",
-      "size": 26,
-      "label": "かみ",
-      "textColor": "#1f2937"
-    },
-    {
       "series": "からかい上手の高木さん",
-      "color": "#a4e38b",
-      "borderColor": "#4dad28",
+      "color": "#8be392",
+      "borderColor": "#28ad34",
       "size": 26,
       "label": "から",
       "textColor": "#1f2937"
     },
     {
-      "series": "からん",
-      "color": "#8c8be3",
-      "borderColor": "#2a28ad",
-      "size": 26,
-      "label": "かり",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "かりん歩",
-      "color": "#e3a68b",
-      "borderColor": "#ad5128",
-      "size": 26,
-      "label": "かる",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "かんなぎ",
-      "color": "#8be3c0",
-      "borderColor": "#28ad77",
-      "size": 26,
-      "label": "かん",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "がきデカ",
-      "color": "#d98be3",
-      "borderColor": "#9e28ad",
-      "size": 26,
-      "label": "がき",
-      "textColor": "#1f2937"
-    },
-    {
       "series": "がんばっていきまっしょい",
-      "color": "#d3e38b",
-      "borderColor": "#95ad28",
+      "color": "#ac8be3",
+      "borderColor": "#5a28ad",
       "size": 26,
       "label": "がん",
       "textColor": "#1f2937"
     },
     {
-      "series": "きみの声をとどけたい",
-      "color": "#8bbae3",
-      "borderColor": "#286ead",
+      "series": "きみの色",
+      "color": "#e3c68b",
+      "borderColor": "#ad8128",
       "size": 26,
       "label": "きみ",
       "textColor": "#1f2937"
     },
     {
-      "series": "きみの色",
-      "color": "#e38ba0",
-      "borderColor": "#ad2848",
-      "size": 26,
-      "label": "きむ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "けものとチャット",
-      "color": "#8be390",
-      "borderColor": "#28ad30",
-      "size": 26,
-      "label": "けも",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "こちら大阪社会部",
-      "color": "#aa8be3",
-      "borderColor": "#5628ad",
+      "series": "こちら葛飾区亀有公園前派出所",
+      "color": "#8be3e0",
+      "borderColor": "#28ada8",
       "size": 26,
       "label": "こち",
       "textColor": "#1f2937"
     },
     {
-      "series": "こちら葛飾区亀有公園前派出所",
-      "color": "#e3c38b",
-      "borderColor": "#ad7d28",
-      "size": 26,
-      "label": "こぢ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "ことこと かるてっと",
-      "color": "#8be3dd",
-      "borderColor": "#28ada4",
-      "size": 26,
-      "label": "こと",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "こみっくがーるず",
-      "color": "#e38bd0",
-      "borderColor": "#ad288f",
-      "size": 26,
-      "label": "こみ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "ごんたくれ",
-      "color": "#b6e38b",
-      "borderColor": "#69ad28",
-      "size": 26,
-      "label": "ごん",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "ご指名です!",
-      "color": "#8b9ce3",
-      "borderColor": "#2842ad",
-      "size": 26,
-      "label": "ご指",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "さくら!咲きますッ",
-      "color": "#e3938b",
-      "borderColor": "#ad3528",
-      "size": 26,
-      "label": "さく",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "さくらがんばる!",
-      "color": "#8be3ad",
-      "borderColor": "#28ad5c",
-      "size": 26,
-      "label": "さぐ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "さよならみどりちゃん",
-      "color": "#c78be3",
-      "borderColor": "#8328ad",
+      "series": "さよなら私のクラマー",
+      "color": "#e38bcd",
+      "borderColor": "#ad288b",
       "size": 26,
       "label": "さよ",
       "textColor": "#1f2937"
     },
     {
-      "series": "さよならララ",
-      "color": "#e3e18b",
-      "borderColor": "#ada928",
-      "size": 26,
-      "label": "さら",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "さよなら私のクラマー",
-      "color": "#8bcce3",
-      "borderColor": "#288aad",
-      "size": 26,
-      "label": "さり",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "さよなら絶望先生",
-      "color": "#e38bb2",
-      "borderColor": "#ad2863",
-      "size": 26,
-      "label": "さる",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "しまなみ誰そ彼",
-      "color": "#98e38b",
-      "borderColor": "#3cad28",
-      "size": 26,
-      "label": "しま",
-      "textColor": "#1f2937"
-    },
-    {
       "series": "じゃりン子チエ",
-      "color": "#978be3",
-      "borderColor": "#3b28ad",
+      "color": "#b3e38b",
+      "borderColor": "#65ad28",
       "size": 26,
       "label": "じゃ",
       "textColor": "#1f2937"
     },
     {
-      "series": "すべてがFになる",
-      "color": "#e3b18b",
-      "borderColor": "#ad6228",
-      "size": 26,
-      "label": "すべ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "するめいか",
-      "color": "#8be3cb",
-      "borderColor": "#28ad88",
-      "size": 26,
-      "label": "する",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "その時、カノジョは。",
-      "color": "#e38be2",
-      "borderColor": "#ad28ab",
+      "series": "その着せ替え人形は恋をする",
+      "color": "#8b99e3",
+      "borderColor": "#283ead",
       "size": 26,
       "label": "その",
       "textColor": "#1f2937"
     },
     {
-      "series": "その着せ替え人形は恋をする",
-      "color": "#c8e38b",
-      "borderColor": "#84ad28",
-      "size": 26,
-      "label": "そは",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "それが声優!",
-      "color": "#8baee3",
-      "borderColor": "#285dad",
+      "series": "それゆけ!宇宙戦艦ヤマモト・ヨーコ",
+      "color": "#e3968b",
+      "borderColor": "#ad3928",
       "size": 26,
       "label": "それ",
       "textColor": "#1f2937"
     },
     {
-      "series": "それでも町は廻っている",
-      "color": "#e38b94",
-      "borderColor": "#ad2837",
-      "size": 26,
-      "label": "そろ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "それゆけ!宇宙戦艦ヤマモト・ヨーコ",
-      "color": "#8be39b",
-      "borderColor": "#28ad40",
-      "size": 26,
-      "label": "そゎ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "たとえばこんなラヴ・ソング",
-      "color": "#b58be3",
-      "borderColor": "#6728ad",
-      "size": 26,
-      "label": "たと",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "たまこまーけっと",
-      "color": "#e3cf8b",
-      "borderColor": "#ad8e28",
-      "size": 26,
-      "label": "たま",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "たまゆら",
-      "color": "#8bdee3",
-      "borderColor": "#28a5ad",
-      "size": 26,
-      "label": "たみ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "だからパパには敵わない",
-      "color": "#e38bc4",
-      "borderColor": "#ad287f",
-      "size": 26,
-      "label": "だか",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "だんちがい",
-      "color": "#abe38b",
-      "borderColor": "#58ad28",
-      "size": 26,
-      "label": "だん",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "ちぃちゃんのおしながき",
-      "color": "#8b91e3",
-      "borderColor": "#2831ad",
-      "size": 26,
-      "label": "ちぃ",
-      "textColor": "#1f2937"
-    },
-    {
       "series": "ちはやふる",
-      "color": "#e39f8b",
-      "borderColor": "#ad4628",
+      "color": "#8be3b0",
+      "borderColor": "#28ad60",
       "size": 26,
       "label": "ちは",
       "textColor": "#1f2937"
     },
     {
       "series": "ちびまる子ちゃん",
-      "color": "#8be3b9",
-      "borderColor": "#28ad6d",
+      "color": "#ca8be3",
+      "borderColor": "#8728ad",
       "size": 26,
       "label": "ちび",
       "textColor": "#1f2937"
     },
     {
-      "series": "ちびまる子ちゃん イタリアから来た少年",
-      "color": "#d28be3",
-      "borderColor": "#9428ad",
-      "size": 26,
-      "label": "ちぴ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "ちみも",
-      "color": "#dae38b",
-      "borderColor": "#a0ad28",
-      "size": 26,
-      "label": "ちみ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "つるピカハゲ丸",
-      "color": "#8bc1e3",
-      "borderColor": "#2879ad",
-      "size": 26,
-      "label": "つる",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "てっぱん!",
-      "color": "#e38ba7",
-      "borderColor": "#ad2852",
-      "size": 26,
-      "label": "てっ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "てんむす",
-      "color": "#8de38b",
-      "borderColor": "#2bad28",
-      "size": 26,
-      "label": "てん",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "てーきゅう",
-      "color": "#a38be3",
-      "borderColor": "#4c28ad",
-      "size": 26,
-      "label": "てー",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "であいもん",
-      "color": "#e3bc8b",
-      "borderColor": "#ad7328",
-      "size": 26,
-      "label": "であ",
-      "textColor": "#1f2937"
-    },
-    {
       "series": "とある科学の超電磁砲",
-      "color": "#8be3d6",
-      "borderColor": "#28ad99",
+      "color": "#e3e38b",
+      "borderColor": "#adad28",
       "size": 26,
       "label": "とあ",
       "textColor": "#1f2937"
     },
     {
-      "series": "とある魔術の禁書目録",
-      "color": "#e38bd7",
-      "borderColor": "#ad289a",
-      "size": 26,
-      "label": "とぃ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "とっとこハム太郎",
-      "color": "#bde38b",
-      "borderColor": "#73ad28",
-      "size": 26,
-      "label": "とっ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "とめはねっ! 鈴里高校書道部",
-      "color": "#8ba3e3",
-      "borderColor": "#284cad",
-      "size": 26,
-      "label": "とめ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "とんかつDJアゲ太郎",
-      "color": "#e38c8b",
-      "borderColor": "#ad2b28",
-      "size": 26,
-      "label": "とん",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "どてらい男",
-      "color": "#8be3a6",
-      "borderColor": "#28ad51",
-      "size": 26,
-      "label": "どて",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "どりる",
-      "color": "#c08be3",
-      "borderColor": "#7828ad",
-      "size": 26,
-      "label": "どり",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "どんぐりの家",
-      "color": "#e3da8b",
-      "borderColor": "#ad9f28",
-      "size": 26,
-      "label": "どん",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "ど根性ガエル",
-      "color": "#8bd3e3",
-      "borderColor": "#2894ad",
-      "size": 26,
-      "label": "ど根",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "なぎさMe公認",
-      "color": "#e38bb9",
-      "borderColor": "#ad286e",
-      "size": 26,
-      "label": "なぎ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "なりひらばし電器商店",
-      "color": "#9fe38b",
-      "borderColor": "#47ad28",
-      "size": 26,
-      "label": "なり",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "ねこ・ねこ・幻想曲",
-      "color": "#908be3",
-      "borderColor": "#3028ad",
-      "size": 26,
-      "label": "ねこ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "ねこ耳少女シリーズ",
-      "color": "#e3aa8b",
-      "borderColor": "#ad5728",
-      "size": 26,
-      "label": "ねご",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "ねらわれた学園",
-      "color": "#8be3c4",
-      "borderColor": "#28ad7e",
-      "size": 26,
-      "label": "ねら",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "のの美捜査中!",
-      "color": "#de8be3",
-      "borderColor": "#a528ad",
-      "size": 26,
-      "label": "のの",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "のんちゃんのり弁",
-      "color": "#cfe38b",
-      "borderColor": "#8fad28",
-      "size": 26,
-      "label": "のん",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "はたらく魔王さま!",
-      "color": "#8bb5e3",
-      "borderColor": "#2868ad",
-      "size": 26,
-      "label": "はた",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "はだかのくすりゆび",
-      "color": "#e38b9b",
-      "borderColor": "#ad2841",
-      "size": 26,
-      "label": "はだ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "はぴぷり",
-      "color": "#8be394",
-      "borderColor": "#28ad36",
-      "size": 26,
-      "label": "はぴ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "はるかリフレイン",
-      "color": "#ae8be3",
-      "borderColor": "#5d28ad",
-      "size": 26,
-      "label": "はる",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "はんなりギロリの頼子さん",
-      "color": "#e3c88b",
-      "borderColor": "#ad8328",
-      "size": 26,
-      "label": "はん",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "ぱいどん",
-      "color": "#8be3e2",
-      "borderColor": "#28adaa",
-      "size": 26,
-      "label": "ぱい",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "ぱすてる",
-      "color": "#e38bcb",
-      "borderColor": "#ad2889",
-      "size": 26,
-      "label": "ぱす",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "ぱにぽに",
-      "color": "#b2e38b",
-      "borderColor": "#62ad28",
-      "size": 26,
-      "label": "ぱに",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "ぱられる",
-      "color": "#8b98e3",
-      "borderColor": "#283cad",
-      "size": 26,
-      "label": "ぱら",
-      "textColor": "#1f2937"
-    },
-    {
       "series": "ひぐらしのなく頃に",
-      "color": "#e3988b",
-      "borderColor": "#ad3c28",
+      "color": "#8bc9e3",
+      "borderColor": "#2886ad",
       "size": 26,
       "label": "ひぐ",
       "textColor": "#1f2937"
     },
     {
-      "series": "ひとひらの恋が降る",
-      "color": "#8be3b2",
-      "borderColor": "#28ad62",
-      "size": 26,
-      "label": "ひと",
-      "textColor": "#1f2937"
-    },
-    {
       "series": "ひなビタ♪",
-      "color": "#cb8be3",
-      "borderColor": "#8928ad",
+      "color": "#e38baf",
+      "borderColor": "#ad285f",
       "size": 26,
       "label": "ひな",
       "textColor": "#1f2937"
     },
     {
-      "series": "ひらやすみ",
-      "color": "#e1e38b",
-      "borderColor": "#aaad28",
-      "size": 26,
-      "label": "ひら",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "ふしぎの国のバード",
-      "color": "#8bc8e3",
-      "borderColor": "#2883ad",
-      "size": 26,
-      "label": "ふし",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "ふしぎトーボくん",
-      "color": "#e38bae",
-      "borderColor": "#ad285d",
-      "size": 26,
-      "label": "ふじ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "ふれる。",
-      "color": "#94e38b",
-      "borderColor": "#36ad28",
-      "size": 26,
-      "label": "ふれ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "ぶっちぎり?!",
-      "color": "#9c8be3",
-      "borderColor": "#4128ad",
-      "size": 26,
-      "label": "ぶっ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "へるしーへありーすけありー",
-      "color": "#e3b58b",
-      "borderColor": "#ad6828",
-      "size": 26,
-      "label": "へる",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "ぼくの地球を守って",
-      "color": "#8be3cf",
-      "borderColor": "#28ad8f",
-      "size": 26,
-      "label": "ぼく",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "ぼくらのよあけ",
-      "color": "#e38bde",
-      "borderColor": "#ad28a4",
-      "size": 26,
-      "label": "ぼぐ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "ぼくらマンガ家 トキワ荘物語",
-      "color": "#c4e38b",
-      "borderColor": "#7ead28",
-      "size": 26,
-      "label": "ぼけ",
-      "textColor": "#1f2937"
-    },
-    {
       "series": "ぼっち・ざ・ろっく!",
-      "color": "#8baae3",
-      "borderColor": "#2857ad",
+      "color": "#96e38b",
+      "borderColor": "#38ad28",
       "size": 26,
       "label": "ぼっ",
       "textColor": "#1f2937"
     },
     {
       "series": "ぽんのみち",
-      "color": "#e38b90",
-      "borderColor": "#ad2830",
+      "color": "#9a8be3",
+      "borderColor": "#3f28ad",
       "size": 26,
       "label": "ぽん",
       "textColor": "#1f2937"
     },
     {
-      "series": "まことちゃん",
-      "color": "#8be39f",
-      "borderColor": "#28ad47",
-      "size": 26,
-      "label": "まこ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "まじかる☆タルるートくん",
-      "color": "#b98be3",
-      "borderColor": "#6e28ad",
-      "size": 26,
-      "label": "まじ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "まなびや",
-      "color": "#e3d38b",
-      "borderColor": "#ad9428",
-      "size": 26,
-      "label": "まな",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "まねきねこ不動産",
-      "color": "#8bdae3",
-      "borderColor": "#289fad",
-      "size": 26,
-      "label": "まね",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "まひろ体験",
-      "color": "#e38bc0",
-      "borderColor": "#ad2878",
-      "size": 26,
-      "label": "まひ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "まほらば",
-      "color": "#a6e38b",
-      "borderColor": "#51ad28",
-      "size": 26,
-      "label": "まほ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "まみあな四重奏団",
-      "color": "#8b8ce3",
-      "borderColor": "#282bad",
-      "size": 26,
-      "label": "まみ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "まめきちまめこニートの日常",
-      "color": "#e3a38b",
-      "borderColor": "#ad4d28",
-      "size": 26,
-      "label": "まめ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "まんが道",
-      "color": "#8be3bd",
-      "borderColor": "#28ad73",
+      "series": "まんだら屋の良太",
+      "color": "#e3b48b",
+      "borderColor": "#ad6628",
       "size": 26,
       "label": "まん",
       "textColor": "#1f2937"
     },
     {
-      "series": "まんだら屋の良太",
-      "color": "#d78be3",
-      "borderColor": "#9a28ad",
-      "size": 26,
-      "label": "まゔ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "みツわの",
-      "color": "#d6e38b",
-      "borderColor": "#99ad28",
-      "size": 26,
-      "label": "みツ",
-      "textColor": "#1f2937"
-    },
-    {
       "series": "やくならマグカップも",
-      "color": "#8bbce3",
-      "borderColor": "#2872ad",
+      "color": "#8be3ce",
+      "borderColor": "#28ad8c",
       "size": 26,
       "label": "やく",
       "textColor": "#1f2937"
     },
     {
-      "series": "やっとかめ探偵団",
-      "color": "#e38ba2",
-      "borderColor": "#ad284c",
-      "size": 26,
-      "label": "やっ",
-      "textColor": "#1f2937"
-    },
-    {
       "series": "やはり俺の青春ラブコメはまちがっている。",
-      "color": "#8be38d",
-      "borderColor": "#28ad2b",
+      "color": "#e38bdf",
+      "borderColor": "#ad28a7",
       "size": 26,
       "label": "やは",
       "textColor": "#1f2937"
     },
     {
       "series": "ゆるキャン△",
-      "color": "#a78be3",
-      "borderColor": "#5228ad",
+      "color": "#c5e38b",
+      "borderColor": "#80ad28",
       "size": 26,
       "label": "ゆる",
       "textColor": "#1f2937"
     },
     {
-      "series": "よしえサン",
-      "color": "#e3c18b",
-      "borderColor": "#ad7928",
-      "size": 26,
-      "label": "よし",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "よふかしのうた",
-      "color": "#8be3db",
-      "borderColor": "#28ada0",
-      "size": 26,
-      "label": "よふ",
-      "textColor": "#1f2937"
-    },
-    {
       "series": "らき☆すた",
-      "color": "#e38bd2",
-      "borderColor": "#ad2894",
+      "color": "#8bace3",
+      "borderColor": "#2859ad",
       "size": 26,
       "label": "らき",
       "textColor": "#1f2937"
     },
     {
-      "series": "らんま1/2",
-      "color": "#b9e38b",
-      "borderColor": "#6dad28",
-      "size": 26,
-      "label": "らん",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "りゅうおうのおしごと!",
-      "color": "#8b9fe3",
-      "borderColor": "#2846ad",
-      "size": 26,
-      "label": "りゅ",
-      "textColor": "#1f2937"
-    },
-    {
       "series": "るろうに剣心 -明治剣客浪漫譚-",
-      "color": "#e3918b",
-      "borderColor": "#ad3128",
+      "color": "#e38b92",
+      "borderColor": "#ad2833",
       "size": 26,
       "label": "るろ",
       "textColor": "#1f2937"
     },
     {
-      "series": "わが家は祇園の拝み屋さん",
-      "color": "#8be3ab",
-      "borderColor": "#28ad58",
-      "size": 26,
-      "label": "わが",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "わさんぼん〜和菓子屋顛末記〜",
-      "color": "#c48be3",
-      "borderColor": "#7f28ad",
-      "size": 26,
-      "label": "わさ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "アイデン&ティティ",
-      "color": "#e3de8b",
-      "borderColor": "#ada528",
+      "series": "アイドル事変",
+      "color": "#8be39e",
+      "borderColor": "#28ad44",
       "size": 26,
       "label": "アイ",
       "textColor": "#1f2937"
     },
     {
-      "series": "アイドルマスター ミリオンライブ! Blooming Clover",
-      "color": "#8bcfe3",
-      "borderColor": "#288ead",
-      "size": 26,
-      "label": "アゥ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "アイドル事変",
-      "color": "#e38bb5",
-      "borderColor": "#ad2867",
-      "size": 26,
-      "label": "アウ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "アクエリオンロゴス",
-      "color": "#9be38b",
-      "borderColor": "#40ad28",
-      "size": 26,
-      "label": "アク",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "アクセル・ワールド",
-      "color": "#958be3",
-      "borderColor": "#3728ad",
-      "size": 26,
-      "label": "アグ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "アグネス白書",
-      "color": "#e3ae8b",
-      "borderColor": "#ad5e28",
-      "size": 26,
-      "label": "アケ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "アドルフに告ぐ",
-      "color": "#8be3c8",
-      "borderColor": "#28ad84",
-      "size": 26,
-      "label": "アド",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "アベノ橋魔法☆商店街",
-      "color": "#e28be3",
-      "borderColor": "#ab28ad",
-      "size": 26,
-      "label": "アベ",
-      "textColor": "#1f2937"
-    },
-    {
       "series": "アンゴルモア 元寇合戦記",
-      "color": "#cbe38b",
-      "borderColor": "#88ad28",
+      "color": "#b88be3",
+      "borderColor": "#6b28ad",
       "size": 26,
       "label": "アン",
       "textColor": "#1f2937"
     },
     {
-      "series": "アーサーGARAGE",
-      "color": "#8bb1e3",
-      "borderColor": "#2861ad",
-      "size": 26,
-      "label": "アー",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "イエスタデイをうたって",
-      "color": "#e38b97",
-      "borderColor": "#ad283b",
-      "size": 26,
-      "label": "イエ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "イシュタルの娘〜小野於通伝〜",
-      "color": "#8be398",
-      "borderColor": "#28ad3c",
-      "size": 26,
-      "label": "イシ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "インビンシブル",
-      "color": "#b28be3",
-      "borderColor": "#6328ad",
-      "size": 26,
-      "label": "イン",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "インフェクション",
-      "color": "#e3cc8b",
-      "borderColor": "#ad8a28",
-      "size": 26,
-      "label": "イヴ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "インベスターZ",
-      "color": "#8be1e3",
-      "borderColor": "#28a9ad",
-      "size": 26,
-      "label": "イヵ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "ウインドミル",
-      "color": "#e38bc7",
-      "borderColor": "#ad2883",
-      "size": 26,
-      "label": "ウイ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "ウクレア!",
-      "color": "#ade38b",
-      "borderColor": "#5cad28",
-      "size": 26,
-      "label": "ウク",
-      "textColor": "#1f2937"
-    },
-    {
       "series": "ウマ娘 シンデレラグレイ",
-      "color": "#8b93e3",
-      "borderColor": "#2835ad",
+      "color": "#e3d18b",
+      "borderColor": "#ad9228",
       "size": 26,
       "label": "ウマ",
       "textColor": "#1f2937"
     },
     {
-      "series": "エリアの騎士",
-      "color": "#e39c8b",
-      "borderColor": "#ad4228",
-      "size": 26,
-      "label": "エリ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "エルフェンリート",
-      "color": "#8be3b6",
-      "borderColor": "#28ad69",
-      "size": 26,
-      "label": "エル",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "エース!",
-      "color": "#d08be3",
-      "borderColor": "#9028ad",
-      "size": 26,
-      "label": "エー",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "エースをねらえ!",
-      "color": "#dde38b",
-      "borderColor": "#a4ad28",
-      "size": 26,
-      "label": "エヽ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "オチビサン",
-      "color": "#8bc3e3",
-      "borderColor": "#287dad",
-      "size": 26,
-      "label": "オチ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "カイチュー!",
-      "color": "#e38ba9",
-      "borderColor": "#ad2856",
-      "size": 26,
-      "label": "カイ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "カイトアンサ",
-      "color": "#90e38b",
-      "borderColor": "#2fad28",
-      "size": 26,
-      "label": "カゥ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "カタコイ・カノン",
-      "color": "#a08be3",
-      "borderColor": "#4828ad",
-      "size": 26,
-      "label": "カタ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "カブのイサキ",
-      "color": "#e3ba8b",
-      "borderColor": "#ad6f28",
-      "size": 26,
-      "label": "カブ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "カルラ舞う!",
-      "color": "#8be3d4",
-      "borderColor": "#28ad95",
-      "size": 26,
-      "label": "カル",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "ガクラン八年組",
-      "color": "#e38bd9",
-      "borderColor": "#ad289e",
-      "size": 26,
-      "label": "ガク",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "ガッチャマン クラウズ",
-      "color": "#c0e38b",
-      "borderColor": "#77ad28",
-      "size": 26,
-      "label": "ガッ",
-      "textColor": "#1f2937"
-    },
-    {
       "series": "ガラスの仮面",
-      "color": "#8ba6e3",
-      "borderColor": "#2850ad",
+      "color": "#8bdce3",
+      "borderColor": "#28a1ad",
       "size": 26,
       "label": "ガラ",
       "textColor": "#1f2937"
     },
     {
-      "series": "ガンダムビルドファイターズ",
-      "color": "#e38b8c",
-      "borderColor": "#ad282a",
-      "size": 26,
-      "label": "ガン",
-      "textColor": "#1f2937"
-    },
-    {
       "series": "ガールズ&パンツァー",
-      "color": "#8be3a4",
-      "borderColor": "#28ad4d",
+      "color": "#e38bc2",
+      "borderColor": "#ad287b",
       "size": 26,
       "label": "ガー",
       "textColor": "#1f2937"
     },
     {
       "series": "ガールズバンドクライ",
-      "color": "#bd8be3",
-      "borderColor": "#7428ad",
+      "color": "#a8e38b",
+      "borderColor": "#54ad28",
       "size": 26,
-      "label": "ガヽ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "キスよりさきに恋よりはやく",
-      "color": "#e3d78b",
-      "borderColor": "#ad9b28",
-      "size": 26,
-      "label": "キス",
+      "label": "ガー2",
       "textColor": "#1f2937"
     },
     {
       "series": "キン肉マン",
-      "color": "#8bd6e3",
-      "borderColor": "#2898ad",
+      "color": "#8b8ee3",
+      "borderColor": "#282dad",
       "size": 26,
       "label": "キン",
       "textColor": "#1f2937"
     },
     {
-      "series": "ギャラクティックマンション",
-      "color": "#e38bbc",
-      "borderColor": "#ad2872",
-      "size": 26,
-      "label": "ギャ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "クッキングパパ",
-      "color": "#a2e38b",
-      "borderColor": "#4bad28",
-      "size": 26,
-      "label": "クッ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "クニミツの政",
-      "color": "#8e8be3",
-      "borderColor": "#2c28ad",
-      "size": 26,
-      "label": "クニ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "クララ白書",
-      "color": "#e3a78b",
-      "borderColor": "#ad5328",
-      "size": 26,
-      "label": "クラ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "クロスオーバーレブ!",
-      "color": "#8be3c1",
-      "borderColor": "#28ad7a",
-      "size": 26,
-      "label": "クロ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "クロックワーク・プラネット",
-      "color": "#db8be3",
-      "borderColor": "#a128ad",
-      "size": 26,
-      "label": "クヮ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "グッド・ハロー",
-      "color": "#d2e38b",
-      "borderColor": "#93ad28",
-      "size": 26,
-      "label": "グッ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "ケッパレ 松原さん!",
-      "color": "#8bb8e3",
-      "borderColor": "#286cad",
-      "size": 26,
-      "label": "ケッ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "ケンタウロスの伝説",
-      "color": "#e38b9e",
-      "borderColor": "#ad2845",
-      "size": 26,
-      "label": "ケン",
-      "textColor": "#1f2937"
-    },
-    {
       "series": "コイ☆セント",
-      "color": "#8be391",
-      "borderColor": "#28ad32",
+      "color": "#e3a18b",
+      "borderColor": "#ad4a28",
       "size": 26,
       "label": "コイ",
       "textColor": "#1f2937"
     },
     {
-      "series": "コクリコ坂から",
-      "color": "#ab8be3",
-      "borderColor": "#5928ad",
-      "size": 26,
-      "label": "コク",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "コボちゃん",
-      "color": "#e3c58b",
-      "borderColor": "#ad7f28",
-      "size": 26,
-      "label": "コボ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "コンシェルジュ プラチナム",
-      "color": "#8be3df",
-      "borderColor": "#28ada6",
-      "size": 26,
-      "label": "コン",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "コードネームはセーラーV",
-      "color": "#e38bce",
-      "borderColor": "#ad288d",
-      "size": 26,
-      "label": "コー",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "ゴリポン君",
-      "color": "#b4e38b",
-      "borderColor": "#66ad28",
-      "size": 26,
-      "label": "ゴリ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "ゴールFH",
-      "color": "#8b9ae3",
-      "borderColor": "#2840ad",
-      "size": 26,
-      "label": "ゴー",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "ゴールデンゴールド",
-      "color": "#e3958b",
-      "borderColor": "#ad3828",
-      "size": 26,
-      "label": "ゴヽ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "サイコドクター 楷恭介",
-      "color": "#8be3af",
-      "borderColor": "#28ad5e",
-      "size": 26,
-      "label": "サイ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "サザエさん",
-      "color": "#c98be3",
-      "borderColor": "#8528ad",
-      "size": 26,
-      "label": "サザ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "サザエさんうちあけ話",
-      "color": "#e3e38b",
-      "borderColor": "#adac28",
-      "size": 26,
-      "label": "サシ",
-      "textColor": "#1f2937"
-    },
-    {
       "series": "サマーウォーズ",
-      "color": "#8bcae3",
-      "borderColor": "#2887ad",
+      "color": "#8be3bb",
+      "borderColor": "#28ad71",
       "size": 26,
       "label": "サマ",
       "textColor": "#1f2937"
     },
     {
-      "series": "サムライダー",
-      "color": "#e38bb0",
-      "borderColor": "#ad2861",
-      "size": 26,
-      "label": "サム",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "サンキューピッチ",
-      "color": "#97e38b",
-      "borderColor": "#3aad28",
-      "size": 26,
-      "label": "サン",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "サンブンノイチ",
-      "color": "#998be3",
-      "borderColor": "#3d28ad",
-      "size": 26,
-      "label": "サヴ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "サーティーガール",
-      "color": "#e3b38b",
-      "borderColor": "#ad6428",
-      "size": 26,
-      "label": "サー",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "サード・ガール",
-      "color": "#8be3cd",
-      "borderColor": "#28ad8b",
-      "size": 26,
-      "label": "サヽ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "ザ・サムライ",
-      "color": "#e38be0",
-      "borderColor": "#ad28a8",
-      "size": 26,
-      "label": "ザサ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "シグルイ",
-      "color": "#c7e38b",
-      "borderColor": "#82ad28",
-      "size": 26,
-      "label": "シグ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "シバトラ",
-      "color": "#8bade3",
-      "borderColor": "#285bad",
-      "size": 26,
-      "label": "シバ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "シンバシノミコ",
-      "color": "#e38b93",
-      "borderColor": "#ad2834",
-      "size": 26,
-      "label": "シン",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "ジョジョリオン",
-      "color": "#8be39d",
-      "borderColor": "#28ad43",
-      "size": 26,
-      "label": "ジョ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "ジョゼと虎と魚たち",
-      "color": "#b68be3",
-      "borderColor": "#6a28ad",
-      "size": 26,
-      "label": "ジヨ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "スカイガールズ",
-      "color": "#e3d08b",
-      "borderColor": "#ad9028",
-      "size": 26,
-      "label": "スカ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "スクライド",
-      "color": "#8bdde3",
-      "borderColor": "#28a3ad",
-      "size": 26,
-      "label": "スク",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "ストーリー311",
-      "color": "#e38bc3",
-      "borderColor": "#ad287c",
-      "size": 26,
-      "label": "スト",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "スナックバス江",
-      "color": "#a9e38b",
-      "borderColor": "#55ad28",
-      "size": 26,
-      "label": "スナ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "スパイの妻",
-      "color": "#8b8fe3",
-      "borderColor": "#282fad",
-      "size": 26,
-      "label": "スパ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "スローモーションをもう一度",
-      "color": "#e3a08b",
-      "borderColor": "#ad4928",
+      "series": "スローループ",
+      "color": "#d58be3",
+      "borderColor": "#9828ad",
       "size": 26,
       "label": "スロ",
       "textColor": "#1f2937"
     },
     {
-      "series": "スローループ",
-      "color": "#8be3ba",
-      "borderColor": "#28ad6f",
-      "size": 26,
-      "label": "スヮ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "ズタボロ",
-      "color": "#d48be3",
-      "borderColor": "#9628ad",
-      "size": 26,
-      "label": "ズタ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "セイクリッドセブン",
-      "color": "#d9e38b",
-      "borderColor": "#9dad28",
-      "size": 26,
-      "label": "セイ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "セクシーボイスアンドロボ",
-      "color": "#8bbfe3",
-      "borderColor": "#2876ad",
-      "size": 26,
-      "label": "セク",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "セケンノハテマデ",
-      "color": "#e38ba5",
-      "borderColor": "#ad2850",
-      "size": 26,
-      "label": "セケ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "セトギワ花ヨメ",
-      "color": "#8be38b",
-      "borderColor": "#29ad28",
-      "size": 26,
-      "label": "セト",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "セラフィムコール",
-      "color": "#a48be3",
-      "borderColor": "#4e28ad",
-      "size": 26,
-      "label": "セラ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "センゴク男子 花の乱",
-      "color": "#e3be8b",
-      "borderColor": "#ad7528",
-      "size": 26,
-      "label": "セン",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "セーラー服通り",
-      "color": "#8be3d8",
-      "borderColor": "#28ad9c",
-      "size": 26,
-      "label": "セー",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "ソラとウミのアイダ",
-      "color": "#e38bd5",
-      "borderColor": "#ad2898",
-      "size": 26,
-      "label": "ソラ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "ソラノヤ",
-      "color": "#bbe38b",
-      "borderColor": "#71ad28",
-      "size": 26,
-      "label": "ソリ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "タッチ",
-      "color": "#8ba1e3",
-      "borderColor": "#284aad",
-      "size": 26,
-      "label": "タッ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "タビと道づれ",
-      "color": "#e38e8b",
-      "borderColor": "#ad2d28",
-      "size": 26,
-      "label": "タビ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "ダイヤモンドは砕けない",
-      "color": "#8be3a8",
-      "borderColor": "#28ad54",
-      "size": 26,
-      "label": "ダイ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "チェイサーゲーム",
-      "color": "#c28be3",
-      "borderColor": "#7b28ad",
-      "size": 26,
-      "label": "チェ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "チグハグトリック",
-      "color": "#e3dc8b",
-      "borderColor": "#ada128",
-      "size": 26,
-      "label": "チグ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "チンプイ",
-      "color": "#8bd1e3",
-      "borderColor": "#2892ad",
-      "size": 26,
-      "label": "チン",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "ツヨシしっかりしなさい",
-      "color": "#e38bb7",
-      "borderColor": "#ad286b",
-      "size": 26,
-      "label": "ツヨ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "テツぼん",
-      "color": "#9ee38b",
-      "borderColor": "#44ad28",
-      "size": 26,
-      "label": "テツ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "デアマンテ〜天領華闘牌〜",
-      "color": "#928be3",
-      "borderColor": "#3328ad",
-      "size": 26,
-      "label": "デア",
-      "textColor": "#1f2937"
-    },
-    {
       "series": "デジモンアドベンチャー",
-      "color": "#e3ac8b",
-      "borderColor": "#ad5a28",
+      "color": "#d8e38b",
+      "borderColor": "#9cad28",
       "size": 26,
       "label": "デジ",
       "textColor": "#1f2937"
     },
     {
-      "series": "デジモンセイバーズ",
-      "color": "#8be3c6",
-      "borderColor": "#28ad80",
-      "size": 26,
-      "label": "デス",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "デジモンフロンティア",
-      "color": "#df8be3",
-      "borderColor": "#a728ad",
-      "size": 26,
-      "label": "デズ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "デメキン",
-      "color": "#cde38b",
-      "borderColor": "#8cad28",
-      "size": 26,
-      "label": "デメ",
-      "textColor": "#1f2937"
-    },
-    {
       "series": "デュラララ!!",
-      "color": "#8bb4e3",
-      "borderColor": "#2865ad",
+      "color": "#8bbee3",
+      "borderColor": "#2875ad",
       "size": 26,
       "label": "デュ",
       "textColor": "#1f2937"
     },
     {
-      "series": "デラシネマ",
-      "color": "#e38b9a",
-      "borderColor": "#ad283f",
-      "size": 26,
-      "label": "デラ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "トモダチごっこ",
-      "color": "#8be396",
-      "borderColor": "#28ad38",
-      "size": 26,
-      "label": "トモ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "トラとミケ",
-      "color": "#b08be3",
-      "borderColor": "#5f28ad",
-      "size": 26,
-      "label": "トラ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "トライアルかおる!",
-      "color": "#e3c98b",
-      "borderColor": "#ad8628",
-      "size": 26,
-      "label": "トリ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "ドアマイガーD",
-      "color": "#8be3e3",
-      "borderColor": "#28adad",
-      "size": 26,
-      "label": "ドア",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "ドグラ・マグラ",
-      "color": "#e38bca",
-      "borderColor": "#ad2887",
-      "size": 26,
-      "label": "ドグ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "ドラえもん",
-      "color": "#b0e38b",
-      "borderColor": "#60ad28",
-      "size": 26,
-      "label": "ドラ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "ナゾトキネ",
-      "color": "#8b96e3",
-      "borderColor": "#2839ad",
-      "size": 26,
-      "label": "ナゾ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "ナッちゃん",
-      "color": "#e3998b",
-      "borderColor": "#ad3e28",
-      "size": 26,
-      "label": "ナッ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "ナナマル サンバツ",
-      "color": "#8be3b3",
-      "borderColor": "#28ad65",
-      "size": 26,
-      "label": "ナナ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "ナニワ金融道",
-      "color": "#cd8be3",
-      "borderColor": "#8c28ad",
-      "size": 26,
-      "label": "ナニ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "ネコあね。",
-      "color": "#e0e38b",
-      "borderColor": "#a8ad28",
-      "size": 26,
-      "label": "ネコ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "ネコぱら",
-      "color": "#8bc6e3",
-      "borderColor": "#2881ad",
-      "size": 26,
-      "label": "ネゴ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "ノエイン もうひとりの君へ",
-      "color": "#e38bac",
-      "borderColor": "#ad285a",
-      "size": 26,
-      "label": "ノエ",
-      "textColor": "#1f2937"
-    },
-    {
       "series": "ハイキュー!!",
-      "color": "#92e38b",
-      "borderColor": "#33ad28",
+      "color": "#e38ba4",
+      "borderColor": "#ad284e",
       "size": 26,
       "label": "ハイ",
       "textColor": "#1f2937"
     },
     {
-      "series": "ハイスクールミステリー学園七不思議",
-      "color": "#9d8be3",
-      "borderColor": "#4428ad",
-      "size": 26,
-      "label": "ハゥ",
-      "textColor": "#1f2937"
-    },
-    {
       "series": "ハイスクール・フリート",
-      "color": "#e3b78b",
-      "borderColor": "#ad6b28",
+      "color": "#8be38b",
+      "borderColor": "#28ad29",
       "size": 26,
-      "label": "ハウ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "ハカイジュウ",
-      "color": "#8be3d1",
-      "borderColor": "#28ad91",
-      "size": 26,
-      "label": "ハカ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "ハクバノ王子サマ",
-      "color": "#e38bdc",
-      "borderColor": "#ad28a2",
-      "size": 26,
-      "label": "ハク",
+      "label": "ハイ2",
       "textColor": "#1f2937"
     },
     {
       "series": "ハチミツとクローバー",
-      "color": "#c2e38b",
-      "borderColor": "#7bad28",
+      "color": "#a58be3",
+      "borderColor": "#5028ad",
       "size": 26,
       "label": "ハチ",
       "textColor": "#1f2937"
     },
     {
-      "series": "ハッスル",
-      "color": "#8ba8e3",
-      "borderColor": "#2854ad",
-      "size": 26,
-      "label": "ハッ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "ハッピータイガー",
-      "color": "#e38b8f",
-      "borderColor": "#ad282e",
-      "size": 26,
-      "label": "ハツ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "ハナヤマタ",
-      "color": "#8be3a1",
-      "borderColor": "#28ad49",
-      "size": 26,
-      "label": "ハナ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "ハマトラ",
-      "color": "#bb8be3",
-      "borderColor": "#7028ad",
-      "size": 26,
-      "label": "ハマ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "ハヤテのごとく!",
-      "color": "#e3d58b",
-      "borderColor": "#ad9728",
-      "size": 26,
-      "label": "ハヤ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "ハル",
-      "color": "#8bd8e3",
-      "borderColor": "#289cad",
-      "size": 26,
-      "label": "ハル",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "ハンドシェイカー",
-      "color": "#e38bbe",
-      "borderColor": "#ad2876",
-      "size": 26,
-      "label": "ハン",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "バイトくん",
-      "color": "#a5e38b",
-      "borderColor": "#4fad28",
-      "size": 26,
-      "label": "バイ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "バカ姉弟",
-      "color": "#8b8be3",
-      "borderColor": "#2828ad",
-      "size": 26,
-      "label": "バカ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "バジーノイズ",
-      "color": "#e3a58b",
-      "borderColor": "#ad4f28",
-      "size": 26,
-      "label": "バジ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "バブル",
-      "color": "#8be3bf",
-      "borderColor": "#28ad76",
-      "size": 26,
-      "label": "バブ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "バンパイヤ",
-      "color": "#d88be3",
-      "borderColor": "#9d28ad",
-      "size": 26,
-      "label": "バン",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "バンビ〜ノ!",
-      "color": "#d4e38b",
-      "borderColor": "#97ad28",
-      "size": 26,
-      "label": "バヴ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "パスポート・ブルー",
-      "color": "#8bbbe3",
-      "borderColor": "#2870ad",
-      "size": 26,
-      "label": "パス",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "パパのいうことを聞きなさい!",
-      "color": "#e38ba1",
-      "borderColor": "#ad2849",
-      "size": 26,
-      "label": "パパ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "パラドン",
-      "color": "#8be38f",
-      "borderColor": "#28ad2e",
-      "size": 26,
-      "label": "パラ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "パリピ孔明",
-      "color": "#a98be3",
-      "borderColor": "#5528ad",
-      "size": 26,
-      "label": "パリ",
-      "textColor": "#1f2937"
-    },
-    {
       "series": "ビブリア古書堂の事件手帖",
-      "color": "#e3c28b",
-      "borderColor": "#ad7b28",
+      "color": "#e3bf8b",
+      "borderColor": "#ad7728",
       "size": 26,
       "label": "ビブ",
       "textColor": "#1f2937"
     },
     {
-      "series": "ファインダー -京都女学院物語-",
-      "color": "#8be3dc",
-      "borderColor": "#28ada2",
-      "size": 26,
-      "label": "ファ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "ファミコンランナー高橋名人物語",
-      "color": "#e38bd1",
-      "borderColor": "#ad2891",
-      "size": 26,
-      "label": "フア",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "ファントムバスターズ",
-      "color": "#b7e38b",
-      "borderColor": "#6aad28",
-      "size": 26,
-      "label": "フィ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "フジログ",
-      "color": "#8b9de3",
-      "borderColor": "#2844ad",
-      "size": 26,
-      "label": "フジ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "フロイト1/2",
-      "color": "#e3928b",
-      "borderColor": "#ad3428",
-      "size": 26,
-      "label": "フロ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "フロウ・ブルーで待ってる",
-      "color": "#8be3ac",
-      "borderColor": "#28ad5a",
-      "size": 26,
-      "label": "フヮ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "ブラッディ+メアリー",
-      "color": "#c68be3",
-      "borderColor": "#8128ad",
-      "size": 26,
-      "label": "ブラ",
-      "textColor": "#1f2937"
-    },
-    {
       "series": "ブルバスター",
-      "color": "#e3e08b",
-      "borderColor": "#ada828",
+      "color": "#8be3d9",
+      "borderColor": "#28ad9d",
       "size": 26,
       "label": "ブル",
       "textColor": "#1f2937"
     },
     {
-      "series": "プリティーリズム・オーロラドリーム",
-      "color": "#8bcde3",
-      "borderColor": "#288bad",
-      "size": 26,
-      "label": "プリ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "ペコロスの母に会いに行く",
-      "color": "#e38bb3",
-      "borderColor": "#ad2865",
-      "size": 26,
-      "label": "ペコ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "ホクサイと飯さえあれば",
-      "color": "#99e38b",
-      "borderColor": "#3ead28",
-      "size": 26,
-      "label": "ホク",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "ボンボン坂高校演劇部",
-      "color": "#968be3",
-      "borderColor": "#3928ad",
-      "size": 26,
-      "label": "ボン",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "ボールパークでつかまえて!",
-      "color": "#e3b08b",
-      "borderColor": "#ad6028",
-      "size": 26,
-      "label": "ボー",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "マカロニほうれん荘",
-      "color": "#8be3ca",
-      "borderColor": "#28ad87",
-      "size": 26,
-      "label": "マカ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "マコとルミとチイ",
-      "color": "#e38be3",
-      "borderColor": "#ad28ac",
-      "size": 26,
-      "label": "マコ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "マネーウォーズ",
-      "color": "#c9e38b",
-      "borderColor": "#86ad28",
-      "size": 26,
-      "label": "マネ",
-      "textColor": "#1f2937"
-    },
-    {
       "series": "ミギとダリ",
-      "color": "#8bafe3",
-      "borderColor": "#285fad",
+      "color": "#e38bd4",
+      "borderColor": "#ad2896",
       "size": 26,
       "label": "ミギ",
       "textColor": "#1f2937"
     },
     {
-      "series": "ミッドナイトレストラン7to7",
-      "color": "#e38b96",
-      "borderColor": "#ad2838",
-      "size": 26,
-      "label": "ミッ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "ミラクルジャイアンツ童夢くん",
-      "color": "#8be39a",
-      "borderColor": "#28ad3f",
-      "size": 26,
-      "label": "ミラ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "メイド刑事",
-      "color": "#b48be3",
-      "borderColor": "#6628ad",
-      "size": 26,
-      "label": "メイ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "メイプル戦記",
-      "color": "#e3ce8b",
-      "borderColor": "#ad8c28",
-      "size": 26,
-      "label": "メゥ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "メダリスト",
-      "color": "#8bdfe3",
-      "borderColor": "#28a7ad",
-      "size": 26,
-      "label": "メダ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "モブ子の恋",
-      "color": "#e38bc5",
-      "borderColor": "#ad2880",
-      "size": 26,
-      "label": "モブ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "モリのアサガオ",
-      "color": "#ace38b",
-      "borderColor": "#59ad28",
-      "size": 26,
-      "label": "モリ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "ヤネウラ3ちゃん",
-      "color": "#8b92e3",
-      "borderColor": "#2833ad",
-      "size": 26,
-      "label": "ヤネ",
-      "textColor": "#1f2937"
-    },
-    {
       "series": "ヤマノススメ",
-      "color": "#e39e8b",
-      "borderColor": "#ad4528",
+      "color": "#bae38b",
+      "borderColor": "#6fad28",
       "size": 26,
       "label": "ヤマ",
       "textColor": "#1f2937"
     },
     {
       "series": "ヨコハマ買い出し紀行",
-      "color": "#8be3b8",
-      "borderColor": "#28ad6b",
+      "color": "#8ba0e3",
+      "borderColor": "#2848ad",
       "size": 26,
       "label": "ヨコ",
       "textColor": "#1f2937"
     },
     {
-      "series": "ラブオールプレー",
-      "color": "#d18be3",
-      "borderColor": "#9228ad",
+      "series": "ラブライブ!",
+      "color": "#e38f8b",
+      "borderColor": "#ad2f28",
       "size": 26,
       "label": "ラブ",
       "textColor": "#1f2937"
     },
     {
-      "series": "ラブライブ!",
-      "color": "#dbe38b",
-      "borderColor": "#a1ad28",
-      "size": 26,
-      "label": "ラプ",
-      "textColor": "#1f2937"
-    },
-    {
       "series": "ラブライブ!サンシャイン!!",
-      "color": "#8bc2e3",
-      "borderColor": "#287aad",
+      "color": "#8be3a9",
+      "borderColor": "#28ad55",
       "size": 26,
-      "label": "ラヘ",
+      "label": "ラブ2",
       "textColor": "#1f2937"
     },
     {
       "series": "ラブライブ!スーパースター!!",
-      "color": "#e38ba8",
-      "borderColor": "#ad2854",
+      "color": "#c38be3",
+      "borderColor": "#7c28ad",
       "size": 26,
-      "label": "スヒ",
+      "label": "ラブ22",
       "textColor": "#1f2937"
     },
     {
       "series": "ラブライブ!虹ヶ咲学園スクールアイドル同好会",
-      "color": "#8ee38b",
-      "borderColor": "#2dad28",
+      "color": "#e3dd8b",
+      "borderColor": "#ada328",
       "size": 26,
-      "label": "虹ヶ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "ラヴァーズ・キス",
-      "color": "#a28be3",
-      "borderColor": "#4a28ad",
-      "size": 26,
-      "label": "ラヴ",
+      "label": "ラブ222",
       "textColor": "#1f2937"
     },
     {
       "series": "リコリス・リコイル",
-      "color": "#e3bb8b",
-      "borderColor": "#ad7128",
+      "color": "#8bd0e3",
+      "borderColor": "#2890ad",
       "size": 26,
       "label": "リコ",
       "textColor": "#1f2937"
     },
     {
-      "series": "リラックマとカオルさん",
-      "color": "#8be3d5",
-      "borderColor": "#28ad98",
-      "size": 26,
-      "label": "リラ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "レジデン都市505",
-      "color": "#e38bd8",
-      "borderColor": "#ad289c",
-      "size": 26,
-      "label": "レジ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "レプリカだって、恋をする。",
-      "color": "#bee38b",
-      "borderColor": "#75ad28",
-      "size": 26,
-      "label": "レプ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "ロボットガールズZ",
-      "color": "#8ba4e3",
-      "borderColor": "#284ead",
-      "size": 26,
-      "label": "ロボ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "ロマンチカクロック",
-      "color": "#e38b8b",
-      "borderColor": "#ad2928",
-      "size": 26,
-      "label": "ロマ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "ロン先生の虫眼鏡",
-      "color": "#8be3a5",
-      "borderColor": "#28ad50",
-      "size": 26,
-      "label": "ロン",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "ワルボロ",
-      "color": "#bf8be3",
-      "borderColor": "#7728ad",
-      "size": 26,
-      "label": "ワル",
-      "textColor": "#1f2937"
-    },
-    {
       "series": "一休さん",
-      "color": "#e3d98b",
-      "borderColor": "#ad9d28",
+      "color": "#e38bb6",
+      "borderColor": "#ad286a",
       "size": 26,
       "label": "一休",
       "textColor": "#1f2937"
     },
     {
-      "series": "七人のナナ",
-      "color": "#8bd4e3",
-      "borderColor": "#2896ad",
-      "size": 26,
-      "label": "七人",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "七帝柔道記",
-      "color": "#e38bba",
-      "borderColor": "#ad286f",
-      "size": 26,
-      "label": "七帝",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "三角の距離は限りないゼロ",
-      "color": "#a0e38b",
-      "borderColor": "#48ad28",
-      "size": 26,
-      "label": "三角",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "下北GLORY DAYS",
-      "color": "#8f8be3",
-      "borderColor": "#2f28ad",
-      "size": 26,
-      "label": "下北",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "世界征服〜謀略のズヴィズダー〜",
-      "color": "#e3a98b",
-      "borderColor": "#ad5628",
-      "size": 26,
-      "label": "世界",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "中央モノローグ線",
-      "color": "#8be3c3",
-      "borderColor": "#28ad7c",
-      "size": 26,
-      "label": "中央",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "主に泣いてます",
-      "color": "#dd8be3",
-      "borderColor": "#a328ad",
-      "size": 26,
-      "label": "主に",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "乙女怪獣キャラメリゼ",
-      "color": "#d0e38b",
-      "borderColor": "#90ad28",
-      "size": 26,
-      "label": "乙女",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "事件屋稼業",
-      "color": "#8bb6e3",
-      "borderColor": "#2869ad",
-      "size": 26,
-      "label": "事件",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "京洛れぎおん",
-      "color": "#e38b9d",
-      "borderColor": "#ad2843",
-      "size": 26,
-      "label": "京洛",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "京男と居候",
-      "color": "#8be393",
-      "borderColor": "#28ad34",
-      "size": 26,
-      "label": "京男",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "京都寺町三条のホームズ",
-      "color": "#ad8be3",
-      "borderColor": "#5b28ad",
-      "size": 26,
-      "label": "京都",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "京都府警あやかし課の事件簿",
-      "color": "#e3c78b",
-      "borderColor": "#ad8228",
-      "size": 26,
-      "label": "京郾",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "京騒戯画",
-      "color": "#8be3e1",
-      "borderColor": "#28ada9",
-      "size": 26,
-      "label": "京騒",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "亭主元気で犬がいい",
-      "color": "#e38bcc",
-      "borderColor": "#ad288b",
-      "size": 26,
-      "label": "亭主",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "侵略!イカ娘",
-      "color": "#b3e38b",
-      "borderColor": "#64ad28",
-      "size": 26,
-      "label": "侵略",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "信長",
-      "color": "#8b99e3",
-      "borderColor": "#283dad",
-      "size": 26,
-      "label": "信長",
-      "textColor": "#1f2937"
-    },
-    {
       "series": "俺の妹がこんなに可愛いわけがない",
-      "color": "#e3978b",
-      "borderColor": "#ad3a28",
+      "color": "#9de38b",
+      "borderColor": "#43ad28",
       "size": 26,
       "label": "俺の",
       "textColor": "#1f2937"
     },
     {
-      "series": "僕とシッポと神楽坂",
-      "color": "#8be3b1",
-      "borderColor": "#28ad61",
-      "size": 26,
-      "label": "僕と",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "僕の部屋がダンジョンの休憩所になってしまった件",
-      "color": "#ca8be3",
-      "borderColor": "#8828ad",
-      "size": 26,
-      "label": "僕の",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "僕は旅をする",
-      "color": "#e2e38b",
-      "borderColor": "#acad28",
-      "size": 26,
-      "label": "僕は",
-      "textColor": "#1f2937"
-    },
-    {
       "series": "八十亀ちゃんかんさつにっき",
-      "color": "#8bc9e3",
-      "borderColor": "#2885ad",
+      "color": "#938be3",
+      "borderColor": "#3428ad",
       "size": 26,
       "label": "八十",
       "textColor": "#1f2937"
     },
     {
-      "series": "八重の桜",
-      "color": "#e38baf",
-      "borderColor": "#ad285e",
-      "size": 26,
-      "label": "八重",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "公家侍秘録",
-      "color": "#95e38b",
-      "borderColor": "#37ad28",
-      "size": 26,
-      "label": "公家",
-      "textColor": "#1f2937"
-    },
-    {
       "series": "凪のあすから",
-      "color": "#9b8be3",
-      "borderColor": "#4028ad",
+      "color": "#e3ad8b",
+      "borderColor": "#ad5b28",
       "size": 26,
       "label": "凪の",
       "textColor": "#1f2937"
     },
     {
-      "series": "凪のお暇",
-      "color": "#e3b48b",
-      "borderColor": "#ad6728",
-      "size": 26,
-      "label": "凪は",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "初恋*れ〜るとりっぷ",
-      "color": "#8be3ce",
-      "borderColor": "#28ad8d",
-      "size": 26,
-      "label": "初恋",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "初恋DOGs",
-      "color": "#e38bdf",
-      "borderColor": "#ad28a6",
-      "size": 26,
-      "label": "初恌",
-      "textColor": "#1f2937"
-    },
-    {
       "series": "前橋ウィッチーズ",
-      "color": "#c5e38b",
-      "borderColor": "#7fad28",
+      "color": "#8be3c7",
+      "borderColor": "#28ad82",
       "size": 26,
       "label": "前橋",
       "textColor": "#1f2937"
     },
     {
-      "series": "劇場版MAJOR メジャー 友情の一球",
-      "color": "#8babe3",
-      "borderColor": "#2858ad",
-      "size": 26,
-      "label": "劇場",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "動物のお医者さん",
-      "color": "#e38b91",
-      "borderColor": "#ad2832",
-      "size": 26,
-      "label": "動物",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "包丁人味平",
-      "color": "#8be39e",
-      "borderColor": "#28ad45",
-      "size": 26,
-      "label": "包丁",
-      "textColor": "#1f2937"
-    },
-    {
       "series": "千歳くんはラムネ瓶のなか",
-      "color": "#b88be3",
-      "borderColor": "#6c28ad",
+      "color": "#e08be3",
+      "borderColor": "#a928ad",
       "size": 26,
       "label": "千歳",
       "textColor": "#1f2937"
     },
     {
-      "series": "南鎌倉高校女子自転車部",
-      "color": "#e3d28b",
-      "borderColor": "#ad9328",
-      "size": 26,
-      "label": "南鎌",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "博多っ子純情",
-      "color": "#8bdbe3",
-      "borderColor": "#28a0ad",
-      "size": 26,
-      "label": "博多",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "博多豚骨ラーメンズ",
-      "color": "#e38bc1",
-      "borderColor": "#ad287a",
-      "size": 26,
-      "label": "博夛",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "友子の場合",
-      "color": "#a7e38b",
-      "borderColor": "#53ad28",
-      "size": 26,
-      "label": "友子",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "双亡亭壊すべし",
-      "color": "#8b8de3",
-      "borderColor": "#282cad",
-      "size": 26,
-      "label": "双亡",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "各駅停車",
-      "color": "#e3a28b",
-      "borderColor": "#ad4b28",
-      "size": 26,
-      "label": "各駅",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "同人少女JB",
-      "color": "#8be3bc",
-      "borderColor": "#28ad72",
-      "size": 26,
-      "label": "同人",
-      "textColor": "#1f2937"
-    },
-    {
       "series": "名探偵コナン 100万ドルの五稜星",
-      "color": "#d68be3",
-      "borderColor": "#9928ad",
+      "color": "#cce38b",
+      "borderColor": "#8bad28",
       "size": 26,
       "label": "名探",
       "textColor": "#1f2937"
     },
     {
-      "series": "名探偵コナン から紅の恋歌",
-      "color": "#d7e38b",
-      "borderColor": "#9bad28",
-      "size": 26,
-      "label": "名掣",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "名探偵コナン 世紀末の魔術師",
-      "color": "#8bbde3",
-      "borderColor": "#2874ad",
-      "size": 26,
-      "label": "名掤",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "名探偵コナン 大怪獣ゴメラVS仮面ヤイバー",
-      "color": "#e38ba3",
-      "borderColor": "#ad284d",
-      "size": 26,
-      "label": "名接",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "名探偵コナン 江戸川コナン失踪事件 〜史上最悪の2日間〜",
-      "color": "#8be38c",
-      "borderColor": "#28ad2a",
-      "size": 26,
-      "label": "名掦",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "名探偵コナン 紅の修学旅行",
-      "color": "#a68be3",
-      "borderColor": "#5128ad",
-      "size": 26,
-      "label": "名控",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "名探偵コナン 緋色の弾丸",
-      "color": "#e3c08b",
-      "borderColor": "#ad7728",
-      "size": 26,
-      "label": "名推",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "名探偵コナン 迷宮の十字路",
-      "color": "#8be3da",
-      "borderColor": "#28ad9e",
-      "size": 26,
-      "label": "名掩",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "名探偵コナン 銀翼の奇術師",
-      "color": "#e38bd3",
-      "borderColor": "#ad2895",
-      "size": 26,
-      "label": "名措",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "君の手がささやいている",
-      "color": "#bae38b",
-      "borderColor": "#6ead28",
+      "series": "君の膵臓をたべたい",
+      "color": "#8bb3e3",
+      "borderColor": "#2864ad",
       "size": 26,
       "label": "君の",
       "textColor": "#1f2937"
     },
     {
-      "series": "君の膵臓をたべたい",
-      "color": "#8ba0e3",
-      "borderColor": "#2848ad",
+      "series": "君は放課後インソムニア",
+      "color": "#e38b99",
+      "borderColor": "#ad283d",
       "size": 26,
       "label": "君は",
       "textColor": "#1f2937"
     },
     {
-      "series": "君は放課後インソムニア",
-      "color": "#e3908b",
-      "borderColor": "#ad3028",
-      "size": 26,
-      "label": "君ば",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "吸血姫美夕",
-      "color": "#8be3aa",
-      "borderColor": "#28ad56",
-      "size": 26,
-      "label": "吸血",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "吸血鬼すぐ死ぬ",
-      "color": "#c38be3",
-      "borderColor": "#7d28ad",
-      "size": 26,
-      "label": "吸衁",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "和菓子のアン",
-      "color": "#e3dd8b",
-      "borderColor": "#ada428",
-      "size": 26,
-      "label": "和菓",
-      "textColor": "#1f2937"
-    },
-    {
       "series": "四月は君の嘘",
-      "color": "#8bd0e3",
-      "borderColor": "#288fad",
+      "color": "#8be397",
+      "borderColor": "#28ad3a",
       "size": 26,
       "label": "四月",
       "textColor": "#1f2937"
     },
     {
-      "series": "四畳半タイムマシンブルース",
-      "color": "#e38bb6",
-      "borderColor": "#ad2869",
-      "size": 26,
-      "label": "四畳",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "四畳半神話大系",
-      "color": "#9ce38b",
-      "borderColor": "#42ad28",
-      "size": 26,
-      "label": "四畴",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "土曜ワイド殺人事件",
-      "color": "#948be3",
-      "borderColor": "#3528ad",
-      "size": 26,
-      "label": "土曜",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "坂本ですが?",
-      "color": "#e3ad8b",
-      "borderColor": "#ad5c28",
-      "size": 26,
-      "label": "坂本",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "壬生義士伝",
-      "color": "#8be3c7",
-      "borderColor": "#28ad83",
-      "size": 26,
-      "label": "壬生",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "夏のあらし!",
-      "color": "#e18be3",
-      "borderColor": "#aa28ad",
-      "size": 26,
-      "label": "夏の",
-      "textColor": "#1f2937"
-    },
-    {
       "series": "夏目友人帳",
-      "color": "#cce38b",
-      "borderColor": "#8aad28",
+      "color": "#b18be3",
+      "borderColor": "#6128ad",
       "size": 26,
       "label": "夏目",
       "textColor": "#1f2937"
     },
     {
-      "series": "多数欠",
-      "color": "#8bb2e3",
-      "borderColor": "#2863ad",
-      "size": 26,
-      "label": "多数",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "夜は短し歩けよ乙女",
-      "color": "#e38b98",
-      "borderColor": "#ad283c",
-      "size": 26,
-      "label": "夜は",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "夜行観覧車",
-      "color": "#8be397",
-      "borderColor": "#28ad3b",
-      "size": 26,
-      "label": "夜行",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "夢かもしんない",
-      "color": "#b18be3",
-      "borderColor": "#6228ad",
-      "size": 26,
-      "label": "夢か",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "夢見るメイドのティータイム",
-      "color": "#e3cb8b",
-      "borderColor": "#ad8828",
-      "size": 26,
-      "label": "夢見",
-      "textColor": "#1f2937"
-    },
-    {
       "series": "大奥",
-      "color": "#8be2e3",
-      "borderColor": "#28abad",
+      "color": "#e3ca8b",
+      "borderColor": "#ad8728",
       "size": 26,
       "label": "大奥",
       "textColor": "#1f2937"
     },
     {
-      "series": "大東京ビンボー生活マニュアル",
-      "color": "#e38bc8",
-      "borderColor": "#ad2884",
-      "size": 26,
-      "label": "大東",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "大東京鬼嫁伝",
-      "color": "#aee38b",
-      "borderColor": "#5dad28",
-      "size": 26,
-      "label": "大杲",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "大正野球娘。",
-      "color": "#8b94e3",
-      "borderColor": "#2837ad",
-      "size": 26,
-      "label": "大正",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "大阪豆ゴハン",
-      "color": "#e39b8b",
-      "borderColor": "#ad4128",
-      "size": 26,
-      "label": "大阪",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "大須のぶーちゃん",
-      "color": "#8be3b5",
-      "borderColor": "#28ad67",
-      "size": 26,
-      "label": "大須",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "天体戦士サンレッド",
-      "color": "#cf8be3",
-      "borderColor": "#8e28ad",
-      "size": 26,
-      "label": "天体",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "天使のアッパーカット",
-      "color": "#dee38b",
-      "borderColor": "#a5ad28",
-      "size": 26,
-      "label": "天使",
-      "textColor": "#1f2937"
-    },
-    {
       "series": "天才バカボン",
-      "color": "#8bc4e3",
-      "borderColor": "#287ead",
+      "color": "#8be3e3",
+      "borderColor": "#28acad",
       "size": 26,
       "label": "天才",
       "textColor": "#1f2937"
     },
     {
-      "series": "夫婦以上、恋人未満。",
-      "color": "#e38baa",
-      "borderColor": "#ad2858",
-      "size": 26,
-      "label": "夫婦",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "女子高生",
-      "color": "#91e38b",
-      "borderColor": "#31ad28",
+      "series": "女子高生の無駄づかい",
+      "color": "#e38bc9",
+      "borderColor": "#ad2885",
       "size": 26,
       "label": "女子",
       "textColor": "#1f2937"
     },
     {
-      "series": "女子高生の無駄づかい",
-      "color": "#9f8be3",
-      "borderColor": "#4628ad",
-      "size": 26,
-      "label": "女孑",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "姉、ちゃんとしようよっ!",
-      "color": "#e3b98b",
-      "borderColor": "#ad6d28",
-      "size": 26,
-      "label": "姉ち",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "姉妹坂",
-      "color": "#8be3d3",
-      "borderColor": "#28ad94",
-      "size": 26,
-      "label": "姉妹",
-      "textColor": "#1f2937"
-    },
-    {
       "series": "宇宙よりも遠い場所",
-      "color": "#e38bda",
-      "borderColor": "#ad28a0",
+      "color": "#afe38b",
+      "borderColor": "#5ead28",
       "size": 26,
       "label": "宇宙",
       "textColor": "#1f2937"
     },
     {
-      "series": "宇宙パトロールルル子",
-      "color": "#c1e38b",
-      "borderColor": "#79ad28",
-      "size": 26,
-      "label": "宇定",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "宙のまにまに",
-      "color": "#8ba7e3",
-      "borderColor": "#2852ad",
-      "size": 26,
-      "label": "宙の",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "将太の寿司",
-      "color": "#e38b8d",
-      "borderColor": "#ad282b",
-      "size": 26,
-      "label": "将太",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "小さな巨人 (テレビドラマ)",
-      "color": "#8be3a3",
-      "borderColor": "#28ad4c",
-      "size": 26,
-      "label": "小さ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "小山荘のきらわれ者",
-      "color": "#bc8be3",
-      "borderColor": "#7328ad",
-      "size": 26,
-      "label": "小山",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "小田原観光大使になれるかな",
-      "color": "#e3d68b",
-      "borderColor": "#ad9928",
-      "size": 26,
-      "label": "小田",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "少女ファイト",
-      "color": "#8bd7e3",
-      "borderColor": "#289aad",
-      "size": 26,
-      "label": "少女",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "少年よギターを抱け",
-      "color": "#e38bbd",
-      "borderColor": "#ad2873",
-      "size": 26,
-      "label": "少年",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "少年陰陽師",
-      "color": "#a3e38b",
-      "borderColor": "#4cad28",
-      "size": 26,
-      "label": "少幵",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "山田全自動の福岡暮らし",
-      "color": "#8d8be3",
-      "borderColor": "#2b28ad",
-      "size": 26,
-      "label": "山田",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "岡崎に捧ぐ",
-      "color": "#e3a68b",
-      "borderColor": "#ad5228",
-      "size": 26,
-      "label": "岡崎",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "市立戦隊ダイテンジン",
-      "color": "#8be3c0",
-      "borderColor": "#28ad78",
-      "size": 26,
-      "label": "市立",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "帝一の國",
-      "color": "#da8be3",
-      "borderColor": "#9f28ad",
-      "size": 26,
-      "label": "帝一",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "幇間探偵しゃろく",
-      "color": "#d3e38b",
-      "borderColor": "#94ad28",
-      "size": 26,
-      "label": "幇間",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "幕張",
-      "color": "#8bb9e3",
-      "borderColor": "#286dad",
-      "size": 26,
-      "label": "幕張",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "幕張サボテンキャンパス",
-      "color": "#e38b9f",
-      "borderColor": "#ad2847",
-      "size": 26,
-      "label": "幕弶",
-      "textColor": "#1f2937"
-    },
-    {
       "series": "幻魔大戦",
-      "color": "#8be390",
-      "borderColor": "#28ad30",
+      "color": "#8b95e3",
+      "borderColor": "#2838ad",
       "size": 26,
       "label": "幻魔",
       "textColor": "#1f2937"
     },
     {
-      "series": "広島さん、友達になってください",
-      "color": "#aa8be3",
-      "borderColor": "#5728ad",
-      "size": 26,
-      "label": "広島",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "弁当屋さんのおもてなし",
-      "color": "#e3c48b",
-      "borderColor": "#ad7e28",
-      "size": 26,
-      "label": "弁当",
-      "textColor": "#1f2937"
-    },
-    {
       "series": "弱虫ペダル",
-      "color": "#8be3de",
-      "borderColor": "#28ada5",
+      "color": "#e39a8b",
+      "borderColor": "#ad4028",
       "size": 26,
       "label": "弱虫",
       "textColor": "#1f2937"
     },
     {
       "series": "彼女、お借りします",
-      "color": "#e38bcf",
-      "borderColor": "#ad288f",
+      "color": "#8be3b4",
+      "borderColor": "#28ad66",
       "size": 26,
       "label": "彼女",
       "textColor": "#1f2937"
     },
     {
-      "series": "彼氏彼女の事情",
-      "color": "#b5e38b",
-      "borderColor": "#68ad28",
-      "size": 26,
-      "label": "彼氏",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "御茶ノ水ロック",
-      "color": "#8b9be3",
-      "borderColor": "#2841ad",
-      "size": 26,
-      "label": "御茶",
-      "textColor": "#1f2937"
-    },
-    {
       "series": "心が叫びたがってるんだ。",
-      "color": "#e3948b",
-      "borderColor": "#ad3628",
+      "color": "#ce8be3",
+      "borderColor": "#8d28ad",
       "size": 26,
       "label": "心が",
       "textColor": "#1f2937"
     },
     {
-      "series": "忍者ハットリくん+パーマン 忍者怪獣ジッポウVSミラクル卵",
-      "color": "#8be3ae",
-      "borderColor": "#28ad5d",
-      "size": 26,
-      "label": "忍者",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "忘却シリーズ",
-      "color": "#c88be3",
-      "borderColor": "#8428ad",
-      "size": 26,
-      "label": "忘却",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "応天の門",
-      "color": "#e3e28b",
-      "borderColor": "#adaa28",
-      "size": 26,
-      "label": "応天",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "思い、思われ、ふり、ふられ",
-      "color": "#8bcbe3",
-      "borderColor": "#2889ad",
-      "size": 26,
-      "label": "思い",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "恋と選挙とチョコレート",
-      "color": "#e38bb1",
-      "borderColor": "#ad2862",
-      "size": 26,
-      "label": "恋と",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "恋は雨上がりのように",
-      "color": "#98e38b",
-      "borderColor": "#3bad28",
-      "size": 26,
-      "label": "恋は",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "恋染紅葉",
-      "color": "#988be3",
-      "borderColor": "#3c28ad",
-      "size": 26,
-      "label": "恋染",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "悪魔のようなあいつ",
-      "color": "#e3b28b",
-      "borderColor": "#ad6328",
-      "size": 26,
-      "label": "悪魔",
-      "textColor": "#1f2937"
-    },
-    {
       "series": "惡の華",
-      "color": "#8be3cc",
-      "borderColor": "#28ad89",
+      "color": "#dfe38b",
+      "borderColor": "#a6ad28",
       "size": 26,
       "label": "惡の",
       "textColor": "#1f2937"
     },
     {
-      "series": "愛のアランフェス",
-      "color": "#e38be1",
-      "borderColor": "#ad28aa",
-      "size": 26,
-      "label": "愛の",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "成瀬は天下を取りにいく",
-      "color": "#c8e38b",
-      "borderColor": "#83ad28",
-      "size": 26,
-      "label": "成瀬",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "探偵オペラ ミルキィホームズ",
-      "color": "#8baee3",
-      "borderColor": "#285cad",
-      "size": 26,
-      "label": "探偵",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "探偵オペラ ミルキィホームズ 2",
-      "color": "#e38b94",
-      "borderColor": "#ad2836",
-      "size": 26,
-      "label": "探偶",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "探偵オペラ ミルキィホームズ on stage!",
-      "color": "#8be39c",
-      "borderColor": "#28ad41",
-      "size": 26,
-      "label": "探偷",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "探偵事務所5",
-      "color": "#b58be3",
-      "borderColor": "#6828ad",
-      "size": 26,
-      "label": "探偸",
-      "textColor": "#1f2937"
-    },
-    {
       "series": "推しが武道館いってくれたら死ぬ",
-      "color": "#e3cf8b",
-      "borderColor": "#ad8f28",
+      "color": "#8bc5e3",
+      "borderColor": "#287fad",
       "size": 26,
       "label": "推し",
       "textColor": "#1f2937"
     },
     {
-      "series": "推しが死んだ朝",
-      "color": "#8bdee3",
-      "borderColor": "#28a4ad",
-      "size": 26,
-      "label": "推じ",
-      "textColor": "#1f2937"
-    },
-    {
       "series": "放課後ていぼう日誌",
-      "color": "#e38bc4",
-      "borderColor": "#ad287e",
+      "color": "#e38bab",
+      "borderColor": "#ad2859",
       "size": 26,
       "label": "放課",
       "textColor": "#1f2937"
     },
     {
-      "series": "教師諸君!!",
-      "color": "#aae38b",
-      "borderColor": "#57ad28",
-      "size": 26,
-      "label": "教師",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "数字であそぼ。",
-      "color": "#8b90e3",
-      "borderColor": "#2830ad",
-      "size": 26,
-      "label": "数字",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "文豪の食彩",
-      "color": "#e39f8b",
-      "borderColor": "#ad4728",
+      "series": "文豪ストレイドッグス",
+      "color": "#91e38b",
+      "borderColor": "#32ad28",
       "size": 26,
       "label": "文豪",
       "textColor": "#1f2937"
     },
     {
-      "series": "文豪ストレイドッグス",
-      "color": "#8be3b9",
-      "borderColor": "#28ad6e",
-      "size": 26,
-      "label": "文豫",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "新しい上司はど天然",
-      "color": "#d38be3",
-      "borderColor": "#9528ad",
-      "size": 26,
-      "label": "新し",
-      "textColor": "#1f2937"
-    },
-    {
       "series": "新世紀エヴァンゲリオン",
-      "color": "#dae38b",
-      "borderColor": "#9fad28",
+      "color": "#9e8be3",
+      "borderColor": "#4528ad",
       "size": 26,
       "label": "新世",
       "textColor": "#1f2937"
     },
     {
-      "series": "新幹線変形ロボ シンカリオン",
-      "color": "#8bc0e3",
-      "borderColor": "#2878ad",
-      "size": 26,
-      "label": "新幹",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "日和ちゃんのお願いは絶対",
-      "color": "#e38ba6",
-      "borderColor": "#ad2851",
-      "size": 26,
-      "label": "日和",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "星屑テレパス",
-      "color": "#8ce38b",
-      "borderColor": "#2aad28",
-      "size": 26,
-      "label": "星屑",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "星空のカラス",
-      "color": "#a38be3",
-      "borderColor": "#4d28ad",
-      "size": 26,
-      "label": "星空",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "春琴抄",
-      "color": "#e3bd8b",
-      "borderColor": "#ad7328",
-      "size": 26,
-      "label": "春琴",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "時空の旅人",
-      "color": "#8be3d7",
-      "borderColor": "#28ad9a",
-      "size": 26,
-      "label": "時空",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "曇天に笑う",
-      "color": "#e38bd6",
-      "borderColor": "#ad2899",
-      "size": 26,
-      "label": "曇天",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "最強の詩",
-      "color": "#bce38b",
-      "borderColor": "#72ad28",
-      "size": 26,
-      "label": "最強",
-      "textColor": "#1f2937"
-    },
-    {
       "series": "最終兵器彼女",
-      "color": "#8ba2e3",
-      "borderColor": "#284cad",
+      "color": "#e3b88b",
+      "borderColor": "#ad6c28",
       "size": 26,
       "label": "最終",
       "textColor": "#1f2937"
     },
     {
       "series": "月がきれい",
-      "color": "#e38d8b",
-      "borderColor": "#ad2c28",
+      "color": "#8be3d2",
+      "borderColor": "#28ad93",
       "size": 26,
       "label": "月が",
       "textColor": "#1f2937"
     },
     {
-      "series": "月下の棋士",
-      "color": "#8be3a7",
-      "borderColor": "#28ad52",
-      "size": 26,
-      "label": "月下",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "月面兎兵器ミーナ",
-      "color": "#c18be3",
-      "borderColor": "#7928ad",
-      "size": 26,
-      "label": "月面",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "有頂天家族",
-      "color": "#e3db8b",
-      "borderColor": "#ada028",
-      "size": 26,
-      "label": "有頂",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "札幌乙女ごはん。",
-      "color": "#8bd2e3",
-      "borderColor": "#2893ad",
-      "size": 26,
-      "label": "札幌",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "東京マグニチュード8.0",
-      "color": "#e38bb8",
-      "borderColor": "#ad286d",
-      "size": 26,
-      "label": "東京",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "東京大学物語",
-      "color": "#9fe38b",
-      "borderColor": "#46ad28",
-      "size": 26,
-      "label": "東亭",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "東京物語",
-      "color": "#918be3",
-      "borderColor": "#3128ad",
-      "size": 26,
-      "label": "東亮",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "東京自転車少女。",
-      "color": "#e3ab8b",
-      "borderColor": "#ad5828",
-      "size": 26,
-      "label": "東亯",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "果てしなき渇き",
-      "color": "#8be3c5",
-      "borderColor": "#28ad7f",
-      "size": 26,
-      "label": "果て",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "株式会社マジルミエ",
-      "color": "#de8be3",
-      "borderColor": "#a628ad",
-      "size": 26,
-      "label": "株式",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "桃源暗鬼",
-      "color": "#cfe38b",
-      "borderColor": "#8ead28",
-      "size": 26,
-      "label": "桃源",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "桜井芽衣の作り方",
-      "color": "#8bb5e3",
-      "borderColor": "#2867ad",
-      "size": 26,
-      "label": "桜井",
-      "textColor": "#1f2937"
-    },
-    {
       "series": "桜蘭高校ホスト部",
-      "color": "#e38b9b",
-      "borderColor": "#ad2840",
+      "color": "#e38bdb",
+      "borderColor": "#ad28a0",
       "size": 26,
       "label": "桜蘭",
       "textColor": "#1f2937"
     },
     {
-      "series": "森はなに色",
-      "color": "#8be395",
-      "borderColor": "#28ad37",
-      "size": 26,
-      "label": "森は",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "極悪がんぼ",
-      "color": "#ae8be3",
-      "borderColor": "#5e28ad",
-      "size": 26,
-      "label": "極悪",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "模型戦士ガンプラビルダーズ ビギニングG",
-      "color": "#e3c88b",
-      "borderColor": "#ad8428",
-      "size": 26,
-      "label": "模型",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "横浜ばっくれ隊",
-      "color": "#8be3e2",
-      "borderColor": "#28adab",
-      "size": 26,
-      "label": "横浜",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "横浜物語",
-      "color": "#e38bcb",
-      "borderColor": "#ad2888",
-      "size": 26,
-      "label": "横浝",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "機械人形ナナミちゃん",
-      "color": "#b1e38b",
-      "borderColor": "#61ad28",
-      "size": 26,
-      "label": "機械",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "毎日かあさん",
-      "color": "#8b97e3",
-      "borderColor": "#283bad",
-      "size": 26,
-      "label": "毎日",
-      "textColor": "#1f2937"
-    },
-    {
       "series": "氷菓",
-      "color": "#e3988b",
-      "borderColor": "#ad3d28",
+      "color": "#c1e38b",
+      "borderColor": "#7aad28",
       "size": 26,
       "label": "氷菓",
       "textColor": "#1f2937"
     },
     {
-      "series": "永久のユウグレ",
-      "color": "#8be3b2",
-      "borderColor": "#28ad63",
-      "size": 26,
-      "label": "永久",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "永沢君",
-      "color": "#cc8be3",
-      "borderColor": "#8a28ad",
-      "size": 26,
-      "label": "永沢",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "永遠の詩",
-      "color": "#e1e38b",
-      "borderColor": "#a9ad28",
-      "size": 26,
-      "label": "永遠",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "江 姫たちの戦国",
-      "color": "#8bc7e3",
-      "borderColor": "#2882ad",
-      "size": 26,
-      "label": "江姫",
-      "textColor": "#1f2937"
-    },
-    {
       "series": "江戸前エルフ",
-      "color": "#e38bad",
-      "borderColor": "#ad285c",
+      "color": "#8ba7e3",
+      "borderColor": "#2853ad",
       "size": 26,
       "label": "江戸",
       "textColor": "#1f2937"
     },
     {
       "series": "沖縄で好きになった子が方言すぎてツラすぎる",
-      "color": "#93e38b",
-      "borderColor": "#35ad28",
+      "color": "#e38b8e",
+      "borderColor": "#ad282c",
       "size": 26,
       "label": "沖縄",
       "textColor": "#1f2937"
     },
     {
-      "series": "波よ聞いてくれ",
-      "color": "#9c8be3",
-      "borderColor": "#4228ad",
-      "size": 26,
-      "label": "波よ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "泣くようぐいす",
-      "color": "#e3b68b",
-      "borderColor": "#ad6928",
-      "size": 26,
-      "label": "泣く",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "浦和の調ちゃん",
-      "color": "#8be3d0",
-      "borderColor": "#28ad90",
-      "size": 26,
-      "label": "浦和",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "海よりも深く",
-      "color": "#e38bdd",
-      "borderColor": "#ad28a4",
-      "size": 26,
-      "label": "海よ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "海街diary",
-      "color": "#c3e38b",
-      "borderColor": "#7dad28",
-      "size": 26,
-      "label": "海街",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "涼宮ハルヒの憂鬱",
-      "color": "#8ba9e3",
-      "borderColor": "#2856ad",
+      "series": "涼宮ハルヒシリーズ",
+      "color": "#8be3a2",
+      "borderColor": "#28ad4b",
       "size": 26,
       "label": "涼宮",
       "textColor": "#1f2937"
     },
     {
-      "series": "涼宮ハルヒシリーズ",
-      "color": "#e38b90",
-      "borderColor": "#ad282f",
-      "size": 26,
-      "label": "涼宯",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "淀川ベルトコンベア・ガール",
-      "color": "#8be3a0",
-      "borderColor": "#28ad48",
-      "size": 26,
-      "label": "淀川",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "源平伝NEO",
-      "color": "#ba8be3",
-      "borderColor": "#6f28ad",
-      "size": 26,
-      "label": "源平",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "源氏物語千年紀 Genji",
-      "color": "#e3d48b",
-      "borderColor": "#ad9528",
-      "size": 26,
-      "label": "源氏",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "潮が舞い子が舞い",
-      "color": "#8bd9e3",
-      "borderColor": "#289ead",
-      "size": 26,
-      "label": "潮が",
-      "textColor": "#1f2937"
-    },
-    {
       "series": "火垂るの墓",
-      "color": "#e38bbf",
-      "borderColor": "#ad2877",
+      "color": "#bc8be3",
+      "borderColor": "#7228ad",
       "size": 26,
       "label": "火垂",
       "textColor": "#1f2937"
     },
     {
-      "series": "炎の闘球児 ドッジ弾平",
-      "color": "#a6e38b",
-      "borderColor": "#50ad28",
-      "size": 26,
-      "label": "炎の",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "無明逆流れ",
-      "color": "#8b8ce3",
-      "borderColor": "#282aad",
-      "size": 26,
-      "label": "無明",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "煙と蜜",
-      "color": "#e3a48b",
-      "borderColor": "#ad4e28",
-      "size": 26,
-      "label": "煙と",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "燃える仏像人間",
-      "color": "#8be3be",
-      "borderColor": "#28ad74",
-      "size": 26,
-      "label": "燃え",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "犬王",
-      "color": "#d78be3",
-      "borderColor": "#9b28ad",
-      "size": 26,
-      "label": "犬王",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "独身アパートどくだみ荘",
-      "color": "#d6e38b",
-      "borderColor": "#98ad28",
-      "size": 26,
-      "label": "独身",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "猛き黄金の国",
-      "color": "#8bbce3",
-      "borderColor": "#2871ad",
-      "size": 26,
-      "label": "猛き",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "玄椿",
-      "color": "#e38ba2",
-      "borderColor": "#ad284b",
-      "size": 26,
-      "label": "玄椿",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "王都妖奇譚",
-      "color": "#8be38e",
-      "borderColor": "#28ad2c",
-      "size": 26,
-      "label": "王都",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "珈琲店タレーランの事件簿",
-      "color": "#a78be3",
-      "borderColor": "#5328ad",
-      "size": 26,
-      "label": "珈琲",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "琥珀の夢で酔いましょう",
-      "color": "#e3c18b",
-      "borderColor": "#ad7a28",
-      "size": 26,
-      "label": "琥珀",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "生徒会の一存",
-      "color": "#8be3db",
-      "borderColor": "#28ada1",
-      "size": 26,
-      "label": "生徒",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "甲子園へ行こう!",
-      "color": "#e38bd2",
-      "borderColor": "#ad2893",
-      "size": 26,
-      "label": "甲子",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "男おいどん",
-      "color": "#b8e38b",
-      "borderColor": "#6cad28",
-      "size": 26,
-      "label": "男お",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "男の約束",
-      "color": "#8b9ee3",
-      "borderColor": "#2845ad",
-      "size": 26,
-      "label": "男の",
-      "textColor": "#1f2937"
-    },
-    {
       "series": "男女の友情は成立する?（いや、しないっ!!）",
-      "color": "#e3918b",
-      "borderColor": "#ad3228",
+      "color": "#e3d68b",
+      "borderColor": "#ad9828",
       "size": 26,
       "label": "男女",
       "textColor": "#1f2937"
     },
     {
-      "series": "疾風伝説 特攻の拓",
-      "color": "#8be3ab",
-      "borderColor": "#28ad59",
-      "size": 26,
-      "label": "疾風",
-      "textColor": "#1f2937"
-    },
-    {
       "series": "白い砂のアクアトープ",
-      "color": "#c58be3",
-      "borderColor": "#8028ad",
+      "color": "#8bd7e3",
+      "borderColor": "#289bad",
       "size": 26,
       "label": "白い",
       "textColor": "#1f2937"
     },
     {
-      "series": "看護助手のナナちゃん",
-      "color": "#e3df8b",
-      "borderColor": "#ada628",
-      "size": 26,
-      "label": "看護",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "真夜中のオカルト公務員",
-      "color": "#8bcee3",
-      "borderColor": "#288dad",
+      "series": "真夜中ハートチューン",
+      "color": "#e38bbd",
+      "borderColor": "#ad2874",
       "size": 26,
       "label": "真夜",
       "textColor": "#1f2937"
     },
     {
-      "series": "真夜中ハートチューン",
-      "color": "#e38bb4",
-      "borderColor": "#ad2866",
-      "size": 26,
-      "label": "真夝",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "瞳のカトブレパス",
-      "color": "#9ae38b",
-      "borderColor": "#3fad28",
-      "size": 26,
-      "label": "瞳の",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "瞳のフォトグラフ",
-      "color": "#958be3",
-      "borderColor": "#3828ad",
-      "size": 26,
-      "label": "瞳は",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "社畜! 修羅コーサク",
-      "color": "#e3af8b",
-      "borderColor": "#ad5e28",
-      "size": 26,
-      "label": "社畜",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "神戸在住",
-      "color": "#8be3c9",
-      "borderColor": "#28ad85",
-      "size": 26,
-      "label": "神戸",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "神様がくれた背番号",
-      "color": "#e38be3",
-      "borderColor": "#ac28ad",
+      "series": "神様はじめました",
+      "color": "#a4e38b",
+      "borderColor": "#4dad28",
       "size": 26,
       "label": "神様",
       "textColor": "#1f2937"
     },
     {
-      "series": "神様はじめました",
-      "color": "#cae38b",
-      "borderColor": "#87ad28",
-      "size": 26,
-      "label": "神槙",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "神様家族",
-      "color": "#8bb0e3",
-      "borderColor": "#2861ad",
-      "size": 26,
-      "label": "神槚",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "福家堂本舗",
-      "color": "#e38b97",
-      "borderColor": "#ad283a",
-      "size": 26,
-      "label": "福家",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "私がモテないのはどう考えてもお前らが悪い!",
-      "color": "#8be399",
-      "borderColor": "#28ad3d",
-      "size": 26,
-      "label": "私が",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "私たちはどうかしている",
-      "color": "#b38be3",
-      "borderColor": "#6428ad",
-      "size": 26,
-      "label": "私た",
-      "textColor": "#1f2937"
-    },
-    {
       "series": "私を喰べたい、ひとでなし",
-      "color": "#e3cd8b",
-      "borderColor": "#ad8b28",
+      "color": "#8c8be3",
+      "borderColor": "#2a28ad",
       "size": 26,
       "label": "私を",
       "textColor": "#1f2937"
     },
     {
       "series": "秒速5センチメートル",
-      "color": "#8be0e3",
-      "borderColor": "#28a8ad",
+      "color": "#e3a68b",
+      "borderColor": "#ad5128",
       "size": 26,
       "label": "秒速",
       "textColor": "#1f2937"
     },
     {
-      "series": "秘密結社鷹の爪",
-      "color": "#e38bc6",
-      "borderColor": "#ad2882",
-      "size": 26,
-      "label": "秘密",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "究極超人あ〜る",
-      "color": "#ade38b",
-      "borderColor": "#5bad28",
-      "size": 26,
-      "label": "究極",
-      "textColor": "#1f2937"
-    },
-    {
       "series": "空の青さを知る人よ",
-      "color": "#8b93e3",
-      "borderColor": "#2834ad",
+      "color": "#8be3c0",
+      "borderColor": "#28ad77",
       "size": 26,
       "label": "空の",
       "textColor": "#1f2937"
     },
     {
       "series": "竜とそばかすの姫",
-      "color": "#e39d8b",
-      "borderColor": "#ad4328",
+      "color": "#d98be3",
+      "borderColor": "#9e28ad",
       "size": 26,
       "label": "竜と",
       "textColor": "#1f2937"
     },
     {
-      "series": "築地魚河岸三代目",
-      "color": "#8be3b7",
-      "borderColor": "#28ad6a",
-      "size": 26,
-      "label": "築地",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "紅匂ふ",
-      "color": "#d08be3",
-      "borderColor": "#9128ad",
-      "size": 26,
-      "label": "紅匂",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "紫雲寺家の子供たち",
-      "color": "#dce38b",
-      "borderColor": "#a3ad28",
-      "size": 26,
-      "label": "紫雲",
-      "textColor": "#1f2937"
-    },
-    {
       "series": "結城友奈は勇者である",
-      "color": "#8bc3e3",
-      "borderColor": "#287cad",
+      "color": "#d3e38b",
+      "borderColor": "#95ad28",
       "size": 26,
       "label": "結城",
       "textColor": "#1f2937"
     },
     {
-      "series": "絶対ナル孤独者",
-      "color": "#e38ba9",
-      "borderColor": "#ad2855",
-      "size": 26,
-      "label": "絶対",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "絶対少年",
-      "color": "#8fe38b",
-      "borderColor": "#2ead28",
-      "size": 26,
-      "label": "絶寿",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "継母の連れ子が元カノだった",
-      "color": "#a18be3",
-      "borderColor": "#4928ad",
-      "size": 26,
-      "label": "継母",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "練馬大根ブラザーズ",
-      "color": "#e3ba8b",
-      "borderColor": "#ad6f28",
-      "size": 26,
-      "label": "練馬",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "美人姉妹シリーズ",
-      "color": "#8be3d4",
-      "borderColor": "#28ad96",
-      "size": 26,
-      "label": "美人",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "美代子阿佐ヶ谷気分",
-      "color": "#e38bd9",
-      "borderColor": "#ad289d",
-      "size": 26,
-      "label": "美代",
-      "textColor": "#1f2937"
-    },
-    {
       "series": "美味しんぼ",
-      "color": "#bfe38b",
-      "borderColor": "#76ad28",
+      "color": "#8bbae3",
+      "borderColor": "#286ead",
       "size": 26,
       "label": "美味",
       "textColor": "#1f2937"
     },
     {
       "series": "美少女戦士セーラームーン",
-      "color": "#8ba5e3",
-      "borderColor": "#2850ad",
+      "color": "#e38ba0",
+      "borderColor": "#ad2848",
       "size": 26,
       "label": "美少",
       "textColor": "#1f2937"
     },
     {
-      "series": "群青",
-      "color": "#e38b8b",
-      "borderColor": "#ad2829",
-      "size": 26,
-      "label": "群青",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "聖☆おにいさん",
-      "color": "#8be3a4",
-      "borderColor": "#28ad4e",
-      "size": 26,
-      "label": "聖お",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "聖・ドラゴンガール",
-      "color": "#be8be3",
-      "borderColor": "#7528ad",
-      "size": 26,
-      "label": "聖ド",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "腕 -駿河城御前試合-",
-      "color": "#e3d88b",
-      "borderColor": "#ad9c28",
-      "size": 26,
-      "label": "腕駿",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "臨死!!江古田ちゃん",
-      "color": "#8bd5e3",
-      "borderColor": "#2897ad",
-      "size": 26,
-      "label": "臨死",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "舞妓さんちのまかないさん",
-      "color": "#e38bbb",
-      "borderColor": "#ad2871",
-      "size": 26,
-      "label": "舞妓",
-      "textColor": "#1f2937"
-    },
-    {
       "series": "色づく世界の明日から",
-      "color": "#a1e38b",
-      "borderColor": "#4aad28",
+      "color": "#8be390",
+      "borderColor": "#28ad30",
       "size": 26,
       "label": "色づ",
       "textColor": "#1f2937"
     },
     {
       "series": "花咲くいろは",
-      "color": "#8e8be3",
-      "borderColor": "#2d28ad",
+      "color": "#aa8be3",
+      "borderColor": "#5628ad",
       "size": 26,
       "label": "花咲",
       "textColor": "#1f2937"
     },
     {
-      "series": "花嫁のれん (2010年のテレビドラマ)",
-      "color": "#e3a88b",
-      "borderColor": "#ad5428",
-      "size": 26,
-      "label": "花嫁",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "花衣夢衣",
-      "color": "#8be3c2",
-      "borderColor": "#28ad7b",
-      "size": 26,
-      "label": "花衣",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "草子ブックガイド",
-      "color": "#dc8be3",
-      "borderColor": "#a228ad",
-      "size": 26,
-      "label": "草子",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "菜",
-      "color": "#d1e38b",
-      "borderColor": "#92ad28",
-      "size": 26,
-      "label": "菜",
-      "textColor": "#1f2937"
-    },
-    {
       "series": "菜なれ花なれ",
-      "color": "#8bb7e3",
-      "borderColor": "#286bad",
+      "color": "#e3c38b",
+      "borderColor": "#ad7d28",
       "size": 26,
       "label": "菜な",
       "textColor": "#1f2937"
     },
     {
-      "series": "華中華",
-      "color": "#e38b9e",
-      "borderColor": "#ad2844",
-      "size": 26,
-      "label": "華中",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "蒲田魔女",
-      "color": "#8be392",
-      "borderColor": "#28ad33",
-      "size": 26,
-      "label": "蒲田",
-      "textColor": "#1f2937"
-    },
-    {
       "series": "蒼の彼方のフォーリズム",
-      "color": "#ac8be3",
-      "borderColor": "#5a28ad",
+      "color": "#8be3dd",
+      "borderColor": "#28ada4",
       "size": 26,
       "label": "蒼の",
       "textColor": "#1f2937"
     },
     {
       "series": "蒼穹のファフナー",
-      "color": "#e3c68b",
-      "borderColor": "#ad8028",
+      "color": "#e38bd0",
+      "borderColor": "#ad288f",
       "size": 26,
       "label": "蒼穹",
       "textColor": "#1f2937"
     },
     {
-      "series": "薔薇のために",
-      "color": "#8be3df",
-      "borderColor": "#28ada7",
-      "size": 26,
-      "label": "薔薇",
-      "textColor": "#1f2937"
-    },
-    {
       "series": "藍より青し",
-      "color": "#e38bcd",
-      "borderColor": "#ad288c",
+      "color": "#b6e38b",
+      "borderColor": "#69ad28",
       "size": 26,
       "label": "藍よ",
       "textColor": "#1f2937"
     },
     {
-      "series": "虹を呼ぶ男",
-      "color": "#b4e38b",
-      "borderColor": "#65ad28",
-      "size": 26,
-      "label": "虹を",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "裸足でバラを踏め",
-      "color": "#8b9ae3",
-      "borderColor": "#283fad",
-      "size": 26,
-      "label": "裸足",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "西荻窪 三ツ星洋酒堂",
-      "color": "#e3968b",
-      "borderColor": "#ad3928",
-      "size": 26,
-      "label": "西荻",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "覆面系ノイズ",
-      "color": "#8be3b0",
-      "borderColor": "#28ad5f",
-      "size": 26,
-      "label": "覆面",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "詩歌川百景",
-      "color": "#c98be3",
-      "borderColor": "#8628ad",
-      "size": 26,
-      "label": "詩歌",
-      "textColor": "#1f2937"
-    },
-    {
       "series": "負けヒロインが多すぎる!",
-      "color": "#e3e38b",
-      "borderColor": "#adad28",
+      "color": "#8b9ce3",
+      "borderColor": "#2842ad",
       "size": 26,
       "label": "負け",
       "textColor": "#1f2937"
     },
     {
-      "series": "赤い屋根のポプラ荘",
-      "color": "#8bcae3",
-      "borderColor": "#2886ad",
-      "size": 26,
-      "label": "赤い",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "赤き血のイレブン",
-      "color": "#e38bb0",
-      "borderColor": "#ad2860",
-      "size": 26,
-      "label": "赤き",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "赤菱のイレブン",
-      "color": "#96e38b",
-      "borderColor": "#39ad28",
-      "size": 26,
-      "label": "赤菱",
-      "textColor": "#1f2937"
-    },
-    {
       "series": "超かぐや姫!",
-      "color": "#9a8be3",
-      "borderColor": "#3e28ad",
+      "color": "#e3938b",
+      "borderColor": "#ad3528",
       "size": 26,
       "label": "超か",
       "textColor": "#1f2937"
     },
     {
-      "series": "超ぽじてぃぶ! ファイターズ",
-      "color": "#e3b38b",
-      "borderColor": "#ad6528",
-      "size": 26,
-      "label": "超ぽ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "超速変形ジャイロゼッター",
-      "color": "#8be3cd",
-      "borderColor": "#28ad8c",
-      "size": 26,
-      "label": "超速",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "路地恋花",
-      "color": "#e38be0",
-      "borderColor": "#ad28a8",
-      "size": 26,
-      "label": "路地",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "辣韮の皮〜萌えろ!杜の宮高校漫画研究部〜",
-      "color": "#c6e38b",
-      "borderColor": "#81ad28",
-      "size": 26,
-      "label": "辣韮",
-      "textColor": "#1f2937"
-    },
-    {
       "series": "透明な夜に駆ける君と、目に見えない恋をした。",
-      "color": "#8bace3",
-      "borderColor": "#285aad",
+      "color": "#8be3ad",
+      "borderColor": "#28ad5c",
       "size": 26,
       "label": "透明",
       "textColor": "#1f2937"
     },
     {
-      "series": "逮捕しちゃうぞ",
-      "color": "#e38b92",
-      "borderColor": "#ad2833",
-      "size": 26,
-      "label": "逮捕",
-      "textColor": "#1f2937"
-    },
-    {
       "series": "進撃の巨人",
-      "color": "#8be39d",
-      "borderColor": "#28ad44",
+      "color": "#c78be3",
+      "borderColor": "#8328ad",
       "size": 26,
       "label": "進撃",
       "textColor": "#1f2937"
     },
     {
-      "series": "邪神ちゃんドロップキック",
-      "color": "#b78be3",
-      "borderColor": "#6b28ad",
-      "size": 26,
-      "label": "邪神",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "野望の王国",
-      "color": "#e3d18b",
-      "borderColor": "#ad9128",
-      "size": 26,
-      "label": "野望",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "金沢シャッターガール",
-      "color": "#8bdce3",
-      "borderColor": "#28a2ad",
-      "size": 26,
-      "label": "金沢",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "金色のコルダ",
-      "color": "#e38bc2",
-      "borderColor": "#ad287b",
-      "size": 26,
-      "label": "金色",
-      "textColor": "#1f2937"
-    },
-    {
       "series": "釣りキチ三平",
-      "color": "#a8e38b",
-      "borderColor": "#54ad28",
+      "color": "#e3e18b",
+      "borderColor": "#ada928",
       "size": 26,
       "label": "釣り",
       "textColor": "#1f2937"
     },
     {
-      "series": "鉄腕バーディー",
-      "color": "#8b8ee3",
-      "borderColor": "#282ead",
-      "size": 26,
-      "label": "鉄腕",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "鉄腕ブレイク",
-      "color": "#e3a18b",
-      "borderColor": "#ad4a28",
-      "size": 26,
-      "label": "鉄腖",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "銀の鬼",
-      "color": "#8be3bb",
-      "borderColor": "#28ad70",
-      "size": 26,
-      "label": "銀の",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "鎌倉けしや闇絵巻",
-      "color": "#d58be3",
-      "borderColor": "#9728ad",
-      "size": 26,
-      "label": "鎌倉",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "鎌倉ものがたり",
-      "color": "#d8e38b",
-      "borderColor": "#9cad28",
-      "size": 26,
-      "label": "鎌倊",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "長門有希ちゃんの消失",
-      "color": "#8bbee3",
-      "borderColor": "#2875ad",
-      "size": 26,
-      "label": "長門",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "阿佐ヶ谷Zippy",
-      "color": "#e38ba5",
-      "borderColor": "#ad284f",
-      "size": 26,
-      "label": "阿佐",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "陰陽師",
-      "color": "#8be38b",
-      "borderColor": "#28ad28",
-      "size": 26,
-      "label": "陰陽",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "陰陽師 玉手匣",
-      "color": "#a58be3",
-      "borderColor": "#4f28ad",
-      "size": 26,
-      "label": "陰陾",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "陽だまりの樹",
-      "color": "#e3bf8b",
-      "borderColor": "#ad7628",
-      "size": 26,
-      "label": "陽だ",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "陽炎 稲妻 水の月",
-      "color": "#8be3d8",
-      "borderColor": "#28ad9d",
-      "size": 26,
-      "label": "陽炎",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "難波金融伝・ミナミの帝王",
-      "color": "#e38bd4",
-      "borderColor": "#ad2897",
-      "size": 26,
-      "label": "難波",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "雪ん子!!",
-      "color": "#bbe38b",
-      "borderColor": "#70ad28",
-      "size": 26,
-      "label": "雪ん",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "電撃ドクターモアイくん",
-      "color": "#8ba1e3",
-      "borderColor": "#2849ad",
-      "size": 26,
-      "label": "電撃",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "青い花",
-      "color": "#e38f8b",
-      "borderColor": "#ad2e28",
-      "size": 26,
-      "label": "青い",
-      "textColor": "#1f2937"
-    },
-    {
       "series": "青のオーケストラ",
-      "color": "#8be3a9",
-      "borderColor": "#28ad55",
+      "color": "#8bcce3",
+      "borderColor": "#288aad",
       "size": 26,
       "label": "青の",
       "textColor": "#1f2937"
     },
     {
-      "series": "青のミブロ",
-      "color": "#c28be3",
-      "borderColor": "#7c28ad",
-      "size": 26,
-      "label": "青は",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "青空エール",
-      "color": "#e3dc8b",
-      "borderColor": "#ada228",
-      "size": 26,
-      "label": "青空",
-      "textColor": "#1f2937"
-    },
-    {
       "series": "頭文字D",
-      "color": "#8bd1e3",
-      "borderColor": "#2891ad",
+      "color": "#e38bb2",
+      "borderColor": "#ad2863",
       "size": 26,
       "label": "頭文",
       "textColor": "#1f2937"
     },
     {
-      "series": "風立ちぬ",
-      "color": "#e38bb7",
-      "borderColor": "#ad286a",
-      "size": 26,
-      "label": "風立",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "高杉さん家のおべんとう",
-      "color": "#9de38b",
-      "borderColor": "#43ad28",
-      "size": 26,
-      "label": "高杉",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "高校デビュー",
-      "color": "#938be3",
-      "borderColor": "#3428ad",
-      "size": 26,
-      "label": "高校",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "高校鉄拳伝タフ",
-      "color": "#e3ac8b",
-      "borderColor": "#ad5a28",
-      "size": 26,
-      "label": "高栢",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "高野交差点",
-      "color": "#8be3c6",
-      "borderColor": "#28ad81",
-      "size": 26,
-      "label": "高野",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "鬼神伝",
-      "color": "#e08be3",
-      "borderColor": "#a828ad",
-      "size": 26,
-      "label": "鬼神",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "魔女っ子チックル",
-      "color": "#cde38b",
-      "borderColor": "#8bad28",
-      "size": 26,
-      "label": "魔女",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "魔法遣いに大切なこと",
-      "color": "#8bb3e3",
-      "borderColor": "#2865ad",
-      "size": 26,
-      "label": "魔法",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "鴨川ホルモー",
-      "color": "#e38b99",
-      "borderColor": "#ad283e",
-      "size": 26,
-      "label": "鴨川",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "鹿男あをによし",
-      "color": "#8be396",
-      "borderColor": "#28ad39",
-      "size": 26,
-      "label": "鹿男",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "麒麟館グラフィティー",
-      "color": "#b08be3",
-      "borderColor": "#6028ad",
-      "size": 26,
-      "label": "麒麟",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "黒い家",
-      "color": "#e3ca8b",
-      "borderColor": "#ad8728",
-      "size": 26,
-      "label": "黒い",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "黒蜥蜴",
-      "color": "#8be3e3",
-      "borderColor": "#28acad",
-      "size": 26,
-      "label": "黒蜥",
-      "textColor": "#1f2937"
-    },
-    {
-      "series": "龍-RON-",
-      "color": "#e38bc9",
-      "borderColor": "#ad2886",
-      "size": 26,
-      "label": "龍R",
-      "textColor": "#1f2937"
-    },
-    {
       "series": "マンガ・アニメ施設",
-      "color": "#afe38b",
-      "borderColor": "#5fad28",
+      "color": "#98e38b",
+      "borderColor": "#3cad28",
       "size": 26,
-      "label": "施設",
+      "label": "マン",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "Summer Pockets",
+      "color": "#978be3",
+      "borderColor": "#3b28ad",
+      "size": 26,
+      "label": "Su",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "アマガミ",
+      "color": "#8be3cb",
+      "borderColor": "#28ad88",
+      "size": 26,
+      "label": "アマ",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "しかのこのこのここしたんたん",
+      "color": "#c8e38b",
+      "borderColor": "#84ad28",
+      "size": 26,
+      "label": "しか",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "うたごえはミルフィーユ",
+      "color": "#e38b94",
+      "borderColor": "#ad2837",
+      "size": 26,
+      "label": "うた",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "STEINS;GATE",
+      "color": "#b58be3",
+      "borderColor": "#6728ad",
+      "size": 26,
+      "label": "ST",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "TARI TARI",
+      "color": "#8bdee3",
+      "borderColor": "#28a5ad",
+      "size": 26,
+      "label": "TA",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "私に天使が舞い降りた!",
+      "color": "#abe38b",
+      "borderColor": "#58ad28",
+      "size": 26,
+      "label": "私に",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "とある魔術の禁書目録",
+      "color": "#e39f8b",
+      "borderColor": "#ad4628",
+      "size": 26,
+      "label": "とあ2",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "青春ブタ野郎シリーズ",
+      "color": "#d28be3",
+      "borderColor": "#9428ad",
+      "size": 26,
+      "label": "青春",
+      "textColor": "#1f2937"
+    },
+    {
+      "series": "日々は過ぎれど飯うまし",
+      "color": "#8bc1e3",
+      "borderColor": "#2879ad",
+      "size": 26,
+      "label": "日々",
       "textColor": "#1f2937"
     }
   ],
