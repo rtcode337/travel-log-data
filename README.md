@@ -19,7 +19,7 @@
 | [buratamori](buratamori/README.md)<br>(ブラタモリ) | NHK「ブラタモリ」の訪問地(ルート3本) | 406 | 説明文: LLMの記憶(**未検証**。訪問地の一覧のみWikipedia(ja))<br>座標: OpenStreetMap | 説明文: 出典なし<br>座標: ODbL |
 | [suiyou_dodesho_domestic](suiyou_dodesho_domestic/README.md)<br>(水曜どうでしょう・国内編) | HTB「水曜どうでしょう」国内39企画の立ち寄り地(ルート34本) | 279 | 説明文: LLMの記憶(**未検証**。企画・行程のみWikipedia(ja))<br>座標: OpenStreetMap | 説明文: 出典なし<br>座標: ODbL |
 | [suiyou_dodesho_overseas](suiyou_dodesho_overseas/README.md)<br>(水曜どうでしょう・海外編) | 同・海外15企画の立ち寄り地(29ヵ国・ルート15本) | 136 | 説明文: LLMの記憶(**未検証**。企画・旅程のみWikipedia(ja))<br>座標: OpenStreetMap | 説明文: 出典なし<br>座標: ODbL |
-| [anime_seichi](anime_seichi/README.md)<br>(アニメ聖地) | アニメ・漫画の聖地。アニメツーリズム協会の現行の選定地が母数(名称のみ取得し、データはWikipedia/OSMから取り直し) | 101 | 説明文: Wikipedia(ja)の記事(全行の根拠を`evidence.csv`に保持)<br>座標: OpenStreetMap | 説明文: CC BY-SA 4.0<br>座標: ODbL |
+| [anime_seichi](anime_seichi/README.md)<br>(アニメ聖地) | アニメ・漫画の舞台になった場所。アニメツーリズム協会の現行の選定地と、Wikipedia(ja)の舞台カテゴリ由来の2系統 | 746 | 説明文: Wikipedia(ja)の記事(全行の根拠を`evidence.csv`に保持)<br>座標: OpenStreetMap | 説明文: CC BY-SA 4.0<br>座標: ODbL |
 
 ## フォルダ構成
 
