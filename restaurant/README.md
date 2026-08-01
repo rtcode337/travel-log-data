@@ -14,7 +14,7 @@
 | `excluded_candidates/osm_wikipedia_sweep.md` | OSM側の`wikipedia`タグ起点で洗い直した記録(116件) |
 | `excluded_candidates/exclude.txt` | travel-log側から削除するスポットの`key`一覧(追記式) |
 
-表示名を「飲食店」ではなく**「有名飲食店」**にしているのは、収録範囲を名前で正しく伝えるため。
+表示名を「飲食店」ではなく「**有名飲食店**」にしているのは、収録範囲を名前で正しく伝えるため。
 [goshuin](../goshuin/README.md)がOSMに名前付きで載っている寺社を無名のものまで全件
 (51,950件)収録しているのに対し、こちらは記事のある店だけの171件で、網羅を狙っていない
 (飲食系POIはOSMだけで20万件以上ある)。
@@ -22,7 +22,7 @@
 ## 出典と生成
 
 **候補ソースは2系統**あり、Wikipedia(ja)の**飲食店系のタグ(カテゴリ)**に属する記事(113件)と、
-osm_japan(OSM)側の**`wikipedia`/`wikidata`タグが指すWikipedia(ja)の記事**(58件)からなる。
+OpenStreetMap側の**`wikipedia`/`wikidata`タグが指すWikipedia(ja)の記事**(58件)からなる。
 ジャンル別の内訳はラーメン48、日本料理・料亭30、喫茶・カフェ25、洋食16、そば・うどん14、
 その他13、菓子・パン12、丼もの・定食5、寿司3、中華3、カレー1、焼肉1。
 
@@ -33,7 +33,8 @@ osm_japan(OSM)側の**`wikipedia`/`wikidata`タグが指すWikipedia(ja)の記�
 「居酒屋」という名前のタグは存在しない**(寿司は`寿司屋`、そば・うどんは`うどん・蕎麦屋`に
 まとまっている)ので、`tags?prefix=`で実在するタグ名を確かめてから列挙すること。
 
-生成手順(スクリプトはリポジトリに含めていない一時作業。すべてchiezoへの問い合わせで完結):
+生成手順(スクリプトはリポジトリに含めていない一時作業。すべてWikipedia(ja)と
+OpenStreetMapへの問い合わせで完結):
 
 1. **Wikipedia(ja)に記事があること自体を「有名店」のフィルタに使う**(チェーンの一般店舗には記事が無い)。
    列挙は`filter?tag=<タグ名>`。`total`と`offset`でページングする。
@@ -41,7 +42,7 @@ osm_japan(OSM)側の**`wikipedia`/`wikidata`タグが指すWikipedia(ja)の記�
    ソートキーが付いた記事(wikitextで`[[Category:ラーメン店|らあめんしろう]]`と書かれたもの)は
    本文側からカテゴリ名が落ちるため取りこぼす。初回生成ではこの方法で115件しか拾えておらず、
    **ラーメン二郎**(月17,677PV、Aシリーズ相当)を含む17件が漏れていた
-   (2026-07-27にchiezo側の`filter?tag=`対応を受けて列挙し直し済み)
+   (2026-07-27にカテゴリでの列挙ができるようになったため列挙し直し済み)
 2. **逆方向にOSM側からも引く**(2026-07-30に追加)。`filter?feature=amenity=restaurant`などで
    飲食系のPOIを全件ページングし、`wikipedia`/`wikidata`タグを持つ613件を抜き出して
    Wikipedia(ja)の記事210件に解決した。**タグ列挙だけでは飲食店を網羅できない** —
@@ -53,7 +54,7 @@ osm_japan(OSM)側の**`wikipedia`/`wikidata`タグが指すWikipedia(ja)の記�
 4. `series`(A〜E)は[tourist](../tourist/README.md)・[goshuin](../goshuin/README.md)と同じく
    **月次ページビュー数**(bot除外、2026-06)だが、母集団が小さくパーセンタイルが安定しないため、
    下表の**絶対値のしきい値**で区切っている
-5. 座標はosm_japan(OSM)の店舗POI。Wikipedia(ja)の飲食店記事は座標を持たないことがほとんどで、
+5. 座標はOpenStreetMapの店舗POI。Wikipedia(ja)の飲食店記事は座標を持たないことがほとんどで、
    Wikipedia/Wikidata由来の座標ではほぼ収録できないため(ライセンス上の帰結は下記参照)。
    突き合わせは店名+所在地(`area`)での検索と、OSM側の`wikipedia`タグの2通りで、
    **後者は「どのPOIがその記事の店か」をOSMが自己申告している**ぶん確実。本店の判定は
