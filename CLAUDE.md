@@ -2,10 +2,6 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
-## 回答言語
-
-ユーザーとの会話・説明・コミットメッセージ等は常に日本語で行うこと。
-
 ## このリポジトリの役割
 
 [travel-log](https://github.com/rtcode337/travel-log)本体には同梱しない、スポットの初期データ(CSV)と
