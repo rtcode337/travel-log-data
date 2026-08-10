@@ -225,6 +225,12 @@ def check_settings(path: Path, folder: str, catalog_label: str | None) -> str:
         icon = entry.get("icon")
         if icon is not None and (not isinstance(icon, str) or not PATH_D_RE.match(icon)):
             error(path, f"category_styles の icon が SVG のパスとして不正: {icon!r}")
+        # iconViewSize: icon のパスが描かれている正方形の一辺(省略時は24)。
+        # 配布アイコンの viewBox は 24/48/1000 とまちまちなので、パスを書き換えず
+        # そのまま使えるようにここで指定する
+        view = entry.get("iconViewSize")
+        if view is not None and (not isinstance(view, (int, float)) or view <= 0):
+            error(path, f"category_styles の iconViewSize が不正: {view!r}")
         custom = entry.get("path")
         if custom is not None:
             if not isinstance(custom, str) or not PATH_D_RE.match(custom):
