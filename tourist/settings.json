@@ -62,19 +62,23 @@
   "category_styles": [
     {
       "category": "神社仏閣",
-      "shape": "pentagon"
+      "path": "M50,3 L96,28 L84,28 L94,50 L80,50 L80,100 L50,145 L20,100 L20,50 L6,50 L16,28 L4,28 Z"
     },
     {
       "category": "城",
       "shape": "castle"
     },
     {
-      "category": "商業施設",
-      "shape": "hexagon"
+      "category": "温泉",
+      "path": "M22,4 L32,4 L32,30 L22,30 Z M45,4 L55,4 L55,30 L45,30 Z M68,4 L78,4 L78,30 L68,30 Z M4,40 L96,40 L96,62 L86,100 L50,145 L14,100 L4,62 Z"
     },
     {
       "category": "美術館博物館",
-      "shape": "diamond"
+      "path": "M50,6 L98,40 L86,40 L86,100 L50,145 L14,100 L14,40 L2,40 Z"
+    },
+    {
+      "category": "商業施設",
+      "path": "M6,22 L94,22 L94,42 L82,42 L82,100 L50,145 L18,100 L18,42 L6,42 Z"
     },
     {
       "category": "じっくり",
