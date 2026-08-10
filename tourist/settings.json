@@ -55,10 +55,27 @@
     "温泉",
     "街並み",
     "美術館博物館",
+    "商業施設",
     "その他",
     "じっくり"
   ],
   "category_styles": [
+    {
+      "category": "神社仏閣",
+      "shape": "pentagon"
+    },
+    {
+      "category": "城",
+      "shape": "castle"
+    },
+    {
+      "category": "商業施設",
+      "shape": "hexagon"
+    },
+    {
+      "category": "美術館博物館",
+      "shape": "diamond"
+    },
     {
       "category": "じっくり",
       "shape": "rounded-square"

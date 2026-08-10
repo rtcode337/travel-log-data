@@ -51,7 +51,12 @@ PREFECTURES = {
 JP_BBOX = (20.0, 122.0, 46.5, 154.0)
 
 COLOR_RE = re.compile(r"^#[0-9a-fA-F]{6}$")
-SHAPES = {"circle", "rounded-square"}
+# travel-log 側の lib/categoryStyle.ts の PIN_SHAPES と同じ集合にする
+# (増やしたら両方直す。あちらは pinIcon.ts の描画にも分岐が要る)
+SHAPES = {"circle", "rounded-square", "diamond", "pentagon", "hexagon", "castle"}
+# 自前の形(category_styles の path)。travel-log 側 lib/categoryStyle.ts の
+# PATH_D_RE と同じ考え方で、Mで始まりパスに使える字だけでできていることを見る
+PATH_D_RE = re.compile(r"^[Mm][\s0-9.,+\-eE]*[MmLlHhVvCcSsQqTtAaZz][A-Za-z0-9.,+\-eE\s]*$")
 REGION_SCOPES_RE = re.compile(r"^(jp|world|[a-z]{2})$")
 
 errors: list[str] = []
@@ -213,9 +218,17 @@ def check_settings(path: Path, folder: str, catalog_label: str | None) -> str:
                 error(path, f"series {name!r} の {key} が #rrggbb 形式でない: {value!r}")
 
     for entry in settings.get("category_styles") or []:
-        shape = entry.get("shape")
-        if shape not in SHAPES:
-            error(path, f"category_styles の shape が不正: {shape!r}(使えるのは {', '.join(sorted(SHAPES))})")
+        # path(自前の形。100×145の箱に描いたSVGのパス)があればそちらが優先で、
+        # shape は省略できる。パスは canvas で描くだけなので危険は無いが、
+        # 打ち間違いを黙って空のピンにしないよう字面だけ検査する
+        custom = entry.get("path")
+        if custom is not None:
+            if not isinstance(custom, str) or not PATH_D_RE.match(custom):
+                error(path, f"category_styles の path が SVG のパスとして不正: {custom!r}")
+        else:
+            shape = entry.get("shape")
+            if shape not in SHAPES:
+                error(path, f"category_styles の shape が不正: {shape!r}(使えるのは {', '.join(sorted(SHAPES))})")
         category = entry.get("category")
         categories = settings.get("categories")
         if categories is not None and category not in categories:

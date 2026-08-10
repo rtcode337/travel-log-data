@@ -224,7 +224,7 @@ route,series,seq,spot_key,description,leg_description
 - `categories`: 省略可。この種別で使うカテゴリの一覧(文字列配列)。省略時は既定
   (観光地の現行カテゴリ)になる。次項参照
 - `category_styles`: 省略可。カテゴリごとの**地図ピンの形**(`{ category, shape }`の配列。
-  `shape`は`circle`/`rounded-square`)。省略時はすべて既定の丸。後述
+  `shape`は`circle`/`rounded-square`/`diamond`/`pentagon`/`hexagon`)。省略時はすべて既定の丸。後述
 
 ### category_styles(カテゴリごとの地図ピンの形)
 
@@ -232,15 +232,48 @@ route,series,seq,spot_key,description,leg_description
 ラベルを握っているので、カテゴリに渡せるのは形だけ(travel-log側`lib/categoryStyle.ts`)。
 
 ```json
-"category_styles": [{ "category": "じっくり", "shape": "rounded-square" }]
+"category_styles": [
+  { "category": "神社仏閣", "shape": "pentagon" },
+  { "category": "城", "shape": "castle" },
+  { "category": "商業施設", "shape": "hexagon" },
+  { "category": "美術館博物館", "shape": "diamond" },
+  { "category": "じっくり", "shape": "rounded-square" }
+]
 ```
 
-`shape`は`circle`(既定)か`rounded-square`。**1スポットは複数カテゴリを持てるので、
-この配列の順で最初に一致したものが使われる**。定義していないカテゴリしか持たない
-スポットは既定の丸のまま。
+`shape`は`circle`(既定)・`rounded-square`・`diamond`・`pentagon`・`hexagon`・
+`castle`(上辺を凸凹にした城郭の胸壁)。
 
-観光地(tourist)では「立ち寄るのに手間がかかるか」を表す`じっくり`に角丸四角を
-割り当てている(次項)。
+**組み込みの形で足りなければ、`shape`の代わりに`path`でこの設定ファイルに直接
+形を書ける**(アプリを直さずに形を増やせる)。
+
+```json
+{ "category": "城", "path": "M50,0 L100,50 L50,145 L0,50 Z" }
+```
+
+- **幅100・高さ145の箱**にSVGのパス(`d`)で描く。145は「頭100+とんがり45」の比で、
+  組み込みの形と同じ縦横比
+- **箱の下端中央(50,145)がスポットの位置**(`icon-anchor: bottom`)。
+  **下がとんがっている必要は無い** —— とんがりが要るならそこまで伸ばし、
+  要らないなら図形の下端がその位置に接する
+- **ラベル(シリーズの文字)は頭の中心(50,50)に描かれる**ので、そこは塗りつぶさない
+- **CSSは書けない**。ピンはDOMではなくcanvasで描いて画像として登録するため、
+  スタイルは効かない。色・大きさはシリーズが握っているので、パスが決めるのは輪郭だけ
+- パスは**canvasで図形を描くだけでスクリプトは走らない**ので、設定ファイルから
+  受け取っても危険は無い。ただし打ち間違いを黙って空のピンにしないよう、
+  travel-log側(`isValidPinPath`)と`validate_data.py`の両方で字面を検査する
+**1スポットは複数カテゴリを持てるので、この配列の順で最初に一致したものが使われる**
+(=**1スポットに出せる形は1つだけ**)。定義していないカテゴリしか持たないスポットは
+既定の丸のまま。
+
+観光地(tourist)では**種類の分かる4つ**(神社仏閣1,883件・美術館博物館1,383件・
+城304件・商業施設234件)に形を割り当て、**「じっくり」はその後ろに置いている** ——
+種類が分かるほうを優先し、どれにも当たらないスポット(自然・温泉・街並み・その他)でだけ
+「立ち寄るのに手間がかかるか」(次項)を形で示す。**「じっくり」3,581件のうち形に出るのは
+約1,800件**(残りは種類側の形が勝つ)。**形を増やすときは`lib/categoryStyle.ts`の`PIN_SHAPES`・
+`lib/pinIcon.ts`の描画・travel-log-dataの`validate_data.py`の`SHAPES`の3か所**を
+そろえること。多角形は**真下に頂点が来る向きにしない**(ピンのとんがりと重なって
+輪郭が潰れる)。
 
 ### 観光地の`じっくり`(お金と時間がかかるスポット)
 
