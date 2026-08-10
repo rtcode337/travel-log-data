@@ -218,14 +218,18 @@ def check_settings(path: Path, folder: str, catalog_label: str | None) -> str:
                 error(path, f"series {name!r} の {key} が #rrggbb 形式でない: {value!r}")
 
     for entry in settings.get("category_styles") or []:
-        # path(自前の形。100×145の箱に描いたSVGのパス)があればそちらが優先で、
-        # shape は省略できる。パスは canvas で描くだけなので危険は無いが、
-        # 打ち間違いを黙って空のピンにしないよう字面だけ検査する
+        # 形の指定は3通り: shape(組み込み) / path(自前の輪郭。100×145の箱) /
+        # icon(ピンの中に描く絵。24×24の箱)。iconだけでも成立する(丸いピンに絵が入る)。
+        # パスは canvas で描くだけなので危険は無いが、打ち間違いを黙って
+        # 空のピンにしないよう字面だけ検査する
+        icon = entry.get("icon")
+        if icon is not None and (not isinstance(icon, str) or not PATH_D_RE.match(icon)):
+            error(path, f"category_styles の icon が SVG のパスとして不正: {icon!r}")
         custom = entry.get("path")
         if custom is not None:
             if not isinstance(custom, str) or not PATH_D_RE.match(custom):
                 error(path, f"category_styles の path が SVG のパスとして不正: {custom!r}")
-        else:
+        elif entry.get("shape") is not None or icon is None:
             shape = entry.get("shape")
             if shape not in SHAPES:
                 error(path, f"category_styles の shape が不正: {shape!r}(使えるのは {', '.join(sorted(SHAPES))})")
