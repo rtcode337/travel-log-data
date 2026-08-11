@@ -28,7 +28,7 @@ ROOT = Path(__file__).resolve().parents[2]
 # 未対応の列があると本体の取り込みが例外で弾く(列名の綴り違いを黙って無視しないため)
 SPOT_COLUMNS = {
     "key", "name", "name_kana", "lat", "lng",
-    "region", "series", "categories", "description",
+    "region", "rank", "series", "categories", "description",
 }
 SPOT_REQUIRED = ("name", "lat", "lng", "region")
 ROUTE_COLUMNS = {"route", "series", "seq", "spot_key", "description", "leg_description"}
@@ -51,10 +51,12 @@ PREFECTURES = {
 JP_BBOX = (20.0, 122.0, 46.5, 154.0)
 
 COLOR_RE = re.compile(r"^#[0-9a-fA-F]{6}$")
-# travel-log 側の lib/categoryStyle.ts の PIN_SHAPES と同じ集合にする
+# ランクは travel-log 側 lib/rank.ts の RANKS(アプリに決め打ち)。空欄は「なし」
+RANKS = {"A", "B", "C", "D", "E"}
+# travel-log 側の lib/pinShape.ts の PIN_SHAPES と同じ集合にする
 # (増やしたら両方直す。あちらは pinIcon.ts の描画にも分岐が要る)
 SHAPES = {"circle", "rounded-square", "diamond", "pentagon", "hexagon", "castle"}
-# 自前の形(category_styles の path)。travel-log 側 lib/categoryStyle.ts の
+# 自前の形(series の path)。travel-log 側 lib/pinShape.ts の
 # PATH_D_RE と同じ考え方で、Mで始まりパスに使える字だけでできていることを見る
 PATH_D_RE = re.compile(r"^[Mm][\s0-9.,+\-eE]*[MmLlHhVvCcSsQqTtAaZz][A-Za-z0-9.,+\-eE\s]*$")
 REGION_SCOPES_RE = re.compile(r"^(jp|world|[a-z]{2})$")
@@ -131,6 +133,11 @@ def check_spots(path: Path, scope: str) -> set[str]:
         for column in SPOT_REQUIRED:
             if not row.get(column, "").strip():
                 error(path, f"{line_no}行目: {column} が空")
+        rank = row.get("rank", "").strip()
+        if rank and rank not in RANKS:
+            # 空欄は「ランクなし」。それ以外の値は打ち間違いとして弾く
+            # (travel-log 側の取り込みも同じ理由でエラーにする)
+            error(path, f"{line_no}行目: rank が A〜E でない: {rank}")
         key = row.get("key", "").strip()
         if not key:
             error(path, f"{line_no}行目: key が空")
@@ -212,37 +219,53 @@ def check_settings(path: Path, folder: str, catalog_label: str | None) -> str:
         if name in series_values:
             error(path, f"series が重複している: {name}")
         series_values.add(name)
+        # 色はランクを使わない種別でだけ効く(使う種別ではランクの色が勝つ)
         for key in ("color", "borderColor", "textColor"):
             value = entry.get(key)
             if value is not None and not COLOR_RE.match(str(value)):
                 error(path, f"series {name!r} の {key} が #rrggbb 形式でない: {value!r}")
-
-    for entry in settings.get("category_styles") or []:
-        # 形の指定は3通り: shape(組み込み) / path(自前の輪郭。100×145の箱) /
-        # icon(ピンの中に描く絵。24×24の箱)。iconだけでも成立する(丸いピンに絵が入る)。
+        # 中身は icon(24×24の箱に描くSVGのパス)か label(文字 or 画像)。
         # パスは canvas で描くだけなので危険は無いが、打ち間違いを黙って
         # 空のピンにしないよう字面だけ検査する
         icon = entry.get("icon")
         if icon is not None and (not isinstance(icon, str) or not PATH_D_RE.match(icon)):
-            error(path, f"category_styles の icon が SVG のパスとして不正: {icon!r}")
-        # iconViewSize: icon のパスが描かれている正方形の一辺(省略時は24)。
-        # 配布アイコンの viewBox は 24/48/1000 とまちまちなので、パスを書き換えず
-        # そのまま使えるようにここで指定する
+            error(path, f"series {name!r} の icon が SVG のパスとして不正: {icon!r}")
         view = entry.get("iconViewSize")
         if view is not None and (not isinstance(view, (int, float)) or view <= 0):
-            error(path, f"category_styles の iconViewSize が不正: {view!r}")
+            error(path, f"series {name!r} の iconViewSize が不正: {view!r}")
+        label = entry.get("label")
+        if label is not None and not isinstance(label, str):
+            if not (isinstance(label, dict) and isinstance(label.get("image"), str)):
+                error(path, f"series {name!r} の label が文字列でも画像でもない: {label!r}")
+        # 形。path(自前の輪郭。100×145の箱)があれば shape は省略できる
         custom = entry.get("path")
-        if custom is not None:
-            if not isinstance(custom, str) or not PATH_D_RE.match(custom):
-                error(path, f"category_styles の path が SVG のパスとして不正: {custom!r}")
-        elif entry.get("shape") is not None or icon is None:
-            shape = entry.get("shape")
-            if shape not in SHAPES:
-                error(path, f"category_styles の shape が不正: {shape!r}(使えるのは {', '.join(sorted(SHAPES))})")
-        category = entry.get("category")
-        categories = settings.get("categories")
-        if categories is not None and category not in categories:
-            error(path, f"category_styles の category が categories に無い: {category!r}")
+        if custom is not None and (
+            not isinstance(custom, str) or not PATH_D_RE.match(custom)
+        ):
+            error(path, f"series {name!r} の path が SVG のパスとして不正: {custom!r}")
+        shape = entry.get("shape")
+        if shape is not None and shape not in SHAPES:
+            error(
+                path,
+                f"series {name!r} の shape が不正: {shape!r}"
+                f"(使えるのは {', '.join(sorted(SHAPES))})",
+            )
+        # size はランクへ移したので、残っていると「効いているつもり」になる
+        if "size" in entry:
+            error(
+                path,
+                f"series {name!r} に size がある(大きさはランクが決めるので廃止した)",
+            )
+
+    # category_styles は廃止(形・アイコンはシリーズへ移した)。残っていても
+    # travel-log 側は黙って無視するので、ここで気づけるようにする
+    if settings.get("category_styles") is not None:
+        error(path, "category_styles は廃止された(形・アイコンは series に書く)")
+
+    # ランクを使わない種別で rank 列に値が入っていても効かないため、
+    # spots.csv 側の検査に渡す
+    if settings.get("settings", {}).get("rank_enabled") not in (None, True, False):
+        error(path, "settings.rank_enabled は true / false で書く")
 
     return scope
 

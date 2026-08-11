@@ -7,294 +7,252 @@
       "series": "サイコロ1",
       "color": "#fdba74",
       "borderColor": "#c2410c",
-      "size": 26,
       "label": "サ1"
     },
     {
       "series": "サイコロ2〜西日本完全制覇〜",
       "color": "#fdba74",
       "borderColor": "#c2410c",
-      "size": 26,
       "label": "サ2"
     },
     {
       "series": "サイコロ3〜自律神経完全破壊〜",
       "color": "#fdba74",
       "borderColor": "#c2410c",
-      "size": 26,
       "label": "サ3"
     },
     {
       "series": "サイコロ4〜日本列島完全制覇〜",
       "color": "#fdba74",
       "borderColor": "#c2410c",
-      "size": 26,
       "label": "サ4"
     },
     {
       "series": "サイコロ5〜キングオブ深夜バス〜",
       "color": "#fdba74",
       "borderColor": "#c2410c",
-      "size": 26,
       "label": "サ5"
     },
     {
       "series": "ゴールデンスペシャルサイコロ6",
       "color": "#fdba74",
       "borderColor": "#c2410c",
-      "size": 26,
       "label": "サ6"
     },
     {
       "series": "粗大ゴミで家を作ろう",
       "color": "#d1d5db",
       "borderColor": "#6b7280",
-      "size": 26,
       "label": "ゴミ"
     },
     {
       "series": "闘痔の旅",
       "color": "#fda4af",
       "borderColor": "#e11d48",
-      "size": 26,
       "label": "闘痔"
     },
     {
       "series": "宮崎リゾート満喫の旅",
       "color": "#d9f99d",
       "borderColor": "#65a30d",
-      "size": 26,
       "label": "宮崎"
     },
     {
       "series": "北海道212市町村カントリーサインの旅",
       "color": "#7dd3fc",
       "borderColor": "#0284c7",
-      "size": 26,
       "label": "カ1"
     },
     {
       "series": "北海道212市町村カントリーサインの旅II",
       "color": "#7dd3fc",
       "borderColor": "#0284c7",
-      "size": 26,
       "label": "カ2"
     },
     {
       "series": "第1回水曜どうでしょうカルトクイズ世界大会",
       "color": "#e7e5e4",
       "borderColor": "#78716c",
-      "size": 26,
       "label": "クイ"
     },
     {
       "series": "東京2泊3日70km",
       "color": "#c4b5fd",
       "borderColor": "#7c3aed",
-      "size": 26,
       "label": "東京"
     },
     {
       "series": "桜前線捕獲大作戦",
       "color": "#f9a8d4",
       "borderColor": "#db2777",
-      "size": 26,
       "label": "桜"
     },
     {
       "series": "十勝二十番勝負",
       "color": "#fde68a",
       "borderColor": "#d97706",
-      "size": 26,
       "label": "十勝"
     },
     {
       "series": "門別沖釣りバカ対決",
       "color": "#93c5fd",
       "borderColor": "#2563eb",
-      "size": 26,
       "label": "釣1"
     },
     {
       "series": "釣りバカ対決 氷上わかさぎ釣り対決",
       "color": "#93c5fd",
       "borderColor": "#2563eb",
-      "size": 26,
       "label": "釣2"
     },
     {
       "series": "釣りバカ対決!わかさぎ釣り2",
       "color": "#93c5fd",
       "borderColor": "#2563eb",
-      "size": 26,
       "label": "釣3"
     },
     {
       "series": "釣りバカグランドチャンピオン大会 屋久島24時間耐久魚取り対決",
       "color": "#93c5fd",
       "borderColor": "#2563eb",
-      "size": 26,
       "label": "釣4"
     },
     {
       "series": "日本全国絵ハガキの旅",
       "color": "#fbcfe8",
       "borderColor": "#be185d",
-      "size": 26,
       "label": "絵1"
     },
     {
       "series": "日本全国絵ハガキの旅2",
       "color": "#fbcfe8",
       "borderColor": "#be185d",
-      "size": 26,
       "label": "絵2"
     },
     {
       "series": "シェフ大泉 車内でクリスマス・パーティー",
       "color": "#86efac",
       "borderColor": "#16a34a",
-      "size": 26,
       "label": "クリ"
     },
     {
       "series": "シェフ大泉 夏野菜スペシャル",
       "color": "#86efac",
       "borderColor": "#16a34a",
-      "size": 26,
       "label": "野菜"
     },
     {
       "series": "東北2泊3日生き地獄ツアー",
       "color": "#cbd5e1",
       "borderColor": "#475569",
-      "size": 26,
       "label": "東北"
     },
     {
       "series": "クイズ!試験に出るどうでしょう",
       "color": "#a5b4fc",
       "borderColor": "#4f46e5",
-      "size": 26,
       "label": "試1"
     },
     {
       "series": "試験に出るどうでしょう 石川県・富山県",
       "color": "#a5b4fc",
       "borderColor": "#4f46e5",
-      "size": 26,
       "label": "試2"
     },
     {
       "series": "試験に出るどうでしょう 日本史",
       "color": "#a5b4fc",
       "borderColor": "#4f46e5",
-      "size": 26,
       "label": "試3"
     },
     {
       "series": "四国八十八ヵ所",
       "color": "#5eead4",
       "borderColor": "#0d9488",
-      "size": 26,
       "label": "四1"
     },
     {
       "series": "四国八十八ヵ所II",
       "color": "#5eead4",
       "borderColor": "#0d9488",
-      "size": 26,
       "label": "四2"
     },
     {
       "series": "四国八十八ヵ所III",
       "color": "#5eead4",
       "borderColor": "#0d9488",
-      "size": 26,
       "label": "四3"
     },
     {
       "series": "72時間!原付東日本縦断ラリー",
       "color": "#fca5a5",
       "borderColor": "#dc2626",
-      "size": 26,
       "label": "原東"
     },
     {
       "series": "原付西日本制覇",
       "color": "#fca5a5",
       "borderColor": "#dc2626",
-      "size": 26,
       "label": "原西"
     },
     {
       "series": "onちゃんカレンダー",
       "color": "#fef08a",
       "borderColor": "#ca8a04",
-      "size": 26,
       "label": "on"
     },
     {
       "series": "30時間テレビの裏側全部見せます!",
       "color": "#e7e5e4",
       "borderColor": "#78716c",
-      "size": 26,
       "label": "30"
     },
     {
       "series": "リヤカーで喜界島一周",
       "color": "#6ee7b7",
       "borderColor": "#059669",
-      "size": 26,
       "label": "喜界"
     },
     {
       "series": "対決列島〜甘いもの国盗り物語〜",
       "color": "#fef08a",
       "borderColor": "#ca8a04",
-      "size": 26,
       "label": "対決"
     },
     {
       "series": "5周年記念特別企画 札幌〜博多 3夜連続深夜バスだけの旅",
       "color": "#d8b4fe",
       "borderColor": "#9333ea",
-      "size": 26,
       "label": "バス"
     },
     {
       "series": "プチ復活!思い出のロケ地を訪ねる小さな旅",
       "color": "#e7e5e4",
       "borderColor": "#78716c",
-      "size": 26,
       "label": "プチ"
     },
     {
       "series": "激闘!西表島",
       "color": "#93c5fd",
       "borderColor": "#2563eb",
-      "size": 26,
       "label": "西表"
     },
     {
       "series": "原付日本列島制覇",
       "color": "#fca5a5",
       "borderColor": "#dc2626",
-      "size": 26,
       "label": "原日"
     },
     {
       "series": "北海道で家、建てます",
       "color": "#d1d5db",
       "borderColor": "#6b7280",
-      "size": 26,
       "label": "家"
     },
     {
       "series": "懐かしの西表島",
       "color": "#93c5fd",
       "borderColor": "#2563eb",
-      "size": 26,
       "label": "懐西"
     }
   ],

@@ -12,7 +12,7 @@
 |---|---|
 | `spots.csv` | スポットデータ(272件) |
 | `evidence.csv` | 全行の根拠(`key,source,basis,place,article,sentence,coord_source`) |
-| `settings.json` | スポット種別の設定(作品別シリーズ165・カテゴリ・ピンの形) |
+| `settings.json` | スポット種別の設定(作品別シリーズ165・カテゴリ) |
 | `excluded_candidates/supplement_candidates.md` | 収録しなかった作品・地点と理由 |
 | `excluded_candidates/exclude.txt` | travel-log側から削除するスポットの`key`一覧(追記式) |
 
@@ -251,8 +251,9 @@ Wikipedia(ja)とOpenStreetMapから取り直している。
 
 ## エリア(点で特定できなかった選定地)
 
-98件(全体の36%)。`categories`の末尾に`エリア`が付き、`settings.json`の
-`category_styles`で**角丸四角のピン**になる(観光地の`じっくり`と同じ仕組み)。
+98件(全体の36%)。`categories`の末尾に`エリア`が付く。**かつては`category_styles`で
+角丸四角のピンにしていた**が、ピンの形はシリーズ(作品)側の設定へ移り、
+カテゴリは見た目を持たなくなったため、いまは絞り込みの目印としてだけ効く。
 
 エリア行は自治体・都道府県の代表点に置くため、**同じ座標に複数のスポットが重なる**。
 travel-log側はこれに対応していて、重なったピンには「+N」バッジが出て、タップすると

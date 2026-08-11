@@ -10,7 +10,6 @@
       "series": "郵便局",
       "color": "#dc2626",
       "borderColor": "#b91c1c",
-      "size": 26,
       "label": "〒",
       "textColor": "#ffffff"
     }

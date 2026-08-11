@@ -8,7 +8,7 @@
 | ファイル | 内容 |
 |---|---|
 | `spots.csv` | スポットデータ(171件) |
-| `settings.json` | スポット種別の設定(シリーズA〜E) |
+| `settings.json` | スポット種別の設定(ランクの有効化・カテゴリ) |
 | `excluded_candidates/ramen.md` | 収録しなかった候補と理由(ラーメン83件) |
 | `excluded_candidates/other_genres.md` | 収録しなかった候補と理由(ラーメン以外637件) |
 | `excluded_candidates/osm_wikipedia_sweep.md` | OSM側の`wikipedia`タグ起点で洗い直した記録(116件) |
@@ -41,7 +41,7 @@ OpenStreetMapへの問い合わせで完結):
    **本文の全文検索(`search?q=Category:ラーメン店`)で列挙してはいけない** — カテゴリに
    ソートキーが付いた記事(wikitextで`[[Category:ラーメン店|らあめんしろう]]`と書かれたもの)は
    本文側からカテゴリ名が落ちるため取りこぼす。初回生成ではこの方法で115件しか拾えておらず、
-   **ラーメン二郎**(月17,677PV、Aシリーズ相当)を含む17件が漏れていた
+   **ラーメン二郎**(月17,677PV、ランクA相当)を含む17件が漏れていた
    (2026-07-27にカテゴリでの列挙ができるようになったため列挙し直し済み)
 2. **逆方向にOSM側からも引く**(2026-07-30に追加)。`filter?feature=amenity=restaurant`などで
    飲食系のPOIを全件ページングし、`wikipedia`/`wikidata`タグを持つ613件を抜き出して
@@ -51,7 +51,7 @@ OpenStreetMapへの問い合わせで完結):
    並木藪蕎麦→`並木數喬麥`)は1系統では拾えない。詳細と除外理由は
    `excluded_candidates/osm_wikipedia_sweep.md`
 3. `description`は記事冒頭の要約(1〜2文)。`name_kana`は冒頭文の読み仮名
-4. `series`(A〜E)は[tourist](../tourist/README.md)・[goshuin](../goshuin/README.md)と同じく
+4. `rank`(A〜E。**かつては`series`列だった**)は[tourist](../tourist/README.md)・[goshuin](../goshuin/README.md)と同じく
    **月次ページビュー数**(bot除外、2026-06)だが、母集団が小さくパーセンタイルが安定しないため、
    下表の**絶対値のしきい値**で区切っている
 5. 座標はOpenStreetMapの店舗POI。Wikipedia(ja)の飲食店記事は座標を持たないことがほとんどで、
@@ -63,7 +63,7 @@ OpenStreetMapへの問い合わせで完結):
    不一致の2件(茶房長谷路・味仙 今池本店)はいずれもWikipedia記事側の座標が誤っており、
    CSV(OSM由来)が正しい
 
-| シリーズ | 月次ページビュー | 件数 | 目安 |
+| ランク | 月次ページビュー | 件数 | 目安 |
 |---|---|---|---|
 | A | 10,000以上 | 3 | 全国区で名前が通っている |
 | B | 3,000〜9,999 | 9 | 全国区のチェーン・名店 |
