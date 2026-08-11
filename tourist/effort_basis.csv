@@ -2760,7 +2760,6 @@ Qiball,,default,手がかり無し
 千葉市美術館,じっくり,name_heavy,美術館
 千葉市花の美術館,じっくり,name_heavy,美術館
 千葉市都市緑化植物園,じっくり,name_heavy,植物園
-千葉港,,name_light,港
 千葉県国際総合水泳場,,default,手がかり無し
 千葉県立中央博物館,じっくり,name_heavy,博物館
 千葉県立九十九里自然公園,,name_light,公園
@@ -3388,7 +3387,6 @@ TOTOギャラリー・間,じっくり,osm_feature,tourism=museum
 東京富士美術館,じっくり,name_heavy,美術館
 東京文化会館,,default,手がかり無し
 東京文化財研究所,,default,手がかり無し
-東京港,,name_light,港
 東京港野鳥公園,,name_light,公園
 東京臨海広域防災公園,,name_light,公園
 東京芸術劇場,じっくり,name_heavy,劇場
@@ -5829,7 +5827,6 @@ MOA美術館,じっくり,name_heavy,美術館
 瑞龍寺 (静岡市),,default,手がかり無し
 田中城,じっくり,name_heavy,城
 田子の浦,,default,手がかり無し
-田子の浦港,,name_light,港
 田牛サンドスキー場,じっくり,name_heavy,スキー場
 田貫湖,,osm_feature,natural=water
 登呂遺跡,じっくり,wikipedia_fee,料金の記述あり
@@ -6247,7 +6244,6 @@ NHK名古屋放送センタービル,,default,手がかり無し
 蒲郡クラシックホテル,じっくり,category,城
 蔵王山 (愛知県),,osm_feature,natural=peak
 藤前干潟,,default,手がかり無し
-衣浦港,,name_light,港
 西尾城,じっくり,name_heavy,城
 西尾市塩田体験館 吉良饗庭塩の里,じっくり,category,美術館博物館
 西尾市憩の農園,じっくり,name_heavy,農園
@@ -10466,7 +10462,6 @@ JX金属関崎みらい海星館,じっくり,category,美術館博物館
 鹿児島女子高等学校,,default,手がかり無し
 鹿児島市平川動物公園,じっくり,wikipedia_fee,料金の記述あり
 鹿児島市立美術館,じっくり,name_heavy,美術館
-鹿児島港,,name_light,港
 鹿児島県上野原縄文の森,じっくり,category,美術館博物館
 鹿児島県歴史・美術センター黎明館,じっくり,category,美術館博物館
 鹿児島県立博物館,じっくり,name_heavy,博物館
