@@ -792,7 +792,6 @@ JRタワー,じっくり,name_heavy,タワー
 嶽温泉,じっくり,name_heavy,温泉
 平舘不老不死温泉,じっくり,name_heavy,温泉
 廣田神社 (青森市),,default,手がかり無し
-弘前ねぷた,,default,手がかり無し
 弘前八幡宮,,default,手がかり無し
 弘前公園,じっくり,wikipedia_fee,料金の記述あり
 弘前城,じっくり,name_heavy,城
@@ -866,7 +865,6 @@ JRタワー,じっくり,name_heavy,タワー
 釜臥山,じっくり,name_heavy,山
 長勝寺 (弘前市),,default,手がかり無し
 青函連絡船メモリアルシップ八甲田丸,じっくり,category,美術館博物館
-青森ねぶた,,default,手がかり無し
 青森スプリング・スキーリゾート,,default,手がかり無し
 青森ベイブリッジ,,default,手がかり無し
 青森市森林博物館,じっくり,name_heavy,博物館
@@ -953,7 +951,6 @@ JRタワー,じっくり,name_heavy,タワー
 旧岩谷堂共立病院,,default,手がかり無し
 早池峰国定公園,,name_light,公園
 早池峰山,じっくり,name_heavy,山
-早池峰神楽,,default,手がかり無し
 月山 (宮古市),,default,手がかり無し
 松川地熱発電所,,default,手がかり無し
 松川温泉,じっくり,name_heavy,温泉
@@ -1057,7 +1054,6 @@ YOSAKOI&ねぷたinとよさと,,default,手がかり無し
 あ・ら・伊達な道の駅,,name_light,道の駅
 かわまちてらす閖上,,default,手がかり無し
 かわまちオープンパーク,,default,手がかり無し
-くりでんレールバイク乗車会,,default,手がかり無し
 すみかわスノーパーク,,default,手がかり無し
 せんだいメディアテーク,,default,手がかり無し
 せんだい農業園芸センター,じっくり,wikipedia_fee,料金の記述あり
@@ -1137,7 +1133,6 @@ YOSAKOI&ねぷたinとよさと,,default,手がかり無し
 大雄寺 (宮城県南三陸町),,default,手がかり無し
 大高森,,osm_feature,natural=peak
 天皇寺 (宮城県大和町),,default,手がかり無し
-天空のゆりガーデン,,default,手がかり無し
 女川原子力発電所,,default,手がかり無し
 女川温泉ゆぽっぽ,じっくり,name_heavy,温泉
 宮城峡蒸溜所,,default,手がかり無し
@@ -1258,13 +1253,11 @@ YOSAKOI&ねぷたinとよさと,,default,手がかり無し
 黄金山産金遺跡,,name_light,跡
 黄金山神社 (涌谷町),,default,手がかり無し
 齋藤氏庭園,,default,手がかり無し
-かがり美少女イラストコンテスト,,default,手がかり無し
 きみまち阪,,osm_feature,leisure=park
 たざわ湖スキー場,じっくり,name_heavy,スキー場
 なまはげ館,じっくり,category,美術館博物館
 ジュネス栗駒スキー場,じっくり,name_heavy,スキー場
 セリオン (秋田市),じっくり,wikipedia_fee,料金の記述あり
-一日市の盆踊,,default,手がかり無し
 七滝,,name_light,滝
 三崎公園 (秋田県・山形県),,name_light,公園 
 下浜海水浴場,,default,手がかり無し
@@ -1273,7 +1266,6 @@ YOSAKOI&ねぷたinとよさと,,default,手がかり無し
 仁別森林博物館,じっくり,name_heavy,博物館
 仙北市立角館樺細工伝承館,じっくり,osm_feature,tourism=museum
 伊勢堂岱遺跡,じっくり,wikipedia_fee,料金の記述あり
-保呂羽山の霜月神楽,,default,手がかり無し
 入道埼灯台,,name_light,灯台
 入道崎,,name_light,崎
 八幡平,,osm_feature,natural=peak
@@ -1320,7 +1312,6 @@ YOSAKOI&ねぷたinとよさと,,default,手がかり無し
 横手市ふれあいセンター,じっくり,wikipedia_fee,料金の記述あり
 横手市増田まんが美術館,じっくり,name_heavy,美術館
 横手市増田伝統的建造物群保存地区,,default,手がかり無し
-毛馬内の盆踊,,default,手がかり無し
 法体の滝,,name_light,滝
 泥湯温泉,じっくり,name_heavy,温泉
 湯瀬温泉,じっくり,name_heavy,温泉
@@ -1373,7 +1364,6 @@ YOSAKOI&ねぷたinとよさと,,default,手がかり無し
 蒸ノ湯温泉,じっくり,name_heavy,温泉
 藤倉水源地,,default,手がかり無し
 藤里駒ヶ岳,じっくり,name_heavy,岳
-西馬音内の盆踊,,default,手がかり無し
 角館,,default,手がかり無し
 角館のシダレザクラ,じっくり,wikipedia_fee,料金の記述あり
 象潟,,default,手がかり無し
@@ -1482,7 +1472,6 @@ Asahi自然観,,default,手がかり無し
 東根の大ケヤキ,,default,手がかり無し
 東根温泉,じっくり,name_heavy,温泉
 東沢バラ公園,,name_light,公園
-林家舞楽,,default,手がかり無し
 林泉寺 (米沢市),,default,手がかり無し
 横川ダム (山形県),,name_light,ダム
 武家屋敷 (上山市),じっくり,name_heavy,屋敷
@@ -3424,7 +3413,6 @@ TOTOギャラリー・間,じっくり,osm_feature,tourism=museum
 東京都美術館,じっくり,name_heavy,美術館
 東京都薬用植物園,じっくり,name_heavy,植物園
 東京駅,,name_light,駅
-東京高円寺阿波おどり,,default,手がかり無し
 東伏見アイスアリーナ,,default,手がかり無し
 東伏見公園,,name_light,公園
 東伏見稲荷神社,,default,手がかり無し
@@ -4234,7 +4222,6 @@ SLばんえつ物語,,default,手がかり無し
 新潟市歴史博物館,じっくり,name_heavy,博物館
 新潟市水族館 マリンピア日本海,じっくり,name_heavy,水族館
 新潟市美術館,じっくり,name_heavy,美術館
-新潟淡麗にいがた酒の陣,,default,手がかり無し
 新潟県スポーツ公園,,name_light,公園
 新潟県立こども自然王国,,default,手がかり無し
 新潟県立万代島美術館,じっくり,name_heavy,美術館
@@ -5058,7 +5045,6 @@ SUWAガラスの里の美術館,じっくり,name_heavy,美術館
 天竜奥三河国定公園,,name_light,公園
 天竜小渋水系県立自然公園,,name_light,公園
 天竜峡,じっくり,name_heavy,峡
-天龍村の霜月神楽,,default,手がかり無し
 奈良井宿,,default,手がかり無し
 奥志賀高原スキー場,じっくり,name_heavy,スキー場
 奥村土牛記念美術館,じっくり,name_heavy,美術館
@@ -5139,7 +5125,6 @@ SUWAガラスの里の美術館,じっくり,name_heavy,美術館
 松原湖温泉,じっくり,name_heavy,温泉
 松尾寺 (安曇野市),,default,手がかり無し
 松川 (上高井郡),,default,手がかり無し
-松本ぼんぼん,,default,手がかり無し
 松本城,じっくり,name_heavy,城
 松本市はかり資料館,じっくり,name_heavy,資料館
 松本市時計博物館,じっくり,name_heavy,博物館
@@ -5875,7 +5860,6 @@ MOA美術館,じっくり,name_heavy,美術館
 蓬萊橋 (大井川),,default,手がかり無し
 蓮華寺池公園,じっくり,wikipedia_fee,料金の記述あり
 薩埵峠,,default,手がかり無し
-藤守の田遊び,,default,手がかり無し
 蜆塚遺跡,,name_light,跡
 見附宿,,default,手がかり無し
 親水公園 (熱海市),,name_light,公園 
@@ -6016,7 +6000,6 @@ NHK名古屋放送センタービル,,default,手がかり無し
 中部国際空港,,name_light,港
 久屋大通公園,,name_light,公園
 久屋大通庭園フラリエ,,default,手がかり無し
-乗本万燈,,default,手がかり無し
 乳岩峡,じっくり,name_heavy,峡
 乾坤院,,default,手がかり無し
 亀城公園 (刈谷市),,name_light,公園 
@@ -6206,7 +6189,6 @@ NHK名古屋放送センタービル,,default,手がかり無し
 渥美半島県立自然公園,,name_light,公園
 湯谷温泉 (愛知県),じっくり,name_heavy,温泉
 滝山寺,じっくり,wikipedia_fee,料金の記述あり
-濃尾大花火,,default,手がかり無し
 瀬戸蔵,じっくり,osm_feature,tourism=museum
 無量寺 (蒲郡市),,default,手がかり無し
 無量寿寺 (知立市),,default,手がかり無し
@@ -6455,7 +6437,6 @@ NHK名古屋放送センタービル,,default,手がかり無し
 獅子岩,,default,手がかり無し
 田丸城,じっくり,name_heavy,城
 登茂山,じっくり,name_heavy,山
-磯部の御神田,,osm_feature,historic=memorial
 神宮徴古館,じっくり,osm_feature,tourism=museum
 神島 (三重県),,default,手がかり無し
 竜ヶ岳 (三重県・滋賀県),,osm_feature,natural=peak
@@ -7173,7 +7154,6 @@ TWIN21,,osm_feature,amenity=parking
 伏尾温泉,じっくり,name_heavy,温泉
 住之江公園,,name_light,公園
 住友生命いずみホール,じっくり,name_heavy,ホール
-住吉の御田植,,default,手がかり無し
 住吉公園,,name_light,公園
 住吉反橋,,name_light,橋
 住吉大社,,default,手がかり無し
@@ -8003,7 +7983,6 @@ UCCコーヒー博物館,じっくり,name_heavy,博物館
 竹林寺 (生駒市),,default,手がかり無し
 笹の滝,,name_light,滝
 箸墓古墳,,name_light,古墳
-篠原踊,,default,手がかり無し
 耳成山,じっくり,name_heavy,山
 聖林寺,じっくり,wikipedia_fee,料金の記述あり
 興福寺,,default,手がかり無し
@@ -8408,7 +8387,6 @@ UCCコーヒー博物館,じっくり,name_heavy,博物館
 道の駅大社ご縁広場,,name_light,道の駅
 道の駅掛合の里,,name_light,道の駅
 道の駅津和野温泉なごみの里,,name_light,道の駅
-隠岐の田楽と庭の舞,,default,手がかり無し
 隠岐温泉,じっくり,name_heavy,温泉
 隠岐神社,,default,手がかり無し
 鞆ヶ浦,,default,手がかり無し
@@ -8621,7 +8599,6 @@ MAZDA Zoom-Zoom スタジアム広島,じっくり,wikipedia_fee,料金の記述
 国営備北丘陵公園,,name_light,公園
 国立広島原爆死没者追悼平和祈念館,,osm_feature,historic=monument
 土師ダム,,name_light,ダム
-塩原の大山供養田植,,default,手がかり無し
 大久野島,,default,手がかり無し
 大久野島毒ガス資料館,じっくり,name_heavy,資料館
 大善寺 (三原市),,default,手がかり無し
@@ -8808,7 +8785,6 @@ MAZDA Zoom-Zoom スタジアム広島,じっくり,wikipedia_fee,料金の記述
 山口県護国神社,,default,手がかり無し
 岩国城,じっくり,name_heavy,城
 岩国城ロープウェー,じっくり,osm_feature,tourism=museum
-岩国行波の神舞,,default,手がかり無し
 巌流島,,default,手がかり無し
 川棚温泉,じっくり,name_heavy,温泉
 常栄寺 (山口市),,default,手がかり無し
@@ -9008,7 +8984,6 @@ MAZDA Zoom-Zoom スタジアム広島,じっくり,wikipedia_fee,料金の記述
 藍の館,じっくり,category,美術館博物館
 藤井寺 (吉野川市),,default,手がかり無し
 西教寺 (美馬市),,default,手がかり無し
-西祖谷の神代踊,,default,手がかり無し
 観音寺 (徳島市国府町観音寺),,default,手がかり無し
 諏訪神社 (徳島市),,default,手がかり無し
 轟九十九滝,,name_light,滝
@@ -9110,7 +9085,6 @@ MAZDA Zoom-Zoom スタジアム広島,じっくり,wikipedia_fee,料金の記述
 湯船の水,,default,手がかり無し
 満濃池,,osm_feature,natural=water
 満濃池森林公園,,name_light,公園
-滝宮の念仏踊,,default,手がかり無し
 滝宮天満宮,,default,手がかり無し
 瀬戸内海国立公園,,name_light,公園
 瀬戸内海歴史民俗資料館,じっくり,name_heavy,資料館
@@ -9774,7 +9748,6 @@ JR博多シティ,,default,手がかり無し
 清水の滝,,name_light,滝
 熊の川温泉,じっくり,name_heavy,温泉
 田島神社,,default,手がかり無し
-白鬚神社の田楽,,default,手がかり無し
 祐徳稲荷神社,,default,手がかり無し
 神野公園 (佐賀市),,name_light,公園 
 肥前夢街道,じっくり,osm_feature,tourism=theme_park
@@ -9933,7 +9906,6 @@ JR博多シティ,,default,手がかり無し
 金石城,じっくり,name_heavy,城
 針尾送信所,,default,手がかり無し
 鎮西大社諏訪神社,,default,手がかり無し
-長崎くんち,,default,手がかり無し
 長崎と天草地方の潜伏キリシタン関連遺産,,default,手がかり無し
 長崎バイオパーク,じっくり,category,美術館博物館
 長崎ペンギン水族館,じっくり,name_heavy,水族館
@@ -9959,7 +9931,6 @@ JR博多シティ,,default,手がかり無し
 黒島天主堂,,default,手がかり無し
 おかどめ幸福駅,,name_light,駅
 つなぎ美術館,じっくり,name_heavy,美術館
-やつしろ全国花火競技大会,,default,手がかり無し
 わいた温泉郷,じっくり,name_heavy,温泉
 わくわく海中水族館シードーナツ,じっくり,name_heavy,水族館
 アミュプラザくまもと,,default,手がかり無し
@@ -10139,7 +10110,6 @@ JX金属関崎みらい海星館,じっくり,category,美術館博物館
 九重森林公園スキー場,じっくり,name_heavy,スキー場
 佐伯城,じっくり,name_heavy,城
 佐野植物公園,,name_light,公園
-修正鬼会,,default,手がかり無し
 八丁原発電所,じっくり,osm_feature,tourism=museum
 八面山 (大分県),,osm_feature,natural=peak
 別府アートミュージアム,じっくり,name_heavy,ミュージアム
@@ -10153,7 +10123,6 @@ JX金属関崎みらい海星館,じっくり,category,美術館博物館
 十文字原,,default,手がかり無し
 原尻の滝,,name_light,滝
 古要神社の傀儡子の舞と相撲,,default,手がかり無し
-吉弘楽,,default,手がかり無し
 吉野梅園,,default,手がかり無し
 咸宜園,,default,手がかり無し
 唄げんか大橋,,name_light,大橋
@@ -10189,7 +10158,6 @@ JX金属関崎みらい海星館,じっくり,category,美術館博物館
 平和市民公園,,name_light,公園
 府内城,じっくり,name_heavy,城
 彦島 (大分県),,default,手がかり無し
-御嶽神楽,,default,手がかり無し
 慈恩の滝,,name_light,滝
 拍子水温泉,じっくり,name_heavy,温泉
 文殊仙寺,,default,手がかり無し
