@@ -59,6 +59,10 @@ SHAPES = {"circle", "rounded-square", "diamond", "pentagon", "hexagon", "castle"
 # 自前の形(series の path)。travel-log 側 lib/pinShape.ts の
 # PATH_D_RE と同じ考え方で、Mで始まりパスに使える字だけでできていることを見る
 PATH_D_RE = re.compile(r"^[Mm][\s0-9.,+\-eE]*[MmLlHhVvCcSsQqTtAaZz][A-Za-z0-9.,+\-eE\s]*$")
+# パス 1 本の長さの上限。**travel-log 側の isValidPinPath と同じ値にする**
+# (あちらは 1 件でも超えると series の配列ごと弾き、取り込みが丸ごと止まる)。
+# 生成した絵をトレースしたパスは簡単に数千字になるので、ここで落とす。
+PATH_D_MAX = 4000
 REGION_SCOPES_RE = re.compile(r"^(jp|world|[a-z]{2})$")
 
 errors: list[str] = []
@@ -189,6 +193,26 @@ def check_routes(path: Path, spot_keys: set[str]) -> None:
         seen.add((route, seq))
 
 
+def check_path_d(path: Path, name: str, key: str, value: object) -> None:
+    """SVG のパス(`icon` / `path`)を検査する。
+
+    **字面と長さの両方を見る。** travel-log は不正な項目が 1 つでもあると
+    series の配列ごと捨てるので、ここを通ってしまうと取り込みが丸ごと止まる。
+    """
+    if value is None:
+        return
+    if not isinstance(value, str) or not PATH_D_RE.match(value):
+        error(path, f"series {name!r} の {key} が SVG のパスとして不正: {value!r}")
+        return
+    if len(value) > PATH_D_MAX:
+        error(
+            path,
+            f"series {name!r} の {key} が長すぎる: {len(value)}字"
+            f"(travel-log の上限は {PATH_D_MAX}字。絵を単純にするか、"
+            f"トレース元を小さくして節点を減らす)",
+        )
+
+
 def check_settings(path: Path, folder: str, catalog_label: str | None) -> str:
     """settings.json を検査し、region_scope を返す。"""
     try:
@@ -228,8 +252,7 @@ def check_settings(path: Path, folder: str, catalog_label: str | None) -> str:
         # パスは canvas で描くだけなので危険は無いが、打ち間違いを黙って
         # 空のピンにしないよう字面だけ検査する
         icon = entry.get("icon")
-        if icon is not None and (not isinstance(icon, str) or not PATH_D_RE.match(icon)):
-            error(path, f"series {name!r} の icon が SVG のパスとして不正: {icon!r}")
+        check_path_d(path, name, "icon", icon)
         view = entry.get("iconViewSize")
         if view is not None and (not isinstance(view, (int, float)) or view <= 0):
             error(path, f"series {name!r} の iconViewSize が不正: {view!r}")
@@ -239,10 +262,7 @@ def check_settings(path: Path, folder: str, catalog_label: str | None) -> str:
                 error(path, f"series {name!r} の label が文字列でも画像でもない: {label!r}")
         # 形。path(自前の輪郭。100×145の箱)があれば shape は省略できる
         custom = entry.get("path")
-        if custom is not None and (
-            not isinstance(custom, str) or not PATH_D_RE.match(custom)
-        ):
-            error(path, f"series {name!r} の path が SVG のパスとして不正: {custom!r}")
+        check_path_d(path, name, "path", custom)
         shape = entry.get("shape")
         if shape is not None and shape not in SHAPES:
             error(
