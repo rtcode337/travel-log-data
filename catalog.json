@@ -7,6 +7,7 @@
     { "key": "suiyou_dodesho_domestic", "label": "水曜どうでしょう(国内編)" },
     { "key": "suiyou_dodesho_overseas", "label": "水曜どうでしょう(海外編)" },
     { "key": "restaurant", "label": "有名飲食店" },
-    { "key": "anime_seichi", "label": "アニメ聖地" }
+    { "key": "anime_seichi", "label": "アニメ聖地" },
+    { "key": "gotouchi_gourmet", "label": "ご当地グルメ" }
   ]
 }
