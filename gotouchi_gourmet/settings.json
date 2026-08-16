@@ -1,0 +1,58 @@
+{
+  "key": "gotouchi_gourmet",
+  "label": "ご当地グルメ",
+  "settings": {
+    "rank_enabled": true
+  },
+  "series": [
+    {
+      "series": "麺類",
+      "label": "麺"
+    },
+    {
+      "series": "丼・ごはん",
+      "label": "丼"
+    },
+    {
+      "series": "寿司",
+      "label": "鮨"
+    },
+    {
+      "series": "粉もの",
+      "label": "粉"
+    },
+    {
+      "series": "汁物・鍋",
+      "label": "汁"
+    },
+    {
+      "series": "肉料理",
+      "label": "肉"
+    },
+    {
+      "series": "魚介料理",
+      "label": "魚"
+    },
+    {
+      "series": "野菜・漬物",
+      "label": "菜"
+    },
+    {
+      "series": "菓子・パン",
+      "label": "菓"
+    },
+    {
+      "series": "飲み物",
+      "label": "飲"
+    },
+    {
+      "series": "その他",
+      "label": "他"
+    }
+  ],
+  "categories": [
+    "発祥地まで特定",
+    "都道府県まで",
+    "郷土料理百選"
+  ]
+}
