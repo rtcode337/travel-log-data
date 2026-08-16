@@ -34,6 +34,7 @@ catalog.json               # スポット種別の一覧(リポジトリ直下)
 .github/
   workflows/validate.yml   # push / PR でデータ検証を回す
   scripts/validate_data.py # 検証の実体(後述。手元でも同じものを実行できる)
+  scripts/rank_audit.py    # ランクの点検(後述。知名度の由来が観光でないスポットを洗う)
   dependabot.yml           # アクションの更新PR(週1)
 <スポットキー>/
   README.md                # この種別の出典・生成手順・収録の基準・ライセンス(後述)
@@ -527,6 +528,23 @@ travel-log側の管理画面の「GitHubリポジトリからスポット種別�
   OSMのタグの付き方・住所階層の深さも国によって差がある。`region`に入れる一次行政区分が
   Nominatimのどのフィールド(`state`/`province`/`county`)で返るかも国ごとに違うため、
   対象国で実際に何件か引いて確かめてから一括取得すること
+
+## ランクの点検(手元だけ)
+
+```bash
+python3 .github/scripts/rank_audit.py tourist
+```
+
+`rank`はWikipediaの月次ページビューのパーセンタイル区分だが、**ページビューは観光以外の
+関心でも伸びる**(受験・就活・乗り換え・地理の調べ物)。このスクリプトは、その偏りを起こす
+類型をWikipediaのカテゴリで定義して候補を挙げる。**ランクは書き換えない** ——
+仕分けは目視で、結果は`<スポットキー>/excluded_candidates/series_demotions.md`に記録する。
+
+**CIには入れない。** カテゴリの取得に外部API(またはLAN内のchiezo)が要るため、
+`validate.yml`に入れると外部依存のCIになる。データを大きく入れ替えたときに手元で回すもの。
+
+**周辺POIの密度・比(OSM)を信号にしようとして失敗した経緯**はスクリプトの
+docstringに書いてある。同じところを試し直さないこと。
 
 ## データの検証(CI)
 
