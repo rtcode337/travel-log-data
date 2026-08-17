@@ -1,13 +1,13 @@
 # restaurant(有名飲食店)
 
-- 有名飲食店 **171件**(飲食店の網羅ではない。**Wikipedia(ja)に記事があること自体を「有名店」の
+- 有名飲食店 **172件**(飲食店の網羅ではない。**Wikipedia(ja)に記事があること自体を「有名店」の
   フィルタに使っている**)
-- 出典: Wikipedia(ja)の飲食店系タグの記事 + OSM側の`wikipedia`/`wikidata`タグ。座標は全件OSM
+- 出典: Wikipedia(ja)の飲食店系タグの記事 + OSM側の`wikipedia`/`wikidata`タグ。座標は**1件を除き全件OSM**
 - ライセンス: **ODbL**(座標)+ **CC BY-SA 4.0**(説明文)。再配布時は出典表示が必要(→[ライセンス](#ライセンス))
 
 | ファイル | 内容 |
 |---|---|
-| `spots.csv` | スポットデータ(171件) |
+| `spots.csv` | スポットデータ(172件) |
 | `settings.json` | スポット種別の設定(ランクの有効化・シリーズ12種とアイコン) |
 | `excluded_candidates/ramen.md` | 収録しなかった候補と理由(ラーメン83件) |
 | `excluded_candidates/other_genres.md` | 収録しなかった候補と理由(ラーメン以外637件) |
@@ -59,7 +59,11 @@ OpenStreetMapへの問い合わせで完結):
    突き合わせは店名+所在地(`area`)での検索と、OSM側の`wikipedia`タグの2通りで、
    **後者は「どのPOIがその記事の店か」をOSMが自己申告している**ぶん確実。本店の判定は
    `branch`タグ(`branch=本店`・`branch=道頓堀本店`)が決め手で、`branch=◯◯店`は支店なので弾く
-6. 座標の点検として、Wikipedia(ja)の記事が座標を持つ55件と突き合わせた結果**53件が200m以内で一致**。
+6. **中華四川(小田原市)だけ座標がOSM由来ではない。** OpenStreetMapに登録が無く、
+   Wikipedia(ja)の記事のインフォボックスに書かれた度分秒を使っている(その旨を
+   `description`にも書いてある)。[gotouchi_gourmet](../gotouchi_gourmet/README.md)の
+   「小田原系担々麺」の発祥店として拾った店で、料理ではないのでこちらに置いた
+7. 座標の点検として、Wikipedia(ja)の記事が座標を持つ55件と突き合わせた結果**53件が200m以内で一致**。
    不一致の2件(茶房長谷路・味仙 今池本店)はいずれもWikipedia記事側の座標が誤っており、
    CSV(OSM由来)が正しい
 
