@@ -15,12 +15,12 @@
 | [tourist](tourist/README.md)<br>(観光地) | 日本全国の観光地。travel-log側の唯一の既定種別 | 10,705 | 説明文: Wikipedia(ja)の記事<br>座標: Wikipedia(ja)の記事・Wikidata | 説明文: CC BY-SA 4.0<br>座標: CC BY-SA 4.0・CC0 |
 | [goshuin](goshuin/README.md)<br>(御朱印) | 御朱印を受けに行く先としての全国の寺社仏閣 | 51,950 | 説明文: Wikipedia(ja)の記事<br>座標・名称: OpenStreetMap | 説明文: CC BY-SA 4.0<br>座標・名称: ODbL |
 | [post_office](post_office/README.md)<br>(郵便局) | 全国の郵便局 | 24,526 | 名称・座標: 国土数値情報(郵便局データ P30) | **非商用利用限定** |
-| [restaurant](restaurant/README.md)<br>(有名飲食店) | Wikipedia(ja)に記事がある店に絞った飲食店(網羅ではない) | 171 | 説明文: Wikipedia(ja)の記事<br>座標: OpenStreetMap | 説明文: CC BY-SA 4.0<br>座標: ODbL |
+| [restaurant](restaurant/README.md)<br>(有名飲食店) | Wikipedia(ja)に記事がある店に絞った飲食店(網羅ではない) | 172 | 説明文: Wikipedia(ja)の記事<br>座標: OpenStreetMap(1件のみWikipedia) | 説明文: CC BY-SA 4.0<br>座標: ODbL |
 | [buratamori](buratamori/README.md)<br>(ブラタモリ) | NHK「ブラタモリ」の訪問地(ルート3本) | 420 | 説明文: LLMの記憶(**未検証**。訪問地の一覧のみWikipedia(ja))<br>座標: OpenStreetMap | 説明文: 出典なし<br>座標: ODbL |
 | [suiyou_dodesho_domestic](suiyou_dodesho_domestic/README.md)<br>(水曜どうでしょう・国内編) | HTB「水曜どうでしょう」国内39企画の立ち寄り地(ルート34本) | 331 | 説明文: LLMの記憶(**未検証**。企画・行程のみWikipedia(ja))<br>座標: OpenStreetMap | 説明文: 出典なし<br>座標: ODbL |
 | [suiyou_dodesho_overseas](suiyou_dodesho_overseas/README.md)<br>(水曜どうでしょう・海外編) | 同・海外15企画の立ち寄り地(29ヵ国・ルート15本) | 142 | 説明文: LLMの記憶(**未検証**。企画・旅程のみWikipedia(ja))<br>座標: OpenStreetMap | 説明文: 出典なし<br>座標: ODbL |
 | [anime_seichi](anime_seichi/README.md)<br>(アニメ聖地) | アニメの聖地。アニメツーリズム協会の現行の選定地と、Wikipedia(ja)の舞台カテゴリ由来の2系統 | 498 | 説明文: Wikipedia(ja)の記事(全行の根拠を`evidence.csv`に保持)<br>座標: OpenStreetMap | 説明文: CC BY-SA 4.0<br>座標: ODbL |
-| [gotouchi_gourmet](gotouchi_gourmet/README.md)<br>(ご当地グルメ) | ご当地グルメ・郷土料理を、**その料理を食べに行く土地**に置いたもの | 1,292 | 説明文: Wikipedia(ja)の記事(全行の根拠を`evidence.csv`に保持)<br>座標: OpenStreetMap | 説明文: CC BY-SA 4.0<br>座標: ODbL |
+| [gotouchi_gourmet](gotouchi_gourmet/README.md)<br>(ご当地グルメ) | ご当地グルメ・郷土料理を、**その料理を食べに行く土地**に置いたもの | 1,393 | 説明文: Wikipedia(ja)の記事(全行の根拠を`evidence.csv`に保持)<br>座標: OpenStreetMap | 説明文: CC BY-SA 4.0<br>座標: ODbL |
 
 ## フォルダ構成
 
