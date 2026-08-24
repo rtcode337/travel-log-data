@@ -104,8 +104,11 @@ GitHub Actionsが同じものを回す)。travel-log側はこのリポジトリ�
 郵便局データ: 国土数値情報(郵便局データ P30)/ 国土交通省 ※非商用利用限定
 ```
 
-Wikipedia由来の説明文は、どの記事から取ったかを行単位で辿れるようにしてある種別が
-ある(`anime_seichi/evidence.csv`など)。個別の記事名まで示す場合はそちらを使う。
+Wikipedia由来の説明文は、**どのページから取ったかを`description`の末尾に書いてある**
+(`(出典: ja.wikipedia「北海道神宮」 https://ja.wikipedia.org/wiki/北海道神宮)`)。
+個別の記事名まで示す場合はこれを使う。`tourist`だけラベルが`掲載元`で、**説明文の出典ではなく
+スポット名を拾った一覧ページ**を指す(→[tourist/README.md](tourist/README.md))。
+行の根拠をさらに細かく残してある種別もある(`anime_seichi/evidence.csv`など)。
 
 ### 新しいデータを足すとき
 
