@@ -3,7 +3,8 @@
   "label": "郵便局",
   "settings": {
     "reviews_enabled": false,
-    "wikipedia_enabled": false
+    "wikipedia_enabled": false,
+    "rank_enabled": false
   },
   "series": [
     {
