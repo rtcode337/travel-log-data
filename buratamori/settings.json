@@ -1,7 +1,9 @@
 {
   "key": "buratamori",
   "label": "ブラタモリ",
-  "settings": {},
+  "settings": {
+    "rank_enabled": false
+  },
   "series": [
     {
       "series": "【#1 早稲田】",

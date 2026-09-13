@@ -256,7 +256,11 @@ route,series,seq,spot_key,description,leg_description
 - `key`: 必須。機械可読キー(英数字+アンダースコア、既存の`spot_types.key`と重複不可)
 - `label`: 必須。表示名(自由な文字列)
 - `settings`: 省略可。省略したキー・オブジェクト自体の省略は下表の既定値になる
-  (既定値と同じ値をわざわざ書く必要はない — 差分だけ書けばよい)
+  (既定値と同じ値をわざわざ書く必要はない — 差分だけ書けばよい)。
+  **ただし「省略=いまの見え方」は、travel-log側の既定が動いた瞬間に崩れる** ——
+  2026-09-11に`rank_enabled`の既定が`false`から`true`へ変わり、省略していた種別が
+  黙って有効側へ動くところだった。収録済みの種別はこのとき**変更前の値を明示して
+  固定してある**。**見え方を変えたくない設定は、既定と同じでも書く**
 - `series`: 省略可。省略時は**シリーズ定義なし**(CSVに入っている値がそのまま動く)。後述
 - `categories`: 省略可。この種別で使うカテゴリの一覧(文字列配列)。省略時は既定の一覧
   になる。次項参照
@@ -330,7 +334,7 @@ chiezoのURLのような手元の環境固有の事情がデータリポジト�
 | `reviews_enabled` | boolean | `true` | `false`でこの種別の口コミ機能(表示・投稿)を無効化 |
 | `wikipedia_enabled` | boolean | `true` | `false`でスポット詳細のWikipediaリンクを非表示にする(大半のスポットにWikipedia記事が存在しない種別向け) |
 | `region_scope` | string | `"jp"` | この種別の対象地域(日本/特定の国/世界全体)。次項参照 |
-| `rank_enabled` | boolean | `false` | `true`でこの種別がランク(A〜E)を使う。使う種別だけCSVに`rank`列を書く。前項参照 |
+| `rank_enabled` | boolean | `true` | `true`でこの種別がランク(A〜E)を使う。使う種別だけCSVに`rank`列を書く。前項参照 |
 | `wikipedia_lang` | string | `"ja"` | スポット詳細のWikipedia検索が参照する言語版サブドメイン(`"en"`なら`en.wikipedia.org`)。`wikipedia_enabled`が`true`のときだけ意味を持つ |
 
 値にはbooleanと文字列の両方がある(上表の型欄を参照)。上記以外の設定キーが将来travel-log側に
@@ -384,7 +388,7 @@ chiezoのURLのような手元の環境固有の事情がデータリポジト�
 | E | 灰 `#e5e7eb` | 18 |
 | なし(空欄) | 白 `#ffffff` | 26(Bと同じ) |
 
-- 使うかどうかは種別ごと(`settings.rank_enabled`、既定`false`)。**使う種別だけ**
+- 使うかどうかは種別ごと(`settings.rank_enabled`、既定`true`)。**使う種別だけ**
   CSVに`rank`列を書く。使わない種別では入っていても効かない
 - **使わない種別では色をシリーズが決める**(`series`の`color`/`borderColor`/`textColor`)。
   大きさは全スポット26px固定
