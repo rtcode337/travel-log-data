@@ -1047,7 +1047,6 @@ JRタワー,じっくり,name_heavy,タワー
 黒石寺,,default,手がかり無し
 龍泉洞,じっくり,name_heavy,洞
 JRフルーツパーク仙台あらはま,,default,手がかり無し
-YOSAKOI&ねぷたinとよさと,,default,手がかり無し
 あ・ら・伊達な道の駅,,name_light,道の駅
 かわまちてらす閖上,,default,手がかり無し
 かわまちオープンパーク,,default,手がかり無し
@@ -1070,7 +1069,6 @@ YOSAKOI&ねぷたinとよさと,,default,手がかり無し
 スプリングバレー仙台泉,,default,手がかり無し
 スポーツランドSUGO,,default,手がかり無し
 チャチャワールドいしこし,じっくり,wikipedia_fee,料金の記述あり
-ドラゴンカヌー大会 (加美町),,default,手がかり無し
 ホエールタウンおしか,じっくり,wikipedia_fee,料金の記述あり
 リアス・アーク美術館,じっくり,name_heavy,美術館
 一番町 (仙台市),,default,手がかり無し
@@ -1235,7 +1233,6 @@ YOSAKOI&ねぷたinとよさと,,default,手がかり無し
 長沼フートピア公園,,name_light,公園
 阿武隈渓谷県立自然公園,,name_light,公園
 陸奥国分寺,,osm_feature,historic=monument
-青い鯉のぼりプロジェクト,,default,手がかり無し
 青根温泉,じっくり,name_heavy,温泉
 青葉山公園,,name_light,公園
 青葉神社,,default,手がかり無し
@@ -1351,7 +1348,6 @@ YOSAKOI&ねぷたinとよさと,,default,手がかり無し
 秋田諏訪宮,,default,手がかり無し
 秋田駅,,name_light,駅
 秋田駒ヶ岳,じっくり,name_heavy,岳
-竿燈,じっくり,osm_feature,tourism=hotel
 素波里ダム,,name_light,ダム
 美郷町ラベンダー園,,osm_feature,leisure=park
 能代火力発電所,,default,手がかり無し
@@ -3239,7 +3235,6 @@ TOTOギャラリー・間,じっくり,osm_feature,tourism=museum
 小平市平櫛田中彫刻美術館,じっくり,name_heavy,美術館
 小平霊園,,default,手がかり無し
 小林家住宅 (檜原村),,default,手がかり無し
-小河内の鹿島踊,,default,手がかり無し
 小澤酒造,,default,手がかり無し
 小田急百貨店,,default,手がかり無し
 小石川後楽園,じっくり,wikipedia_fee,料金の記述あり
@@ -4215,7 +4210,6 @@ SLばんえつ物語,,default,手がかり無し
 新発田城,じっくり,name_heavy,城
 新発田城址公園,,name_light,公園
 日本海フィッシャーマンズケープ,,default,手がかり無し
-日本海夕日コンサート,,default,手がかり無し
 旧小林古径邸,じっくり,category,城
 旧師団長官舎 (上越市),じっくり,category,美術館博物館
 春日山城,じっくり,name_heavy,城
@@ -4678,7 +4672,6 @@ SLばんえつ物語,,default,手がかり無し
 瀧谷寺,じっくり,wikipedia_fee,料金の記述あり
 熊川宿,じっくり,osm_feature,tourism=hotel
 瓜割の滝,,name_light,滝
-睦月神事,,default,手がかり無し
 福井和泉スキー場,じっくり,name_heavy,スキー場
 福井城,じっくり,name_heavy,城
 福井市立郷土歴史博物館,じっくり,name_heavy,博物館
@@ -4691,7 +4684,6 @@ SLばんえつ物語,,default,手がかり無し
 福井県立音楽堂,じっくり,wikipedia_fee,料金の記述あり
 福井総合植物園プラントピア,じっくり,name_heavy,植物園
 福井運動公園,,name_light,公園
-糸崎の仏舞,,default,手がかり無し
 紫式部公園,,name_light,公園
 経ヶ岳 (福井県),,osm_feature,natural=peak
 芝政ワールド,じっくり,name_heavy,ワールド
@@ -4783,7 +4775,6 @@ FUJI Retromobile Museum & Air Museum,じっくり,category,美術館博物館
 大法師公園,,name_light,公園
 大菩薩峠,,default,手がかり無し
 大菩薩嶺,,osm_feature,natural=peak
-天津司舞,,default,手がかり無し
 奈良田温泉,じっくり,name_heavy,温泉
 安藤家住宅,じっくり,wikipedia_fee,料金の記述あり
 実相寺 (北杜市),,default,手がかり無し
@@ -4842,7 +4833,6 @@ FUJI Retromobile Museum & Air Museum,じっくり,category,美術館博物館
 清泉寮,じっくり,osm_feature,tourism=hotel
 清白寺,,default,手がかり無し
 清里高原,じっくり,name_heavy,高原
-無生野の大念仏,,default,手がかり無し
 熊野神社 (甲州市),,default,手がかり無し
 猿橋,,name_light,橋
 瑞牆山,じっくり,name_heavy,山
@@ -5456,7 +5446,6 @@ SUWAガラスの里の美術館,じっくり,name_heavy,美術館
 白川郷・五箇山の合掌造り集落,じっくり,name_heavy,集落
 白川郷平瀬温泉,じっくり,name_heavy,温泉
 真宗大谷派竹鼻別院,,default,手がかり無し
-真桑人形浄瑠璃,,default,手がかり無し
 真禅院,,default,手がかり無し
 真福寺 (羽島市),,default,手がかり無し
 石徹白の大杉,,default,手がかり無し
@@ -7279,7 +7268,6 @@ TWIN21,,osm_feature,amenity=parking
 枚岡神社,,default,手がかり無し
 枚方T-SITE,,default,手がかり無し
 柏原市立玉手山公園,,name_light,公園
-桜の通り抜け (大阪造幣局),,default,手がかり無し
 桜之宮公園,,name_light,公園
 桜井神社 (堺市),,default,手がかり無し
 梅田スカイビル,,default,手がかり無し
@@ -7976,7 +7964,6 @@ UCCコーヒー博物館,じっくり,name_heavy,博物館
 開運橋 (信貴山),,default,手がかり無し
 霊山寺 (奈良市),,default,手がかり無し
 頭塔,,default,手がかり無し
-題目立,,default,手がかり無し
 飛鳥坐神社,,default,手がかり無し
 飛鳥寺,,default,手がかり無し
 飛鳥資料館,じっくり,name_heavy,資料館
@@ -8505,7 +8492,6 @@ MAZDA Zoom-Zoom スタジアム広島,じっくり,wikipedia_fee,料金の記述
 そごう広島店,,default,手がかり無し
 とうかさん,,default,手がかり無し
 ばら公園 (福山市),,name_light,公園 
-ひろしま安芸高田神楽,,default,手がかり無し
 ひろしま美術館,じっくり,name_heavy,美術館
 ふくやま美術館,じっくり,name_heavy,美術館
 みろくの里,じっくり,osm_feature,tourism=theme_park
@@ -9461,7 +9447,6 @@ JR博多シティ,,default,手がかり無し
 博多リバレイン,,default,手がかり無し
 博多千年門,,name_light,門
 博多座,,default,手がかり無し
-博多祇園山笠,,default,手がかり無し
 博多駅,,name_light,駅
 友泉亭公園,じっくり,wikipedia_fee,料金の記述あり
 古処山,じっくり,name_heavy,山
@@ -10072,7 +10057,6 @@ JX金属関崎みらい海星館,じっくり,category,美術館博物館
 別府湾サービスエリア,,default,手がかり無し
 十文字原,,default,手がかり無し
 原尻の滝,,name_light,滝
-古要神社の傀儡子の舞と相撲,,default,手がかり無し
 吉野梅園,,default,手がかり無し
 咸宜園,,default,手がかり無し
 唄げんか大橋,,name_light,大橋
