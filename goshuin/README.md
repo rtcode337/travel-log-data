@@ -69,9 +69,8 @@ OpenStreetMap(Overpass API)の寺社仏閣(`amenity=place_of_worship`かつ
 
 ## 出典記事のURL(`description`末尾)
 
-`description`の末尾に、その文を取ってきたWikipedia記事を
-`(出典: ja.wikipedia「北海道神宮」 https://ja.wikipedia.org/wiki/北海道神宮)`
-の形で書いてある(6,960件。説明文のある6,994件のうち)。
+`description`の本文の後ろに改行を入れ、その文を取ってきたWikipedia記事を
+`出典: [ja.wikipedia:北海道神宮]`の形で書いてある(6,960件。説明文のある6,994件のうち)。
 
 **記事名はスポット名とは限らない。** 名称はOSM由来、記事はOSMの`wikipedia`/`wikidata`タグ
 から解決したもので、`二荒山神社`(OSMの名前)の記事が`日光二荒山神社`だったり、
