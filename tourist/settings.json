@@ -4,7 +4,6 @@
   "settings": {
     "public_visible": true,
     "reviews_enabled": true,
-    "wikipedia_enabled": true,
     "rank_enabled": true
   },
   "series": [
