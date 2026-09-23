@@ -2,7 +2,6 @@
   "key": "anime_seichi",
   "label": "アニメ聖地",
   "settings": {
-    "wikipedia_title_source": "series",
     "rank_enabled": true
   },
   "series": [

@@ -250,8 +250,7 @@ route,series,seq,spot_key,description,leg_description
   "label": "郵便局",
   "settings": {
     "public_visible": false,
-    "reviews_enabled": false,
-    "wikipedia_enabled": false
+    "reviews_enabled": false
   },
   "series": [
     {
@@ -344,10 +343,8 @@ chiezoのURLのような手元の環境固有の事情がデータリポジト�
 |---|---|---|---|
 | `public_visible` | boolean | `false` | `true`で一般公開(全ユーザーに`/[key]/map`等を表示)。`false`はadmin/spot_admin限定(準備中の種別向け) |
 | `reviews_enabled` | boolean | `true` | `false`でこの種別の口コミ機能(表示・投稿)を無効化 |
-| `wikipedia_enabled` | boolean | `true` | `false`でスポット詳細のWikipediaリンクを非表示にする(大半のスポットにWikipedia記事が存在しない種別向け) |
 | `region_scope` | string | `"jp"` | この種別の対象地域(日本/特定の国/世界全体)。次項参照 |
 | `rank_enabled` | boolean | `true` | `true`でこの種別がランク(A〜E)を使う。使う種別だけCSVに`rank`列を書く。前項参照 |
-| `wikipedia_lang` | string | `"ja"` | スポット詳細のWikipedia検索が参照する言語版サブドメイン(`"en"`なら`en.wikipedia.org`)。`wikipedia_enabled`が`true`のときだけ意味を持つ |
 
 値にはbooleanと文字列の両方がある(上表の型欄を参照)。上記以外の設定キーが将来travel-log側に
 追加される可能性がある。`series_styles`・`categories`という文字列キーも内部的には同じ設定
@@ -383,7 +380,6 @@ chiezoのURLのような手元の環境固有の事情がデータリポジト�
   全スポットが1つの地域にまとまってしまい地域タブが機能しない
 - 対象が1か国に収まるなら`"world"`ではなく国コードを指定したほうがよい。地名検索が
   その国に絞り込まれ、同名地名の取り違えが減る
-- 日本語以外の記事を引きたい種別では`wikipedia_lang`も併せて指定する(既定は`"ja"`のまま)
 
 ### rank(A〜E。ピンの色と大きさ)
 
