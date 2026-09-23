@@ -924,9 +924,8 @@ OSMに載っていない駅が少数あり(長崎駅・豊川駅・草津駅な�
 
 ## 出典記事のURL(`description`末尾)
 
-`description`の末尾に、その文を取ってきたWikipedia記事を
-`(出典: ja.wikipedia「家系ラーメン」 https://ja.wikipedia.org/wiki/家系ラーメン)`
-の形で書いてある(2,391件=全行)。記事名は`evidence.csv`の`article`列が正で、
+`description`の本文の後ろに改行を入れ、その文を取ってきたWikipedia記事を
+`出典: [ja.wikipedia:家系ラーメン]`の形で書いてある(2,391件=全行)。記事名は`evidence.csv`の`article`列が正で、
 **`key`とは一致しないことがある**(1つの記事から複数の料理を起こした行は
 `いきなり団子#いきなり饅頭`のような`key`を持つ)。
 
