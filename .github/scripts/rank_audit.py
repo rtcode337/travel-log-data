@@ -47,7 +47,8 @@
 
     python3 .github/scripts/rank_audit.py [スポットキー]
 
-カテゴリの取得元は、LAN内のchiezo(あれば)かWikipedia API。
+カテゴリの取得元は、環境変数`WIKI_MIRROR_DOC_URL`で渡したWikipedia(ja)のローカルミラー
+(`?title=&fields=title,tags`で記事のカテゴリを返すもの。あれば)か、Wikipedia API。
 **CIでは回さない**(外部APIに依存させないため)。
 """
 
@@ -64,7 +65,8 @@ import urllib.parse
 import urllib.request
 from pathlib import Path
 
-CHIEZO = os.environ.get("WIKI_MIRROR_DOC_URL", "")
+# Wikipedia(ja)のローカルミラーの記事取得の口。未設定ならWikipedia APIだけを使う
+MIRROR = os.environ.get("WIKI_MIRROR_DOC_URL", "")
 WIKIPEDIA = "https://ja.wikipedia.org/w/api.php"
 UA = "travel-log-data rank audit (+https://github.com/rtcode337/travel-log-data)"
 
@@ -84,15 +86,17 @@ TARGET_RANKS = "AB"  # C以下は観光実態との乖離が小さいため対�
 
 
 class Tags:
-    """記事のカテゴリを引く。chiezoが見えればそちら、駄目ならWikipedia API。"""
+    """記事のカテゴリを引く。ローカルミラーが見えればそちら、駄目ならWikipedia API。"""
 
     def __init__(self) -> None:
-        self.source = "chiezo" if self._alive() else "wikipedia"
+        self.source = "mirror" if self._alive() else "wikipedia"
         self.cache: dict[str, list[str]] = {}
 
     def _alive(self) -> bool:
+        if not MIRROR:
+            return False
         try:
-            urllib.request.urlopen(f"{CHIEZO}?title=%E6%97%A5%E6%9C%AC", timeout=3).read()
+            urllib.request.urlopen(f"{MIRROR}?title=%E6%97%A5%E6%9C%AC", timeout=3).read()
             return True
         except Exception:
             return False
@@ -106,9 +110,9 @@ class Tags:
         if title in self.cache:
             return self.cache[title]
         try:
-            if self.source == "chiezo":
+            if self.source == "mirror":
                 q = urllib.parse.urlencode({"title": title, "fields": "title,tags"})
-                tags = self._get(f"{CHIEZO}?{q}").get("tags") or []
+                tags = self._get(f"{MIRROR}?{q}").get("tags") or []
             else:
                 # 相手はコミュニティ運営なので、こちらで間隔を空ける
                 time.sleep(0.2)
