@@ -51,7 +51,12 @@ catalog.json                 # スポット種別の一覧(key・label)
 各ファイルの形式は**travel-log本体の取り込み機能の仕様**で、このリポジトリはそれに合わせる
 だけ。列の定義と取り込みの挙動(差分更新の同一判定など)は
 [travel-log/README.mdの「外部データ(travel-log-data)」](https://github.com/rtcode337/travel-log#外部データtravel-log-data)を参照
-(実装上の正はtravel-log側の`components/AdminView.tsx`の`CSV_COLUMNS` / `ROUTE_CSV_COLUMNS`)。
+(実装上の正はtravel-log側の`lib/adminImport.ts`の`CSV_COLUMNS` / `ROUTE_CSV_COLUMNS`)。
+
+スポットCSVには、省略可の列として**提供の時期`available_months`**(手に入る月。`11-3`=11月〜3月で
+年をまたぐ範囲、`6,7,8`、`12-2,7`。空欄=通年か不明)と**営業時間`opening_hours`**
+(OpenStreetMapの`opening_hours`の書式そのまま。例`Mo-Fr 11:00-22:00; We off`・`24/7`。空欄=不明)を
+置ける。書き方の詳細はCLAUDE.mdの「スポットCSVの形式」。
 
 取り込みはtravel-log側の管理画面(`/[type]/admin`)の「GitHubリポジトリからスポット種別取り込み」から、
 このリポジトリのmainを直接読んで種別ごとに一括適用する(ファイルを手元にダウンロードして
@@ -71,7 +76,7 @@ python3 .github/scripts/validate_data.py
 CSVを編集したらコミット前に実行する(標準ライブラリのみ・依存なし。push・PRでも
 GitHub Actionsが同じものを回す)。travel-log側はこのリポジトリのmainを直接読むため、
 壊れたCSVはそのまま取り込みの失敗になる。見ているのは列名・改行コード(CRLF)・
-必須項目・座標の範囲・`key`の一意性・`routes.csv`の参照先・`settings.json`の妥当性など、
+必須項目・座標の範囲・`key`の一意性・`available_months`の書き方・`routes.csv`の参照先・`settings.json`の妥当性など、
 目視では気づけない種類の誤り(検査項目の詳細はスクリプト冒頭のコメントを参照)。
 
 ## ライセンスと出典表示

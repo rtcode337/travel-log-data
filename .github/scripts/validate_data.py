@@ -9,8 +9,8 @@ push / PR で止めるのがこのスクリプトの役目。
     python3 .github/scripts/validate_data.py
 
 標準ライブラリのみで動く(依存を増やすとデータリポジトリに requirements が必要になる)。
-検査の基準は travel-log 側の components/AdminView.tsx(CSV_COLUMNS / ROUTE_CSV_COLUMNS /
-必須列)と lib/types.ts(PREFECTURES)に合わせてある。
+検査の基準は travel-log 側の lib/adminImport.ts(CSV_COLUMNS / ROUTE_CSV_COLUMNS /
+必須列)・lib/availableMonths.ts(提供の時期の書式)と lib/types.ts(PREFECTURES)に合わせてある。
 """
 
 from __future__ import annotations
@@ -24,11 +24,12 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 
-# travel-log 側 components/AdminView.tsx の CSV_COLUMNS / ROUTE_CSV_COLUMNS。
+# travel-log 側 lib/adminImport.ts の CSV_COLUMNS / ROUTE_CSV_COLUMNS。
 # 未対応の列があると本体の取り込みが例外で弾く(列名の綴り違いを黙って無視しないため)
 SPOT_COLUMNS = {
     "key", "name", "name_kana", "lat", "lng",
     "region", "rank", "series", "categories", "description",
+    "available_months", "opening_hours",
 }
 SPOT_REQUIRED = ("name", "lat", "lng", "region")
 ROUTE_COLUMNS = {"route", "series", "seq", "spot_key", "description", "leg_description"}
@@ -64,6 +65,11 @@ PATH_D_RE = re.compile(r"^[Mm][\s0-9.,+\-eE]*[MmLlHhVvCcSsQqTtAaZz][A-Za-z0-9.,+
 # 生成した絵をトレースしたパスは簡単に数千字になるので、ここで落とす。
 PATH_D_MAX = 4000
 REGION_SCOPES_RE = re.compile(r"^(jp|world|[a-z]{2})$")
+# 提供の時期(available_months)。travel-log 側 lib/availableMonths.ts の読み方と同じで、
+# 月(1〜12。先頭の0は可)か月の範囲(`11-3` のように終わりが小さければ年をまたぐ)を
+# `,` で並べたもの。区切りの前後の空白は許す。空欄は「通年か不明」
+MONTH = r"\s*(0?[1-9]|1[0-2])\s*"
+AVAILABLE_MONTHS_RE = re.compile(rf"^{MONTH}(-{MONTH})?(,{MONTH}(-{MONTH})?)*$")
 
 errors: list[str] = []
 
@@ -142,6 +148,16 @@ def check_spots(path: Path, scope: str) -> set[str]:
             # 空欄は「ランクなし」。それ以外の値は打ち間違いとして弾く
             # (travel-log 側の取り込みも同じ理由でエラーにする)
             error(path, f"{line_no}行目: rank が A〜E でない: {rank}")
+        months = row.get("available_months", "").strip()
+        if months and not AVAILABLE_MONTHS_RE.match(months):
+            # travel-log 側の取り込みは読めない時期を行番号つきでエラーにして全体を止める
+            # (黙って空にすると「通年」扱いになり、時期外のものが「今手に入る」に並ぶため)。
+            # opening_hours は travel-log 側が読めない書き方も保存して「不明」に倒すので見ない
+            error(
+                path,
+                f"{line_no}行目: available_months の書き方が不正: {months}"
+                "(例: 11-3、6,7,8、12-2,7。月は1〜12)",
+            )
         key = row.get("key", "").strip()
         if not key:
             error(path, f"{line_no}行目: key が空")
