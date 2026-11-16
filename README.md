@@ -14,7 +14,7 @@
 |---|---|---|---|---|
 | [tourist](tourist/README.md)<br>(観光地) | 日本全国の観光地。travel-log側の唯一の既定種別 | 10,640 | 説明文: Wikipedia(ja)の記事<br>座標: Wikipedia(ja)の記事・Wikidata | 説明文: CC BY-SA 4.0<br>座標: CC BY-SA 4.0・CC0 |
 | [goshuin](goshuin/README.md)<br>(御朱印) | 御朱印を受けに行く先としての全国の寺社仏閣 | 51,950 | 説明文: Wikipedia(ja)の記事<br>座標・名称: OpenStreetMap | 説明文: CC BY-SA 4.0<br>座標・名称: ODbL |
-| [post_office](post_office/README.md)<br>(郵便局) | 全国の郵便局 | 24,526 | 名称・座標: 国土数値情報(郵便局データ P30) | **非商用利用限定** |
+| [post_office](post_office/README.md)<br>(郵便局) | 全国の郵便局 | 24,526 | 名称・座標: 国土数値情報(郵便局データ P30)<br>1件の座標: OpenStreetMap | **非商用利用限定**<br>1件の座標: ODbL |
 | [buratamori](buratamori/README.md)<br>(ブラタモリ) | NHK「ブラタモリ」の訪問地(ルート3本) | 420 | 説明文: LLMの記憶(**未検証**。訪問地の一覧のみWikipedia(ja))<br>座標: OpenStreetMap | 説明文: 出典なし<br>座標: ODbL |
 | [suiyou_dodesho_domestic](suiyou_dodesho_domestic/README.md)<br>(水曜どうでしょう・国内編) | HTB「水曜どうでしょう」国内39企画の立ち寄り地(ルート34本) | 331 | 説明文: LLMの記憶(**未検証**。企画・行程のみWikipedia(ja))<br>座標: OpenStreetMap | 説明文: 出典なし<br>座標: ODbL |
 | [suiyou_dodesho_overseas](suiyou_dodesho_overseas/README.md)<br>(水曜どうでしょう・海外編) | 同・海外15企画の立ち寄り地(29ヵ国・ルート15本) | 142 | 説明文: LLMの記憶(**未検証**。企画・旅程のみWikipedia(ja))<br>座標: OpenStreetMap | 説明文: 出典なし<br>座標: ODbL |
@@ -86,7 +86,7 @@ GitHub Actionsが同じものを回す)。travel-log側はこのリポジトリ�
 
 | 使う種別 | 掛かる制約 |
 |---|---|
-| `post_office` | **商用利用できない。** 出典が国土数値情報(非商用利用限定)のため、表示だけでは足りない |
+| `post_office` | **商用利用できない。** 出典が国土数値情報(非商用利用限定)のため、表示だけでは足りない。座標を直した1件はOpenStreetMap由来で、ODbLの表示も要る |
 | `tourist` | 出典表示が要る。説明文を再配布するなら、その配布物も CC BY-SA 4.0(または互換)にする |
 | 上記以外(`goshuin`・`anime_seichi`・`buratamori`・`suiyou_dodesho_*`) | 出典表示が要る。説明文を再配布するなら CC BY-SA 4.0(または互換)、**座標を含むデータベースを再配布するなら ODbL(または互換)**にする |
 
