@@ -29,7 +29,7 @@ ROOT = Path(__file__).resolve().parents[2]
 SPOT_COLUMNS = {
     "key", "name", "name_kana", "lat", "lng",
     "region", "rank", "series", "categories", "description",
-    "available_months", "opening_hours",
+    "available_months", "opening_hours", "ask_name",
 }
 SPOT_REQUIRED = ("name", "lat", "lng", "region")
 ROUTE_COLUMNS = {"route", "series", "seq", "spot_key", "description", "leg_description"}

@@ -53,8 +53,8 @@ catalog.json                 # スポット種別の一覧(key・label)
 
 スポットCSVには、省略可の列として**提供の時期`available_months`**(手に入る月。`11-3`=11月〜3月で
 年をまたぐ範囲、`6,7,8`、`12-2,7`。空欄=通年か不明)と**営業時間`opening_hours`**
-(OpenStreetMapの`opening_hours`の書式そのまま。例`Mo-Fr 11:00-22:00; We off`・`24/7`。空欄=不明)を
-置ける。書き方の詳細はCLAUDE.mdの「スポットCSVの形式」。
+(OpenStreetMapの`opening_hours`の書式そのまま。例`Mo-Fr 11:00-22:00; We off`・`24/7`。空欄=不明)、
+**生成AIに聞くときの名前`ask_name`**(空欄=`name`で聞く)を置ける。書き方の詳細はCLAUDE.mdの「スポットCSVの形式」。
 
 取り込みはtravel-log側の管理画面(`/[type]/admin`)の「GitHubリポジトリからスポット種別取り込み」から、
 このリポジトリのmainを直接読んで種別ごとに一括適用する(ファイルを手元にダウンロードして
