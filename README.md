@@ -12,7 +12,7 @@
 
 | スポット種別 | 内容 | 件数 | 主な出典 | ライセンス・制限 |
 |---|---|---|---|---|
-| [tourist](tourist/README.md)<br>(観光地) | 日本全国の観光地。travel-log側の唯一の既定種別 | 10,640 | 説明文: Wikipedia(ja)の記事<br>座標: Wikipedia(ja)の記事・Wikidata | 説明文: CC BY-SA 4.0<br>座標: CC BY-SA 4.0・CC0 |
+| [tourist](tourist/README.md)<br>(観光地) | 日本全国の観光地。travel-log側の唯一の既定種別 | 10,641 | 説明文: Wikipedia(ja)の記事<br>座標: Wikipedia(ja)の記事・Wikidata | 説明文: CC BY-SA 4.0<br>座標: CC BY-SA 4.0・CC0 |
 | [goshuin](goshuin/README.md)<br>(御朱印) | 御朱印を受けに行く先としての全国の寺社仏閣 | 51,950 | 説明文: Wikipedia(ja)の記事<br>座標・名称: OpenStreetMap | 説明文: CC BY-SA 4.0<br>座標・名称: ODbL |
 | [post_office](post_office/README.md)<br>(郵便局) | 全国の郵便局 | 24,526 | 名称・座標: 国土数値情報(郵便局データ P30)<br>1件の座標: OpenStreetMap | **非商用利用限定**<br>1件の座標: ODbL |
 | [buratamori](buratamori/README.md)<br>(ブラタモリ) | NHK「ブラタモリ」の訪問地(ルート3本) | 420 | 説明文: LLMの記憶(**未検証**。訪問地の一覧のみWikipedia(ja))<br>座標: OpenStreetMap | 説明文: 出典なし<br>座標: ODbL |

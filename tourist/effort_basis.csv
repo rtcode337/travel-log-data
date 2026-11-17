@@ -2130,7 +2130,6 @@ Iiasつくば,,default,手がかり無し
 三波石峡,じっくり,name_heavy,峡
 上信越高原国立公園,,name_light,公園
 上毛野はにわの里公園,,name_light,公園
-上越クリスタル硝子,,default,手がかり無し
 上野スカイブリッジ,,default,手がかり無し
 下久保ダム,,name_light,ダム
 不二洞,じっくり,name_heavy,洞
@@ -4020,6 +4019,8 @@ TOY MUSEUM,じっくり,category,美術館博物館
 神奈川県立秦野戸川公園,,name_light,公園
 神奈川県立茅ケ崎里山公園,,name_light,公園
 神奈川県立近代美術館,じっくり,name_heavy,美術館
+神奈川県立近代美術館 葉山館,じっくり,name_heavy,美術館
+神奈川県立近代美術館 鎌倉別館,じっくり,name_heavy,美術館
 神山,じっくり,name_heavy,山
 神崎遺跡,,name_light,跡
 神武寺,,default,手がかり無し
